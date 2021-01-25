@@ -1,0 +1,42 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyVariant",
+				"abbreviation": "Brew",
+				"full": "The Null Network",
+				"authors": [
+					"The Null Network"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/thenullnetwork/dnd-homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"variant": [
+		{
+			"name": "Weapon +4",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"name": "Net"
+			},
+			"inherits": {
+				"genericBonus": "+4",
+				"rarity": "legendary",
+				"source": "GiddyVariant",
+				"nameSuffix": " +4",
+				"entries": [
+					"You have a {=genericBonus} bonus to attack and damage rolls made with this weapon."
+				]
+			}
+		}
+	]
+}

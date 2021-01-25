@@ -1,0 +1,29 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyLanguage",
+				"abbreviation": "Brew",
+				"full": "The Null Network",
+				"authors": [
+					"The Null Network"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/thenullnetwork/dnd-homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"language": [
+		{
+			"name": "Semaphore",
+			"source": "GiddyLanguage",
+			"entries": [
+				"Remember to prefix the message with \"GNU\"."
+			],
+			"type": "secret"
+		}
+	]
+}
