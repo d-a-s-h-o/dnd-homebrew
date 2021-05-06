@@ -1,4 +1,4 @@
-Homebrew JSONs compatible with D&D//DNK. The [editor](https://dnd.d-n-k.tk/makebrew.html) will be expanded to support more content types Eventually:tm:.
+Homebrew JSONs compatible with D&D//DNK. The [editor](https://dnd.onionz.dev/makebrew.html) will be expanded to support more content types Eventually:tm:.
 
 #### Getting Brew (automatically)
 1. Hit the "Manage Homebrew" button (if available) on a D&D//DNK page.
@@ -42,7 +42,7 @@ There are a few conventions used which should be followed when creating homebrew
 
 #### Useful links
 
- - https://dnd.d-n-k.tk/renderdemo.html (a demo of the renderer and JSON format)
- - https://dnd.d-n-k.tk/converter.html (a tool to convert text to stat blocks)
+ - https://dnd.onionz.dev/renderdemo.html (a demo of the renderer and JSON format)
+ - https://dnd.onionz.dev/converter.html (a tool to convert text to stat blocks)
  - https://jsonlint.com/ (error-check your JSON)
  - https://www.sublimetext.com/ (top-notch text editor)
