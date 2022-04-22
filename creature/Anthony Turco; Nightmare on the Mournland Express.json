@@ -12,7 +12,7 @@
 					"Korranberg Chronicle"
 				],
 				"convertedBy": [
-					"Dasho"
+					"SasquatchBrah"
 				]
 			}
 		],
@@ -24,7 +24,9 @@
 			"name": "Apex Tsucora Quori",
 			"isNamedCreature": true,
 			"source": "NightmareOntheMournlandExpress",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -225,12 +227,19 @@
 				"MW",
 				"RCH"
 			],
-			"uniqueId": "b25abd92e5c273922b106ea34d822ab8"
+			"damageTagsSpell": [
+				"N"
+			],
+			"damageTagsLegendary": [
+				"Y"
+			]
 		},
 		{
 			"name": "Baron Dennell Ir'Tollan",
 			"source": "NightmareOntheMournlandExpress",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -333,13 +342,14 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "acd75474d26981eaa00eb0d12f0265ce"
+			]
 		},
 		{
 			"name": "Baroness Faela Ir'Tollan",
 			"source": "NightmareOntheMournlandExpress",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -494,13 +504,18 @@
 			"miscTags": [
 				"MW"
 			],
-			"uniqueId": "8ae017562a1c6a9ca18e87ca03f8e6b6"
+			"damageTagsSpell": [
+				"P",
+				"Y"
+			]
 		},
 		{
 			"name": "The Butcher",
 			"isNamedCreature": true,
 			"source": "NightmareOntheMournlandExpress",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "construct",
 				"tags": [
@@ -640,19 +655,20 @@
 				"CS"
 			],
 			"damageTags": [
-				"P",
-				"S"
+				"S",
+				"P"
 			],
 			"miscTags": [
 				"MW",
 				"RCH"
-			],
-			"uniqueId": "4fb2c81c93975a7e218f1edfdf462fc2"
+			]
 		},
 		{
 			"name": "Deneith White Blade",
 			"source": "NightmareOntheMournlandExpress",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -770,20 +786,21 @@
 				"E"
 			],
 			"damageTags": [
-				"P",
-				"S"
+				"S",
+				"P"
 			],
 			"miscTags": [
 				"MW",
 				"RNG",
 				"RW"
-			],
-			"uniqueId": "88739e73774e9609b5ae7db59c77022a"
+			]
 		},
 		{
 			"name": "Eliana d'Vadalis",
 			"source": "NightmareOntheMournlandExpress",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -883,13 +900,14 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "223f7a8c7825fc808d12ec55f8177b66"
+			]
 		},
 		{
 			"name": "Gareth d'Deneith",
 			"source": "NightmareOntheMournlandExpress",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1030,12 +1048,17 @@
 			"miscTags": [
 				"MW"
 			],
-			"uniqueId": "171b1c0032057ea859d8236e195f8970"
+			"damageTagsSpell": [
+				"N",
+				"R"
+			]
 		},
 		{
 			"name": "Hob",
 			"source": "NightmareOntheMournlandExpress",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -1154,21 +1177,22 @@
 				"XX"
 			],
 			"damageTags": [
-				"A",
-				"B",
-				"I",
 				"P",
-				"S"
+				"A",
+				"I",
+				"S",
+				"B"
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "7c81d9bafc0ee8d39d14e0f119dcdb50"
+			]
 		},
 		{
 			"name": "Wandslinger",
 			"source": "NightmareOntheMournlandExpress",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1269,7 +1293,10 @@
 			"miscTags": [
 				"MW"
 			],
-			"uniqueId": "ce949e3ab0b51cafd1f2e7f31d6ef408"
+			"damageTagsSpell": [
+				"F",
+				"L"
+			]
 		}
 	]
 }

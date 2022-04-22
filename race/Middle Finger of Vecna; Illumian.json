@@ -1,5 +1,4 @@
 {
-	"$schema": "../schema.json",
 	"_meta": {
 		"sources": [
 			{
@@ -34,14 +33,12 @@
 					}
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
-			"traitTags": [
-				"Skill Proficiency",
-				"Spellcasting"
-			],
 			"entries": [
 				"Your illumian character has the following traits.",
 				{

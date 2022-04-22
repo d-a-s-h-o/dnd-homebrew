@@ -14,12 +14,14 @@
 			}
 		],
 		"dateAdded": 1537874753,
-		"dateLastModified": 1537874753
+		"dateLastModified": 1638809606
 	},
 	"monster": [
 		{
 			"name": "Aaztar-Ghola",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -112,7 +114,7 @@
 					"ability": "int"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Aaztar-Ghola.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Aaztar-Ghola.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -131,11 +133,16 @@
 			],
 			"conditionInflictSpell": [
 				"frightened"
+			],
+			"damageTagsSpell": [
+				"N"
 			]
 		},
 		{
 			"name": "Adherer",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -200,7 +207,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Adherer.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Adherer.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -217,10 +224,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -228,7 +231,9 @@
 		},
 		{
 			"name": "Adult Leucrotta",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -310,7 +315,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Adult%20Leucrotta.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Adult%20Leucrotta.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -321,16 +326,15 @@
 			"senseTags": [
 				"D"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
 		},
 		{
 			"name": "Aerial Servant",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -443,7 +447,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Aerial%20Servant.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Aerial%20Servant.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -460,16 +464,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Algoid",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -564,7 +567,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Algoid.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Algoid.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -583,16 +586,15 @@
 				"MW",
 				"RW"
 			],
-			"conditionInflicted": [
-				"stunned"
-			],
 			"conditionInflict": [
 				"stunned"
 			]
 		},
 		{
 			"name": "Amphoron of Yothri (Juggernaut)",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -685,7 +687,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Amphoron%20of%20Yothri%20(Juggernaut).png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Amphoron%20of%20Yothri%20(Juggernaut).png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -702,16 +704,15 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Amphoron of Yothri (Warrior)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -798,7 +799,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Amphoron%20of%20Yothri%20(Warrior).png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Amphoron%20of%20Yothri%20(Warrior).png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -818,7 +819,9 @@
 		},
 		{
 			"name": "Amphoron of Yothri (Worker)",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -911,7 +914,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Amphoron%20of%20Yothri%20(Worker).png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Amphoron%20of%20Yothri%20(Worker).png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -930,7 +933,9 @@
 		},
 		{
 			"name": "Ant Lion",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -982,7 +987,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Ant%20Lion.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Ant%20Lion.png",
 			"senseTags": [
 				"D",
 				"T"
@@ -993,16 +998,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Aranea",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -1114,7 +1118,7 @@
 					"ability": "int"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Aranea.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Aranea.png",
 			"traitTags": [
 				"Spider Climb"
 			],
@@ -1133,11 +1137,6 @@
 				"MW",
 				"RW"
 			],
-			"conditionInflicted": [
-				"poisoned",
-				"restrained",
-				"paralyzed"
-			],
 			"conditionInflict": [
 				"poisoned",
 				"restrained",
@@ -1147,11 +1146,17 @@
 				"charmed",
 				"unconscious",
 				"invisible"
+			],
+			"damageTagsSpell": [
+				"I",
+				"L"
 			]
 		},
 		{
 			"name": "Arcanoplasm",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -1251,7 +1256,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Arcanoplasm.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Arcanoplasm.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -1273,16 +1278,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Artificer of Yothri",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -1400,7 +1404,7 @@
 					"ability": "int"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Artificer%20of%20Yothri.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Artificer%20of%20Yothri.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -1412,11 +1416,19 @@
 			],
 			"miscTags": [
 				"MW"
+			],
+			"damageTagsSpell": [
+				"F",
+				"I",
+				"L",
+				"O"
 			]
 		},
 		{
 			"name": "Ascomoid",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -1494,7 +1506,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Ascomoid.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Ascomoid.png",
 			"senseTags": [
 				"T"
 			],
@@ -1506,16 +1518,15 @@
 				"MW",
 				"RW"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
 		},
 		{
 			"name": "Assassin Bug",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -1573,7 +1584,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Assassin%20Bug.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Assassin%20Bug.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -1588,16 +1599,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Astral Moth",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -1651,7 +1661,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Astral%20Moth.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Astral%20Moth.png",
 			"senseTags": [
 				"D"
 			],
@@ -1668,7 +1678,9 @@
 		},
 		{
 			"name": "Astral Shark",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -1726,7 +1738,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Astral%20Shark.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Astral%20Shark.png",
 			"senseTags": [
 				"D"
 			],
@@ -1739,7 +1751,9 @@
 		},
 		{
 			"name": "Aurumvorax (Golden Gorger)",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -1816,7 +1830,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Aurumvorax%20(Golden%20Gorger).png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Aurumvorax%20(Golden%20Gorger).png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -1833,7 +1847,9 @@
 		},
 		{
 			"name": "Biclops",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"source": "FEF",
 			"alignment": [
@@ -1918,7 +1934,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Biclops.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Biclops.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -1941,7 +1957,9 @@
 		},
 		{
 			"name": "Black Dracolisk",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"source": "FEF",
 			"alignment": [
@@ -2073,8 +2091,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Black%20Dracolisk.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Black%20Dracolisk.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -2091,16 +2110,15 @@
 			"miscTags": [
 				"AOE"
 			],
-			"conditionInflicted": [
-				"petrified"
-			],
 			"conditionInflict": [
 				"petrified"
 			]
 		},
 		{
 			"name": "Blood Hawk",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -2148,7 +2166,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Blood%20Hawk.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Blood%20Hawk.png",
 			"traitTags": [
 				"Keen Senses"
 			],
@@ -2161,16 +2179,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"blinded"
-			],
 			"conditionInflict": [
 				"blinded"
 			]
 		},
 		{
 			"name": "Blood Orchid",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -2257,7 +2274,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Blood%20Orchid.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Blood%20Orchid.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -2275,10 +2292,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"unconscious"
-			],
 			"conditionInflict": [
 				"grappled",
 				"unconscious"
@@ -2286,7 +2299,9 @@
 		},
 		{
 			"name": "Blood Orchid Grand Savant",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -2421,7 +2436,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Blood%20Orchid%20Grand%20Savant.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Blood%20Orchid%20Grand%20Savant.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -2439,10 +2454,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"unconscious"
-			],
 			"conditionInflict": [
 				"grappled",
 				"unconscious"
@@ -2450,11 +2461,20 @@
 			"conditionInflictSpell": [
 				"blinded",
 				"charmed"
+			],
+			"damageTagsSpell": [
+				"F",
+				"L",
+				"N",
+				"O",
+				"Y"
 			]
 		},
 		{
 			"name": "Blood Orchid Savant",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -2574,7 +2594,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Blood%20Orchid%20Savant.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Blood%20Orchid%20Savant.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -2592,14 +2612,22 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"grappled",
 				"unconscious"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"O",
+				"Y"
 			]
 		},
 		{
 			"name": "Blood Pudding",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "ooze",
 			"source": "FEF",
 			"alignment": [
@@ -2683,7 +2711,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Blood%20Pudding.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Blood%20Pudding.png",
 			"traitTags": [
 				"Amorphous"
 			],
@@ -2694,11 +2722,6 @@
 				"B",
 				"A"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"poisoned"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -2707,7 +2730,9 @@
 		},
 		{
 			"name": "Bloodsuckle",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -2780,7 +2805,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Bloodsuckle.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Bloodsuckle.png",
 			"senseTags": [
 				"B"
 			],
@@ -2792,16 +2817,15 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Bloody Bones",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -2882,7 +2906,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Bloody%20Bones.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Bloody%20Bones.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -2897,16 +2921,15 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Blue Dracolisk",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"source": "FEF",
 			"alignment": [
@@ -3038,8 +3061,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Blue%20Dracolisk.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Blue%20Dracolisk.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -3055,16 +3079,15 @@
 			"miscTags": [
 				"AOE"
 			],
-			"conditionInflicted": [
-				"petrified"
-			],
 			"conditionInflict": [
 				"petrified"
 			]
 		},
 		{
 			"name": "Boalisk",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -3117,7 +3140,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Boalisk.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Boalisk.png",
 			"senseTags": [
 				"D"
 			],
@@ -3128,10 +3151,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -3139,7 +3158,9 @@
 		},
 		{
 			"name": "Bone Cobbler",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -3217,7 +3238,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Bone%20Cobbler.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Bone%20Cobbler.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3239,7 +3260,9 @@
 		},
 		{
 			"name": "Bonesucker",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -3306,7 +3329,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Bonesucker.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Bonesucker.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3321,11 +3344,6 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"poisoned"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -3334,7 +3352,9 @@
 		},
 		{
 			"name": "Borsin (Ape Centaur)",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -3383,7 +3403,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Borsin%20(Ape%20Centaur).png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Borsin%20(Ape%20Centaur).png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3397,7 +3417,9 @@
 		},
 		{
 			"name": "Brass Man",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -3490,7 +3512,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Brass%20Man.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Brass%20Man.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3510,7 +3532,9 @@
 		},
 		{
 			"name": "Brine Sea Serpent",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -3612,7 +3636,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Brine%20Sea%20Serpent.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Brine%20Sea%20Serpent.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3632,10 +3656,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -3643,7 +3663,9 @@
 		},
 		{
 			"name": "Brontotherium (Pleistocene Animal)",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -3698,7 +3720,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Brontotherium%20(Pleistocene%20Animal).png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Brontotherium%20(Pleistocene%20Animal).png",
 			"senseTags": [
 				"D"
 			],
@@ -3706,16 +3728,15 @@
 				"P",
 				"B"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
 		},
 		{
 			"name": "Brume",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -3817,7 +3838,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Brume.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Brume.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3837,7 +3858,9 @@
 		},
 		{
 			"name": "Burning Dervish",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -3943,7 +3966,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Burning%20Dervish.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Burning%20Dervish.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3964,11 +3987,16 @@
 			],
 			"spellcastingTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"F"
 			]
 		},
 		{
 			"name": "Cadaver",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -4052,7 +4080,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Cadaver.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Cadaver.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -4069,7 +4097,9 @@
 		},
 		{
 			"name": "Cadaver Lord",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -4192,7 +4222,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Cadaver%20Lord.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Cadaver%20Lord.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -4215,7 +4245,9 @@
 		},
 		{
 			"name": "Carbuncle",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -4270,7 +4302,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Carbuncle.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Carbuncle.png",
 			"damageTags": [
 				"P"
 			],
@@ -4283,7 +4315,9 @@
 		},
 		{
 			"name": "Caryatid Column",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -4361,7 +4395,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Caryatid%20Column.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Caryatid%20Column.png",
 			"senseTags": [
 				"D"
 			],
@@ -4374,7 +4408,9 @@
 		},
 		{
 			"name": "Caterprism",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -4434,7 +4470,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Caterprism.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Caterprism.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -4451,7 +4487,9 @@
 		},
 		{
 			"name": "Catoblepas",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -4518,8 +4556,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Catoblepas.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Catoblepas.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -4531,10 +4570,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"prone",
-				"stunned"
-			],
 			"conditionInflict": [
 				"prone",
 				"stunned"
@@ -4542,7 +4577,9 @@
 		},
 		{
 			"name": "Cave Cricket",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -4593,7 +4630,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Cave%20Cricket.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Cave%20Cricket.png",
 			"senseTags": [
 				"D"
 			],
@@ -4603,7 +4640,9 @@
 		},
 		{
 			"name": "Cave Eel",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -4656,16 +4695,12 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Cave%20Eel.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Cave%20Eel.png",
 			"senseTags": [
 				"D"
 			],
 			"damageTags": [
 				"P"
-			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
 			],
 			"conditionInflict": [
 				"grappled",
@@ -4674,7 +4709,9 @@
 		},
 		{
 			"name": "Cave Fisher",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -4745,7 +4782,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Cave%20Fisher.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Cave%20Fisher.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -4755,16 +4792,15 @@
 			"damageTags": [
 				"S"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Cave Leech",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -4825,7 +4861,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Cave%20Leech.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Cave%20Leech.png",
 			"actionTags": [
 				"Multiattack",
 				"Tentacles"
@@ -4840,10 +4876,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -4851,7 +4883,9 @@
 		},
 		{
 			"name": "Centipede Nest",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -4916,7 +4950,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Centipede%20Nest.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Centipede%20Nest.png",
 			"senseTags": [
 				"D"
 			],
@@ -4926,7 +4960,9 @@
 		},
 		{
 			"name": "Cerebral Stalker",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -5015,7 +5051,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Cerebral%20Stalker.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Cerebral%20Stalker.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -5030,11 +5066,6 @@
 				"P",
 				"S"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"frightened"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -5043,7 +5074,9 @@
 		},
 		{
 			"name": "Chain Worm",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -5118,7 +5151,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Chain%20Worm.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Chain%20Worm.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -5130,12 +5163,6 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"poisoned",
-				"stunned",
-				"deafened"
-			],
 			"conditionInflict": [
 				"grappled",
 				"poisoned",
@@ -5145,7 +5172,9 @@
 		},
 		{
 			"name": "Chaos Knight",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -5255,7 +5284,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Chaos%20Knight.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Chaos%20Knight.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -5273,11 +5302,19 @@
 			],
 			"spellcastingTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"N",
+				"O"
 			]
 		},
 		{
 			"name": "Chupacabra",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -5341,7 +5378,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Chupacabra.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Chupacabra.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -5352,16 +5389,15 @@
 				"S",
 				"P"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Church Grim",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -5447,7 +5483,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Church%20Grim.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Church%20Grim.png",
 			"traitTags": [
 				"Rejuvenation"
 			],
@@ -5461,16 +5497,15 @@
 				"P",
 				"R"
 			],
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
 			]
 		},
 		{
 			"name": "Churr",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -5542,7 +5577,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Churr.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Churr.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -5559,11 +5594,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"frightened"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -5572,7 +5602,9 @@
 		},
 		{
 			"name": "Cimota",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -5673,7 +5705,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Cimota.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Cimota.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -5690,7 +5722,9 @@
 		},
 		{
 			"name": "Cimota Guardian",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -5791,7 +5825,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Cimota%20Guardian.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Cimota%20Guardian.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -5812,7 +5846,9 @@
 		},
 		{
 			"name": "Clamor",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -5908,17 +5944,13 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Clamor.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Clamor.png",
 			"senseTags": [
 				"D"
 			],
 			"damageTags": [
 				"T",
 				"O"
-			],
-			"conditionInflicted": [
-				"deafened",
-				"stunned"
 			],
 			"conditionInflict": [
 				"deafened",
@@ -5927,7 +5959,9 @@
 		},
 		{
 			"name": "Cobra Flower",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -5978,7 +6012,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Cobra%20Flower.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Cobra%20Flower.png",
 			"senseTags": [
 				"T"
 			],
@@ -5989,16 +6023,15 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Coffer Corpse",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -6090,17 +6123,12 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Coffer%20Corpse.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Coffer%20Corpse.png",
 			"traitTags": [
 				"Magic Weapons"
 			],
 			"senseTags": [
 				"D"
-			],
-			"conditionInflicted": [
-				"grappled",
-				"incapacitated",
-				"frightened"
 			],
 			"conditionInflict": [
 				"grappled",
@@ -6110,7 +6138,9 @@
 		},
 		{
 			"name": "Cooshee",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -6177,7 +6207,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Cooshee.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Cooshee.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -6188,10 +6218,6 @@
 				"P",
 				"S"
 			],
-			"conditionInflicted": [
-				"prone",
-				"grappled"
-			],
 			"conditionInflict": [
 				"prone",
 				"grappled"
@@ -6199,7 +6225,9 @@
 		},
 		{
 			"name": "Corpse Rook",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -6268,7 +6296,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Corpse%20Rook.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Corpse%20Rook.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -6282,7 +6310,9 @@
 		},
 		{
 			"name": "Corpsespinner",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -6361,7 +6391,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Corpsespinner.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Corpsespinner.png",
 			"senseTags": [
 				"D"
 			],
@@ -6375,10 +6405,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"poisoned",
-				"restrained"
-			],
 			"conditionInflict": [
 				"poisoned",
 				"restrained"
@@ -6386,7 +6412,9 @@
 		},
 		{
 			"name": "Corpsespun",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -6452,7 +6480,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Corpsespun.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Corpsespun.png",
 			"senseTags": [
 				"D"
 			],
@@ -6461,16 +6489,15 @@
 				"I",
 				"P"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
 		},
 		{
 			"name": "Crabman",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -6538,7 +6565,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Crabman.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Crabman.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -6551,16 +6578,15 @@
 			"damageTags": [
 				"S"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Crimson Basilisk",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -6625,7 +6651,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Crimson%20Basilisk.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Crimson%20Basilisk.png",
 			"senseTags": [
 				"D"
 			],
@@ -6639,7 +6665,9 @@
 		},
 		{
 			"name": "Crimson Mist",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -6724,7 +6752,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Crimson%20Mist.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Crimson%20Mist.png",
 			"actionTags": [
 				"Multiattack",
 				"Tentacles"
@@ -6738,16 +6766,15 @@
 			"damageTags": [
 				"B"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Crypt Thing",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -6830,7 +6857,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Crypt%20Thing.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Crypt%20Thing.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -6846,7 +6873,9 @@
 		},
 		{
 			"name": "Dagon",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -7063,7 +7092,7 @@
 				}
 			],
 			"isNamedCreature": true,
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Dagon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Dagon.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -7092,9 +7121,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			],
@@ -7103,11 +7129,21 @@
 				"frightened",
 				"restrained",
 				"paralyzed"
+			],
+			"damageTagsSpell": [
+				"F",
+				"I",
+				"L",
+				"N",
+				"O",
+				"Y"
 			]
 		},
 		{
 			"name": "Dark Creeper",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -7187,7 +7223,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Dark%20Creeper.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Dark%20Creeper.png",
 			"traitTags": [
 				"Death Burst",
 				"Sneak Attack"
@@ -7200,10 +7236,6 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
-				"poisoned",
-				"blinded"
-			],
 			"conditionInflict": [
 				"poisoned",
 				"blinded"
@@ -7211,7 +7243,9 @@
 		},
 		{
 			"name": "Dark Stalker",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -7304,7 +7338,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Dark%20Stalker.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Dark%20Stalker.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -7324,13 +7358,15 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"poisoned"
 			]
 		},
 		{
 			"name": "Dark Triton",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -7433,7 +7469,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Dark%20Triton.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Dark%20Triton.png",
 			"senseTags": [
 				"D",
 				"T"
@@ -7447,7 +7483,9 @@
 		},
 		{
 			"name": "Dark Triton Captain",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -7519,7 +7557,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Dark%20Triton%20Captain.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Dark%20Triton%20Captain.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -7536,7 +7574,9 @@
 		},
 		{
 			"name": "Dark Triton Lieutenant",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -7615,7 +7655,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Dark%20Triton%20Lieutenant.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Dark%20Triton%20Lieutenant.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -7632,7 +7672,9 @@
 		},
 		{
 			"name": "Dark Triton Shaman",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -7744,7 +7786,7 @@
 					"ability": "wis"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Dark%20Triton%20Shaman.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Dark%20Triton%20Shaman.png",
 			"senseTags": [
 				"D",
 				"T"
@@ -7754,11 +7796,17 @@
 			],
 			"damageTags": [
 				"P"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O"
 			]
 		},
 		{
 			"name": "Darnoc",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -7830,7 +7878,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Darnoc.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Darnoc.png",
 			"senseTags": [
 				"D"
 			],
@@ -7844,7 +7892,9 @@
 		},
 		{
 			"name": "Death Dog",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -7909,7 +7959,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Death%20Dog.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Death%20Dog.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -7922,7 +7972,9 @@
 		},
 		{
 			"name": "Death Worm",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -7983,7 +8035,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Death%20Worm.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Death%20Worm.png",
 			"senseTags": [
 				"T"
 			],
@@ -7995,7 +8047,9 @@
 		},
 		{
 			"name": "Decapus",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -8083,7 +8137,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Decapus.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Decapus.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -8099,14 +8153,16 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"grappled",
 				"restrained"
 			]
 		},
 		{
 			"name": "Deep Hunter Sea Serpent",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -8208,7 +8264,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Deep%20Hunter%20Sea%20Serpent.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Deep%20Hunter%20Sea%20Serpent.png",
 			"actionTags": [
 				"Multiattack",
 				"Swallow"
@@ -8228,11 +8284,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"blinded"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -8241,7 +8292,9 @@
 		},
 		{
 			"name": "Demonic Knight",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -8374,8 +8427,9 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Demonic%20Knight.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Demonic%20Knight.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -8391,11 +8445,18 @@
 			],
 			"spellcastingTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"N"
 			]
 		},
 		{
 			"name": "Denizen of Leng",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -8507,7 +8568,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Denizen%20of%20Leng.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Denizen%20of%20Leng.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -8528,9 +8589,6 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
-				"exhaustion"
-			],
 			"conditionInflict": [
 				"exhaustion"
 			],
@@ -8541,7 +8599,9 @@
 		},
 		{
 			"name": "Dire Corby",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -8591,7 +8651,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Dire%20Corby.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Dire%20Corby.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -8608,7 +8668,9 @@
 		},
 		{
 			"name": "Doombat",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -8674,7 +8736,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Doombat.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Doombat.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -8692,7 +8754,9 @@
 		},
 		{
 			"name": "Dust Digger",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -8785,7 +8849,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Dust%20Digger.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Dust%20Digger.png",
 			"actionTags": [
 				"Multiattack",
 				"Swallow"
@@ -8800,11 +8864,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"blinded"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -8813,7 +8872,9 @@
 		},
 		{
 			"name": "Eblis",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -8908,7 +8969,7 @@
 					"ability": "int"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Eblis.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Eblis.png",
 			"senseTags": [
 				"D"
 			],
@@ -8921,7 +8982,9 @@
 		},
 		{
 			"name": "Ectoplasm",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "ooze",
 				"tags": [
@@ -9020,15 +9083,12 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Ectoplasm.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Ectoplasm.png",
 			"senseTags": [
 				"D"
 			],
 			"damageTags": [
 				"Y"
-			],
-			"conditionInflicted": [
-				"unconscious"
 			],
 			"conditionInflict": [
 				"unconscious"
@@ -9036,7 +9096,9 @@
 		},
 		{
 			"name": "Elusa Hound",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -9105,7 +9167,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Elusa%20Hound.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Elusa%20Hound.png",
 			"senseTags": [
 				"D"
 			],
@@ -9116,16 +9178,15 @@
 			"damageTags": [
 				"P"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
 		},
 		{
 			"name": "Encephalon Gorger",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -9220,7 +9281,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Encephalon%20Gorger.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Encephalon%20Gorger.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -9240,16 +9301,15 @@
 				"S",
 				"Y"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Fanged Sea Serpent",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -9316,7 +9376,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Fanged%20Sea%20Serpent.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Fanged%20Sea%20Serpent.png",
 			"senseTags": [
 				"D"
 			],
@@ -9328,10 +9388,6 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
-				"poisoned",
-				"grappled"
-			],
 			"conditionInflict": [
 				"poisoned",
 				"grappled"
@@ -9339,7 +9395,9 @@
 		},
 		{
 			"name": "Fear Guard",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -9451,7 +9509,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Fear%20Guard.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Fear%20Guard.png",
 			"senseTags": [
 				"D"
 			],
@@ -9459,15 +9517,21 @@
 				"C"
 			],
 			"damageTags": [
-				"N"
+				"N",
+				"O"
 			],
 			"spellcastingTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"N"
 			]
 		},
 		{
 			"name": "Fen Witch",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -9556,7 +9620,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Fen%20Witch.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Fen%20Witch.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -9575,7 +9639,9 @@
 		},
 		{
 			"name": "Feral Undead Cat",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -9637,7 +9703,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Feral%20Undead%20Cat.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Feral%20Undead%20Cat.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -9653,7 +9719,9 @@
 		},
 		{
 			"name": "Fetch",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -9723,7 +9791,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Fetch.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Fetch.png",
 			"senseTags": [
 				"D"
 			],
@@ -9734,7 +9802,9 @@
 		},
 		{
 			"name": "Fire Drake",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "dragon",
 			"source": "FEF",
 			"alignment": [
@@ -9815,8 +9885,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Fire%20Drake.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Fire%20Drake.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -9836,7 +9907,9 @@
 		},
 		{
 			"name": "Flagstone Golem",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -9942,7 +10015,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Flagstone%20Golem.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Flagstone%20Golem.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -9959,10 +10032,6 @@
 			"damageTags": [
 				"B"
 			],
-			"conditionInflicted": [
-				"prone",
-				"stunned"
-			],
 			"conditionInflict": [
 				"prone",
 				"stunned"
@@ -9970,7 +10039,9 @@
 		},
 		{
 			"name": "Flail Snail",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -10100,7 +10171,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Flail%20Snail.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Flail%20Snail.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -10113,7 +10184,9 @@
 		},
 		{
 			"name": "Flowershroud",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -10187,7 +10260,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Flowershroud.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Flowershroud.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -10204,7 +10277,9 @@
 		},
 		{
 			"name": "Flying Ape",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -10256,7 +10331,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Flying%20Ape.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Flying%20Ape.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -10271,10 +10346,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"grappled"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled"
@@ -10282,7 +10353,9 @@
 		},
 		{
 			"name": "Foo Dog",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -10369,7 +10442,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Foo%20Dog.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Foo%20Dog.png",
 			"senseTags": [
 				"D"
 			],
@@ -10382,7 +10455,9 @@
 		},
 		{
 			"name": "Forester's Bane",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -10460,7 +10535,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Forester's%20Bane.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Forester's%20Bane.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -10473,10 +10548,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -10484,7 +10555,9 @@
 		},
 		{
 			"name": "Four-Armed Gargoyle",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -10572,7 +10645,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Four-Armed%20Gargoyle.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Four-Armed%20Gargoyle.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -10587,7 +10660,9 @@
 		},
 		{
 			"name": "Foxwere",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -10673,7 +10748,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Foxwere.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Foxwere.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -10689,16 +10764,15 @@
 			"damageTags": [
 				"P"
 			],
-			"conditionInflicted": [
-				"charmed"
-			],
 			"conditionInflict": [
 				"charmed"
 			]
 		},
 		{
 			"name": "Froghemoth",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -10797,7 +10871,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Froghemoth.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Froghemoth.png",
 			"actionTags": [
 				"Multiattack",
 				"Swallow"
@@ -10813,11 +10887,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"blinded"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -10826,7 +10895,9 @@
 		},
 		{
 			"name": "Fungoid",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -10902,7 +10973,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Fungoid.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Fungoid.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -10920,7 +10991,9 @@
 		},
 		{
 			"name": "Fungus Bat",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -10978,7 +11051,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Fungus%20Bat.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Fungus%20Bat.png",
 			"senseTags": [
 				"B"
 			],
@@ -10988,7 +11061,9 @@
 		},
 		{
 			"name": "Fungus Gargoyle",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -11084,8 +11159,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Fungus%20Gargoyle.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Fungus%20Gargoyle.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -11099,10 +11175,6 @@
 			"damageTags": [
 				"S"
 			],
-			"conditionInflicted": [
-				"exhaustion",
-				"poisoned"
-			],
 			"conditionInflict": [
 				"exhaustion",
 				"poisoned"
@@ -11110,7 +11182,9 @@
 		},
 		{
 			"name": "Furnace Golem",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -11214,8 +11288,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Furnace%20Golem.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Furnace%20Golem.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -11231,11 +11306,6 @@
 				"B",
 				"F"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"blinded",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"blinded",
@@ -11244,7 +11314,9 @@
 		},
 		{
 			"name": "Fyr",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"source": "FEF",
 			"alignment": [
@@ -11350,7 +11422,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Fyr.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Fyr.png",
 			"senseTags": [
 				"D"
 			],
@@ -11365,9 +11437,6 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			],
@@ -11378,7 +11447,9 @@
 		},
 		{
 			"name": "Gallows Tree",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -11471,7 +11542,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Gallows%20Tree.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Gallows%20Tree.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -11488,11 +11559,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"stunned"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -11501,7 +11567,9 @@
 		},
 		{
 			"name": "Gallows Tree Zombie",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -11574,7 +11642,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Gallows%20Tree%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Gallows%20Tree%20Zombie.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -11595,7 +11663,9 @@
 		},
 		{
 			"name": "Ghost Ammonite",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -11676,7 +11746,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Ghost%20Ammonite.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Ghost%20Ammonite.png",
 			"actionTags": [
 				"Multiattack",
 				"Tentacles"
@@ -11690,7 +11760,9 @@
 		},
 		{
 			"name": "Giant Ant Exoskeleton",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -11762,7 +11834,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Giant%20Ant%20Exoskeleton.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Giant%20Ant%20Exoskeleton.png",
 			"senseTags": [
 				"D"
 			],
@@ -11773,7 +11845,9 @@
 		},
 		{
 			"name": "Giant Beetle Exoskeleton",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -11841,7 +11915,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Giant%20Beetle%20Exoskeleton.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Giant%20Beetle%20Exoskeleton.png",
 			"senseTags": [
 				"D"
 			],
@@ -11852,7 +11926,9 @@
 		},
 		{
 			"name": "Giant Clam",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -11920,7 +11996,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Giant%20Clam.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Giant%20Clam.png",
 			"actionTags": [
 				"Swallow"
 			],
@@ -11930,11 +12006,6 @@
 			"damageTags": [
 				"A"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"blinded"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -11943,7 +12014,9 @@
 		},
 		{
 			"name": "Giant Crab Exoskeleton",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -12023,7 +12096,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Giant%20Crab%20Exoskeleton.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Giant%20Crab%20Exoskeleton.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -12040,7 +12113,9 @@
 		},
 		{
 			"name": "Giant Electric Catfish",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -12105,7 +12180,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Giant%20Electric%20Catfish.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Giant%20Electric%20Catfish.png",
 			"actionTags": [
 				"Multiattack",
 				"Swallow"
@@ -12120,11 +12195,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"blinded"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -12133,7 +12203,9 @@
 		},
 		{
 			"name": "Giant Horsefly",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -12176,16 +12248,12 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Giant%20Horsefly.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Giant%20Horsefly.png",
 			"senseTags": [
 				"T"
 			],
 			"damageTags": [
 				"P"
-			],
-			"conditionInflicted": [
-				"grappled",
-				"paralyzed"
 			],
 			"conditionInflict": [
 				"grappled",
@@ -12194,7 +12262,9 @@
 		},
 		{
 			"name": "Giant Moray Eel",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -12251,7 +12321,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Giant%20Moray%20Eel.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Giant%20Moray%20Eel.png",
 			"senseTags": [
 				"D"
 			],
@@ -12259,16 +12329,15 @@
 				"P",
 				"N"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Giant Rhinoceros Beetle",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -12323,7 +12392,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Giant%20Rhinoceros%20Beetle.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Giant%20Rhinoceros%20Beetle.png",
 			"senseTags": [
 				"D"
 			],
@@ -12333,16 +12402,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
 		},
 		{
 			"name": "Giant Seahorse",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -12378,7 +12446,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Giant%20Seahorse.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Giant%20Seahorse.png",
 			"senseTags": [
 				"D"
 			],
@@ -12388,7 +12456,9 @@
 		},
 		{
 			"name": "Giant Slicer Beetle",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -12437,7 +12507,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Giant%20Slicer%20Beetle.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Giant%20Slicer%20Beetle.png",
 			"senseTags": [
 				"D"
 			],
@@ -12450,7 +12520,9 @@
 		},
 		{
 			"name": "Giant Slug of P'nakh",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -12592,7 +12664,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Giant%20Slug%20of%20P'nakh.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Giant%20Slug%20of%20P'nakh.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -12608,11 +12680,6 @@
 				"S",
 				"B"
 			],
-			"conditionInflicted": [
-				"prone",
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"prone",
 				"grappled",
@@ -12621,7 +12688,9 @@
 		},
 		{
 			"name": "Giant Water Beetle",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -12677,7 +12746,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Giant%20Water%20Beetle.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Giant%20Water%20Beetle.png",
 			"senseTags": [
 				"T"
 			],
@@ -12690,7 +12759,9 @@
 		},
 		{
 			"name": "Gillmonkey",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -12763,7 +12834,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Gillmonkey.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Gillmonkey.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -12781,7 +12852,9 @@
 		},
 		{
 			"name": "Glacial Ooze",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"source": "FEF",
 			"alignment": [
@@ -12866,7 +12939,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Glacial%20Ooze.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Glacial%20Ooze.png",
 			"traitTags": [
 				"Amorphous"
 			],
@@ -12880,7 +12953,9 @@
 		},
 		{
 			"name": "Gloom Crawler",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -12953,7 +13028,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Gloom%20Crawler.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Gloom%20Crawler.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -12967,10 +13042,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -12978,7 +13049,9 @@
 		},
 		{
 			"name": "Gnarlwood",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -13088,7 +13161,7 @@
 					"ability": "wis"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Gnarlwood.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Gnarlwood.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -13106,11 +13179,17 @@
 			],
 			"conditionInflictSpell": [
 				"poisoned"
+			],
+			"damageTagsSpell": [
+				"I",
+				"N"
 			]
 		},
 		{
 			"name": "Golden Cat",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -13156,7 +13235,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Golden%20Cat.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Golden%20Cat.png",
 			"languageTags": [
 				"C",
 				"CS"
@@ -13167,7 +13246,9 @@
 		},
 		{
 			"name": "Gorbel",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -13230,7 +13311,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Gorbel.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Gorbel.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -13251,7 +13332,9 @@
 		},
 		{
 			"name": "Gorgimera",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -13377,8 +13460,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Gorgimera.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Gorgimera.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -13395,16 +13479,15 @@
 			"miscTags": [
 				"AOE"
 			],
-			"conditionInflicted": [
-				"petrified"
-			],
 			"conditionInflict": [
 				"petrified"
 			]
 		},
 		{
 			"name": "Gorilla Bear",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -13456,7 +13539,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Gorilla%20Bear.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Gorilla%20Bear.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -13467,10 +13550,6 @@
 				"S",
 				"B"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -13478,7 +13557,9 @@
 		},
 		{
 			"name": "Gray Nisp",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fey",
 			"source": "FEF",
 			"alignment": [
@@ -13567,7 +13648,7 @@
 					"ability": "wis"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Gray%20Nisp.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Gray%20Nisp.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -13588,7 +13669,9 @@
 		},
 		{
 			"name": "Greater Basilisk",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -13663,7 +13746,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Greater%20Basilisk.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Greater%20Basilisk.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -13677,10 +13760,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"poisoned",
-				"petrified"
-			],
 			"conditionInflict": [
 				"poisoned",
 				"petrified"
@@ -13688,7 +13767,9 @@
 		},
 		{
 			"name": "Greater Boneneedle",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -13746,7 +13827,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Greater%20Boneneedle.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Greater%20Boneneedle.png",
 			"senseTags": [
 				"D"
 			],
@@ -13756,16 +13837,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
 		},
 		{
 			"name": "Greater Fire Crab",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -13833,7 +13913,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Greater%20Fire%20Crab.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Greater%20Fire%20Crab.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -13844,16 +13924,15 @@
 				"S",
 				"F"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Green Brain",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -13913,7 +13992,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Green%20Brain.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Green%20Brain.png",
 			"senseTags": [
 				"U"
 			],
@@ -13923,7 +14002,9 @@
 		},
 		{
 			"name": "Green Dracolisk",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"source": "FEF",
 			"alignment": [
@@ -14055,8 +14136,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Green%20Dracolisk.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Green%20Dracolisk.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -14073,16 +14155,15 @@
 			"miscTags": [
 				"AOE"
 			],
-			"conditionInflicted": [
-				"petrified"
-			],
 			"conditionInflict": [
 				"petrified"
 			]
 		},
 		{
 			"name": "Green Guardian Gargoyle",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -14178,7 +14259,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Green%20Guardian%20Gargoyle.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Green%20Guardian%20Gargoyle.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -14197,10 +14278,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -14208,7 +14285,9 @@
 		},
 		{
 			"name": "Grimm",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fey",
 			"source": "FEF",
 			"alignment": [
@@ -14334,7 +14413,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Grimm.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Grimm.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -14353,11 +14432,16 @@
 			],
 			"spellcastingTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"L"
 			]
 		},
 		{
 			"name": "Grippli",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -14436,7 +14520,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Grippli.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Grippli.png",
 			"senseTags": [
 				"D"
 			],
@@ -14444,12 +14528,8 @@
 				"C"
 			],
 			"damageTags": [
-				"P"
-			],
-			"conditionInflicted": [
-				"restrained",
-				"paralyzed",
-				"poisoned"
+				"P",
+				"S"
 			],
 			"conditionInflict": [
 				"restrained",
@@ -14459,7 +14539,9 @@
 		},
 		{
 			"name": "Grippli Shaman",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -14571,7 +14653,7 @@
 					"ability": "wis"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Grippli%20Shaman.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Grippli%20Shaman.png",
 			"senseTags": [
 				"D"
 			],
@@ -14579,12 +14661,8 @@
 				"C"
 			],
 			"damageTags": [
-				"P"
-			],
-			"conditionInflicted": [
-				"restrained",
-				"paralyzed",
-				"poisoned"
+				"P",
+				"S"
 			],
 			"conditionInflict": [
 				"restrained",
@@ -14598,7 +14676,9 @@
 		},
 		{
 			"name": "Grue (Type 1)",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"source": "FEF",
 			"alignment": [
@@ -14686,7 +14766,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Grue%20(Type%201).png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Grue%20(Type%201).png",
 			"traitTags": [
 				"Amorphous"
 			],
@@ -14701,10 +14781,6 @@
 			"actionTags": [
 				"Swallow"
 			],
-			"conditionInflicted": [
-				"blinded",
-				"restrained"
-			],
 			"conditionInflict": [
 				"blinded",
 				"restrained"
@@ -14712,7 +14788,9 @@
 		},
 		{
 			"name": "Grue (Type 2)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -14795,9 +14873,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Grue%20(Type%202).png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Grue%20(Type%202).png",
 			"traitTags": [
-				"Magic Resistance"
+				"Spell Immunity"
 			],
 			"senseTags": [
 				"U"
@@ -14811,7 +14889,9 @@
 		},
 		{
 			"name": "Gulper Eel",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -14868,7 +14948,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Gulper%20Eel.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Gulper%20Eel.png",
 			"senseTags": [
 				"D"
 			],
@@ -14880,10 +14960,6 @@
 			"actionTags": [
 				"Swallow"
 			],
-			"conditionInflicted": [
-				"blinded",
-				"restrained"
-			],
 			"conditionInflict": [
 				"blinded",
 				"restrained"
@@ -14891,7 +14967,9 @@
 		},
 		{
 			"name": "Hanged Man",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -14969,7 +15047,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Hanged%20Man.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Hanged%20Man.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -14984,10 +15062,6 @@
 				"S",
 				"N"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -14995,7 +15069,9 @@
 		},
 		{
 			"name": "Hangman Tree",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -15101,7 +15177,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Hangman%20Tree.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Hangman%20Tree.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -15117,10 +15193,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"charmed"
-			],
 			"conditionInflict": [
 				"grappled",
 				"charmed"
@@ -15128,7 +15200,9 @@
 		},
 		{
 			"name": "Hanu-Naga",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -15198,7 +15272,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Hanu-Naga.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Hanu-Naga.png",
 			"senseTags": [
 				"D"
 			],
@@ -15211,10 +15285,6 @@
 				"I",
 				"B"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -15222,7 +15292,9 @@
 		},
 		{
 			"name": "Hawanar Genie",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -15342,7 +15414,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Hawanar%20Genie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Hawanar%20Genie.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -15364,11 +15436,16 @@
 			"conditionInflictSpell": [
 				"invisible",
 				"incapacitated"
+			],
+			"damageTagsSpell": [
+				"F"
 			]
 		},
 		{
 			"name": "Hawktoad",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -15424,7 +15501,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Hawktoad.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Hawktoad.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -15434,16 +15511,15 @@
 			"damageTags": [
 				"S"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Helix Moth Adult",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -15511,7 +15587,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Helix%20Moth%20Adult.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Helix%20Moth%20Adult.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -15523,16 +15599,15 @@
 				"A",
 				"I"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Helix Moth Larva",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -15573,7 +15648,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Helix%20Moth%20Larva.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Helix%20Moth%20Larva.png",
 			"senseTags": [
 				"T"
 			],
@@ -15584,7 +15659,9 @@
 		},
 		{
 			"name": "Hieroglyphicroc",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -15669,7 +15746,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Hieroglyphicroc.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Hieroglyphicroc.png",
 			"senseTags": [
 				"D"
 			],
@@ -15680,10 +15757,6 @@
 			"actionTags": [
 				"Swallow"
 			],
-			"conditionInflicted": [
-				"blinded",
-				"restrained"
-			],
 			"conditionInflict": [
 				"blinded",
 				"restrained"
@@ -15691,7 +15764,9 @@
 		},
 		{
 			"name": "High Cimota",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -15799,7 +15874,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/High%20Cimota.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/High%20Cimota.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -15822,7 +15897,9 @@
 		},
 		{
 			"name": "Hippocampus",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -15873,7 +15950,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Hippocampus.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Hippocampus.png",
 			"senseTags": [
 				"D"
 			],
@@ -15883,7 +15960,9 @@
 		},
 		{
 			"name": "Hoar Fox",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -15954,8 +16033,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Hoar%20Fox.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Hoar%20Fox.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -15968,7 +16048,9 @@
 		},
 		{
 			"name": "Huggermugger",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -16032,7 +16114,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Huggermugger.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Huggermugger.png",
 			"senseTags": [
 				"D"
 			],
@@ -16046,7 +16128,9 @@
 		},
 		{
 			"name": "Hyaenodon (Pleistocene Animal)",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -16110,7 +16194,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Hyaenodon%20(Pleistocene%20Animal).png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Hyaenodon%20(Pleistocene%20Animal).png",
 			"traitTags": [
 				"Keen Senses",
 				"Pack Tactics"
@@ -16121,16 +16205,15 @@
 			"damageTags": [
 				"P"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Hydra Cloud Gohl",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -16206,7 +16289,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Hydra%20Cloud%20Gohl.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Hydra%20Cloud%20Gohl.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -16225,16 +16308,15 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Ice Drake",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "dragon",
 			"source": "FEF",
 			"alignment": [
@@ -16331,7 +16413,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Ice%20Drake.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Ice%20Drake.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -16352,7 +16434,9 @@
 		},
 		{
 			"name": "Igniguana",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"source": "FEF",
 			"alignment": [
@@ -16417,18 +16501,23 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Igniguana.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Igniguana.png",
 			"senseTags": [
 				"D"
 			],
 			"damageTags": [
 				"P",
 				"F"
+			],
+			"actionTags": [
+				"Breath Weapon"
 			]
 		},
 		{
 			"name": "Jack-in-Irons Giant",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"source": "FEF",
 			"alignment": [
@@ -16515,7 +16604,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Jack-in-Irons%20Giant.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Jack-in-Irons%20Giant.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -16531,12 +16620,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"incapacitated",
-				"grappled",
-				"restrained",
-				"prone"
-			],
 			"conditionInflict": [
 				"incapacitated",
 				"grappled",
@@ -16546,7 +16629,9 @@
 		},
 		{
 			"name": "Jackal of Darkness",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -16623,7 +16708,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Jackal%20of%20Darkness.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Jackal%20of%20Darkness.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -16640,7 +16725,9 @@
 		},
 		{
 			"name": "Jaculi",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -16692,7 +16779,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Jaculi.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Jaculi.png",
 			"senseTags": [
 				"D"
 			],
@@ -16702,7 +16789,9 @@
 		},
 		{
 			"name": "Jupiter Bloodsucker",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -16770,7 +16859,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Jupiter%20Bloodsucker.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Jupiter%20Bloodsucker.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -16780,16 +16869,15 @@
 			"damageTags": [
 				"P"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Kamadan",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -16857,8 +16945,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Kamadan.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Kamadan.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -16868,16 +16957,15 @@
 				"P",
 				"S"
 			],
-			"conditionInflicted": [
-				"unconscious"
-			],
 			"conditionInflict": [
 				"unconscious"
 			]
 		},
 		{
 			"name": "Kampfult",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -16945,7 +17033,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Kampfult.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Kampfult.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -16959,10 +17047,6 @@
 			"damageTags": [
 				"B"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -16970,7 +17054,9 @@
 		},
 		{
 			"name": "Kech",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -17053,7 +17139,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Kech.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Kech.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -17067,7 +17153,9 @@
 		},
 		{
 			"name": "Kelpie",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -17143,7 +17231,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Kelpie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Kelpie.png",
 			"traitTags": [
 				"Amphibious"
 			],
@@ -17158,16 +17246,15 @@
 			"damageTags": [
 				"S"
 			],
-			"conditionInflicted": [
-				"charmed"
-			],
 			"conditionInflict": [
 				"charmed"
 			]
 		},
 		{
 			"name": "Khargra",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -17256,7 +17343,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Khargra.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Khargra.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -17272,16 +17359,15 @@
 				"P",
 				"F"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Korred",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"source": "FEF",
 			"alignment": [
@@ -17430,7 +17516,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Korred.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Korred.png",
 			"senseTags": [
 				"D"
 			],
@@ -17445,14 +17531,22 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"stunned",
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"B",
+				"P",
+				"S",
+				"T"
 			]
 		},
 		{
 			"name": "Kurok-spirit",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -17523,7 +17617,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Kurok-spirit.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Kurok-spirit.png",
 			"senseTags": [
 				"D"
 			],
@@ -17538,7 +17632,9 @@
 		},
 		{
 			"name": "Land Lamprey",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -17577,7 +17673,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Land%20Lamprey.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Land%20Lamprey.png",
 			"senseTags": [
 				"T"
 			],
@@ -17587,7 +17683,9 @@
 		},
 		{
 			"name": "Lava Child",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -17672,7 +17770,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Lava%20Child.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Lava%20Child.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -17690,7 +17788,9 @@
 		},
 		{
 			"name": "Lava Child Shaman",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -17801,7 +17901,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Lava%20Child%20Shaman.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Lava%20Child%20Shaman.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -17815,11 +17915,17 @@
 				"S",
 				"B",
 				"F"
+			],
+			"damageTagsSpell": [
+				"F",
+				"O"
 			]
 		},
 		{
 			"name": "Lava Weird",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"source": "FEF",
 			"alignment": [
@@ -17921,7 +18027,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Lava%20Weird.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Lava%20Weird.png",
 			"senseTags": [
 				"D"
 			],
@@ -17932,16 +18038,15 @@
 			"damageTags": [
 				"F"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Leng Spider",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -18041,7 +18146,7 @@
 					"ability": "int"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Leng%20Spider.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Leng%20Spider.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -18058,20 +18163,22 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			],
 			"conditionInflictSpell": [
 				"charmed",
 				"invisible"
+			],
+			"damageTagsSpell": [
+				"Y"
 			]
 		},
 		{
 			"name": "Lesser Boneneedle",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -18135,15 +18242,12 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Lesser%20Boneneedle.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Lesser%20Boneneedle.png",
 			"senseTags": [
 				"D"
 			],
 			"miscTags": [
 				"MW"
-			],
-			"conditionInflicted": [
-				"poisoned"
 			],
 			"conditionInflict": [
 				"poisoned"
@@ -18151,7 +18255,9 @@
 		},
 		{
 			"name": "Lesser Fire Crab",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -18208,7 +18314,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Lesser%20Fire%20Crab.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Lesser%20Fire%20Crab.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -18222,7 +18328,9 @@
 		},
 		{
 			"name": "Lesser Shadow",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -18297,7 +18405,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Lesser%20Shadow.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Lesser%20Shadow.png",
 			"senseTags": [
 				"D"
 			],
@@ -18307,7 +18415,9 @@
 		},
 		{
 			"name": "Lightning Treant",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -18416,7 +18526,7 @@
 					"ability": "wis"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Lightning%20Treant.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Lightning%20Treant.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -18437,11 +18547,16 @@
 			],
 			"spellcastingTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"L"
 			]
 		},
 		{
 			"name": "Lionwere",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -18534,7 +18649,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Lionwere.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Lionwere.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -18554,7 +18669,9 @@
 		},
 		{
 			"name": "Lithonnite",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -18622,7 +18739,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Lithonnite.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Lithonnite.png",
 			"actionTags": [
 				"Multiattack",
 				"Tentacles"
@@ -18637,7 +18754,9 @@
 		},
 		{
 			"name": "Magma Ooze",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"source": "FEF",
 			"alignment": [
@@ -18725,7 +18844,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Magma%20Ooze.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Magma%20Ooze.png",
 			"traitTags": [
 				"Amorphous"
 			],
@@ -18736,16 +18855,15 @@
 				"B",
 				"F"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Magmoid",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"source": "FEF",
 			"alignment": [
@@ -18828,7 +18946,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Magmoid.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Magmoid.png",
 			"senseTags": [
 				"B"
 			],
@@ -18843,7 +18961,9 @@
 		},
 		{
 			"name": "Mandragora",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -18905,7 +19025,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Mandragora.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Mandragora.png",
 			"actionTags": [
 				"Tentacles"
 			],
@@ -18916,16 +19036,15 @@
 			"damageTags": [
 				"B"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Mandrill",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -18968,7 +19087,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Mandrill.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Mandrill.png",
 			"senseTags": [
 				"D"
 			],
@@ -18979,7 +19098,9 @@
 		},
 		{
 			"name": "Mantari",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -19017,7 +19138,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Mantari.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Mantari.png",
 			"senseTags": [
 				"D"
 			],
@@ -19027,7 +19148,9 @@
 		},
 		{
 			"name": "Margoyle",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -19123,7 +19246,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Margoyle.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Margoyle.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -19142,7 +19265,9 @@
 		},
 		{
 			"name": "Mastodon (Pleistocene Animal)",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -19188,13 +19313,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Mastodon%20(Pleistocene%20Animal).png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Mastodon%20(Pleistocene%20Animal).png",
 			"damageTags": [
 				"P",
 				"B"
-			],
-			"conditionInflicted": [
-				"prone"
 			],
 			"conditionInflict": [
 				"prone"
@@ -19202,7 +19324,9 @@
 		},
 		{
 			"name": "Midnight Peddler",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"source": "FEF",
 			"alignment": [
@@ -19258,7 +19382,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Midnight%20Peddler.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Midnight%20Peddler.png",
 			"senseTags": [
 				"D"
 			],
@@ -19271,7 +19395,9 @@
 		},
 		{
 			"name": "Mite",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"source": "FEF",
 			"alignment": [
@@ -19352,7 +19478,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Mite.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Mite.png",
 			"senseTags": [
 				"D"
 			],
@@ -19368,7 +19494,9 @@
 		},
 		{
 			"name": "Monstrous Crayfish",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -19438,7 +19566,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Monstrous%20Crayfish.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Monstrous%20Crayfish.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -19449,16 +19577,15 @@
 				"S",
 				"P"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Mummy of the Deep",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -19552,7 +19679,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Mummy%20of%20the%20Deep.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Mummy%20of%20the%20Deep.png",
 			"senseTags": [
 				"D"
 			],
@@ -19563,11 +19690,6 @@
 				"B",
 				"N"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"stunned",
-				"paralyzed"
-			],
 			"conditionInflict": [
 				"grappled",
 				"stunned",
@@ -19576,7 +19698,9 @@
 		},
 		{
 			"name": "Murder Crow",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -19671,7 +19795,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Murder%20Crow.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Murder%20Crow.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -19685,16 +19809,15 @@
 				"S",
 				"P"
 			],
-			"conditionInflicted": [
-				"blinded"
-			],
 			"conditionInflict": [
 				"blinded"
 			]
 		},
 		{
 			"name": "Mustard Jelly",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"source": "FEF",
 			"alignment": [
@@ -19795,7 +19918,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Mustard%20Jelly.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Mustard%20Jelly.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -19809,10 +19932,6 @@
 				"B",
 				"A"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -19820,7 +19939,9 @@
 		},
 		{
 			"name": "Olive Slime",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -19899,7 +20020,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Olive%20Slime.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Olive%20Slime.png",
 			"senseTags": [
 				"T"
 			],
@@ -19909,7 +20030,9 @@
 		},
 		{
 			"name": "Olive Slime Zombie",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -19986,7 +20109,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Olive%20Slime%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Olive%20Slime%20Zombie.png",
 			"traitTags": [
 				"Death Burst"
 			],
@@ -19999,7 +20122,9 @@
 		},
 		{
 			"name": "Origami Warrior",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -20078,7 +20203,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Origami%20Warrior.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Origami%20Warrior.png",
 			"senseTags": [
 				"D"
 			],
@@ -20095,7 +20220,9 @@
 		},
 		{
 			"name": "Owlwere",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -20180,7 +20307,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Owlwere.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Owlwere.png",
 			"traitTags": [
 				"Shapechanger"
 			],
@@ -20194,16 +20321,15 @@
 				"P",
 				"S"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
 		},
 		{
 			"name": "Pech",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"source": "FEF",
 			"alignment": [
@@ -20309,7 +20435,7 @@
 					"ability": "wis"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Pech.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Pech.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -20330,7 +20456,9 @@
 		},
 		{
 			"name": "Pestie Mite",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"source": "FEF",
 			"alignment": [
@@ -20419,7 +20547,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Pestie%20Mite.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Pestie%20Mite.png",
 			"traitTags": [
 				"Sneak Attack"
 			],
@@ -20439,7 +20567,9 @@
 		},
 		{
 			"name": "Phycomid",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -20499,7 +20629,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Phycomid.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Phycomid.png",
 			"senseTags": [
 				"T"
 			],
@@ -20511,7 +20641,9 @@
 		},
 		{
 			"name": "Poisonous Fire Snake",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -20558,7 +20690,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Poisonous%20Fire%20Snake.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Poisonous%20Fire%20Snake.png",
 			"senseTags": [
 				"D"
 			],
@@ -20566,16 +20698,15 @@
 				"P",
 				"F"
 			],
-			"conditionInflicted": [
-				"paralyzed"
-			],
 			"conditionInflict": [
 				"paralyzed"
 			]
 		},
 		{
 			"name": "Poisonous Kamadan",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -20643,8 +20774,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Poisonous%20Kamadan.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Poisonous%20Kamadan.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -20655,16 +20787,15 @@
 				"S",
 				"I"
 			],
-			"conditionInflicted": [
-				"unconscious"
-			],
 			"conditionInflict": [
 				"unconscious"
 			]
 		},
 		{
 			"name": "Pyrolisk",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -20719,7 +20850,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Pyrolisk.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Pyrolisk.png",
 			"senseTags": [
 				"D"
 			],
@@ -20731,16 +20862,15 @@
 				"P",
 				"F"
 			],
-			"conditionInflicted": [
-				"blinded"
-			],
 			"conditionInflict": [
 				"blinded"
 			]
 		},
 		{
 			"name": "Quadricorn",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -20818,7 +20948,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Quadricorn.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Quadricorn.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -20835,16 +20965,15 @@
 				"P",
 				"B"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
 		},
 		{
 			"name": "Quickwood",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -20941,7 +21070,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Quickwood.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Quickwood.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -20954,14 +21083,12 @@
 			],
 			"damageTags": [
 				"P",
-				"B"
+				"B",
+				"S"
 			],
 			"miscTags": [
 				"RCH",
 				"AOE"
-			],
-			"conditionInflicted": [
-				"grappled"
 			],
 			"conditionInflict": [
 				"grappled"
@@ -20969,7 +21096,9 @@
 		},
 		{
 			"name": "Red Dracolisk",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"source": "FEF",
 			"alignment": [
@@ -21101,8 +21230,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Red%20Dracolisk.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Red%20Dracolisk.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -21119,16 +21249,15 @@
 			"miscTags": [
 				"AOE"
 			],
-			"conditionInflicted": [
-				"petrified"
-			],
 			"conditionInflict": [
 				"petrified"
 			]
 		},
 		{
 			"name": "Red Jester",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -21232,7 +21361,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Red%20Jester.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Red%20Jester.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -21245,10 +21374,6 @@
 			"damageTags": [
 				"B"
 			],
-			"conditionInflicted": [
-				"paralyzed",
-				"frightened"
-			],
 			"conditionInflict": [
 				"paralyzed",
 				"frightened"
@@ -21256,7 +21381,9 @@
 		},
 		{
 			"name": "Ronus",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -21301,7 +21428,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Ronus.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Ronus.png",
 			"senseTags": [
 				"D"
 			],
@@ -21311,7 +21438,9 @@
 		},
 		{
 			"name": "Russet Mold",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -21382,12 +21511,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Russet%20Mold.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Russet%20Mold.png",
 			"damageTags": [
 				"I"
-			],
-			"conditionInflicted": [
-				"poisoned"
 			],
 			"conditionInflict": [
 				"poisoned"
@@ -21395,7 +21521,9 @@
 		},
 		{
 			"name": "Ryven",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -21488,7 +21616,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Ryven.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Ryven.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -21509,7 +21637,9 @@
 		},
 		{
 			"name": "Ryven Shaman",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -21630,7 +21760,7 @@
 					"ability": "wis"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Ryven%20Shaman.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Ryven%20Shaman.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -21647,11 +21777,16 @@
 			],
 			"miscTags": [
 				"RNG"
+			],
+			"damageTagsSpell": [
+				"R"
 			]
 		},
 		{
 			"name": "Sandling",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"source": "FEF",
 			"alignment": [
@@ -21723,7 +21858,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Sandling.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Sandling.png",
 			"senseTags": [
 				"D",
 				"T"
@@ -21738,7 +21873,9 @@
 		},
 		{
 			"name": "Screaming Devilkin",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -21787,7 +21924,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Screaming%20Devilkin.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Screaming%20Devilkin.png",
 			"senseTags": [
 				"D"
 			],
@@ -21797,10 +21934,6 @@
 			"damageTags": [
 				"P"
 			],
-			"conditionInflicted": [
-				"incapacitated",
-				"deafened"
-			],
 			"conditionInflict": [
 				"incapacitated",
 				"deafened"
@@ -21808,7 +21941,9 @@
 		},
 		{
 			"name": "Scythe Tree",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -21886,7 +22021,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Scythe%20Tree.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Scythe%20Tree.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -21905,7 +22040,9 @@
 		},
 		{
 			"name": "Sepulchral Guardian",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -21986,7 +22123,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Sepulchral%20Guardian.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Sepulchral%20Guardian.png",
 			"senseTags": [
 				"D"
 			],
@@ -21996,10 +22133,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"exhaustion",
-				"frightened"
-			],
 			"conditionInflict": [
 				"exhaustion",
 				"frightened"
@@ -22007,7 +22140,9 @@
 		},
 		{
 			"name": "Shadow Mastiff",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -22082,15 +22217,12 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Shadow%20Mastiff.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Shadow%20Mastiff.png",
 			"senseTags": [
 				"D"
 			],
 			"damageTags": [
 				"P"
-			],
-			"conditionInflicted": [
-				"frightened"
 			],
 			"conditionInflict": [
 				"frightened"
@@ -22098,7 +22230,9 @@
 		},
 		{
 			"name": "Shadow Rat",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -22164,7 +22298,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Shadow%20Rat.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Shadow%20Rat.png",
 			"senseTags": [
 				"D"
 			],
@@ -22174,7 +22308,9 @@
 		},
 		{
 			"name": "Shipbreaker Sea Serpent",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -22320,7 +22456,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Shipbreaker%20Sea%20Serpent.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Shipbreaker%20Sea%20Serpent.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -22339,10 +22475,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -22350,7 +22482,9 @@
 		},
 		{
 			"name": "Shroom",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -22503,7 +22637,7 @@
 					"ability": "int"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Shroom.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Shroom.png",
 			"senseTags": [
 				"D"
 			],
@@ -22517,9 +22651,6 @@
 				"B",
 				"Y"
 			],
-			"conditionInflicted": [
-				"stunned"
-			],
 			"conditionInflict": [
 				"stunned"
 			],
@@ -22527,11 +22658,18 @@
 				"charmed",
 				"restrained",
 				"unconscious"
+			],
+			"damageTagsSpell": [
+				"I",
+				"P",
+				"T"
 			]
 		},
 		{
 			"name": "Skeleton Warrior",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -22661,7 +22799,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Skeleton%20Warrior.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Skeleton%20Warrior.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -22683,10 +22821,6 @@
 			"miscTags": [
 				"RNG"
 			],
-			"conditionInflicted": [
-				"frightened",
-				"exhaustion"
-			],
 			"conditionInflict": [
 				"frightened",
 				"exhaustion"
@@ -22694,7 +22828,9 @@
 		},
 		{
 			"name": "Skelzi",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -22766,7 +22902,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Skelzi.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Skelzi.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -22782,7 +22918,9 @@
 		},
 		{
 			"name": "Skulk",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -22849,7 +22987,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Skulk.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Skulk.png",
 			"traitTags": [
 				"Sneak Attack"
 			],
@@ -22866,7 +23004,9 @@
 		},
 		{
 			"name": "Slithering Tracker",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "ooze",
 			"source": "FEF",
 			"alignment": [
@@ -22939,7 +23079,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Slithering%20Tracker.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Slithering%20Tracker.png",
 			"traitTags": [
 				"Amorphous"
 			],
@@ -22949,16 +23089,15 @@
 			"damageTags": [
 				"B"
 			],
-			"conditionInflicted": [
-				"paralyzed"
-			],
 			"conditionInflict": [
 				"paralyzed"
 			]
 		},
 		{
 			"name": "Snow Leopard",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -23024,7 +23163,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Snow%20Leopard.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Snow%20Leopard.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -23038,7 +23177,9 @@
 		},
 		{
 			"name": "Soul Reaper",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -23158,7 +23299,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Soul%20Reaper.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Soul%20Reaper.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -23171,11 +23312,17 @@
 			],
 			"spellcastingTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"N",
+				"P"
 			]
 		},
 		{
 			"name": "Spectral Troll",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -23272,7 +23419,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Spectral%20Troll.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Spectral%20Troll.png",
 			"traitTags": [
 				"Rejuvenation"
 			],
@@ -23288,7 +23435,9 @@
 		},
 		{
 			"name": "Spitting Sea Serpent",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -23366,7 +23515,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Spitting%20Sea%20Serpent.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Spitting%20Sea%20Serpent.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -23382,10 +23531,6 @@
 				"A",
 				"B"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -23393,7 +23538,9 @@
 		},
 		{
 			"name": "Stegocentipede",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -23459,7 +23606,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Stegocentipede.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Stegocentipede.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -23474,16 +23621,15 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
 		},
 		{
 			"name": "Stone Guardian Golem",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -23570,7 +23716,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Stone%20Guardian%20Golem.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Stone%20Guardian%20Golem.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -23586,7 +23732,9 @@
 		},
 		{
 			"name": "Strangle Weed",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -23660,7 +23808,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Strangle%20Weed.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Strangle%20Weed.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -23668,13 +23816,11 @@
 				"T"
 			],
 			"damageTags": [
-				"B"
+				"B",
+				"S"
 			],
 			"miscTags": [
 				"RCH"
-			],
-			"conditionInflicted": [
-				"grappled"
 			],
 			"conditionInflict": [
 				"grappled"
@@ -23682,7 +23828,9 @@
 		},
 		{
 			"name": "Stygian Skeleton",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -23774,7 +23922,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Stygian%20Skeleton.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Stygian%20Skeleton.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -23793,16 +23941,15 @@
 			"miscTags": [
 				"RNG"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
 		},
 		{
 			"name": "Tabaxi",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -23874,7 +24021,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Tabaxi.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Tabaxi.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -23891,7 +24038,9 @@
 		},
 		{
 			"name": "Taer",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"source": "FEF",
 			"alignment": [
@@ -23966,7 +24115,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Taer.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Taer.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -23977,7 +24126,9 @@
 		},
 		{
 			"name": "Tangtal",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -24038,7 +24189,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Tangtal.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Tangtal.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -24056,7 +24207,9 @@
 		},
 		{
 			"name": "Tazelwurm",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -24128,7 +24281,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Tazelwurm.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Tazelwurm.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -24146,16 +24299,15 @@
 				"P",
 				"S"
 			],
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
 			]
 		},
 		{
 			"name": "Temporal Crawler",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -24238,7 +24390,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Temporal%20Crawler.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Temporal%20Crawler.png",
 			"senseTags": [
 				"D",
 				"T"
@@ -24250,10 +24402,6 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
-				"paralyzed",
-				"restrained"
-			],
 			"conditionInflict": [
 				"paralyzed",
 				"restrained"
@@ -24261,7 +24409,9 @@
 		},
 		{
 			"name": "Tendriculos",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -24343,7 +24493,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Tendriculos.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Tendriculos.png",
 			"actionTags": [
 				"Multiattack",
 				"Swallow"
@@ -24355,11 +24505,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"blinded",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"blinded",
@@ -24368,7 +24513,9 @@
 		},
 		{
 			"name": "Tentacled Horror",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -24511,7 +24658,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Tentacled%20Horror.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Tentacled%20Horror.png",
 			"actionTags": [
 				"Multiattack",
 				"Tentacles"
@@ -24529,10 +24676,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"stunned"
-			],
 			"conditionInflict": [
 				"grappled",
 				"stunned"
@@ -24540,7 +24683,9 @@
 		},
 		{
 			"name": "Teratashia, Demon Princess of Dimensions",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fiend",
 			"source": "FEF",
 			"alignment": [
@@ -24667,7 +24812,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Teratashia%2C%20Demon%20Princess%20of%20Dimensions.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Teratashia%2C%20Demon%20Princess%20of%20Dimensions.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -24686,11 +24831,17 @@
 			],
 			"spellcastingTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"O",
+				"P"
 			]
 		},
 		{
 			"name": "Thalasskoptis, Demon Prince",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -24831,7 +24982,7 @@
 				}
 			],
 			"isNamedCreature": true,
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Thalasskoptis%2C%20Demon%20Prince.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Thalasskoptis%2C%20Demon%20Prince.png",
 			"actionTags": [
 				"Multiattack",
 				"Tentacles"
@@ -24854,11 +25005,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"stunned",
-				"poisoned",
-				"grappled"
-			],
 			"conditionInflict": [
 				"stunned",
 				"poisoned",
@@ -24871,7 +25017,9 @@
 		},
 		{
 			"name": "Tri-FLower Frond",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -24943,7 +25091,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Tri-FLower%20Frond.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Tri-FLower%20Frond.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -24954,10 +25102,6 @@
 				"P",
 				"A"
 			],
-			"conditionInflicted": [
-				"unconscious",
-				"grappled"
-			],
 			"conditionInflict": [
 				"unconscious",
 				"grappled"
@@ -24965,7 +25109,9 @@
 		},
 		{
 			"name": "Tunnel Prawn",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -25014,7 +25160,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Tunnel%20Prawn.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Tunnel%20Prawn.png",
 			"senseTags": [
 				"D"
 			],
@@ -25024,7 +25170,9 @@
 		},
 		{
 			"name": "Tunnel Worm",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -25099,7 +25247,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Tunnel%20Worm.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Tunnel%20Worm.png",
 			"senseTags": [
 				"T"
 			],
@@ -25110,16 +25258,15 @@
 				"P",
 				"S"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Two-Headed Troll",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"source": "FEF",
 			"alignment": [
@@ -25187,7 +25334,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Two-Headed%20Troll.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Two-Headed%20Troll.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -25207,7 +25354,9 @@
 		},
 		{
 			"name": "Vampire Rose",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -25289,7 +25438,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Vampire%20Rose.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Vampire%20Rose.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -25299,16 +25448,15 @@
 			"damageTags": [
 				"P"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Vegepygmy Chief",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -25406,7 +25554,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Vegepygmy%20Chief.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Vegepygmy%20Chief.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -25424,7 +25572,9 @@
 		},
 		{
 			"name": "Vegepygmy Commoner and Worker",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -25505,7 +25655,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Vegepygmy%20Commoner%20and%20Worker.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Vegepygmy%20Commoner%20and%20Worker.png",
 			"senseTags": [
 				"D"
 			],
@@ -25519,7 +25669,9 @@
 		},
 		{
 			"name": "Vegepygmy Guard",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "plant",
 				"tags": [
@@ -25611,7 +25763,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Vegepygmy%20Guard.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Vegepygmy%20Guard.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -25628,7 +25780,9 @@
 		},
 		{
 			"name": "Volt (Bolt Wurm)",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -25684,7 +25838,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Volt%20(Bolt%20Wurm).png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Volt%20(Bolt%20Wurm).png",
 			"senseTags": [
 				"D"
 			],
@@ -25695,7 +25849,9 @@
 		},
 		{
 			"name": "Vorin",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -25785,7 +25941,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Vorin.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Vorin.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -25801,10 +25957,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"paralyzed",
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"paralyzed",
 				"incapacitated"
@@ -25812,7 +25964,9 @@
 		},
 		{
 			"name": "Vulchling",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -25860,7 +26014,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Vulchling.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Vulchling.png",
 			"senseTags": [
 				"D"
 			],
@@ -25874,7 +26028,9 @@
 		},
 		{
 			"name": "Were-Mist",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"source": "FEF",
 			"alignment": [
@@ -25955,15 +26111,12 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Were-Mist.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Were-Mist.png",
 			"senseTags": [
 				"D"
 			],
 			"languageTags": [
 				"C"
-			],
-			"conditionInflicted": [
-				"stunned"
 			],
 			"conditionInflict": [
 				"stunned"
@@ -25971,7 +26124,9 @@
 		},
 		{
 			"name": "Weredactyl",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -26053,7 +26208,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Weredactyl.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Weredactyl.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -26067,16 +26222,15 @@
 				"P",
 				"S"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "White Dracolisk",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"source": "FEF",
 			"alignment": [
@@ -26208,8 +26362,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/White%20Dracolisk.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/White%20Dracolisk.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -26226,16 +26381,15 @@
 			"miscTags": [
 				"AOE"
 			],
-			"conditionInflicted": [
-				"petrified"
-			],
 			"conditionInflict": [
 				"petrified"
 			]
 		},
 		{
 			"name": "Widow Creeper",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -26348,7 +26502,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Widow%20Creeper.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Widow%20Creeper.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -26361,11 +26515,6 @@
 			"miscTags": [
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"charmed"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -26374,7 +26523,9 @@
 		},
 		{
 			"name": "Witch Grass",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -26432,11 +26583,13 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Witch%20Grass.png"
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Witch%20Grass.png"
 		},
 		{
 			"name": "Witherstench",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -26480,20 +26633,22 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Witherstench.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Witherstench.png",
 			"senseTags": [
 				"D"
 			],
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
+			],
+			"damageTags": [
+				"S"
 			]
 		},
 		{
 			"name": "Wolfwere",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -26591,7 +26746,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Wolfwere.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Wolfwere.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -26608,10 +26763,6 @@
 				"P",
 				"S"
 			],
-			"conditionInflicted": [
-				"prone",
-				"stunned"
-			],
 			"conditionInflict": [
 				"prone",
 				"stunned"
@@ -26619,7 +26770,9 @@
 		},
 		{
 			"name": "Wooden Golem",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"source": "FEF",
 			"alignment": [
@@ -26714,7 +26867,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Wooden%20Golem.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Wooden%20Golem.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -26730,16 +26883,15 @@
 			"damageTags": [
 				"B"
 			],
-			"conditionInflicted": [
-				"deafened"
-			],
 			"conditionInflict": [
 				"deafened"
 			]
 		},
 		{
 			"name": "Woolly Rhinoceros (Pleistocene Animal)",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "FEF",
 			"alignment": [
@@ -26797,7 +26949,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Woolly%20Rhinoceros%20(Pleistocene%20Animal).png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Woolly%20Rhinoceros%20(Pleistocene%20Animal).png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -26805,16 +26957,15 @@
 				"P",
 				"B"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
 		},
 		{
 			"name": "Yellow Musk Creeper",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -26886,7 +27037,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Yellow%20Musk%20Creeper.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Yellow%20Musk%20Creeper.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -26899,10 +27050,6 @@
 			"damageTags": [
 				"P"
 			],
-			"conditionInflicted": [
-				"charmed",
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"charmed",
 				"incapacitated"
@@ -26910,7 +27057,9 @@
 		},
 		{
 			"name": "Yellow Musk Zombie",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"source": "FEF",
 			"alignment": [
@@ -26964,7 +27113,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Yellow%20Musk%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Yellow%20Musk%20Zombie.png",
 			"senseTags": [
 				"D"
 			],
@@ -26974,7 +27123,9 @@
 		},
 		{
 			"name": "Young Leucrotta",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "FEF",
 			"alignment": [
@@ -27056,7 +27207,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Young%20Leucrotta.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Young%20Leucrotta.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -27067,16 +27218,15 @@
 			"senseTags": [
 				"D"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
 		},
 		{
 			"name": "Zombie Raven",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "undead",
 			"source": "FEF",
 			"alignment": [
@@ -27146,7 +27296,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/FEF/Zombie%20Raven.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FEF/Zombie%20Raven.png",
 			"senseTags": [
 				"D"
 			],

@@ -9,12 +9,12 @@
 					"Kobold Press"
 				],
 				"version": "1.0",
-				"url": "https://github.com/thenullnetwork/dnd-homebrew",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"targetSchema": "1.3.4"
 			}
 		],
 		"dateAdded": 1537874753,
-		"dateLastModified": 1537874753
+		"dateLastModified": 1638815570
 	},
 	"monster": [
 		{
@@ -22,7 +22,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 40,
 			"name": "Abyssal Giant Lizard",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -92,7 +94,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Abyssal%20Giant%20Lizard.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Abyssal%20Giant%20Lizard.png",
 			"traitTags": [
 				"Rampage"
 			],
@@ -118,7 +120,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 43,
 			"name": "Alchemist",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -177,7 +181,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Alchemist.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Alchemist.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -201,7 +205,9 @@
 			"sourceSub": "DDIA-XGE Underworld Speculation",
 			"page": 14,
 			"name": "Algaepygmy",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "plant",
 			"alignment": [
 				"N"
@@ -272,7 +278,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Algaepygmy.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Algaepygmy.png",
 			"traitTags": [
 				"Amphibious",
 				"Regeneration"
@@ -292,7 +298,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 10,
 			"name": "Allosaurus Zombie",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -363,7 +371,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Allosaurus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Allosaurus%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -377,9 +385,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -389,7 +394,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 3,
 			"name": "Archelon",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -437,7 +444,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Archelon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Archelon.png",
 			"traitTags": [
 				"Hold Breath"
 			],
@@ -453,7 +460,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 10,
 			"name": "Archelon Zombie",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -513,7 +522,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Archelon%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Archelon%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -532,7 +541,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 3,
 			"name": "Brachiosaurus",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -577,16 +588,13 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Brachiosaurus.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Brachiosaurus.png",
 			"damageTags": [
 				"B"
 			],
 			"miscTags": [
 				"MW",
 				"RCH"
-			],
-			"conditionInflicted": [
-				"prone"
 			],
 			"conditionInflict": [
 				"prone"
@@ -597,7 +605,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 11,
 			"name": "Brachiosaurus Zombie",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -665,7 +675,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Brachiosaurus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Brachiosaurus%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -681,11 +691,11 @@
 				"RCH",
 				"AOE"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
+			],
+			"actionTags": [
+				"Breath Weapon"
 			]
 		},
 		{
@@ -693,7 +703,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 11,
 			"name": "Brontosaurus Zombie",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -755,7 +767,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Brontosaurus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Brontosaurus%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -769,9 +781,6 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -781,7 +790,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 37,
 			"name": "Chameleon Lizardfolk Snoop",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -861,7 +872,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Chameleon%20Lizardfolk%20Snoop.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Chameleon%20Lizardfolk%20Snoop.png",
 			"traitTags": [
 				"Hold Breath"
 			],
@@ -885,7 +896,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 38,
 			"name": "Chameleon Lizardfolk Spy",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -977,7 +990,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Chameleon%20Lizardfolk%20Spy.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Chameleon%20Lizardfolk%20Spy.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -1004,7 +1017,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 12,
 			"name": "Deinonychus Zombie",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -1081,7 +1096,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Deinonychus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Deinonychus%20Zombie.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -1099,9 +1114,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -1111,7 +1123,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 3,
 			"name": "Dilophosaurus",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -1156,16 +1170,13 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Dilophosaurus.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Dilophosaurus.png",
 			"damageTags": [
 				"P"
 			],
 			"miscTags": [
 				"MW",
 				"RW"
-			],
-			"conditionInflicted": [
-				"blinded"
 			],
 			"conditionInflict": [
 				"blinded"
@@ -1176,7 +1187,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 12,
 			"name": "Dilophosaurus Zombie",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -1235,7 +1248,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Dilophosaurus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Dilophosaurus%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -1250,9 +1263,6 @@
 				"MW",
 				"RW"
 			],
-			"conditionInflicted": [
-				"blinded"
-			],
 			"conditionInflict": [
 				"blinded"
 			]
@@ -1262,7 +1272,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 12,
 			"name": "Dimetrodon Zombie",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -1316,7 +1328,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Dimetrodon%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Dimetrodon%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -1335,7 +1347,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 38,
 			"name": "Gecko Lizardfolk Infiltrator",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1428,7 +1442,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Gecko%20Lizardfolk%20Infiltrator.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Gecko%20Lizardfolk%20Infiltrator.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -1452,7 +1466,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 38,
 			"name": "Gecko Lizardfolk Scout",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1530,7 +1546,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Gecko%20Lizardfolk%20Scout.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Gecko%20Lizardfolk%20Scout.png",
 			"traitTags": [
 				"Hold Breath"
 			],
@@ -1551,7 +1567,9 @@
 			"sourceSub": "DDIA-XGE Underworld Speculation",
 			"page": 15,
 			"name": "Giant Clam",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"N"
@@ -1619,7 +1637,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Giant%20Clam.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Giant%20Clam.png",
 			"senseTags": [
 				"T"
 			],
@@ -1630,9 +1648,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
@@ -1642,7 +1657,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 41,
 			"name": "Giant Spitting Lizard",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -1696,7 +1713,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Giant%20Spitting%20Lizard.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Giant%20Spitting%20Lizard.png",
 			"senseTags": [
 				"D"
 			],
@@ -1709,10 +1726,6 @@
 				"RW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"prone"
-			],
 			"conditionInflict": [
 				"grappled",
 				"prone"
@@ -1723,7 +1736,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 4,
 			"name": "Giganotosaurus",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -1796,7 +1811,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Giganotosaurus.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Giganotosaurus.png",
 			"actionTags": [
 				"Multiattack",
 				"Swallow"
@@ -1811,13 +1826,6 @@
 				"RCH",
 				"AOE"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"grappled",
-				"blinded",
-				"prone",
-				"frightened"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled",
@@ -1831,7 +1839,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 13,
 			"name": "Giganotosaurus Zombie",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -1930,7 +1940,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Giganotosaurus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Giganotosaurus%20Zombie.png",
 			"actionTags": [
 				"Multiattack",
 				"Swallow"
@@ -1951,13 +1961,6 @@
 				"RCH",
 				"AOE"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"grappled",
-				"blinded",
-				"prone",
-				"frightened"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled",
@@ -1971,7 +1974,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 39,
 			"name": "Gila Lizardfolk Brute",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2037,7 +2042,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Gila%20Lizardfolk%20Brute.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Gila%20Lizardfolk%20Brute.png",
 			"traitTags": [
 				"Hold Breath"
 			],
@@ -2051,9 +2056,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -2063,7 +2065,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 39,
 			"name": "Gila Lizardfolk Savage",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2147,7 +2151,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Gila%20Lizardfolk%20Savage.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Gila%20Lizardfolk%20Savage.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -2164,9 +2168,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -2176,7 +2177,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 14,
 			"name": "Hadrosaurus Zombie",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -2229,7 +2232,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Hadrosaurus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Hadrosaurus%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -2248,7 +2251,9 @@
 			"sourceSub": "CCC-SFBAY-01-01 Plots in Motion",
 			"page": 21,
 			"name": "Huge Chuul",
-			"size": "Huge",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "aberration"
 			},
@@ -2332,7 +2337,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Huge%20Chuul.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Huge%20Chuul.png",
 			"actionTags": [
 				"Multiattack",
 				"Tentacles"
@@ -2354,11 +2359,6 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"paralyzed",
-				"poisoned"
-			],
 			"conditionInflict": [
 				"grappled",
 				"paralyzed",
@@ -2370,7 +2370,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 42,
 			"name": "Ilsadun, Mutated Dwarf",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2452,7 +2454,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Ilsadun%2C%20Mutated%20Dwarf.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Ilsadun%2C%20Mutated%20Dwarf.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -2474,7 +2476,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 34,
 			"name": "Kes'thak the Lizard King",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2582,7 +2586,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Kes'thak%20the%20Lizard%20King.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Kes'thak%20the%20Lizard%20King.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -2614,7 +2618,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 40,
 			"name": "Komodo Lizardfolk Champion",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2698,7 +2704,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Komodo%20Lizardfolk%20Champion.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Komodo%20Lizardfolk%20Champion.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -2720,9 +2726,6 @@
 				"RW",
 				"THW"
 			],
-			"conditionInflicted": [
-				"restrained"
-			],
 			"conditionInflict": [
 				"restrained"
 			]
@@ -2732,7 +2735,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 39,
 			"name": "Komodo Lizardfolk Sentry",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2809,7 +2814,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Komodo%20Lizardfolk%20Sentry.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Komodo%20Lizardfolk%20Sentry.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -2836,7 +2841,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 33,
 			"name": "Krenshar",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -2891,7 +2898,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Krenshar.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Krenshar.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -2905,9 +2912,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -2917,7 +2921,9 @@
 			"sourceSub": "Encounters in the Jungles of Chult",
 			"page": 18,
 			"name": "Monkey Stone Golem",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -2984,7 +2990,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Monkey%20Stone%20Golem.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Monkey%20Stone%20Golem.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3003,7 +3009,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 5,
 			"name": "Mosasaurus",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -3062,7 +3070,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Mosasaurus.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Mosasaurus.png",
 			"actionTags": [
 				"Swallow"
 			],
@@ -3080,11 +3088,6 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"grappled",
-				"blinded"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled",
@@ -3096,7 +3099,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 14,
 			"name": "Mosasaurus Zombie",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -3164,7 +3169,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Mosasaurus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Mosasaurus%20Zombie.png",
 			"actionTags": [
 				"Swallow"
 			],
@@ -3183,11 +3188,6 @@
 				"RCH",
 				"AOE"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"grappled",
-				"blinded"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled",
@@ -3199,7 +3199,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 41,
 			"name": "Mutated Crocodile",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"C",
@@ -3263,7 +3265,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Mutated%20Crocodile.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Mutated%20Crocodile.png",
 			"traitTags": [
 				"Hold Breath"
 			],
@@ -3276,10 +3278,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -3290,7 +3288,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 42,
 			"name": "Mutated Giant Vultures",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"C",
@@ -3373,7 +3373,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Mutated%20Giant%20Vultures.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Mutated%20Giant%20Vultures.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3401,7 +3401,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 41,
 			"name": "Mutated Hunting Dogs",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"C",
@@ -3473,7 +3475,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Mutated%20Hunting%20Dogs.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Mutated%20Hunting%20Dogs.png",
 			"traitTags": [
 				"Keen Senses",
 				"Pack Tactics"
@@ -3487,9 +3489,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -3499,7 +3498,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 5,
 			"name": "Nemicolopterus",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -3543,7 +3544,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Nemicolopterus.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Nemicolopterus.png",
 			"miscTags": [
 				"MW"
 			],
@@ -3556,7 +3557,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 15,
 			"name": "Nemicolopterus Zombie",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -3605,7 +3608,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Nemicolopterus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Nemicolopterus%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -3624,7 +3627,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 35,
 			"name": "Oak Wilden Clubber",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"N"
@@ -3692,7 +3697,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Oak%20Wilden%20Clubber.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Oak%20Wilden%20Clubber.png",
 			"traitTags": [
 				"Brute"
 			],
@@ -3718,7 +3723,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 35,
 			"name": "Oak Wilden Punisher",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"N"
@@ -3798,7 +3805,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Oak%20Wilden%20Punisher.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Oak%20Wilden%20Punisher.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3827,7 +3834,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 6,
 			"name": "Pachycephalosaurus",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -3871,7 +3880,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Pachycephalosaurus.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Pachycephalosaurus.png",
 			"traitTags": [
 				"Charge"
 			],
@@ -3880,9 +3889,6 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"conditionInflicted": [
-				"prone"
 			],
 			"conditionInflict": [
 				"prone"
@@ -3893,7 +3899,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 16,
 			"name": "Pachycephalosaurus Zombie",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -3952,7 +3960,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Pachycephalosaurus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Pachycephalosaurus%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -3966,9 +3974,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -3978,7 +3983,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 36,
 			"name": "Pine Wilden Ranger",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4061,7 +4068,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Pine%20Wilden%20Ranger.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Pine%20Wilden%20Ranger.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -4086,7 +4093,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 36,
 			"name": "Pine Wilden Warrior",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4156,7 +4165,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Pine%20Wilden%20Warrior.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Pine%20Wilden%20Warrior.png",
 			"senseTags": [
 				"D"
 			],
@@ -4178,7 +4187,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 16,
 			"name": "Plesiosaurus Zombie",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -4238,7 +4249,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Plesiosaurus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Plesiosaurus%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -4258,7 +4269,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 17,
 			"name": "Pteranodon Zombie",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -4324,7 +4337,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Pteranodon%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Pteranodon%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -4343,7 +4356,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 43,
 			"name": "Qamala, Lizardfolk Priestess",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4451,7 +4466,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Qamala%2C%20Lizardfolk%20Priestess.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Qamala%2C%20Lizardfolk%20Priestess.png",
 			"traitTags": [
 				"Hold Breath"
 			],
@@ -4467,6 +4482,11 @@
 			],
 			"spellcastingTags": [
 				"CC"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
 			]
 		},
 		{
@@ -4474,7 +4494,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 17,
 			"name": "Quetzalcoatlus Zombie",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -4545,7 +4567,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Quetzalcoatlus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Quetzalcoatlus%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -4561,9 +4583,6 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -4573,7 +4592,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 7,
 			"name": "Sarcosuchus",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -4635,7 +4656,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Sarcosuchus.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Sarcosuchus.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -4650,11 +4671,6 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"grappled",
-				"prone"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled",
@@ -4666,7 +4682,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 18,
 			"name": "Sarcosuchus Zombie",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -4739,7 +4757,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Sarcosuchus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Sarcosuchus%20Zombie.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -4757,11 +4775,6 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"grappled",
-				"prone"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled",
@@ -4773,7 +4786,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 18,
 			"name": "Stegosaurus Zombie",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -4826,7 +4841,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Stegosaurus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Stegosaurus%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -4846,7 +4861,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 6,
 			"name": "Swarm Of Nemicolopterus",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"swarmSize": "T"
@@ -4914,7 +4931,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Swarm%20Of%20Nemicolopterus.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Swarm%20Of%20Nemicolopterus.png",
 			"damageTags": [
 				"P"
 			],
@@ -4927,7 +4944,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 15,
 			"name": "Swarm Of Nemicolopterus Zombies",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"swarmSize": "T"
@@ -5004,7 +5023,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Swarm%20Of%20Nemicolopterus%20Zombies.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Swarm%20Of%20Nemicolopterus%20Zombies.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -5024,7 +5043,9 @@
 			"sourceSub": "DDIA-XGE Underworld Speculation",
 			"page": 16,
 			"name": "Sylgar",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -5081,7 +5102,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Sylgar.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Sylgar.png",
 			"traitTags": [
 				"Water Breathing"
 			],
@@ -5100,7 +5121,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 7,
 			"name": "Therizinosaurus",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -5142,7 +5165,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Therizinosaurus.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Therizinosaurus.png",
 			"damageTags": [
 				"S"
 			],
@@ -5155,7 +5178,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 19,
 			"name": "Therizinosaurus Zombie",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -5214,7 +5239,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Therizinosaurus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Therizinosaurus%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -5227,9 +5252,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"paralyzed"
-			],
 			"conditionInflict": [
 				"paralyzed"
 			]
@@ -5239,7 +5261,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 8,
 			"name": "Titanosaurus",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -5304,7 +5328,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Titanosaurus.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Titanosaurus.png",
 			"damageTags": [
 				"B"
 			],
@@ -5312,9 +5336,6 @@
 				"MW",
 				"RCH",
 				"AOE"
-			],
-			"conditionInflicted": [
-				"prone"
 			],
 			"conditionInflict": [
 				"prone"
@@ -5325,7 +5346,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 19,
 			"name": "Titanosaurus Zombie",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -5407,7 +5430,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Titanosaurus%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Titanosaurus%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -5422,11 +5445,6 @@
 				"RCH",
 				"AOE"
 			],
-			"conditionInflicted": [
-				"prone",
-				"restrained",
-				"poisoned"
-			],
 			"conditionInflict": [
 				"prone",
 				"restrained",
@@ -5438,7 +5456,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 20,
 			"name": "Triceratops Zombie",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -5503,7 +5523,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Triceratops%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Triceratops%20Zombie.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -5517,9 +5537,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -5529,7 +5546,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 8,
 			"name": "Troodon",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -5583,7 +5602,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Troodon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Troodon.png",
 			"traitTags": [
 				"Pack Tactics"
 			],
@@ -5599,7 +5618,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 20,
 			"name": "Troodon Zombie",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -5664,7 +5685,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Troodon%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Troodon%20Zombie.png",
 			"traitTags": [
 				"Pack Tactics",
 				"Undead Fortitude"
@@ -5678,9 +5699,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -5690,7 +5708,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 21,
 			"name": "Velociraptor Zombie",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -5767,7 +5787,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Velociraptor%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Velociraptor%20Zombie.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -5791,7 +5811,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 37,
 			"name": "Willow Wilden Sentinel",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5916,7 +5938,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Willow%20Wilden%20Sentinel.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Willow%20Wilden%20Sentinel.png",
 			"senseTags": [
 				"D"
 			],
@@ -5929,6 +5951,14 @@
 			],
 			"miscTags": [
 				"MW"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"L",
+				"P",
+				"T"
 			]
 		},
 		{
@@ -5936,7 +5966,9 @@
 			"sourceSub": "Return of the Lizard King",
 			"page": 36,
 			"name": "Willow Wilden Watcher",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6024,7 +6056,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Willow%20Wilden%20Watcher.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Willow%20Wilden%20Watcher.png",
 			"senseTags": [
 				"D"
 			],
@@ -6037,6 +6069,9 @@
 			],
 			"miscTags": [
 				"MW"
+			],
+			"damageTagsSpell": [
+				"P"
 			]
 		},
 		{
@@ -6044,7 +6079,9 @@
 			"sourceSub": "DDAL-07-01 A City on the Edge",
 			"page": 49,
 			"name": "Yuan-Ti Broodling",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6109,7 +6146,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Yuan-Ti%20Broodling.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Yuan-Ti%20Broodling.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -6137,7 +6174,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 9,
 			"name": "Zealoraptor",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -6203,7 +6242,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Zealoraptor.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Zealoraptor.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -6215,9 +6254,6 @@
 				"P",
 				"S"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -6227,7 +6263,9 @@
 			"sourceSub": "Beasts of the Jungle Rot",
 			"page": 21,
 			"name": "Zealoraptor Zombie",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -6298,7 +6336,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AL/Zealoraptor%20Zombie.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AL/Zealoraptor%20Zombie.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -6312,9 +6350,6 @@
 			"damageTags": [
 				"P",
 				"S"
-			],
-			"conditionInflicted": [
-				"prone"
 			],
 			"conditionInflict": [
 				"prone"

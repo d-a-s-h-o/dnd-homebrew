@@ -9,7 +9,9 @@
 					"Regerem"
 				],
 				"convertedBy": [
-					"Dasho"
+					"zombiekiller 101",
+					"Robo Cathat",
+					"Frost2779"
 				],
 				"version": "2.0",
 				"url": "https://www.reddit.com/r/UnearthedArcana/comments/cganux/book_of_beautiful_horrors_v20_200_pages_of/",
@@ -17,7 +19,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 0,
+		"dateLastModified": 1638814545,
 		"internalCopies": [
 			"monsterFluff"
 		]
@@ -76,7 +78,7 @@
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"The eye is cursed: a fact that is revealed only when an identify spell is cast on the eye or you attune to it. Attuning to the eye curses you until you are targeted by the {@spell remove curse} spell or similar magic; extracting the eye\u2014a dangerous operation\u2014fails to end the curse. While cursed, if you have a neutral or good alignment, each long rest you must succeed on a DC 18 Charisma saving throw, suffering from a shortterm madness (p. 259 of the Dungeon Master Manual) on a failed save. If the save fails by 5 or more, you also suffer from a long-term madness. The short-term and long-term madnesses can be ended with the {@spell greater restoration} spell or similar magic."
+						"The eye is cursed: a fact that is revealed only when an identify spell is cast on the eye or you attune to it. Attuning to the eye curses you until you are targeted by the {@spell remove curse} spell or similar magic; extracting the eye a dangerous operation fails to end the curse. While cursed, if you have a neutral or good alignment, each long rest you must succeed on a DC 18 Charisma saving throw, suffering from a shortterm madness (p. 259 of the Dungeon Master Manual) on a failed save. If the save fails by 5 or more, you also suffer from a long-term madness. The short-term and long-term madnesses can be ended with the {@spell greater restoration} spell or similar magic."
 					]
 				}
 			],
@@ -386,6 +388,7 @@
 			"inherits": {
 				"rarity": "very rare",
 				"source": "BoBH",
+				"page": 0,
 				"nameSuffix": "Warp Blade",
 				"reqAttune": true,
 				"curse": true,
@@ -397,22 +400,6 @@
 						"type": "entries",
 						"entries": [
 							"Curse. If the sword isn't used to infect a creature with the Warp Touch within 1 minute of being drawn from its scabbard, its wielder must make a DC 15 Charisma saving throw. On a successful save, the wielder take  {@dice 3d6} psychic damage. On a failed save, the wielder is dominated by the sword, as if by the dominate monster spell, and the sword demands that it is used to spread the Warp Touch. The spell effect ends when the sword's demand is met."
-						]
-					}
-				],
-				"modifier": [
-					{
-						"_category": "bonus",
-						"__text": "melee attacks +2",
-						"toString": [
-							null
-						]
-					},
-					{
-						"_category": "bonus",
-						"__text": "melee damage +2",
-						"toString": [
-							null
 						]
 					}
 				],
@@ -431,6 +418,7 @@
 			"inherits": {
 				"rarity": "rare",
 				"source": "BoBH",
+				"page": 0,
 				"reqAttune": true,
 				"entries": [
 					"Oathblades are mystic silver swords that appeared in past eras, floating above the waters of the moonwells, a gift from the goddess in times of need. Each Oathblade is unique, once gifted to defeat a particular foe. An oathblade is a silvered magic weapon.",
@@ -450,6 +438,7 @@
 			"inherits": {
 				"rarity": "rare",
 				"source": "BoBH",
+				"page": 0,
 				"reqAttune": true,
 				"entries": [
 					"Oathblades are mystic silver swords that appeared in past eras, floating above the waters of the moonwells, a gift from the goddess in times of need. Each Oathblade is unique, once gifted to defeat a particular foe. An oathblade is a silvered magic weapon.",
@@ -469,6 +458,7 @@
 			"inherits": {
 				"rarity": "rare",
 				"source": "BoBH",
+				"page": 0,
 				"reqAttune": true,
 				"entries": [
 					"Oathblades are mystic silver swords that appeared in past eras, floating above the waters of the moonwells, a gift from the goddess in times of need. Each Oathblade is unique, once gifted to defeat a particular foe. An oathblade is a silvered magic weapon.",
@@ -489,6 +479,7 @@
 			"inherits": {
 				"rarity": "rare",
 				"source": "BoBH",
+				"page": 0,
 				"reqAttune": true,
 				"entries": [
 					"Oathblades are mystic silver swords that appeared in past eras, floating above the waters of the moonwells, a gift from the goddess in times of need. Each Oathblade is unique, once gifted to defeat a particular foe. An oathblade is a silvered magic weapon.",
@@ -508,6 +499,7 @@
 			"inherits": {
 				"rarity": "rare",
 				"source": "BoBH",
+				"page": 0,
 				"reqAttune": true,
 				"entries": [
 					"Oathblades are mystic silver swords that appeared in past eras, floating above the waters of the moonwells, a gift from the goddess in times of need. Each Oathblade is unique, once gifted to defeat a particular foe. An oathblade is a silvered magic weapon.",
@@ -527,6 +519,7 @@
 			"inherits": {
 				"rarity": "very rare",
 				"source": "BoBH",
+				"page": 0,
 				"reqAttune": true,
 				"entries": [
 					"Oathblades are mystic silver swords that appeared in past eras, floating above the waters of the moonwells, a gift from the goddess in times of need. Each Oathblade is unique, once gifted to defeat a particular foe. An oathblade is a silvered magic weapon.",
@@ -550,6 +543,7 @@
 			"inherits": {
 				"rarity": "unknown",
 				"source": "BoBH",
+				"page": 0,
 				"namePrefix": "Deep Lead "
 			}
 		},
@@ -572,6 +566,7 @@
 			"inherits": {
 				"rarity": "unknown",
 				"source": "BoBH",
+				"page": 0,
 				"namePrefix": "Deep Lead "
 			}
 		}
@@ -629,15 +624,15 @@
 					],
 					"rows": [
 						[
-							"1\u20133",
+							"1-3",
 							"The character has disadvantage on Wisdom saving throws and on Dexterity checks for initiative, and gains the following flaw:\"I could simply lay down and rest, the world can take care of itself, and I'm so very tired.\""
 						],
 						[
-							"4\u20135",
+							"4-5",
 							"The character can't take the Help action, can't use reactions and gains the following flaw: \"I periodically slip into a catatonic state, staring off into the distance for long stretches of time, remembering the ones I lost.\""
 						],
 						[
-							"6\u20136",
+							"6-6",
 							"Whenever the character reduces a hostile creature to 0 hit points it must keep attacking it until the creature is dead and gains the following flaw: \"My hatred consumes me. The world took everything from me and I want to hurt it back.\""
 						]
 					]
@@ -817,7 +812,7 @@
 					"type": "list",
 					"items": [
 						"The satyr chooses one beast of challenge rating 2 or lower and conjures it. This beast looks like a translucent being made of amber, but still generally resembles the creature it is imitating. Otherwise, the summoned beast appears in an unoccupied space within 60 feet of the satyr and acts as an ally of the satyr. It remains until initiative count 20 on the next round, until the satyr dies, or until the satyr dismisses it as an action.",
-						"One creature the satyr can see within 120 feet of him must succeed on a DC 15 Dexterity saving throw or be enclosed by a golden cocoon of shimmering energy. Nothing\u2014not physical objects, energy, or other spell effects\u2014can pass through the barrier, in or out, though a creature in the cocoon can breathe there. The cocoon is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the cocoon damage anything outside it. The effect ends on initiative count 20 on the next round.",
+						"One creature the satyr can see within 120 feet of him must succeed on a DC 15 Dexterity saving throw or be enclosed by a golden cocoon of shimmering energy. Nothing not physical objects, energy, or other spell effects can pass through the barrier, in or out, though a creature in the cocoon can breathe there. The cocoon is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the cocoon damage anything outside it. The effect ends on initiative count 20 on the next round.",
 						"A host of golden fey spirits fills a 10-foot-radius sphere centered on a point the satyr chooses within 60 feet of him. The host spreads around corners and remains until the satyr dismisses it as an action, uses this lair action again, or dies. The host lightly obscures its area. Any hostile creature that moves to a space within 10 feet of the host for the first time on a turn or start its turn there makes a DC 15 Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. Any ally creature that moves into the host's space for the first time on a turn or start its turn there regains 20 hits points. The host can't heal constructs or undead."
 					]
 				}
@@ -1105,7 +1100,9 @@
 					}
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -1204,7 +1201,11 @@
 			],
 			"resist": [
 				"cold"
-			]
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			}
 		},
 		{
 			"name": "Waelen",
@@ -1224,14 +1225,12 @@
 					}
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
-			"traitTags": [
-				"Skill Proficiency",
-				"Spellcasting"
-			],
 			"entries": [
 				"At first glance nothing really sets apart a Waelen from another human, however their legacy reveals itself through their strange abilities and quirks.",
 				{
@@ -1394,7 +1393,11 @@
 					},
 					"ability": "cha"
 				}
-			]
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			}
 		}
 	],
 	"monster": [
@@ -1402,7 +1405,9 @@
 			"source": "BoBH",
 			"name": "Botchling",
 			"tokenUrl": "https://i.imgur.com/YdTrJnk.png",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -1484,11 +1489,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"unconscious",
-				"stunned",
-				"exhaustion"
-			],
 			"conditionInflict": [
 				"unconscious",
 				"stunned",
@@ -1499,7 +1499,9 @@
 			"source": "BoBH",
 			"name": "Lubberkin",
 			"tokenUrl": "https://i.imgur.com/ELuaA8x.png",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -1615,7 +1617,9 @@
 			"source": "BoBH",
 			"name": "Myling",
 			"tokenUrl": "https://i.imgur.com/ELuaA8x.png",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -1741,10 +1745,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"charmed",
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"charmed",
 				"incapacitated"
@@ -1758,7 +1758,9 @@
 				"name": "Crone",
 				"source": "BoBH"
 			},
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -1945,7 +1947,7 @@
 						{
 							"name": "Uncanny Strength",
 							"entries": [
-								"The crone melee attacks score a critical hit on a roll of 18\u201320. A creature taking damage from the attack suffers from a Lingering Injury (See p. 272 of the Dungeon Master's Guide)."
+								"The crone melee attacks score a critical hit on a roll of 18-20. A creature taking damage from the attack suffers from a Lingering Injury (See p. 272 of the Dungeon Master's Guide)."
 							]
 						},
 						{
@@ -2083,10 +2085,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"blinded",
-				"deafened"
-			],
 			"conditionInflict": [
 				"blinded",
 				"deafened"
@@ -2096,7 +2094,9 @@
 			"source": "BoBH",
 			"name": "Drowner",
 			"tokenUrl": "https://i.imgur.com/QsN4cnZ.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -2120,6 +2120,7 @@
 			"int": 5,
 			"wis": 10,
 			"cha": 6,
+			"passive": null,
 			"skill": {
 				"stealth": "+4"
 			},
@@ -2183,10 +2184,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"restrained",
-				"prone"
-			],
 			"conditionInflict": [
 				"restrained",
 				"prone"
@@ -2196,7 +2193,9 @@
 			"source": "BoBH",
 			"name": "Drowned Dead",
 			"tokenUrl": "https://i.imgur.com/QsN4cnZ.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -2225,6 +2224,7 @@
 			"int": 8,
 			"wis": 13,
 			"cha": 10,
+			"passive": null,
 			"skill": {
 				"perception": "+3",
 				"stealth": "+5"
@@ -2302,9 +2302,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"restrained"
-			],
 			"conditionInflict": [
 				"restrained"
 			]
@@ -2317,7 +2314,9 @@
 				"name": "Vale of Tears",
 				"source": "BoBH"
 			},
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"N"
@@ -2498,12 +2497,6 @@
 				"I",
 				"S"
 			],
-			"conditionInflicted": [
-				"poisoned",
-				"frightened",
-				"prone",
-				"blinded"
-			],
 			"conditionInflict": [
 				"poisoned",
 				"frightened",
@@ -2512,6 +2505,9 @@
 			],
 			"conditionInflictSpell": [
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"P"
 			]
 		},
 		{
@@ -2522,7 +2518,9 @@
 				"name": "Spriggan",
 				"source": "BoBH"
 			},
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -2722,15 +2720,17 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			],
 			"conditionInflictSpell": [
 				"restrained",
 				"charmed"
+			],
+			"damageTagsSpell": [
+				"N",
+				"P",
+				"R"
 			]
 		},
 		{
@@ -2741,7 +2741,9 @@
 				"name": "Green Enchantress",
 				"source": "BoBH"
 			},
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"N"
@@ -2934,11 +2936,6 @@
 				"A",
 				"F"
 			],
-			"conditionInflicted": [
-				"unconscious",
-				"stunned",
-				"poisoned"
-			],
 			"conditionInflict": [
 				"unconscious",
 				"stunned",
@@ -2948,13 +2945,20 @@
 				"blinded",
 				"charmed",
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"N",
+				"R",
+				"Y"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Foglet",
 			"tokenUrl": "https://i.imgur.com/mFyCsnj.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -3090,7 +3094,9 @@
 				"name": "Ignis Fatuus",
 				"source": "BoBH"
 			},
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -3236,13 +3242,18 @@
 			},
 			"languageTags": [
 				"LF"
+			],
+			"damageTagsSpell": [
+				"I"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Bone Ghast",
 			"tokenUrl": "https://i.imgur.com/VPtt1Kc.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -3354,10 +3365,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"paralyzed",
-				"stunned"
-			],
 			"conditionInflict": [
 				"paralyzed",
 				"stunned"
@@ -3367,7 +3374,9 @@
 			"source": "BoBH",
 			"name": "Crypt Horror",
 			"tokenUrl": "https://i.imgur.com/RoJdnMr.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -3492,11 +3501,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"paralyzed",
-				"prone",
-				"frightened"
-			],
 			"conditionInflict": [
 				"paralyzed",
 				"prone",
@@ -3511,7 +3515,9 @@
 				"name": "Ghoul Regent",
 				"source": "BoBH"
 			},
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -3683,22 +3689,24 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"paralyzed"
-			],
 			"conditionInflict": [
 				"paralyzed"
 			],
 			"conditionInflictSpell": [
 				"frightened",
 				"unconscious"
+			],
+			"damageTagsSpell": [
+				"N"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Ghoul Skulker",
 			"tokenUrl": "https://i.imgur.com/pN4QTTK.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -3818,10 +3826,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"paralyzed",
-				"poisoned"
-			],
 			"conditionInflict": [
 				"paralyzed",
 				"poisoned"
@@ -3835,7 +3839,9 @@
 				"name": "Godling",
 				"source": "BoBH"
 			},
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -3975,21 +3981,23 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"charmed"
-			],
 			"conditionInflict": [
 				"charmed"
 			],
 			"conditionInflictSpell": [
 				"prone"
+			],
+			"damageTagsSpell": [
+				"B"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Grave Hag",
 			"tokenUrl": "https://i.imgur.com/ZDKgM9j.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fiend",
 			"alignment": [
 				"L",
@@ -4140,17 +4148,22 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
+			"conditionInflict": [
 				"blinded",
 				"paralyzed",
 				"poisoned"
+			],
+			"damageTagsSpell": [
+				"N"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Great Cockatrice",
 			"tokenUrl": "https://i.imgur.com/n5C65fP.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -4259,11 +4272,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"petrified",
-				"restrained",
-				"paralyzed"
-			],
 			"conditionInflict": [
 				"petrified",
 				"restrained",
@@ -4274,7 +4282,9 @@
 			"source": "BoBH",
 			"name": "Griffin",
 			"tokenUrl": "https://i.imgur.com/CYxEEdG.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -4388,11 +4398,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"stunned"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -4403,7 +4408,9 @@
 			"source": "BoBH",
 			"name": "Royal Griffin",
 			"tokenUrl": "https://i.imgur.com/cTUSYx0.png",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -4545,12 +4552,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"stunned",
-				"charmed"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -4562,7 +4563,9 @@
 			"source": "BoBH",
 			"name": "Kikimore Hatchling",
 			"tokenUrl": "https://i.imgur.com/IyAhUdB.png",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -4584,6 +4587,7 @@
 			"int": 2,
 			"wis": 10,
 			"cha": 4,
+			"passive": null,
 			"vulnerable": [
 				"fire"
 			],
@@ -4646,7 +4650,9 @@
 			"source": "BoBH",
 			"name": "Kikimore Worker",
 			"tokenUrl": "https://i.imgur.com/IyAhUdB.png",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -4684,6 +4690,7 @@
 				"tremorsense 30 ft.",
 				"passive"
 			],
+			"passive": null,
 			"cr": "1/2",
 			"trait": [
 				{
@@ -4733,9 +4740,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -4744,7 +4748,9 @@
 			"source": "BoBH",
 			"name": "Kikimore Swarm",
 			"tokenUrl": "https://i.imgur.com/DgV2prW.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "swarm of small monstrosities",
 			"alignment": [
 				"U"
@@ -4794,6 +4800,7 @@
 				"tremorsense 30 ft.",
 				"passive"
 			],
+			"passive": null,
 			"cr": "3",
 			"trait": [
 				{
@@ -4834,9 +4841,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -4845,7 +4849,9 @@
 			"source": "BoBH",
 			"name": "Kikimore Warrior",
 			"tokenUrl": "https://i.imgur.com/IyAhUdB.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -4884,6 +4890,7 @@
 				"tremorsense 30 ft.",
 				"passive"
 			],
+			"passive": null,
 			"cr": "4",
 			"trait": [
 				{
@@ -4938,10 +4945,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"poisoned",
-				"charmed"
-			],
 			"conditionInflict": [
 				"poisoned",
 				"charmed"
@@ -4955,7 +4958,9 @@
 				"name": "Kikimore Queen",
 				"source": "BoBH"
 			},
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -4982,6 +4987,7 @@
 			"int": 4,
 			"wis": 17,
 			"cha": 5,
+			"passive": null,
 			"save": {
 				"str": "+9",
 				"con": "+8"
@@ -5081,14 +5087,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"blinded",
-				"restrained",
-				"charmed",
-				"frightened",
-				"incapacitated",
-				"poisoned"
-			],
 			"conditionInflict": [
 				"blinded",
 				"restrained",
@@ -5106,7 +5104,9 @@
 				"name": "Leshen",
 				"source": "BoBH"
 			},
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fey",
 			"alignment": [
 				"N"
@@ -5283,9 +5283,13 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
+			"conditionInflict": [
 				"grappled",
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"P",
+				"S"
 			]
 		},
 		{
@@ -5296,7 +5300,9 @@
 				"name": "Black Root",
 				"source": "BoBH"
 			},
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fey",
 			"alignment": [
 				"L",
@@ -5451,7 +5457,11 @@
 					"name": "Black Root",
 					"source": "BoBH"
 				}
-			}
+			},
+			"damageTagsSpell": [
+				"I",
+				"N"
+			]
 		},
 		{
 			"source": "BoBH",
@@ -5461,7 +5471,9 @@
 				"name": "Leshen",
 				"source": "BoBH"
 			},
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fey",
 			"alignment": [
 				"N"
@@ -5684,23 +5696,31 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"restrained",
-				"grappled"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled"
 			],
 			"conditionInflictSpell": [
 				"deafened"
+			],
+			"damageTagsSpell": [
+				"A",
+				"B",
+				"C",
+				"L",
+				"O",
+				"P",
+				"S",
+				"T"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Gorebull",
 			"tokenUrl": "https://i.imgur.com/qfmQYAU.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -5821,9 +5841,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -5832,7 +5849,9 @@
 			"source": "BoBH",
 			"name": "Chosen of Baphomet",
 			"tokenUrl": "https://i.imgur.com/L0IS9zb.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fiend",
 			"alignment": [
 				"C",
@@ -5874,7 +5893,8 @@
 				{
 					"resist": [
 						"bludgeoning",
-						"piercing  slashing"
+						"piercing",
+						"slashing"
 					],
 					"note": "from nonmagical weapons",
 					"cond": true
@@ -5974,10 +5994,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"stunned",
-				"prone"
-			],
 			"conditionInflict": [
 				"stunned",
 				"prone"
@@ -5987,7 +6003,9 @@
 			"source": "BoBH",
 			"name": "Chort",
 			"tokenUrl": "https://i.imgur.com/gYqCsrv.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -6107,10 +6125,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"frightened",
-				"prone"
-			],
 			"conditionInflict": [
 				"frightened",
 				"prone"
@@ -6120,7 +6134,9 @@
 			"source": "BoBH",
 			"name": "Morvudd",
 			"tokenUrl": "https://i.imgur.com/yzz9arS.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -6255,12 +6271,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"charmed",
-				"incapacitated",
-				"blinded",
-				"prone"
-			],
 			"conditionInflict": [
 				"charmed",
 				"incapacitated",
@@ -6272,7 +6282,9 @@
 			"source": "BoBH",
 			"name": "Relic Morvudd",
 			"tokenUrl": "https://i.imgur.com/vsRCqkB.png",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -6447,11 +6459,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"charmed",
-				"blinded",
-				"prone"
-			],
 			"conditionInflict": [
 				"charmed",
 				"blinded",
@@ -6462,7 +6469,9 @@
 			"source": "BoBH",
 			"name": "Nekker",
 			"tokenUrl": "https://i.imgur.com/mLeEo9z.png",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -6543,7 +6552,9 @@
 			"source": "BoBH",
 			"name": "Nekker Warrior",
 			"tokenUrl": "https://i.imgur.com/EZGoy6U.png",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -6643,7 +6654,9 @@
 			"source": "BoBH",
 			"name": "Phoocas",
 			"tokenUrl": "https://i.imgur.com/HRJrQWV.png",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -6747,9 +6760,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			]
@@ -6762,7 +6772,9 @@
 				"name": "Thornheart",
 				"source": "BoBH"
 			},
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -6902,9 +6914,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -6913,7 +6922,9 @@
 			"source": "BoBH",
 			"name": "Primal Wolf",
 			"tokenUrl": "https://i.imgur.com/pYqOqYp.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fey",
 			"alignment": [
 				"U"
@@ -6945,7 +6956,7 @@
 			],
 			"skill": {
 				"perception": "+4",
-				"sneak": "+5"
+				"stealth": "+5"
 			},
 			"passive": 14,
 			"languages": [
@@ -7010,10 +7021,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone",
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"prone",
 				"incapacitated"
@@ -7023,7 +7030,9 @@
 			"source": "BoBH",
 			"name": "Primal Bear",
 			"tokenUrl": "https://i.imgur.com/yobcrqQ.png",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "fey",
 			"alignment": [
 				"U"
@@ -7124,7 +7133,9 @@
 			"source": "BoBH",
 			"name": "Primal Murder of Crows",
 			"tokenUrl": "https://i.imgur.com/9DWy0xv.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "swarm of small feys",
 			"alignment": [
 				"U"
@@ -7200,9 +7211,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"blinded"
-			],
 			"conditionInflict": [
 				"blinded"
 			]
@@ -7211,7 +7219,9 @@
 			"source": "BoBH",
 			"name": "Rotfiend",
 			"tokenUrl": "https://i.imgur.com/OJnwURi.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -7300,9 +7310,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -7311,7 +7318,9 @@
 			"source": "BoBH",
 			"name": "Rotfiend Devourer",
 			"tokenUrl": "https://i.imgur.com/QIH3FVD.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -7412,9 +7421,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -7423,7 +7429,9 @@
 			"source": "BoBH",
 			"name": "Scurver",
 			"tokenUrl": "https://i.imgur.com/HLqp8jS.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -7537,7 +7545,9 @@
 				"name": "Amber Father",
 				"source": "BoBH"
 			},
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -7648,6 +7658,7 @@
 				}
 			],
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -7675,11 +7686,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone",
-				"blinded",
-				"unconscious"
-			],
 			"conditionInflict": [
 				"prone",
 				"blinded",
@@ -7694,7 +7700,9 @@
 				"name": "Bonfire King",
 				"source": "BoBH"
 			},
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fey",
 				"tags": [
@@ -7894,11 +7902,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone",
-				"frightened",
-				"charmed"
-			],
 			"conditionInflict": [
 				"prone",
 				"frightened",
@@ -7906,13 +7909,18 @@
 			],
 			"conditionInflictSpell": [
 				"blinded"
+			],
+			"damageTagsSpell": [
+				"F"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Faun",
 			"tokenUrl": "https://i.imgur.com/vLDJrsf.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -8024,9 +8032,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -8035,7 +8040,9 @@
 			"source": "BoBH",
 			"name": "Leanan",
 			"tokenUrl": "https://i.imgur.com/qWcQ7gv.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				{
@@ -8195,11 +8202,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone",
-				"charmed",
-				"stunned"
-			],
 			"conditionInflict": [
 				"prone",
 				"charmed",
@@ -8210,7 +8212,9 @@
 			"source": "BoBH",
 			"name": "Siren",
 			"tokenUrl": "https://i.imgur.com/v4Llvm9.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -8308,7 +8312,9 @@
 			"source": "BoBH",
 			"name": "Ekhidna",
 			"tokenUrl": "https://i.imgur.com/SqJOk1O.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -8418,11 +8424,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"stunned"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -8437,7 +8438,9 @@
 				"name": "Melusina",
 				"source": "BoBH"
 			},
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"L",
@@ -8627,10 +8630,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -8638,13 +8637,18 @@
 			"conditionInflictSpell": [
 				"prone",
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"B"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Alp",
 			"tokenUrl": "https://i.imgur.com/W82clGF.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -8801,7 +8805,8 @@
 				"Multiattack"
 			],
 			"traitTags": [
-				"Shapechanger"
+				"Shapechanger",
+				"Sunlight Sensitivity"
 			],
 			"senseTags": [
 				"D"
@@ -8828,9 +8833,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			],
@@ -8838,6 +8840,9 @@
 				"charmed",
 				"incapacitated",
 				"unconscious"
+			],
+			"damageTagsSpell": [
+				"Y"
 			]
 		},
 		{
@@ -8848,7 +8853,9 @@
 				"name": "Night Mother",
 				"source": "BoBH"
 			},
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -9053,7 +9060,8 @@
 			],
 			"traitTags": [
 				"Regeneration",
-				"Shapechanger"
+				"Shapechanger",
+				"Sunlight Sensitivity"
 			],
 			"senseTags": [
 				"D"
@@ -9081,11 +9089,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"paralyzed",
-				"blinded",
-				"charmed"
-			],
 			"conditionInflict": [
 				"paralyzed",
 				"blinded",
@@ -9101,7 +9104,9 @@
 			"source": "BoBH",
 			"name": "Ekimmara",
 			"tokenUrl": "https://i.imgur.com/zop76vz.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -9154,6 +9159,7 @@
 				"darkvision 120ft.",
 				"passive"
 			],
+			"passive": null,
 			"languages": [
 				"understands Common but can't speak"
 			],
@@ -9274,10 +9280,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"incapacitated",
-				"frightened"
-			],
 			"conditionInflict": [
 				"incapacitated",
 				"frightened"
@@ -9287,7 +9289,9 @@
 			"source": "BoBH",
 			"name": "Fleder",
 			"tokenUrl": "https://i.imgur.com/SIobKjU.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -9407,10 +9411,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone",
-				"stunned"
-			],
 			"conditionInflict": [
 				"prone",
 				"stunned"
@@ -9420,7 +9420,9 @@
 			"source": "BoBH",
 			"name": "Protofleder",
 			"tokenUrl": "https://i.imgur.com/SIobKjU.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -9546,11 +9548,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"incapacitated",
-				"prone",
-				"stunned"
-			],
 			"conditionInflict": [
 				"incapacitated",
 				"prone",
@@ -9561,7 +9558,9 @@
 			"source": "BoBH",
 			"name": "Garkain",
 			"tokenUrl": "https://i.imgur.com/blN3Ace.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -9677,9 +9676,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -9687,7 +9683,9 @@
 		{
 			"source": "BoBH",
 			"name": "Alpha Garkain",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -9817,10 +9815,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"stunned",
-				"poisoned"
-			],
 			"conditionInflict": [
 				"stunned",
 				"poisoned"
@@ -9830,7 +9824,9 @@
 			"source": "BoBH",
 			"name": "Higher Vampire",
 			"tokenUrl": "https://i.imgur.com/3LQGTmX.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -10152,7 +10148,8 @@
 				"Legendary Resistances",
 				"Regeneration",
 				"Rejuvenation",
-				"Shapechanger"
+				"Shapechanger",
+				"Sunlight Sensitivity"
 			],
 			"senseTags": [
 				"B"
@@ -10177,11 +10174,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"frightened",
-				"prone",
-				"restrained"
-			],
 			"conditionInflict": [
 				"frightened",
 				"prone",
@@ -10192,7 +10184,9 @@
 			"source": "BoBH",
 			"name": "Katakan",
 			"tokenUrl": "https://i.imgur.com/2imT6id.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -10251,7 +10245,7 @@
 			"conditionImmune": [
 				"frightened"
 			],
-			"passive": 23,
+			"passive": null,
 			"senses": [
 				"blindsight 120ft.",
 				"darkvision 120ft.",
@@ -10403,7 +10397,8 @@
 			],
 			"traitTags": [
 				"Regeneration",
-				"Shapechanger"
+				"Shapechanger",
+				"Sunlight Sensitivity"
 			],
 			"senseTags": [
 				"B",
@@ -10428,9 +10423,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -10439,7 +10431,9 @@
 			"source": "BoBH",
 			"name": "Mula",
 			"tokenUrl": "https://i.imgur.com/yw0zTIK.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -10575,7 +10569,8 @@
 			"traitTags": [
 				"Regeneration",
 				"Rejuvenation",
-				"Shapechanger"
+				"Shapechanger",
+				"Sunlight Sensitivity"
 			],
 			"senseTags": [
 				"D"
@@ -10598,9 +10593,6 @@
 			"languageTags": [
 				"LF"
 			],
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
 			]
@@ -10609,7 +10601,9 @@
 			"source": "BoBH",
 			"name": "Vargheist",
 			"tokenUrl": "https://i.imgur.com/gebgMzH.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -10749,7 +10743,8 @@
 			"damageTags": [
 				"S",
 				"P",
-				"N"
+				"N",
+				"R"
 			],
 			"miscTags": [
 				"MW"
@@ -10760,11 +10755,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone",
-				"stunned",
-				"frightened"
-			],
 			"conditionInflict": [
 				"prone",
 				"stunned",
@@ -10774,7 +10764,9 @@
 		{
 			"source": "BoBH",
 			"name": "Varghulf",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -10906,6 +10898,7 @@
 			"damageTags": [
 				"S",
 				"P",
+				"R",
 				"N"
 			],
 			"miscTags": [
@@ -10918,10 +10911,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"restrained",
-				"grappled"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled"
@@ -10931,7 +10920,9 @@
 			"source": "BoBH",
 			"name": "Warp Spawn",
 			"tokenUrl": "https://i.imgur.com/m45zoKB.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -11082,9 +11073,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
 			]
@@ -11093,7 +11081,9 @@
 			"source": "BoBH",
 			"name": "Balewing",
 			"tokenUrl": "https://i.imgur.com/6ioSj63.png",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -11212,6 +11202,7 @@
 				}
 			],
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -11248,7 +11239,9 @@
 			"source": "BoBH",
 			"name": "Dluur",
 			"tokenUrl": "https://i.imgur.com/N8dUbB3.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -11366,10 +11359,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"stunned",
-				"charmed"
-			],
 			"conditionInflict": [
 				"stunned",
 				"charmed"
@@ -11383,7 +11372,9 @@
 				"name": "Dolgotha",
 				"source": "BoBH"
 			},
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -11510,19 +11501,16 @@
 					"entries": [
 						"Some legendary albino dolgothas, known as pale ones, have a strong connection to the Far Realm. A pale one with an Intelligence of 14 (+2) and a telepathy of 120 ft. has a challenge rating of 16 (15,000 XP) and the following additional action option:",
 						{
-							"reaction": [
-								{
-									"name": "Psychic Backslash",
-									"entries": [
-										"Immediately after a creature casts an illusion or enchantment spell that targets the dolgotha or includes it in its area of effect, the dolgotha can use its reaction to absorb the magic of the spell, cancelling its effect. Additionally, the creature that casted the spell must succeed on a DC 19 Wisdom saving throw or take {@dice 1d8} psychic damage per level of the spell slot absorbed."
-									]
-								}
+							"name": "Psychic Backslash",
+							"entries": [
+								"Immediately after a creature casts an illusion or enchantment spell that targets the dolgotha or includes it in its area of effect, the dolgotha can use its reaction to absorb the magic of the spell, cancelling its effect. Additionally, the creature that casted the spell must succeed on a DC 19 Wisdom saving throw or take {@dice 1d8} psychic damage per level of the spell slot absorbed."
 							]
 						}
 					]
 				}
 			],
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -11552,9 +11540,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -11563,7 +11548,9 @@
 			"source": "BoBH",
 			"name": "Uhogguath",
 			"tokenUrl": "https://i.imgur.com/83yU4yg.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -11684,13 +11671,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"poisoned",
-				"paralyzed",
-				"stunned",
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"poisoned",
 				"paralyzed",
@@ -11707,7 +11687,9 @@
 				"name": "Ulfhedinn",
 				"source": "BoBH"
 			},
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -11751,7 +11733,7 @@
 					"immune": [
 						"bludgeoning",
 						"piercing",
-						"slashing damage"
+						"slashing"
 					],
 					"note": "from nonmagical weapons that aren't silvered.",
 					"cond": true
@@ -11875,10 +11857,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone",
-				"charmed"
-			],
 			"conditionInflict": [
 				"prone",
 				"charmed"
@@ -11888,7 +11866,9 @@
 			"source": "BoBH",
 			"name": "Voref",
 			"tokenUrl": "https://i.imgur.com/tozoKV1.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11938,7 +11918,7 @@
 					"immune": [
 						"bludgeoning",
 						"piercing",
-						"slashing damage"
+						"slashing"
 					],
 					"note": "from nonmagical weapons that aren't silvered.",
 					"cond": true
@@ -12052,7 +12032,9 @@
 				"name": "Spectral Hunt",
 				"source": "BoBH"
 			},
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "construct",
 			"alignment": [
 				"C",
@@ -12082,6 +12064,7 @@
 			"int": 3,
 			"wis": 3,
 			"cha": 16,
+			"passive": null,
 			"save": {
 				"con": "+11",
 				"wis": "+0"
@@ -12187,6 +12170,10 @@
 			"conditionInflictSpell": [
 				"frightened",
 				"prone"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C"
 			]
 		},
 		{
@@ -12197,7 +12184,9 @@
 				"name": "Spectral Hunt",
 				"source": "BoBH"
 			},
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "swarm of medium fey",
 			"alignment": [
 				"L",
@@ -12229,7 +12218,8 @@
 				{
 					"resist": [
 						"bludgeoning",
-						"piercing  slashing"
+						"piercing",
+						"slashing"
 					],
 					"note": "from nonmagical weapons",
 					"cond": true
@@ -12312,9 +12302,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"unconscious"
-			],
 			"conditionInflict": [
 				"unconscious"
 			]
@@ -12327,7 +12314,9 @@
 				"name": "Spectral Hunt",
 				"source": "BoBH"
 			},
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "swarm of medium fey",
 			"alignment": [
 				"L",
@@ -12363,7 +12352,8 @@
 				{
 					"resist": [
 						"bludgeoning",
-						"piercing  slashing"
+						"piercing",
+						"slashing"
 					],
 					"note": "from nonmagical weapons",
 					"cond": true
@@ -12490,11 +12480,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"unconscious",
-				"prone",
-				"petrified"
-			],
 			"conditionInflict": [
 				"unconscious",
 				"prone",
@@ -12509,7 +12494,9 @@
 				"name": "Spectral Hunt",
 				"source": "BoBH"
 			},
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fey",
 			"alignment": [
 				"L",
@@ -12547,7 +12534,8 @@
 				{
 					"resist": [
 						"bludgeoning",
-						"piercing  slashing"
+						"piercing",
+						"slashing"
 					],
 					"note": "from nonmagical weapons",
 					"cond": true
@@ -12680,7 +12668,9 @@
 			"source": "BoBH",
 			"name": "Easnadh Huntsman",
 			"tokenUrl": "https://i.imgur.com/Rv6dv9N.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"L",
@@ -12848,7 +12838,9 @@
 			"source": "BoBH",
 			"name": "King of the Wild Hunt",
 			"tokenUrl": "https://i.imgur.com/JVzI1WY.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"L",
@@ -13051,16 +13043,21 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
+			"conditionInflict": [
 				"frightened",
 				"incapacitated"
+			],
+			"damageTagsSpell": [
+				"C"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Navigator",
 			"tokenUrl": "https://i.imgur.com/67eLivf.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"L",
@@ -13260,13 +13257,20 @@
 					"name": "Navigator",
 					"source": "BoBH"
 				}
-			}
+			},
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"O"
+			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Red Rider",
 			"tokenUrl": "https://i.imgur.com/GSbYhLX.pngspe",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"L",
@@ -13330,8 +13334,7 @@
 				"Sylvan"
 			],
 			"cr": {
-				"cr": "9",
-				"honor guard": "11"
+				"cr": "9 (11 with honor guard)"
 			},
 			"trait": [
 				{
@@ -13463,6 +13466,17 @@
 			"conditionInflictSpell": [
 				"prone",
 				"charmed"
+			],
+			"damageTagsSpell": [
+				"A",
+				"B",
+				"C",
+				"F",
+				"L",
+				"N",
+				"R",
+				"T",
+				"Y"
 			]
 		},
 		{
@@ -13473,7 +13487,9 @@
 				"name": "Tormentor",
 				"source": "BoBH"
 			},
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"L",
@@ -13654,11 +13670,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"frightened"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -13667,13 +13678,18 @@
 			"conditionInflictSpell": [
 				"frightened",
 				"charmed"
+			],
+			"damageTagsSpell": [
+				"Y"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Wild Hunt General",
 			"tokenUrl": "https://i.imgur.com/A8zUZxJ.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"L",
@@ -13836,11 +13852,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"stunned",
-				"prone",
-				"frightened"
-			],
 			"conditionInflict": [
 				"stunned",
 				"prone",
@@ -13850,13 +13861,22 @@
 				"frightened",
 				"incapacitated",
 				"prone"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R",
+				"T",
+				"Y"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Wild Hunt Warrior",
 			"tokenUrl": "https://i.imgur.com/EgqtVPZ.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"L",
@@ -13919,8 +13939,7 @@
 				"Sylvan"
 			],
 			"cr": {
-				"cr": "3",
-				"honor guard": "5"
+				"cr": "3 (5 with honor guard)"
 			},
 			"trait": [
 				{
@@ -14048,13 +14067,24 @@
 					"name": "Wild Hunt Warrior",
 					"source": "BoBH"
 				}
-			}
+			},
+			"damageTagsSpell": [
+				"A",
+				"B",
+				"C",
+				"F",
+				"L",
+				"T",
+				"Y"
+			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Hound of the Wild Hunt",
 			"tokenUrl": "https://i.imgur.com/XnAyA5h.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"L",
@@ -14160,7 +14190,9 @@
 			"source": "BoBH",
 			"name": "Ice Wraith",
 			"tokenUrl": "https://i.imgur.com/weQgcoK.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"C",
@@ -14285,7 +14317,9 @@
 			"source": "BoBH",
 			"name": "Jörmungandr",
 			"tokenUrl": "https://i.imgur.com/zSAuZuu.png",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "elemental",
 			"alignment": [
 				"C",
@@ -14414,9 +14448,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			]
@@ -14425,7 +14456,9 @@
 			"source": "BoBH",
 			"name": "White Frost Elemental",
 			"tokenUrl": "https://i.imgur.com/OH1dwSW.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"L",
@@ -14554,7 +14587,9 @@
 			"source": "BoBH",
 			"name": "Permafrost Elemental",
 			"tokenUrl": "https://i.imgur.com/z0KjdgW.png",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"L",
@@ -14728,7 +14763,9 @@
 				"name": "Arch-wraith",
 				"source": "BoBH"
 			},
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -14772,7 +14809,8 @@
 				{
 					"immune": [
 						"bludgeoning",
-						"piercing  slashing"
+						"piercing",
+						"slashing"
 					],
 					"note": "from nonmagical weapons",
 					"cond": true
@@ -14909,7 +14947,9 @@
 				"name": "Cenote",
 				"source": "BoBH"
 			},
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -14952,7 +14992,8 @@
 				{
 					"immune": [
 						"bludgeoning",
-						"piercing  slashing"
+						"piercing",
+						"slashing"
 					],
 					"note": "from nonmagical weapons",
 					"cond": true
@@ -15076,9 +15117,6 @@
 			"languageTags": [
 				"LF"
 			],
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
 			]
@@ -15091,7 +15129,9 @@
 				"name": "Hym",
 				"source": "BoBH"
 			},
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -15276,13 +15316,19 @@
 			"conditionInflictSpell": [
 				"frightened",
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"B",
+				"Y"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Nightwraith",
 			"tokenUrl": "https://i.imgur.com/7Jc5DbL.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -15391,7 +15437,8 @@
 			],
 			"damageTags": [
 				"N",
-				"O"
+				"O",
+				"R"
 			],
 			"miscTags": [
 				"MW"
@@ -15405,10 +15452,6 @@
 			"languageTags": [
 				"LF"
 			],
-			"conditionInflicted": [
-				"charmed",
-				"exhaustion"
-			],
 			"conditionInflict": [
 				"charmed",
 				"exhaustion"
@@ -15418,7 +15461,9 @@
 			"source": "BoBH",
 			"name": "Noonwraith",
 			"tokenUrl": "https://i.imgur.com/7Jc5DbL.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -15541,10 +15586,6 @@
 			"languageTags": [
 				"LF"
 			],
-			"conditionInflicted": [
-				"charmed",
-				"exhaustion"
-			],
 			"conditionInflict": [
 				"charmed",
 				"exhaustion"
@@ -15558,7 +15599,9 @@
 				"name": "Oracula",
 				"source": "BoBH"
 			},
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -15714,9 +15757,6 @@
 			"languageTags": [
 				"LF"
 			],
-			"conditionInflicted": [
-				"blinded"
-			],
 			"conditionInflict": [
 				"blinded"
 			]
@@ -15729,7 +15769,9 @@
 				"name": "Pesta",
 				"source": "BoBH"
 			},
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -15885,18 +15927,20 @@
 			"languageTags": [
 				"LF"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
+			],
+			"actionTags": [
+				"Breath Weapon"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Shade",
 			"tokenUrl": "https://i.imgur.com/IaGPbsr.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -16030,7 +16074,9 @@
 			"source": "BoBH",
 			"name": "Shade Host",
 			"tokenUrl": "https://i.imgur.com/IaGPbsr.png",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "swarm of medium undead",
 			"alignment": [
 				"C",
@@ -16143,7 +16189,8 @@
 			],
 			"damageTags": [
 				"N",
-				"O"
+				"O",
+				"R"
 			],
 			"miscTags": [
 				"MW"
@@ -16157,10 +16204,6 @@
 			"languageTags": [
 				"LF"
 			],
-			"conditionInflicted": [
-				"frightened",
-				"stunned"
-			],
 			"conditionInflict": [
 				"frightened",
 				"stunned"
@@ -16170,7 +16213,9 @@
 			"source": "BoBH",
 			"name": "Bloated Zombie",
 			"tokenUrl": "https://i.imgur.com/WFomppn.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -16265,7 +16310,9 @@
 			"source": "BoBH",
 			"name": "Feral Zombie",
 			"tokenUrl": "https://i.imgur.com/xAudMef.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -16348,7 +16395,9 @@
 			"source": "BoBH",
 			"name": "Horde of Zombies",
 			"tokenUrl": "https://i.imgur.com/2FXS6DT.png",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "swarm of medium undead",
 			"alignment": [
 				"L",
@@ -16459,10 +16508,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"poisoned",
-				"prone"
-			],
 			"conditionInflict": [
 				"poisoned",
 				"prone"
@@ -16472,7 +16517,9 @@
 			"source": "BoBH",
 			"name": "Ravenous Zombie",
 			"tokenUrl": "https://i.imgur.com/FDcZICP.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -16599,7 +16646,9 @@
 			"source": "BoBH",
 			"name": "Shambling Lord",
 			"tokenUrl": "https://i.imgur.com/aiohR5j.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -16760,9 +16809,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"stunned"
-			],
 			"conditionInflict": [
 				"stunned"
 			],
@@ -16777,7 +16823,9 @@
 		{
 			"source": "BoBH",
 			"name": "Mob",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "swarm of medium humanoids",
 			"alignment": [
 				"C",
@@ -16969,7 +17017,8 @@
 			],
 			"damageTags": [
 				"P",
-				"B"
+				"B",
+				"F"
 			],
 			"miscTags": [
 				"RW",
@@ -16981,9 +17030,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"restrained"
-			],
 			"conditionInflict": [
 				"restrained"
 			]
@@ -16991,7 +17037,9 @@
 		{
 			"source": "BoBH",
 			"name": "Riot",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "swarm of medium humanoids",
 			"alignment": [
 				"C",
@@ -17189,7 +17237,8 @@
 			],
 			"damageTags": [
 				"P",
-				"B"
+				"B",
+				"F"
 			],
 			"miscTags": [
 				"RW",
@@ -17201,9 +17250,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"restrained"
-			],
 			"conditionInflict": [
 				"restrained"
 			]
@@ -17211,7 +17257,9 @@
 		{
 			"source": "BoBH",
 			"name": "Uprising",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "swarm of medium humanoids",
 			"alignment": [
 				"C",
@@ -17409,7 +17457,8 @@
 			],
 			"damageTags": [
 				"P",
-				"B"
+				"B",
+				"F"
 			],
 			"miscTags": [
 				"RW",
@@ -17421,9 +17470,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"restrained"
-			],
 			"conditionInflict": [
 				"restrained"
 			]
@@ -17432,7 +17478,9 @@
 			"source": "BoBH",
 			"name": "Northern Berserker",
 			"tokenUrl": "https://i.imgur.com/tfl8F85.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -17462,7 +17510,7 @@
 				"str": "+7"
 			},
 			"skill": {
-				"athletic": "+7",
+				"athletics": "+7",
 				"perception": "+4",
 				"survival": "+4"
 			},
@@ -17561,9 +17609,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
 			]
@@ -17572,7 +17617,9 @@
 			"source": "BoBH",
 			"name": "Clan Warrior",
 			"tokenUrl": "https://i.imgur.com/rrRGnFf.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -17607,7 +17654,7 @@
 				"con": "+5"
 			},
 			"skill": {
-				"athletic": "+5",
+				"athletics": "+5",
 				"perception": "+3",
 				"survival": "+3"
 			},
@@ -17680,9 +17727,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
@@ -17691,7 +17735,9 @@
 			"source": "BoBH",
 			"name": "Huskarl",
 			"tokenUrl": "https://i.imgur.com/8ENTCOs.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -17728,7 +17774,7 @@
 				"wis": "+4"
 			},
 			"skill": {
-				"athletic": "+7",
+				"athletics": "+7",
 				"intimidation": "+4",
 				"perception": "+4"
 			},
@@ -17768,7 +17814,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The huskarl makes either three melee attacks\u2014two with its longsword and one with its spiked shield\u2014or two ranged attacks with its longbow."
+						"The huskarl makes either three melee attacks two with its longsword and one with its spiked shield or two ranged attacks with its longbow."
 					]
 				},
 				{
@@ -17822,9 +17868,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -17833,7 +17876,9 @@
 			"source": "BoBH",
 			"name": "Jarl",
 			"tokenUrl": "https://i.imgur.com/gcA7B8V.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -17871,7 +17916,7 @@
 				"wis": "+7"
 			},
 			"skill": {
-				"athletic": "+10",
+				"athletics": "+10",
 				"intimidation": "+9",
 				"perception": "+7"
 			},
@@ -17976,7 +18021,9 @@
 			"source": "BoBH",
 			"name": "Sea Raider",
 			"tokenUrl": "https://i.imgur.com/yHwkoRP.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -18009,7 +18056,7 @@
 			"wis": 11,
 			"cha": 10,
 			"skill": {
-				"athletic": "+4",
+				"athletics": "+4",
 				"perception": "+2"
 			},
 			"passive": 12,
@@ -18078,7 +18125,9 @@
 			"source": "BoBH",
 			"name": "Shield Maiden",
 			"tokenUrl": "https://i.imgur.com/6RoTAkv.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -18114,8 +18163,8 @@
 				"dex": "+6"
 			},
 			"skill": {
-				"athletic": "+4",
-				"acrobatic": "+6",
+				"athletics": "+4",
+				"acrobatics": "+6",
 				"stealth": "+6"
 			},
 			"passive": 11,
@@ -18191,7 +18240,9 @@
 			"source": "BoBH",
 			"name": "Skald",
 			"tokenUrl": "https://i.imgur.com/EXErv1O.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -18304,9 +18355,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
 			]
@@ -18315,7 +18363,9 @@
 			"source": "BoBH",
 			"name": "Thane",
 			"tokenUrl": "https://i.imgur.com/RYFSCOV.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -18352,7 +18402,7 @@
 				"con": "+9"
 			},
 			"skill": {
-				"athletic": "+10",
+				"athletics": "+10",
 				"intimidation": "+8",
 				"perception": "+7"
 			},
@@ -18470,10 +18520,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"stunned",
-				"prone"
-			],
 			"conditionInflict": [
 				"stunned",
 				"prone"
@@ -18483,7 +18529,9 @@
 			"source": "BoBH",
 			"name": "Valkur's Heir",
 			"tokenUrl": "https://i.imgur.com/KoR9ROl.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -18515,7 +18563,7 @@
 				"con": "+13"
 			},
 			"skill": {
-				"athletic": "+13",
+				"athletics": "+13",
 				"perception": "+8",
 				"survival": "+8"
 			},
@@ -18625,9 +18673,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
 			]
@@ -18636,7 +18681,9 @@
 			"source": "BoBH",
 			"name": "Völva",
 			"tokenUrl": "https://i.imgur.com/4krBW12.png",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -18750,10 +18797,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"frightened",
-				"stunned"
-			],
 			"conditionInflict": [
 				"frightened",
 				"stunned"
@@ -18762,7 +18805,9 @@
 		{
 			"source": "BoBH",
 			"name": "Antler-King",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -18798,7 +18843,7 @@
 				"wis": "+8"
 			},
 			"skill": {
-				"athletics+": "10",
+				"athletics": "+10",
 				"persuasion": "+11",
 				"religion": "+8"
 			},
@@ -18911,19 +18956,18 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"frightened",
-				"charmed"
-			],
 			"conditionInflict": [
 				"frightened",
 				"charmed"
-			]
+			],
+			"tokenUrl": "https://i.imgur.com/StyzH92.png"
 		},
 		{
 			"source": "BoBH",
 			"name": "Druid of the Earthmother",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -19044,12 +19088,18 @@
 					"name": "Druid of the Earthmother",
 					"source": "BoBH"
 				}
-			}
+			},
+			"tokenUrl": "https://i.imgur.com/QXeKjw7.png",
+			"damageTagsSpell": [
+				"A"
+			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Fianna",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -19149,12 +19199,15 @@
 					"name": "Fianna",
 					"source": "BoBH"
 				}
-			}
+			},
+			"tokenUrl": "https://i.imgur.com/Ocf7YK1.png"
 		},
 		{
 			"source": "BoBH",
 			"name": "Islander Levy",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -19246,12 +19299,15 @@
 					"name": "Islander Levy",
 					"source": "BoBH"
 				}
-			}
+			},
+			"tokenUrl": "https://i.imgur.com/tOkq4X6.png"
 		},
 		{
 			"source": "BoBH",
 			"name": "Leathdhia",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -19292,11 +19348,7 @@
 			"passive": 15,
 			"resist": [
 				{
-					"resist": [
-						"damage"
-					],
-					"note": "from spells",
-					"cond": true
+					"special": "damage from spells"
 				},
 				{
 					"resist": [
@@ -19421,17 +19473,17 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"tokenUrl": "https://i.imgur.com/8R7TAPI.png"
 		},
 		{
 			"source": "BoBH",
 			"name": "Macnia",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -19557,12 +19609,15 @@
 					"name": "Macnia",
 					"source": "BoBH"
 				}
-			}
+			},
+			"tokenUrl": "https://i.imgur.com/EaG7XTc.png"
 		},
 		{
 			"source": "BoBH",
 			"name": "Oathbound Noble",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -19667,12 +19722,15 @@
 					"name": "Oathbound Noble",
 					"source": "BoBH"
 				}
-			}
+			},
+			"tokenUrl": "https://i.imgur.com/R8Bf3BF.png"
 		},
 		{
 			"source": "BoBH",
 			"name": "Deepgrove Ranger",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -19787,17 +19845,17 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
-			]
+			],
+			"tokenUrl": "https://i.imgur.com/dUIADaK.png"
 		},
 		{
 			"source": "BoBH",
 			"name": "Red Fury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -19915,17 +19973,17 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
-			]
+			],
+			"tokenUrl": "https://i.imgur.com/sl8944L.png"
 		},
 		{
 			"source": "BoBH",
 			"name": "Woad Druid",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -20113,12 +20171,18 @@
 					"name": "Woad Druid",
 					"source": "BoBH"
 				}
-			}
+			},
+			"tokenUrl": "https://i.imgur.com/U2WznLQ.png",
+			"damageTagsSpell": [
+				"T"
+			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Woad Reaver",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -20265,12 +20329,15 @@
 					"name": "Woad Reaver",
 					"source": "BoBH"
 				}
-			}
+			},
+			"tokenUrl": "https://i.imgur.com/Jv3giez.png"
 		},
 		{
 			"source": "BoBH",
 			"name": "Woad Whaler",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -20433,17 +20500,17 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
-			]
+			],
+			"tokenUrl": "https://i.imgur.com/AKp4our.png"
 		},
 		{
 			"source": "BoBH",
 			"name": "Alkahzir",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"L",
@@ -20603,9 +20670,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"petrified"
-			],
 			"conditionInflict": [
 				"petrified"
 			]
@@ -20613,7 +20677,9 @@
 		{
 			"source": "BoBH",
 			"name": "Destructive Alchemist",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -20746,12 +20812,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"poisoned",
-				"blinded",
-				"unconscious",
-				"restrained"
-			],
 			"conditionInflict": [
 				"poisoned",
 				"blinded",
@@ -20762,7 +20822,9 @@
 		{
 			"source": "BoBH",
 			"name": "Experimenter",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -20928,10 +20990,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"paralyzed",
-				"poisoned"
-			],
 			"conditionInflict": [
 				"paralyzed",
 				"poisoned"
@@ -20940,7 +20998,9 @@
 		{
 			"source": "BoBH",
 			"name": "Golden Magister",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -21094,10 +21154,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"petrified",
-				"restrained"
-			],
 			"conditionInflict": [
 				"petrified",
 				"restrained"
@@ -21106,7 +21162,9 @@
 		{
 			"source": "BoBH",
 			"name": "Balespell Abomination",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -21250,12 +21308,17 @@
 					"name": "Balespell Abomination",
 					"source": "BoBH"
 				}
-			}
+			},
+			"damageTagsSpell": [
+				"R"
+			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Lodestar",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -21400,10 +21463,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -21412,7 +21471,9 @@
 		{
 			"source": "BoBH",
 			"name": "Obscuroth",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -21543,9 +21604,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"stunned"
-			],
 			"conditionInflict": [
 				"stunned"
 			]
@@ -21553,7 +21611,9 @@
 		{
 			"source": "BoBH",
 			"name": "Vozhark",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -21907,12 +21967,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"grappled",
-				"frightened",
-				"stunned",
-				"charmed"
-			],
 			"conditionInflict": [
 				"grappled",
 				"frightened",
@@ -21923,12 +21977,18 @@
 				"restrained",
 				"charmed",
 				"stunned"
+			],
+			"damageTagsSpell": [
+				"O",
+				"Y"
 			]
 		},
 		{
 			"source": "BoBH",
 			"name": "Banisher",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -22055,9 +22115,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -22065,7 +22122,9 @@
 		{
 			"source": "BoBH",
 			"name": "Flagellant",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -22169,7 +22228,9 @@
 		{
 			"source": "BoBH",
 			"name": "Witchfinder General",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -22217,11 +22278,7 @@
 			"passive": 18,
 			"resist": [
 				{
-					"resist": [
-						"damage"
-					],
-					"note": "from spells",
-					"cond": true
+					"special": "damage from spells"
 				}
 			],
 			"languages": [
@@ -22310,11 +22367,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"restrained",
-				"grappled",
-				"frightened"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled",
@@ -22324,7 +22376,9 @@
 		{
 			"source": "BoBH",
 			"name": "Witch Hunter",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -22448,9 +22502,6 @@
 					"source": "BoBH"
 				}
 			},
-			"conditionInflicted": [
-				"stunned"
-			],
 			"conditionInflict": [
 				"stunned"
 			]
@@ -22484,7 +22535,7 @@
 									"type": "entries",
 									"name": "Hunger for Love",
 									"entries": [
-										"The botchling has a feverish hunger for maternal love, a fact that reflects in its feeding habits. A botchling will emerge from its lair at night to lurk by the bedside of an expectant mother, draining her strength and that of her unborn progeny as she sleeps. A woman thus beleaguered first suffers from troubling dreams, then fever, delirium and a general weakening of the flesh. After a few such nights she is enfeebled and unable to defend herself\u2013it is then the botchling attacks directly, sinking its long, sharp fangs into her body and drinking her blood until mother and fetus perish together."
+										"The botchling has a feverish hunger for maternal love, a fact that reflects in its feeding habits. A botchling will emerge from its lair at night to lurk by the bedside of an expectant mother, draining her strength and that of her unborn progeny as she sleeps. A woman thus beleaguered first suffers from troubling dreams, then fever, delirium and a general weakening of the flesh. After a few such nights she is enfeebled and unable to defend herself it is then the botchling attacks directly, sinking its long, sharp fangs into her body and drinking her blood until mother and fetus perish together."
 									]
 								},
 								{
@@ -22596,7 +22647,7 @@
 									"type": "entries",
 									"name": "Life-saving Parricide",
 									"entries": [
-										"A long, long time ago the Mother was sole ruler of all of land. Her daughters brought her the people's requests and served as her voice. Each spring, sacrifices of grain, animals, and men were made to the Lady of the Wood on her special night. Yet as the years passed, the Lady of the Wood slipped deeper and deeper into madness. Her madness eventually spread over the land\u2014men took to abandoning their homes and setting out into the bog, where they became food for beasts. Before long, the land was drowning in blood.",
+										"A long, long time ago the Mother was sole ruler of all of land. Her daughters brought her the people's requests and served as her voice. Each spring, sacrifices of grain, animals, and men were made to the Lady of the Wood on her special night. Yet as the years passed, the Lady of the Wood slipped deeper and deeper into madness. Her madness eventually spread over the land men took to abandoning their homes and setting out into the bog, where they became food for beasts. Before long, the land was drowning in blood.",
 										"The daughters saw their home nearing destruction and took it upon themselves to save it. When spring came once more, and with it the night sacrifices, they killed their mother and buried her into a bog. Her blood watered a mystical oak, and from then on the tree grew wholesome and hearty fruit for the people. As for the Lady's immortal soul, it refused to leave its beloved land, and so the daughters imprisoned it. To this day it lies trapped beneath the earth, where it thrashes about in powerless rage."
 									]
 								},
@@ -22612,7 +22663,7 @@
 									"name": "A Gift from the Ladies",
 									"entries": [
 										"If one listens to tales and stories, you will learn how to plea for help from a crone; such help always comes at a price, but the ladies have the reputation to always keep their word. This is how one begs help from the Ladies:",
-										"{@i Find a child, young and innocent, and search out the Ladies' shrine\u2014that is where the Trail of Treats begins. Set the child off on the trail and it shall follow its sweet track and find the Good Ladies. The child will never want for anything ever again, for the Ladies are kind and generous. Standing before their shrine, pronounce your request and the Good Ladies will hear, for they see and hear all that takes place in their demesne. If you made the offering as it must be done, your supplication will be heard.}",
+										"{@i Find a child, young and innocent, and search out the Ladies' shrine that is where the Trail of Treats begins. Set the child off on the trail and it shall follow its sweet track and find the Good Ladies. The child will never want for anything ever again, for the Ladies are kind and generous. Standing before their shrine, pronounce your request and the Good Ladies will hear, for they see and hear all that takes place in their demesne. If you made the offering as it must be done, your supplication will be heard.}",
 										{
 											"type": "list",
 											"items": [
@@ -22626,7 +22677,7 @@
 									"type": "entries",
 									"name": "Fiendish Appetite",
 									"entries": [
-										"In the more ghastly legends, crones are said to know over a dozen recipes for human soup. During their sabbath, crones truly feed on human flesh, cooking men and children in infernal pots spiced with root from the cursed trees growing in their lair. In whispered tales\u2014for if they spoke too loudly the crones would hear it\u2014villagers speak of the tribute demanded in the form of human ears. The ears hung from trees, allowing the crones, through the use of primeval magic, to hear all that happened in their land."
+										"In the more ghastly legends, crones are said to know over a dozen recipes for human soup. During their sabbath, crones truly feed on human flesh, cooking men and children in infernal pots spiced with root from the cursed trees growing in their lair. In whispered tales for if they spoke too loudly the crones would hear it villagers speak of the tribute demanded in the form of human ears. The ears hung from trees, allowing the crones, through the use of primeval magic, to hear all that happened in their land."
 									]
 								},
 								{
@@ -22713,7 +22764,7 @@
 								{
 									"type": "quote",
 									"entries": [
-										"When at the water's edge, you gotta be quiet. First of all, so as not to scare the fish. Second\u2014so you don't attract drowners.''"
+										"When at the water's edge, you gotta be quiet. First of all, so as not to scare the fish. Second so you don't attract drowners.''"
 									],
 									"by": "Yanneck of Blaviken, fisherman"
 								},
@@ -22721,7 +22772,7 @@
 									"type": "entries",
 									"name": "Watery Death",
 									"entries": [
-										"Sometimes a drowned man returns as a monster, to haunt the living. Such creature is called a drowner and resembles a corpse dredged from the bottom of a pond. Skinny and humped, with its huge head, slightly protruding belly and concave chest, the drowner became a creature that is half-scary, half grotesque. Its eyes are round and fishlike, granting it a rather dumb expression. It also has wide palms and membranes between its fingers as well as a fin. A Drowner lives underwater and is awkward when on dry land... It is sickly blue or green in color, with slime and sludge oozing out of every pore and the acrid stench of rot wafting off of it. That is why drowners\u2013along with their more dangerous cousins: vodniks, mucknixers and drowned dead\u2013arise from the bodies of those who drown in shallow water: lost travelers falling into bogs, children who swim too far from the shore or, in the case of vodniks, inebriated peasants who stumble off narrow swamp trails."
+										"Sometimes a drowned man returns as a monster, to haunt the living. Such creature is called a drowner and resembles a corpse dredged from the bottom of a pond. Skinny and humped, with its huge head, slightly protruding belly and concave chest, the drowner became a creature that is half-scary, half grotesque. Its eyes are round and fishlike, granting it a rather dumb expression. It also has wide palms and membranes between its fingers as well as a fin. A Drowner lives underwater and is awkward when on dry land... It is sickly blue or green in color, with slime and sludge oozing out of every pore and the acrid stench of rot wafting off of it. That is why drowners along with their more dangerous cousins: vodniks, mucknixers and drowned dead arise from the bodies of those who drown in shallow water: lost travelers falling into bogs, children who swim too far from the shore or, in the case of vodniks, inebriated peasants who stumble off narrow swamp trails."
 									]
 								},
 								{
@@ -22767,7 +22818,7 @@
 								{
 									"type": "entries",
 									"entries": [
-										"Particularly strong and dangerous drowners are known as drowned dead, vodniks and mucknixers. Simple people see no difference between the drowner and the drowned dead\u2014encountering either of them is equally deadly. We might suppose, though, that the most gloomy legends pretending they can make you drown in the middle of a desert concern the drowned dead rather than drowners.",
+										"Particularly strong and dangerous drowners are known as drowned dead, vodniks and mucknixers. Simple people see no difference between the drowner and the drowned dead encountering either of them is equally deadly. We might suppose, though, that the most gloomy legends pretending they can make you drown in the middle of a desert concern the drowned dead rather than drowners.",
 										"Drowned dead arise from the corpse of an executed criminal tossed into the water, while vodniks are the corpses of drowned drunkards. Mucknixers are far rarer, for they come from a necromantic ritual where the victim is purposely drowned to rise as an undead."
 									]
 								}
@@ -22804,7 +22855,7 @@
 									"type": "entries",
 									"name": "Sacred Oath",
 									"entries": [
-										"The Sisters have sworn an oath to defend the world from the madness of their siblings. When a dryad loses her tree, and begins her descent into a spriggan, the sisterhood will find and confine her in a hidden place, called vale of tears, enspelled into an eternal slumber. In many ways, they have become similar to their charge, exposed constantly to the overwhelming sadness of the spriggans, many lose their playful nature and their fey charm ability in their first years of service\u2014hiding their viciousness beneath a graceful aspect. The Sister's secondary goal is to protect the worldroots, the heart of spriggans, from the predation of hags and ill-intentioned mages. Under the guise of the green enchantresses, they fulfil their sacred duty, watching over the vales of tears, protecting natural magical sites, fey crossings and overhaul maintain harmony between worlds."
+										"The Sisters have sworn an oath to defend the world from the madness of their siblings. When a dryad loses her tree, and begins her descent into a spriggan, the sisterhood will find and confine her in a hidden place, called vale of tears, enspelled into an eternal slumber. In many ways, they have become similar to their charge, exposed constantly to the overwhelming sadness of the spriggans, many lose their playful nature and their fey charm ability in their first years of service hiding their viciousness beneath a graceful aspect. The Sister's secondary goal is to protect the worldroots, the heart of spriggans, from the predation of hags and ill-intentioned mages. Under the guise of the green enchantresses, they fulfil their sacred duty, watching over the vales of tears, protecting natural magical sites, fey crossings and overhaul maintain harmony between worlds."
 									]
 								},
 								{
@@ -23424,7 +23475,7 @@
 									"type": "entries",
 									"name": "Gracious and Deadly",
 									"entries": [
-										"Survivors of griffin attacks often have dreams of being hunted down and rent limb from limb for years afterward. Despite being large and monstrous creatures, griffins have reputations as noble beasts. This is in part due to their proud and regal bearing\u2013griffins are not ravenous and frenetic like manticores. Instead a griffin strikes with swift and precise grace, its motion poised and controlled. Yet this elegance in no way undermines its deadliness, for a griffin is more than capable of using its talons and razor beak to rip a foe apart. The cry of a griffin is often enough to send enemies running. For the griffin, this is an ideal situation as it prefers its meals on the run, and alive. They can roar at such a high pitch that even a grown man can be put off balance. From the sky, griffins try to repeatedly claw their targets as they sweep past, or attempt to dive and grab their prey, leading it to a deadly fall."
+										"Survivors of griffin attacks often have dreams of being hunted down and rent limb from limb for years afterward. Despite being large and monstrous creatures, griffins have reputations as noble beasts. This is in part due to their proud and regal bearing griffins are not ravenous and frenetic like manticores. Instead a griffin strikes with swift and precise grace, its motion poised and controlled. Yet this elegance in no way undermines its deadliness, for a griffin is more than capable of using its talons and razor beak to rip a foe apart. The cry of a griffin is often enough to send enemies running. For the griffin, this is an ideal situation as it prefers its meals on the run, and alive. They can roar at such a high pitch that even a grown man can be put off balance. From the sky, griffins try to repeatedly claw their targets as they sweep past, or attempt to dive and grab their prey, leading it to a deadly fall."
 									]
 								}
 							]
@@ -23483,7 +23534,7 @@
 								{
 									"type": "quote",
 									"entries": [
-										"\"Kikimore workers rarely appear near human settlements, and even then, they only attack when threatened. Is there anything more beautiful than a kikimore\u2014a symbol of hard work, resourcefulness and caution?\""
+										"\"Kikimore workers rarely appear near human settlements, and even then, they only attack when threatened. Is there anything more beautiful than a kikimore a symbol of hard work, resourcefulness and caution?\""
 									],
 									"by": "Master Dorregaray in \"The Wonderful World of Insectoids\""
 								},
@@ -23698,7 +23749,7 @@
 								{
 									"type": "quote",
 									"entries": [
-										"Humans have long been fascinated by the wildwood\u2014living in it's vicinity was the source of tales about creatures ferocious and benign, friendly and hostile. As they started to settle deeper and deeper into the forests, respect for the unknown diminished. Lumber was gathered, stone abodes were built. As the pestilence that was humanity grew bigger, so did the forest's and its inhabitants' wrath."
+										"Humans have long been fascinated by the wildwood living in it's vicinity was the source of tales about creatures ferocious and benign, friendly and hostile. As they started to settle deeper and deeper into the forests, respect for the unknown diminished. Lumber was gathered, stone abodes were built. As the pestilence that was humanity grew bigger, so did the forest's and its inhabitants' wrath."
 									]
 								},
 								{
@@ -23712,7 +23763,7 @@
 									"type": "entries",
 									"name": "All seeing Watcher",
 									"entries": [
-										"A leshen will turn nature itself against those that trespass on his lands. They use their inborn magic to control the plants and animals within their territory\u2014and so when stalking them, half the battle is merely getting near enough to strike. Animals, even timid and harmless ones, will be taken by a frenzy that will only stop with the death of the intruders, attacking on sight anyone they cross path with. Roots will sprout from the ground, trying to grapple, crush and strangle the unwary, burying them into deep earthy tombs, never to be seen again.",
+										"A leshen will turn nature itself against those that trespass on his lands. They use their inborn magic to control the plants and animals within their territory and so when stalking them, half the battle is merely getting near enough to strike. Animals, even timid and harmless ones, will be taken by a frenzy that will only stop with the death of the intruders, attacking on sight anyone they cross path with. Roots will sprout from the ground, trying to grapple, crush and strangle the unwary, burying them into deep earthy tombs, never to be seen again.",
 										"Thankfully, it's difficult to unknowingly stumble into the territory of a leshen. The borders of its charge are warded with totems made of roots, stones, plants and animal bones, hanging from trees or stacked on mounds. One may also have to destroy a leshen's warding totems to rid a forest of its presence. The totems are the eyes and ears of the leshen throughout the forest and crossing or destroying one is a sure way to declare war on the creature. leshens are also known to be able to appear and disappear unexpectedly near their totems."
 									]
 								},
@@ -23801,7 +23852,7 @@
 										"Gorebull and Chosen of Baphomet can conduct brutal and simple ceremonies inside a labyrinth, stirring the rage and greed for destruction inside those connected to primal forces. Barbarians, druids, rangers and their kin are especially vulnerable to these brutal inclinations, no matter where their allegiance lies. When the ceremony is happening these characters experience a sudden burst of rage and hunger, like nothing they felt before:",
 										{
 											"type": "list",
-											"item": [
+											"items": [
 												"While the Call of the Horned King is in effect, all barbarians, druids and rangers within a mile (as determined by the DM) must succeed on a DC 15 Wisdom saving throw or suffer from the indefinite madness of Baphomet, until cured."
 											]
 										}
@@ -23940,7 +23991,7 @@
 								{
 									"type": "entries",
 									"entries": [
-										"Chorts are the somewhat smaller kin of morvudds. Yet any adventurer who thinks their diminutive stature means they present no danger commits a grave error\u2014the kind that can end his career permanently. Chorts fight with little finesse, running straight towards their opponent and trying to mow him to the ground with the force of their charge. After downing their foe, they bite, kick, and strike with their clawtipped paws."
+										"Chorts are the somewhat smaller kin of morvudds. Yet any adventurer who thinks their diminutive stature means they present no danger commits a grave error the kind that can end his career permanently. Chorts fight with little finesse, running straight towards their opponent and trying to mow him to the ground with the force of their charge. After downing their foe, they bite, kick, and strike with their clawtipped paws."
 									]
 								}
 							]
@@ -23967,7 +24018,7 @@
 										{
 											"type": "quote",
 											"entries": [
-												"These denizens of dark and ancient woods are some of the most dangerous monsters known to man. Morvudds are walking mountains of muscle capped with horned, tooth-filled heads. Like their smaller cousins, chorts, they live in thick forests, swamps and bogs. When possible, they avoid humans, but when confronted, they kill them\u2014and without much difficulty."
+												"These denizens of dark and ancient woods are some of the most dangerous monsters known to man. Morvudds are walking mountains of muscle capped with horned, tooth-filled heads. Like their smaller cousins, chorts, they live in thick forests, swamps and bogs. When possible, they avoid humans, but when confronted, they kill them and without much difficulty."
 											]
 										},
 										{
@@ -23981,14 +24032,14 @@
 											"type": "entries",
 											"name": "Hulking Menace",
 											"entries": [
-												"Their size alone makes morvudds and chorts extremely dangerous\u2014one blow from their powerful paws can kill a knight along with its fully-armored mount. Their enormous heft also makes them almost invulnerable to mundane weapons; the only sure way to put them down is magic and enchanted weapons. Furthermore, any wounds they receive heal at lightning speed. When a morvudd is gravely wounded, it will fight with increased aggressiveness, caring little for its own security while it deals tremendous damage to what stands in its path. Morvudds are cunning fighters: if they are gravely wounded, they will retreat, counting on their regenerative ability, and charge back into the fight, completely healed."
+												"Their size alone makes morvudds and chorts extremely dangerous one blow from their powerful paws can kill a knight along with its fully-armored mount. Their enormous heft also makes them almost invulnerable to mundane weapons; the only sure way to put them down is magic and enchanted weapons. Furthermore, any wounds they receive heal at lightning speed. When a morvudd is gravely wounded, it will fight with increased aggressiveness, caring little for its own security while it deals tremendous damage to what stands in its path. Morvudds are cunning fighters: if they are gravely wounded, they will retreat, counting on their regenerative ability, and charge back into the fight, completely healed."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Third Eye",
 											"entries": [
-												"As if they weren't already tough enough, morvudds need not rely on their strength and stamina alone when fighting. Inexperienced hunters assume that the only danger coming from morvudds is physical, they will die in the seconds that follow. Morvudds can call on a more refined weapon: the third eye located in the center of their forehead. They can use it to impede their prey with an array of powers. When this occurs, their victim does not see anything beyond this single burning eye\u2014the last thing they see before their death. The morvudd's third eye defines this monster as a force with which to be reckoned."
+												"As if they weren't already tough enough, morvudds need not rely on their strength and stamina alone when fighting. Inexperienced hunters assume that the only danger coming from morvudds is physical, they will die in the seconds that follow. Morvudds can call on a more refined weapon: the third eye located in the center of their forehead. They can use it to impede their prey with an array of powers. When this occurs, their victim does not see anything beyond this single burning eye the last thing they see before their death. The morvudd's third eye defines this monster as a force with which to be reckoned."
 											]
 										},
 										{
@@ -24286,7 +24337,7 @@
 										"Many academies throughout the world have studied the remains of rotfiends, hoping to explain their sudden and recurrent return. They have yet to find the answer to their question but one troubling fact might lead them on the right path: the corrupted tissues of the undead always reveal the presence of the flesh rot disease. Most concluded that the two phenomena are inherently connected: a flesh rot outburst is followed by a resurgence of rotfiends and rotfiend infestations are always followed by numerous cases of the disease.",
 										{
 											"type": "list",
-											"item": [
+											"items": [
 												"Alternatively, a creature that takes damage from a rotfiend must make a DC 13 Constitution saving throw, contracting the flesh rot disease on failure, as per the contagion spell."
 											]
 										}
@@ -24296,7 +24347,7 @@
 									"type": "entries",
 									"name": "Unwelcomed Resurgence",
 									"entries": [
-										"Rotfiends and devourers were once rarities, but in age of constant warfare and violence they can become a veritable plague, as they feed on carrion and human corpses, particularly around battlefields, near cities afflicted by plague, or around villages touched by famine. They appear of a sudden, and disappear even more quickly if threatened, so exterminating them is difficult. They are best dealt with by cutting off their food supply, which is, burning all corpses in the area. Corpses must be incinerated rather than buried, for rotfiends are avid and skillful diggers. Without sustenance, the beasts will leave in search of new feeding ground. See a rotfiend and you can be sure there are many more in the area. They usually feed in large groups and thus present a danger to lone travelers\u2013especially considering their speed, which can be more than a match for a horse at full gallop. Rotfiends and devourers feed in the twilight hours and at night, when they become much more dangerous than during the day."
+										"Rotfiends and devourers were once rarities, but in age of constant warfare and violence they can become a veritable plague, as they feed on carrion and human corpses, particularly around battlefields, near cities afflicted by plague, or around villages touched by famine. They appear of a sudden, and disappear even more quickly if threatened, so exterminating them is difficult. They are best dealt with by cutting off their food supply, which is, burning all corpses in the area. Corpses must be incinerated rather than buried, for rotfiends are avid and skillful diggers. Without sustenance, the beasts will leave in search of new feeding ground. See a rotfiend and you can be sure there are many more in the area. They usually feed in large groups and thus present a danger to lone travelers especially considering their speed, which can be more than a match for a horse at full gallop. Rotfiends and devourers feed in the twilight hours and at night, when they become much more dangerous than during the day."
 									]
 								},
 								{
@@ -24400,7 +24451,7 @@
 									"type": "entries",
 									"name": "Amber Spring",
 									"entries": [
-										"After several lifetimes dedicated to the pursuit of pleasure and having visited the four corners of the world, some ancient satyrs grow tired of the life of a wayfarer and retreat deep into the Feywild. Wiser from their numerous experiences and travels, they take to a life of quiet and contemplation, appreciating the simple beauty of life after the unceasing chaos of their younger years. Almost instinctively, some undertake a spiritual journey through the remote parts of the plane. Their path leads them to a place of secret wonders\u2013the amber spring. There, they commune with the spirits of eternal treants, drinking from the spring of liquid amber and falling into a decades long slumber, sheltered in a cocoon of amber. Some never wake up, sleeping forever amidst the treants, others awake from their cocoon with renewed purpose, size and strength."
+										"After several lifetimes dedicated to the pursuit of pleasure and having visited the four corners of the world, some ancient satyrs grow tired of the life of a wayfarer and retreat deep into the Feywild. Wiser from their numerous experiences and travels, they take to a life of quiet and contemplation, appreciating the simple beauty of life after the unceasing chaos of their younger years. Almost instinctively, some undertake a spiritual journey through the remote parts of the plane. Their path leads them to a place of secret wonders the amber spring. There, they commune with the spirits of eternal treants, drinking from the spring of liquid amber and falling into a decades long slumber, sheltered in a cocoon of amber. Some never wake up, sleeping forever amidst the treants, others awake from their cocoon with renewed purpose, size and strength."
 									]
 								},
 								{
@@ -24570,7 +24621,7 @@
 									"type": "entries",
 									"name": "Aggressive Monster",
 									"entries": [
-										"One legend claims sirens were once friendly towards men\u2014and supposedly were even known (albeit on rare occasions) to accept some sailors' clumsy attempts at courtship. In our day, however, they are decidedly aggressive, perhaps soured by the numerous kidnappings of carried out by frustrated sea salts. Whatever the truth, one thing is certain: these days the monsters display no signs of good will, and so when spotting them one should immediately reach for one's sword."
+										"One legend claims sirens were once friendly towards men and supposedly were even known (albeit on rare occasions) to accept some sailors' clumsy attempts at courtship. In our day, however, they are decidedly aggressive, perhaps soured by the numerous kidnappings of carried out by frustrated sea salts. Whatever the truth, one thing is certain: these days the monsters display no signs of good will, and so when spotting them one should immediately reach for one's sword."
 									]
 								},
 								{
@@ -24810,7 +24861,7 @@
 								{
 									"type": "entries",
 									"entries": [
-										"It is said that at night bruxae haunt attractive young men and drink their blood. This silent and seductively beautiful creature closely resembles a fey. In fact, she is a vampire, and one of the deadliest kind. They approaches gracefully and are easy to overlook as a threat. These vampires move quietly in the dark to suddenly emerge near their victims. An eerie cry echoing through corridors indicates an approaching bruxa\u2013at once both beauty and the beast.",
+										"It is said that at night bruxae haunt attractive young men and drink their blood. This silent and seductively beautiful creature closely resembles a fey. In fact, she is a vampire, and one of the deadliest kind. They approaches gracefully and are easy to overlook as a threat. These vampires move quietly in the dark to suddenly emerge near their victims. An eerie cry echoing through corridors indicates an approaching bruxa at once both beauty and the beast.",
 										{
 											"type": "entries",
 											"name": "Wanton Villain",
@@ -24894,7 +24945,7 @@
 											"type": "entries",
 											"name": "Chiropteran Marauder",
 											"entries": [
-												"Like other lesser vampires, ekimmaras are not, despite what village gossips might say, undead humanoids. Unlike their portrayals in ballads and legends, they look nothing like handsome, pale aristocrats with charming eastern accents, though, like katakans or nekurats, their stronger and clever cousins, they do bear a strong resemblance to overgrown bats. They also do not suck blood from the necks of virgins with a delicate, kiss-like bite\u2014they tear them to shreds using long, sharp claws and then slurp the splattered blood off the ground."
+												"Like other lesser vampires, ekimmaras are not, despite what village gossips might say, undead humanoids. Unlike their portrayals in ballads and legends, they look nothing like handsome, pale aristocrats with charming eastern accents, though, like katakans or nekurats, their stronger and clever cousins, they do bear a strong resemblance to overgrown bats. They also do not suck blood from the necks of virgins with a delicate, kiss-like bite they tear them to shreds using long, sharp claws and then slurp the splattered blood off the ground."
 											]
 										},
 										{
@@ -24971,7 +25022,7 @@
 											"type": "entries",
 											"name": "Savage Killer",
 											"entries": [
-												"The fleder is a lesser vampire. Its appetite for blood is the only thing it shares with the noble princes of the night. A creature with animal instincts, deprived of any humanity, it can mutilate its victims terribly. Its head\u2014triangular, with a flat face and horn-like protrusions with certain bat-like features, including the creature's face and ears\u2014renders it similar to other animalistic vampires, such as garkain or ekimmara. With its glowing red eyes the fleder also resembles a demon and inspires terror in the heart of peasants and city folks alike."
+												"The fleder is a lesser vampire. Its appetite for blood is the only thing it shares with the noble princes of the night. A creature with animal instincts, deprived of any humanity, it can mutilate its victims terribly. Its head triangular, with a flat face and horn-like protrusions with certain bat-like features, including the creature's face and ears renders it similar to other animalistic vampires, such as garkain or ekimmara. With its glowing red eyes the fleder also resembles a demon and inspires terror in the heart of peasants and city folks alike."
 											]
 										},
 										{
@@ -25913,7 +25964,7 @@
 								{
 									"type": "quote",
 									"entries": [
-										"\"Wolves aren't as bad as they're made out to be. Werewolves, though\u2014they're every bit as bad and worse.\""
+										"\"Wolves aren't as bad as they're made out to be. Werewolves, though they're every bit as bad and worse.\""
 									],
 									"by": "Elsa Vilge, archer"
 								},
@@ -25921,14 +25972,14 @@
 									"type": "entries",
 									"name": "Cursed Monster",
 									"entries": [
-										"Neither animal, nor man, the werewolf takes the worst from both species: the bloodlust and primal nature of a wolf, and the ruthlessness and cruelty of a human. One becomes a voref werewolf as a result of a curse thrown by a spellcaster -- the change itself is uncontrollable and unwilling. The voref can be called upon by the witch that cursed it, playing the role of unknowing assassin or enforcer. A man who transforms back to his human form can't usually remember the atrocious acts committed as a werewolf\u2014otherwise he would surely go mad and take his own life, to no end since the curse won't even allow him this relief."
+										"Neither animal, nor man, the werewolf takes the worst from both species: the bloodlust and primal nature of a wolf, and the ruthlessness and cruelty of a human. One becomes a voref werewolf as a result of a curse thrown by a spellcaster -- the change itself is uncontrollable and unwilling. The voref can be called upon by the witch that cursed it, playing the role of unknowing assassin or enforcer. A man who transforms back to his human form can't usually remember the atrocious acts committed as a werewolf otherwise he would surely go mad and take his own life, to no end since the curse won't even allow him this relief."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Bound in Death",
 									"entries": [
-										"Killing a voref for good can prove difficult, for the magic of the curse binds it in death as well, bringing it back to life if slayed. The only known way to prevent this is to pierce its heart with a silver weapon during the full moon, or to force the spellcaster that cursed it to lift the spell. The voref's curse can at times be lifted, yet there is no universal, surefire method for doing this. A group of adventurers seeking to undertake such a task must equip themselfves with a great deal of patience\u2013and sturdy armors."
+										"Killing a voref for good can prove difficult, for the magic of the curse binds it in death as well, bringing it back to life if slayed. The only known way to prevent this is to pierce its heart with a silver weapon during the full moon, or to force the spellcaster that cursed it to lift the spell. The voref's curse can at times be lifted, yet there is no universal, surefire method for doing this. A group of adventurers seeking to undertake such a task must equip themselfves with a great deal of patience and sturdy armors."
 									]
 								},
 								{
@@ -26242,7 +26293,7 @@
 											"type": "entries",
 											"name": "Ard Gaeth",
 											"entries": [
-												"The ancestral hatred that exists between the Wild Hunt and the unicorns dates back to events that occurred in time immemorial. Somewhere in the weave of the multiverse lies Ard Gaeth\u2013the Gate of Worlds. The gods tasked the pure unicorns to keep the gate shut, keeping realities and worlds separated. Through trickery and conquest, the king of the Alders once forced the unicorns to open Ard Gaeth, seeking to use its power. Realizing their foolish plan that might have endangered the entire multiverse, the unicorns called on the magic of the eladrins to banish the Aen Elle through Ard Gaeth into the void."
+												"The ancestral hatred that exists between the Wild Hunt and the unicorns dates back to events that occurred in time immemorial. Somewhere in the weave of the multiverse lies Ard Gaeth the Gate of Worlds. The gods tasked the pure unicorns to keep the gate shut, keeping realities and worlds separated. Through trickery and conquest, the king of the Alders once forced the unicorns to open Ard Gaeth, seeking to use its power. Realizing their foolish plan that might have endangered the entire multiverse, the unicorns called on the magic of the eladrins to banish the Aen Elle through Ard Gaeth into the void."
 											]
 										},
 										{
@@ -26567,7 +26618,7 @@
 											"type": "entries",
 											"name": "Immortal Nightmare",
 											"entries": [
-												"Those that cross path with generals of the Wild Hunt are destined to see them appear in their nightmares for the rest of their lives. Generals of the Wild Hunt wield great power and make for formidable opponents. Experts in the art of war, they fought in the countless battles and campaigns for conquest waged by the Aen Elle in other worlds. General's armors are covered with blade marks\u2014mementos earned during their thousands of battles. They prize physical confrontation above all else, seeking out direct, bloody skirmishes where opponents pit their strength, agility and training against each other in a contest to the death."
+												"Those that cross path with generals of the Wild Hunt are destined to see them appear in their nightmares for the rest of their lives. Generals of the Wild Hunt wield great power and make for formidable opponents. Experts in the art of war, they fought in the countless battles and campaigns for conquest waged by the Aen Elle in other worlds. General's armors are covered with blade marks mementos earned during their thousands of battles. They prize physical confrontation above all else, seeking out direct, bloody skirmishes where opponents pit their strength, agility and training against each other in a contest to the death."
 											]
 										},
 										{
@@ -27529,7 +27580,7 @@
 											"type": "entries",
 											"name": "Bond in Death",
 											"entries": [
-												"At times when war and disaster befall the realms, many peoples die in the same place within a short span of time. These tragedies sometimes create a bound between the unfortunate souls, birthing a shade host. These vengeful apparitions cluster together into hosts that drift towards their warm-blooded victims with terrible inevitability. Hordes of these ethereal shades swarm across cursed lands and the grim barrows of the Shadowfell. They are tireless, implacable, and numerous\u2014most Shadowfell explorers can do little other than avoid them or, at best, block off their route with mystical wards long enough to find an escape from the plane. Witnessing the night sky darkened by these masses is a frightening sight, earing their mad wailing is much worse. The ceaseless moan of the host can quickly damage the sanity of a person. Survivors struggle to find sleep for weeks on end, earing the bloodcurdling wails whenever they close their eyes, some never recover and simply go insane."
+												"At times when war and disaster befall the realms, many peoples die in the same place within a short span of time. These tragedies sometimes create a bound between the unfortunate souls, birthing a shade host. These vengeful apparitions cluster together into hosts that drift towards their warm-blooded victims with terrible inevitability. Hordes of these ethereal shades swarm across cursed lands and the grim barrows of the Shadowfell. They are tireless, implacable, and numerous most Shadowfell explorers can do little other than avoid them or, at best, block off their route with mystical wards long enough to find an escape from the plane. Witnessing the night sky darkened by these masses is a frightening sight, earing their mad wailing is much worse. The ceaseless moan of the host can quickly damage the sanity of a person. Survivors struggle to find sleep for weeks on end, earing the bloodcurdling wails whenever they close their eyes, some never recover and simply go insane."
 											]
 										},
 										{
@@ -28253,6 +28304,15 @@
 										}
 									]
 								}
+							],
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/gjDMCke.png"
+									}
+								}
 							]
 						}
 					}
@@ -28278,6 +28338,15 @@
 										"Druids shape the rhythm of Waelen society, as the priests of the old druidic faith, they issue the sacred laws to be followed for the coming season. These laws are passed after rites held at equinox and solstices where druids commune with nature and the spirit world in a trance induced by drinking a dreamsight potion. During the rites, fey creatures, especially satyrs and eladrins, are invited to join the Waelens. The new sacred laws, beside their religious fundaments, are based on socio-economic and natural needs, favorizing a certain type of crops to be cultivated or a specific kind of animal to be hunted or spared for the season."
 									]
 								}
+							],
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/jFKAY8b.png"
+									}
+								}
 							]
 						}
 					}
@@ -28302,6 +28371,15 @@
 										"Fianna are the wandering warriors of the isles. At times of peace the fianna are free to do as they wish. However, when the High King calls, they must answer and rally under his banner. In reality, the loyalty of the fianna varies greatly, often leaning towards whoever pays them the most or aided them in the past. This isn't to say that fianna are common mercenaries, as their way of life demands purity of heart and is passed down from mother to daughter, from father to son."
 									]
 								}
+							],
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/HlQ08tg.png"
+									}
+								}
 							]
 						}
 					}
@@ -28325,6 +28403,15 @@
 									"entries": [
 										"Lacking professional standing armies, the fighting forces of the Waelen's clans rely on these levies of able bodied men and women. They come from all backgrounds, and so are generally skilled in at least one craft as well as in war. Despite being poorly equipped, the islanders do not lack in courage as they realize that they are not simply fighting for the whim of their leaders, but for home as well. They often raise war hounds to accompany them and bark in unison as they charge into battle."
 									]
+								}
+							],
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/DF5BDIn.png"
+									}
 								}
 							]
 						}
@@ -28385,6 +28472,15 @@
 												}
 											]
 										}
+									],
+									"images": [
+										{
+											"type": "image",
+											"href": {
+												"type": "external",
+												"url": "https://i.imgur.com/bAYOMjr.png"
+											}
+										}
 									]
 								}
 							]
@@ -28412,6 +28508,15 @@
 										"Much is expected from the macnia, always striding across the isles to face greater challenges, and only a handful ever made it into their twilight years. In battle, they are fearless and fervent; invoking the goddess'name as they charge, driving men to greater feats of valor. They cleave through their enemies with precision and brutality, favorizing decapitation, as they believe it grants them the strength of their foe."
 									]
 								}
+							],
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/1vSzYid.png"
+									}
+								}
 							]
 						}
 					}
@@ -28436,6 +28541,15 @@
 										"The oathbounds, or Tuatháinigh in the Waelen tongue, are part of the noble cast and chieftains. They must must swear an oath of loyalty before the druids, their clan and the High King. Their charge is taken seriously, for they swear under the eyes of the goddess and can be stripped down from their ranks and powers if they prove untrue to the old faith. As clan leaders, their armor and helmets are better than the common folk can aspire to, but their equipment is scarcely comparable to that of the nobility from more prosperous and developed lands. Nevertheless, their fighting spirit and blessed oathblade make them fearsome warriors.",
 										"Upon taking its oath, a noble receives a sacred sword as a symbol of its duty, an oathblade. Oathblades are mystic silver swords that appeared in past eras, floating above the waters of the moonwells, a gift from the goddess in times of need. The High King himself wields the mightiest of these blades, the archfey-slayer Solais. To steal an oathblade is an unforgivable sacrilege that will only be met with the offender' swift death. Adventurers be warned."
 									]
+								}
+							],
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/TGDyavQ.png"
+									}
 								}
 							]
 						}
@@ -28469,6 +28583,15 @@
 										}
 									]
 								}
+							],
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/O6pFvii.png"
+									}
+								}
 							]
 						}
 					}
@@ -28495,6 +28618,15 @@
 										"Furies are no longer who they were and the Waelen clans both revere and fear them as the bloody agents of the goddess. Most of the time red furies are not seen, but every once in a while, their, faint, tormented and hysterical laughter can be heard off in the distance. However, when the goddess demands the return of her lands and the sacrifice of foreign invaders, they come out of their deep woods and rugged valleys. When the task is done, they once again melt into the surrounding wilderness."
 									]
 								}
+							],
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/YG0xPd0.png"
+									}
+								}
 							]
 						}
 					}
@@ -28520,6 +28652,15 @@
 										"The worship of Badb is not made at temples or even druid groves, but in the \"Garden of Badb\", the battlefield. Carnage is her communion, bloodshed her blessing. The woad faith is primal, its followers hear the goddess in the roaring of the ocean, the howl of the wolf and the scream of the dying. Worship is war, and war is worshiped. By painting their bodies with the sacred woad plant, they dedicate each kill to the goddess and are blessed in return."
 									]
 								}
+							],
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/Ob6OqbC.png"
+									}
+								}
 							]
 						}
 					}
@@ -28543,6 +28684,15 @@
 									"entries": [
 										"When foreigners think of the Waelen, they often immediately picture the woad reavers, semi-naked men and women charging furiously, covered from head to toes in blue war paints. These Waelen are zealots and warriors, issued from the most pious of clans, often referred to as \"woad-clans\" by the more civilized towns of the isles. Living on the isles where the mist never recedes, there is something otherworldly about them. Fanaticized to the extreme, they undergo months of training with the druids, honing their faith and dedicating their life solely to Badb."
 									]
+								}
+							],
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/BqH2OFs.png"
+									}
 								}
 							]
 						}
@@ -28568,6 +28718,15 @@
 										"It takes a special kind of madness to brave the treacherous ocean surrounding the isles, and unbridled insanity to hunt the monsters that lurk in its depths. The whalers are primarily hunting whales and sharks, wearing trophies made from their bones and teeth, but are also among the best giant and ogre slayers of the isles. They throw their harpoon with enough strength to pierce an armored knight through and through, pulling their enemy closer to gut them in melee or drown them into the sea. Against giants and other large monsters, they surround them from all side to pin them in place with their harpoons while other hunters rush in melee to overwhelm their struggling prey.",
 										"When war and a new season is to come, great ritual hunts are organized at sea and on land, celebrated as sacred event. When the whalers return with giants or sea leviathans, sacrifices are held in the honor of Badb, as reavers measure their strength against the captured beasts before putting them to death at the peak of the ceremony. When blood colors the sea and soaks the earth, the woad-clans rejoice and prepare for war."
 									]
+								}
+							],
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/YVxGGqQ.png"
+									}
 								}
 							]
 						}
@@ -28613,7 +28772,7 @@
 								},
 								"Whatever the intent, great discoveries require great sacrifices. Many unscrupulous alchemists reject ethics when it gets in their way and carelessly waste the life of countless test subjects, justifying their acts in the name of progress and the greater good. Here are a few possible {@i Grand Plans}:",
 								{
-									"name": "Grand Plan",
+									"caption": "Grand Plan",
 									"type": "table",
 									"colLabels": [
 										"Tier",
@@ -28757,7 +28916,7 @@
 								{
 									"type": "entries",
 									"entries": [
-										"Chrysopoeia\u2013the transformation of base metals into gold has been a preeminent aspiration for alchemists. While many understand chrysopoeia as a metaphor for a mystical refinement, some practitioners adopted a literal interpretation and dedicate their lives to the fabled transformation. If the transformation has yet to be reliably performed or permanent, it is undeniable that the golden magisters have an unparalleled grasp on metallurgy and the alteration of metals.",
+										"Chrysopoeia the transformation of base metals into gold has been a preeminent aspiration for alchemists. While many understand chrysopoeia as a metaphor for a mystical refinement, some practitioners adopted a literal interpretation and dedicate their lives to the fabled transformation. If the transformation has yet to be reliably performed or permanent, it is undeniable that the golden magisters have an unparalleled grasp on metallurgy and the alteration of metals.",
 										"The Great Work, as it is also called, is one of the most taxing and frustrating branches of alchemy, with some practitioner stagnating for decades. More importantly many oppose its success, and such researches are often outlawed, for the potential economic disaster they might incur should they succeed. Aside from the progress of science, insatiable greed drives most magisters."
 									]
 								}
@@ -28792,7 +28951,7 @@
 								},
 								"Each of these foul beings is a pawn part of a plan of unfathomable scale, a vessel for the will of eldritch gods and Elder Evils. To understand their motive is to leave our blessed island of ignorance and plunge into the black sea of infinity, to open the fabric of reality that few have the mental strength to withstand. Most flee from the deadly revelation into the peace and safety of their broken psyche, but a few form a new ego through the madness, facing the eldritch truth. Whatever drives the warped ones, here are a few possible {@i Grand Plans} by tiers of play:",
 								{
-									"name": "Grand Plan",
+									"caption": "Grand Plan",
 									"type": "table",
 									"colLabels": [
 										"Tier",
@@ -28977,7 +29136,7 @@
 								},
 								"When it comes to the witch hunters, the more special or remarkable you are, the more likely you will become a target. The magically inclined are always primarily targeted, for they inspired fear, envy and mistrust in the hearts of many. They make for ideal culprits, as few understand or sympathize with them and, sadly, history abound of examples were magic was used to unleash great evil. Whatever drives the witch hunters, here are a few possible {@i Grand Plans} by tiers of play:",
 								{
-									"name": "Grand Plan",
+									"caption": "Grand Plan",
 									"type": "table",
 									"colLabels": [
 										"Tier",
@@ -29419,7 +29578,7 @@
 					]
 				},
 				{
-					"name": "Scheme",
+					"caption": "Scheme",
 					"type": "table",
 					"colLabels": [
 						"d4",

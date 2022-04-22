@@ -9,7 +9,7 @@
 					"DnD Beyond"
 				],
 				"convertedBy": [
-					"The Null Network"
+					"TheGiddyLimit"
 				],
 				"color": "64878a",
 				"version": "1.0.0",
@@ -22,13 +22,14 @@
 			"FU:Maj": "Firearm Upgrade; Major"
 		},
 		"dateAdded": 1591895014,
-		"dateLastModified": 1591895014
+		"dateLastModified": 1638449914
 	},
 	"book": [
 		{
 			"name": "Legends of Runeterra: Dark Tides of Bilgewater",
 			"id": "LoRDToB",
 			"source": "LoRDToB",
+			"group": "homebrew",
 			"contents": [
 				{
 					"name": "Introduction",
@@ -132,7 +133,7 @@
 				}
 			],
 			"published": "2020-06-10",
-			"coverUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/cover_DToB.png"
+			"coverUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/cover_DToB.png"
 		}
 	],
 	"bookData": [
@@ -149,7 +150,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/000-bilgewater-splash-poster.jpg"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/000-bilgewater-splash-poster.jpg"
 							}
 						},
 						"Welcome to Bilgewater, the most remarkable port in the world of Runeterra! D&D Beyond is thrilled to bring this renowned city to life, giving you the tools to create your own Legends of Runeterra-inspired Dungeons & Dragons campaign.",
@@ -163,7 +164,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/001-bilgewater_crest_icon.png"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/001-bilgewater_crest_icon.png"
 							}
 						},
 						{
@@ -181,7 +182,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/002-card-ye-been-warned.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/002-card-ye-been-warned.png"
 											}
 										},
 										"This guide breaks down the history, factions, and politics of Bilgewater to give players and Dungeon Masters all the backstory they need to play characters and NPCs from this scurvy port. Beyond this, all of the city's districts are described in enough detail to create their own NPCs and locations within them. Finally, a bounty of plot hooks and small encounters are placed here for DMs to plunder and adapt to their own stories."
@@ -196,7 +197,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/003-double-up.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/003-double-up.png"
 											}
 										},
 										"This chapter describes how to quickly create a character that you can use to adventure in Bilgewater, starting at 3rd level (the right level for the \"{@book Herald of the Harrowing|LoRDToB|3}\" adventure). Three new subclasses are also presented here: the barbarian's Path of the Depths, the fighter's Renegade archetype, and the rogue's Wild Card archetype."
@@ -211,7 +212,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/004-the-harrowing-2.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/004-the-harrowing-2.png"
 											}
 										},
 										"Defend Bilgewater from the Harrowing as a mighty specter of the Shadow Isles attempts to shroud all of Bilgewater Bay in the deadly Black Mist. This adventure is everything a Dungeon Master needs to play a one-shot set in Bilgewater. It's also the perfect starting point for a longer campaign set in Bilgewater."
@@ -226,7 +227,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/005-mists-call.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/005-mists-call.png"
 											}
 										},
 										"This chapter includes the game statistics for all of the monsters used in \"{@book Herald of the Harrowing|LoRDToB|3},\" plus a few extras. Dungeon Masters can use these monsters and NPCs in conjunction with the monsters found in the free D&D {@book Basic Rules|PHB} to put their players in grave, nautical peril!"
@@ -241,7 +242,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/006-card-lure-of-the-depths.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/006-card-lure-of-the-depths.png"
 											}
 										},
 										"No adventure is complete without magical treasure. Dungeon Masters can give out the treasures described in this chapter as rewards to their players as described in \"{@book Herald of the Harrowing|LoRDToB|3},\" and as they complete their own homebrew adventures."
@@ -300,7 +301,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/007-butchers-bridge.png"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/007-butchers-bridge.png"
 							}
 						},
 						"Bilgewater is an independent port city founded by sea-monster hunters, smugglers, and pirates. It is a haven where those fleeing debt, justice, or persecution can start over, without the burdens of a haunted past. This city of opportunity is also rife with dangers, surrounded by treacherous landscapes and seas teeming with monsters. Despite its dangers, however, Bilgewater is a paradise where everything is for sale, and fortune favors the bold.",
@@ -316,7 +317,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/008-bilgewater_emblem.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/008-bilgewater_emblem.png"
 									}
 								},
 								{
@@ -339,7 +340,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/009-card-the-dreadway.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/009-card-the-dreadway.png"
 											}
 										}
 									]
@@ -362,7 +363,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/010-LoR-decoration-02.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/010-LoR-decoration-02.png"
 											}
 										},
 										{
@@ -375,7 +376,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/011-LoR-decoration-03.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/011-LoR-decoration-03.png"
 													}
 												}
 											]
@@ -390,7 +391,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/012-LoR-decoration-11.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/012-LoR-decoration-11.png"
 													}
 												}
 											]
@@ -415,7 +416,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/013-shadow_isles_emblem.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/013-shadow_isles_emblem.png"
 											}
 										},
 										{
@@ -428,7 +429,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/014-Noxus_Crest.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/014-Noxus_Crest.png"
 													}
 												}
 											]
@@ -468,7 +469,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/015-LoR-decoration-04.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/015-LoR-decoration-04.png"
 											}
 										},
 										"Bilgewater is famous for its monster-hunting trade, with its economy built around this burgeoning industry. The seas that surround the Serpent Isles are teeming with sea-monsters of every size and description. These monsters make travel around the city quite dangerous, but crews of monster hunters have turned this peril into profit. These individuals, sometimes referred to as 'serpent hunters,' embark on missions to hunt these monsters, slay them, then bring their corpses back to Bilgewater to sell to the highest bidder. Entire regions of Bilgewater host facilities built to process these corpses into food, treasures, and other sellable resources. A comfortable living can be made by hunting these monsters, or by working amongst the docks that process them."
@@ -492,7 +493,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/016-Bilgewater_The_Serpent_Isles.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/016-Bilgewater_The_Serpent_Isles.png"
 											}
 										}
 									]
@@ -541,7 +542,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/017-card-hired-gun.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/017-card-hired-gun.png"
 											}
 										}
 									]
@@ -588,7 +589,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/018-LoR-decoration-01.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/018-LoR-decoration-01.png"
 													}
 												},
 												"The tavern itself spans three stories: the bar and kitchen occupy the ground floor, while card games and pool tables fill the second floor, and the top floor consists only of smaller private meeting rooms reserved for mercenaries and business deals. Though a few patrons visit the establishment during the day, the Brazen Hydra comes alive once the sun has set, and the exhausted ship crews pile in for a meal and a drink after a long day at sea. ",
@@ -647,7 +648,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/019-carving-bay.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/019-carving-bay.png"
 											}
 										},
 										"The Slaughter Docks form one of the coastal districts of Bilgewater. This area is composed of carving bays, killhouses, butcheries, and other places that service the booming monster-hunting industry. The streets of the slaughter docks often run with blood and other viscera following productive days of work, and its stench is infamous.",
@@ -704,7 +705,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/020-LoR-decoration-10.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/020-LoR-decoration-10.png"
 													}
 												},
 												"There is no formal union that rules the slaughter docks, but Junie Smith (lawful neutral, female human {@creature commoner}) is regarded as an unelected leader of the dock workers. Junie calls frequent meetings at the Bid House to gather the business owners of the docks, so they can agree on general price points and warn each other about dangerous clients.",
@@ -733,7 +734,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/021-bilgewater-ancient-architecture.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/021-bilgewater-ancient-architecture.png"
 											}
 										},
 										{
@@ -789,7 +790,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/022-card-brash-gambler.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/022-card-brash-gambler.png"
 													}
 												}
 											]
@@ -813,7 +814,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/023-Nagakabouros.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/023-Nagakabouros.png"
 													}
 												}
 											]
@@ -846,7 +847,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/024-card-prowling-cuthroat.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/024-card-prowling-cuthroat.png"
 													}
 												}
 											]
@@ -992,7 +993,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/025-powder-monkeys.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/025-powder-monkeys.png"
 													}
 												}
 											]
@@ -1138,7 +1139,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/026-smooth-soloist.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/026-smooth-soloist.png"
 													}
 												}
 											]
@@ -1227,7 +1228,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/027-pool-shark.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/027-pool-shark.png"
 													}
 												}
 											]
@@ -1314,7 +1315,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/028-the-beast-below.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/028-the-beast-below.png"
 									}
 								},
 								{
@@ -1437,7 +1438,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/029-LoR-decoration-05.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/029-LoR-decoration-05.png"
 									}
 								}
 							]
@@ -1453,7 +1454,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/030-bilgewater-dock.png"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/030-bilgewater-dock.png"
 							}
 						},
 						"Creating a character of your own is easy. Start by opening the D&D Beyond {@link Character Builder|https://www.dndbeyond.com/characters/builder} and click on Quick Build. Follow these steps:",
@@ -1490,7 +1491,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/031-card-nautilus.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/031-card-nautilus.png"
 									}
 								}
 							]
@@ -1625,7 +1626,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/033-miss-fortune-2.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/033-miss-fortune-2.png"
 													}
 												}
 											]
@@ -1882,7 +1883,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/038-twisted-fate-2.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/038-twisted-fate-2.png"
 													}
 												}
 											]
@@ -2080,7 +2081,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/041-bilgewater-bar.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/041-bilgewater-bar.png"
 									}
 								}
 							]
@@ -2109,7 +2110,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/042-LoR-decoration-09.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/042-LoR-decoration-09.png"
 											}
 										},
 										{
@@ -2181,7 +2182,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/043-the-harrowing.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/043-the-harrowing.png"
 													}
 												}
 											]
@@ -2250,7 +2251,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/044-miss-fortune.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/044-miss-fortune.png"
 													}
 												}
 											]
@@ -2275,7 +2276,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/045-Slaughter_Docks_3.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/045-Slaughter_Docks_3.png"
 													}
 												}
 											]
@@ -2316,7 +2317,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/046-gangplank.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/046-gangplank.png"
 													}
 												}
 											]
@@ -2403,7 +2404,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/047-Slaughter_Docks_2.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/047-Slaughter_Docks_2.png"
 											}
 										}
 									]
@@ -2422,17 +2423,19 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/048-map-3.1-docks-DM.jpg"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/048-map-3.1-docks-DM.jpg"
 													},
-													"title": "Map 3.1: docks DM"
+													"title": "Map 3.1: docks DM",
+													"imageType": "map"
 												},
 												{
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/049-map-3.1-docks-player.jpg"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/049-map-3.1-docks-player.jpg"
 													},
-													"title": "Player Version"
+													"title": "Player Version",
+													"imageType": "mapPlayer"
 												}
 											]
 										},
@@ -2535,7 +2538,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/050-ledros.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/050-ledros.png"
 													}
 												}
 											]
@@ -2663,7 +2666,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/051-bilgewater-waterways.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/051-bilgewater-waterways.png"
 											}
 										}
 									]
@@ -2760,7 +2763,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/052-shadow-isles-sea.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/052-shadow-isles-sea.png"
 											}
 										}
 									]
@@ -2860,6 +2863,7 @@
 			"name": "Legends of Runeterra: Dark Tides of Bilgewater",
 			"id": "LoRDToB",
 			"source": "LoRDToB",
+			"group": "homebrew",
 			"contents": [
 				{
 					"name": "Chapter 3: Herald of the Harrowing",
@@ -2876,7 +2880,7 @@
 				"start": 3,
 				"end": 4
 			},
-			"published": "2020",
+			"published": "2020-06-12",
 			"storyline": "Legends of Runeterra"
 		}
 	],
@@ -2920,7 +2924,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/041-bilgewater-bar.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/041-bilgewater-bar.png"
 									}
 								}
 							]
@@ -2949,7 +2953,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/042-LoR-decoration-09.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/042-LoR-decoration-09.png"
 											}
 										},
 										{
@@ -3021,7 +3025,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/043-the-harrowing.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/043-the-harrowing.png"
 													}
 												}
 											]
@@ -3090,7 +3094,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/044-miss-fortune.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/044-miss-fortune.png"
 													}
 												}
 											]
@@ -3115,7 +3119,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/045-Slaughter_Docks_3.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/045-Slaughter_Docks_3.png"
 													}
 												}
 											]
@@ -3156,7 +3160,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/046-gangplank.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/046-gangplank.png"
 													}
 												}
 											]
@@ -3243,7 +3247,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/047-Slaughter_Docks_2.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/047-Slaughter_Docks_2.png"
 											}
 										}
 									]
@@ -3262,17 +3266,19 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/048-map-3.1-docks-DM.jpg"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/048-map-3.1-docks-DM.jpg"
 													},
-													"title": "Map 3.1: docks DM"
+													"title": "Map 3.1: docks DM",
+													"imageType": "map"
 												},
 												{
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/049-map-3.1-docks-player.jpg"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/049-map-3.1-docks-player.jpg"
 													},
-													"title": "Player Version"
+													"title": "Player Version",
+													"imageType": "mapPlayer"
 												}
 											]
 										},
@@ -3375,7 +3381,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/050-ledros.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/050-ledros.png"
 													}
 												}
 											]
@@ -3503,7 +3509,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/051-bilgewater-waterways.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/051-bilgewater-waterways.png"
 											}
 										}
 									]
@@ -3600,7 +3606,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/bookData/052-shadow-isles-sea.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/bookData/052-shadow-isles-sea.png"
 											}
 										}
 									]
@@ -3656,7 +3662,12 @@
 					"name": "Banshee's Veil",
 					"source": "LoRDToB"
 				}
-			}
+			},
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			]
 		},
 		{
 			"name": "Bilgewater Cutlass",
@@ -3796,7 +3807,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/itemFluff/Adaptive Helm.png"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/itemFluff/Adaptive Helm.png"
 					}
 				}
 			]
@@ -3809,7 +3820,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/itemFluff/Banshee's Veil.png"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/itemFluff/Banshee's Veil.png"
 					}
 				}
 			]
@@ -3822,7 +3833,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/itemFluff/Bilgewater Cutlass.png"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/itemFluff/Bilgewater Cutlass.png"
 					}
 				}
 			]
@@ -3835,7 +3846,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/itemFluff/Blade of Ledros.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/itemFluff/Blade of Ledros.jpg"
 					}
 				}
 			]
@@ -3848,7 +3859,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/itemFluff/Boots of Swiftness.png"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/itemFluff/Boots of Swiftness.png"
 					}
 				}
 			]
@@ -3861,7 +3872,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/itemFluff/Dead Man's Plate.png"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/itemFluff/Dead Man's Plate.png"
 					}
 				}
 			]
@@ -3874,7 +3885,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/itemFluff/Powder Keg.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/itemFluff/Powder Keg.jpg"
 					}
 				}
 			]
@@ -3885,7 +3896,9 @@
 			"name": "Abyssal Eye",
 			"source": "LoRDToB",
 			"page": 0,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"U"
@@ -3990,7 +4003,9 @@
 			"name": "Barkbeast",
 			"source": "LoRDToB",
 			"page": 0,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -4090,7 +4105,9 @@
 			"name": "Commander Ledros",
 			"source": "LoRDToB",
 			"page": 0,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -4197,9 +4214,9 @@
 				"C"
 			],
 			"damageTags": [
+				"S",
 				"N",
-				"O",
-				"S"
+				"O"
 			],
 			"miscTags": [
 				"AOE",
@@ -4216,7 +4233,9 @@
 			"name": "Dragon Shark",
 			"source": "LoRDToB",
 			"page": 0,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"U"
@@ -4280,8 +4299,8 @@
 				"B"
 			],
 			"damageTags": [
-				"I",
-				"P"
+				"P",
+				"I"
 			],
 			"miscTags": [
 				"MW",
@@ -4299,7 +4318,9 @@
 			"isNamedCreature": true,
 			"source": "LoRDToB",
 			"page": 0,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4407,10 +4428,10 @@
 				"C"
 			],
 			"damageTags": [
-				"B",
+				"S",
 				"F",
 				"P",
-				"S"
+				"B"
 			],
 			"miscTags": [
 				"AOE",
@@ -4431,7 +4452,9 @@
 			"name": "Ironback",
 			"source": "LoRDToB",
 			"page": 0,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -4538,7 +4561,9 @@
 			"isNamedCreature": true,
 			"source": "LoRDToB",
 			"page": 0,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4665,7 +4690,9 @@
 			"name": "Pool Shark",
 			"source": "LoRDToB",
 			"page": 0,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4751,8 +4778,8 @@
 				"X"
 			],
 			"damageTags": [
-				"B",
-				"P"
+				"P",
+				"B"
 			],
 			"miscTags": [
 				"MW",
@@ -4769,7 +4796,9 @@
 			"name": "Powder Monkey",
 			"source": "LoRDToB",
 			"page": 0,
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "elemental",
 			"alignment": [
 				"C",
@@ -4857,8 +4886,8 @@
 				"IG"
 			],
 			"damageTags": [
-				"F",
-				"S"
+				"S",
+				"F"
 			],
 			"miscTags": [
 				"MW"
@@ -4874,7 +4903,9 @@
 			"name": "Wharf Rat",
 			"source": "LoRDToB",
 			"page": 0,
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -4960,7 +4991,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/monsterFluff/Abyssal Eye.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/monsterFluff/Abyssal Eye.jpg"
 					}
 				}
 			]
@@ -4981,7 +5012,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/monsterFluff/Barkbeast.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/monsterFluff/Barkbeast.jpg"
 					}
 				}
 			]
@@ -5002,7 +5033,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/monsterFluff/Commander Ledros.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/monsterFluff/Commander Ledros.jpg"
 					}
 				}
 			]
@@ -5035,7 +5066,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/monsterFluff/Gangplank.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/monsterFluff/Gangplank.jpg"
 					}
 				}
 			]
@@ -5068,7 +5099,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/monsterFluff/Miss Fortune.png"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/monsterFluff/Miss Fortune.png"
 					}
 				}
 			]
@@ -5089,7 +5120,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/monsterFluff/Pool Shark.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/monsterFluff/Pool Shark.jpg"
 					}
 				}
 			]
@@ -5110,7 +5141,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/monsterFluff/Powder Monkey.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/monsterFluff/Powder Monkey.jpg"
 					}
 				}
 			]
@@ -5131,7 +5162,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/LoRDToB/monsterFluff/Wharf Rat.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/LoRDToB/monsterFluff/Wharf Rat.jpg"
 					}
 				}
 			]
@@ -5237,7 +5268,7 @@
 			"prerequisite": [
 				{
 					"level": {
-						"level": "5",
+						"level": 5,
 						"class": {
 							"name": "Fighter"
 						}
@@ -5261,7 +5292,7 @@
 						"entrySummary": "Sniper Form"
 					},
 					"level": {
-						"level": "5",
+						"level": 5,
 						"class": {
 							"name": "Fighter"
 						}
@@ -5342,7 +5373,6 @@
 			]
 		},
 		{
-			"type": "entries",
 			"name": "Gift of the Drowned Ones",
 			"entries": [
 				"At 3rd level when you adopt this path, you gain a swimming speed equal to your walking speed and gain the ability to breathe underwater."
@@ -5475,7 +5505,6 @@
 			]
 		},
 		{
-			"type": "entries",
 			"name": "Scoundrel's Wit",
 			"entries": [
 				"Starting at 3rd level, you gain proficiency with the two of the following skills: {@skill Deception}, {@skill Persuasion}, or {@skill Sleight of Hand}."
@@ -5490,7 +5519,6 @@
 			"header": 1
 		},
 		{
-			"type": "entries",
 			"name": "Gunfighter Form",
 			"entries": [
 				"Additionally, when you choose this archetype at 3rd level, you begin constructing a custom firearm that suits your unique brand of renegade style. This process begins by selecting the form upon which to base your weapon. Choose one of the following options; each form grants you a new ability and unlocks certain upgrades you can add to your weapon at higher levels.",
@@ -5521,7 +5549,6 @@
 			"header": 1
 		},
 		{
-			"type": "entries",
 			"name": "Weapon of Choice",
 			"entries": [
 				"Through a combination of salvaging stolen pieces of arcane technology and sheer rakish ingenuity, you can customize your firearm with various upgrades. When you choose this archetype at 3rd level, pick one minor upgrade and one major upgrade from the {@filter Firearm Upgrades|optionalfeatures|Feature Type=FU:Min;FU:Maj} list at the end of this subclass. If an upgrade has a prerequisite, you must meet that prerequisite in order to benefit from the upgrade.",
@@ -5631,7 +5658,6 @@
 			]
 		},
 		{
-			"type": "entries",
 			"name": "Tricks Up the Sleeve",
 			"entries": [
 				"Your penchant for games has afforded you the ability to subtly manipulate fortune to your favor. When you choose this archetype at 3rd level, you learn the {@spell guidance} cantrip. Starting at 9th level, it has a range of 30 feet for you, and you can cast it as a bonus action."
@@ -5646,7 +5672,6 @@
 			"header": 1
 		},
 		{
-			"type": "entries",
 			"name": "Wild Card's Gambit",
 			"entries": [
 				"Also at 3rd level, you gain proficiency with one of the following gaming sets: {@item dice set|PHB}, {@item dragonchess set|PHB}, or {@item playing card set|PHB}.",

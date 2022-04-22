@@ -9,7 +9,7 @@
 					"Yorviing"
 				],
 				"convertedBy": [
-					"Dasho"
+					"X the Elder"
 				],
 				"version": "1.1",
 				"url": "https://www.gmbinder.com/share/-Lx2r95-_Z8zlgFJHp4Z",
@@ -26,8 +26,8 @@
 			"WCC": "Witchcraft Craft",
 			"WCG": "Witchcraft Grand Crafts"
 		},
-		"dateAdded": 0,
-		"dateLastModified": 0
+		"dateAdded": 1638801788,
+		"dateLastModified": 1638801781
 	},
 	"book": [
 		{
@@ -35,7 +35,8 @@
 			"id": "YAG",
 			"source": "YAG",
 			"author": "Yorviing",
-			"published": "2020",
+			"published": "2020-01-15",
+			"group": "homebrew",
 			"coverUrl": "/homebrew/img/yag_cover.png",
 			"contents": [
 				{
@@ -433,17 +434,8 @@
 											"I've always had a knack for magic, and I long to learn as much as I can about the magic that was known to people of the past."
 										]
 									],
-									"name": "I became a wizard because...",
-									"page": 55,
-									"source": "YAG",
-									"chapter": {
-										"name": "Additional Player Options",
-										"ordinal": {
-											"type": "chapter",
-											"identifier": 4
-										},
-										"index": 4
-									}
+									"caption": "I became a wizard because...",
+									"page": 55
 								}
 							]
 						},
@@ -2119,7 +2111,6 @@
 														"As many of the student and faculty of the Ovriel Academy will tell you, the two most important goals of the Academy are the following: the development, experimentation, and understanding of magic, and the preservation of theories, documetation, and works of its students and faculty members for the Academy's use and for generations of spellcasters to come.",
 														{
 															"type": "list",
-															"caption": "Academy Tenets",
 															"items": [
 																"No member of the Academy may steal from, murder, kill, or harm another member or non-member of the Academy.",
 																"No member shall subject another member to any form of experimentation or spell without the other's explicit consent, documented in writing, and supervised by a senior member.",
@@ -2128,7 +2119,8 @@
 																"No member shall steal, trade, or give away items or equipment owned by the Academy.",
 																"No member shall subject a person or group of persons not belonging to the Academy to any form of experimentation or spell without the person or group of person's explicit consent, documented in writing, and supervised by a senior member.",
 																"No member, aside from those permitted by the Council of Academics, shall enter Room 34."
-															]
+															],
+															"name": "Academy Tenets"
 														}
 													]
 												}
@@ -2632,7 +2624,6 @@
 														"The Code of Covens is a set of witch laws that all covens must adhere to and cannot refuse, should they be exiled or branded a traitor, the greatest insult a witch can give. It is a simple set of ancient laws passed down for centuries from the days of the first witches. They are sometimes known as the Witch Laws, the Ancient Words, or the Seven Tenets. The Code of Covens laws are below:",
 														{
 															"type": "list",
-															"caption": "The Code of Covens",
 															"items": [
 																"No witch shall steal from another witch.",
 																"No witch shall kill another witch, save for traitors or the exiled.",
@@ -2641,7 +2632,8 @@
 																"All witches must respect and revere nature.",
 																"All witches must take responsibility for their own actions.",
 																"All witches, regardless of their views, must respect the ways and practices of another coven."
-															]
+															],
+															"name": "The Code of Covens"
 														},
 														"Witches who break one of the laws set by the Code of Covens are known as traitors or exiles. These witches are stripped of all gifts and titles they held, and are forbidden to speak to another coven. These traitors and exiled are distinguished by a special mark called the Traitor's Mark, a magical black scar that is magically branded on the hand, arm, forehead, or neck. Through ancient magic, these marks cannot be removed save for a remove curse spell that is cast at the same time of day with a 8th or 9th level spell slot over the course of seven days, after which point the bearer must submerge themselves in a bath of salt water for 8 hours."
 													]
@@ -2654,7 +2646,6 @@
 												"Given their deep connection to ancient magic, as well as the variety of covens that exist, it is no wonder that witches have peculiar traits to them. Many witches, either at birth of upon completion of a Sacred Rite, often have some minor quirk that distinguishes them from the common folk. These quirks can range from the minor to the extreme, from bodily changes to their presence itself. Below is a sample of quirks that your witch character may have. You can roll a d12 or choose from the options in the Witch Quirk Options table to determine your character's specific quirks.",
 												{
 													"type": "table",
-													"caption": "",
 													"colLabels": [
 														"d8",
 														"Witch Quirk"
@@ -2898,7 +2889,6 @@
 												"A witch coven can provide a great number of plot hooks and other story elements for a campaign. Below is a sample list of plot hooks that may be included into your campaign. Your GM may choose one of the following options on their own, or you can work out one of these with your GM should you choose to have your character be tied to one of these. You can roll a d8, or choose from the options in the Witch Coven Plot Hooks table to determine a plot to use for story elements.",
 												{
 													"type": "table",
-													"caption": "",
 													"colLabels": [
 														"d8",
 														"Plot Hook"
@@ -3356,7 +3346,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A memento from a time before you were cursed, a set of {@item traveler's clothes|phb}, a {@item pouch|phb|small bag} of sage, a {@ item ink pen|phb|quill}, an {@item ink (1-ounce bottle)|phb|ink pot}, a {@item book|phb|blank journal}, a cloak, and a {@item pouch|phb|small coin sack} of 5 gp"
+							"entry": "A memento from a time before you were cursed, a set of {@item traveler's clothes|phb}, a {@item pouch|phb|small bag} of sage, a {@item ink pen|phb|quill}, an {@item ink (1-ounce bottle)|phb|ink pot}, a {@item book|phb|blank journal}, a cloak, and a {@item pouch|phb|small coin sack} of 5 gp"
 						}
 					]
 				},
@@ -3577,7 +3567,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@ item Tinker's Tools|phb}, {@filter Vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+							"entry": "{@item Tinker's Tools|phb}, {@filter Vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
 						},
 						{
 							"type": "item",
@@ -3846,7 +3836,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A walking stick, a set of {@item traveler's clothes|phb}, one week's supply of {@ rations (1 day)|phb|rations}, a {@item backpack|phb}, a small knife, a {@item tankard|phb}, and a small {@item pouch|phb} containing 5 gp"
+							"entry": "A walking stick, a set of {@item traveler's clothes|phb}, one week's supply of {@item rations (1 day)|phb|rations}, a {@item backpack|phb}, a small knife, a {@item tankard|phb}, and a small {@item pouch|phb} containing 5 gp"
 						}
 					]
 				},
@@ -4240,10 +4230,10 @@
 					"_": [
 						"common clothes|phb",
 						{
-							"equipmentType": "mediumArmor"
+							"equipmentType": "armorMedium"
 						},
 						{
-							"equipmentType": "weaponBasic"
+							"equipmentType": "weaponSimple"
 						},
 						{
 							"special": "banner"
@@ -4283,7 +4273,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A {@item pouch|phb} containing 10 gp, {@ item book|phb} or scroll or {@ item book|phb|holy text}, a {@item book|phb|tome} of notes and theories written by you, a {@item torch|phb}, a quill, an ink pot, a small crate, and a set of {@item traveler's clothes|phb}"
+							"entry": "A {@item pouch|phb} containing 10 gp, {@item book|phb} or scroll or {@item book|phb|holy text}, a {@item book|phb|tome} of notes and theories written by you, a {@item torch|phb}, a quill, an ink pot, a small crate, and a set of {@item traveler's clothes|phb}"
 						}
 					]
 				},
@@ -5956,7 +5946,7 @@
 							"poisoner's kit",
 							"woodcarver's tools"
 						],
-						"amount": 1
+						"count": 1
 					}
 				}
 			],
@@ -6128,6 +6118,13 @@
 						"You gain one {@filter Eldritch Invocation|optionalfeatures|Feature Type=EI} on the warlock Invocation's list, provided you meet any prerequisites or requirements.",
 						"You can retake this feat only once again."
 					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"intimidation": true,
+					"persuasion": true
 				}
 			]
 		}
@@ -6384,6 +6381,7 @@
 				"constitution"
 			],
 			"miscTags": [
+				"FMV",
 				"SCL"
 			]
 		},
@@ -7243,6 +7241,7 @@
 				"M"
 			],
 			"miscTags": [
+				"FMV",
 				"SCL"
 			]
 		},
@@ -10850,6 +10849,7 @@
 				"R"
 			],
 			"miscTags": [
+				"FMV",
 				"SGT",
 				"SMN"
 			]
@@ -11515,6 +11515,9 @@
 			],
 			"savingThrow": [
 				"constitution"
+			],
+			"miscTags": [
+				"FMV"
 			]
 		},
 		{
@@ -11577,6 +11580,9 @@
 			],
 			"savingThrow": [
 				"strength"
+			],
+			"miscTags": [
+				"FMV"
 			]
 		},
 		{
@@ -12517,6 +12523,9 @@
 			],
 			"savingThrow": [
 				"strength"
+			],
+			"miscTags": [
+				"FMV"
 			]
 		},
 		{
@@ -12588,6 +12597,9 @@
 			],
 			"savingThrow": [
 				"dexterity"
+			],
+			"miscTags": [
+				"FMV"
 			]
 		},
 		{
@@ -13053,6 +13065,7 @@
 				"dexterity"
 			],
 			"miscTags": [
+				"FMV",
 				"SGT"
 			]
 		},
@@ -13351,6 +13364,9 @@
 			],
 			"savingThrow": [
 				"dexterity"
+			],
+			"miscTags": [
+				"FMV"
 			]
 		},
 		{
@@ -13646,6 +13662,9 @@
 			],
 			"savingThrow": [
 				"dexterity"
+			],
+			"miscTags": [
+				"FMV"
 			]
 		},
 		{
@@ -13756,6 +13775,9 @@
 			],
 			"savingThrow": [
 				"dexterity"
+			],
+			"miscTags": [
+				"FMV"
 			]
 		},
 		{
@@ -15436,7 +15458,7 @@
 				}
 			],
 			"range": {
-				"type": "circle",
+				"type": "radius",
 				"distance": {
 					"type": "feet",
 					"amount": 30
@@ -15637,6 +15659,9 @@
 			],
 			"savingThrow": [
 				"constitution"
+			],
+			"miscTags": [
+				"FMV"
 			]
 		},
 		{
@@ -17091,6 +17116,7 @@
 				"dexterity"
 			],
 			"miscTags": [
+				"FMV",
 				"SGT"
 			]
 		},
@@ -18084,6 +18110,7 @@
 				"strength"
 			],
 			"miscTags": [
+				"FMV",
 				"SGT"
 			]
 		},
@@ -18748,7 +18775,9 @@
 			"name": "Massive Caterpillar",
 			"source": "YAG",
 			"page": 103,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -18827,9 +18856,9 @@
 				"Multiattack"
 			],
 			"damageTags": [
-				"B",
+				"P",
 				"I",
-				"P"
+				"B"
 			],
 			"miscTags": [
 				"MW",
@@ -18844,13 +18873,17 @@
 			"name": "Constructed Companion",
 			"source": "YAG",
 			"page": 13,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
 			],
 			"ac": [
-				"The AC of the heavy armor you used to create this construct"
+				{
+					"special": "The AC of the heavy armor you used to create this construct"
+				}
 			],
 			"hp": {
 				"special": "Your wizard level plus your Intelligence modifier, multiplied by 5"
@@ -18954,7 +18987,9 @@
 			"name": "Badger",
 			"source": "YAG",
 			"page": 121,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -18984,7 +19019,9 @@
 				"intimidation": "+3",
 				"survival": "+3"
 			},
-			"senses": "darkvision 30 ft.",
+			"senses": [
+				"darkvision 30 ft."
+			],
 			"passive": 11,
 			"languages": [
 				""
@@ -19023,7 +19060,9 @@
 			"name": "Butterfly",
 			"source": "YAG",
 			"page": 121,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -19090,7 +19129,9 @@
 			"name": "Fox",
 			"source": "YAG",
 			"page": 121,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -19159,7 +19200,9 @@
 			"name": "Hedgehog",
 			"source": "YAG",
 			"page": 121,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -19214,7 +19257,7 @@
 				}
 			],
 			"senseTags": [
-				"ST"
+				"T"
 			],
 			"damageTags": [
 				"P"
@@ -19227,7 +19270,9 @@
 			"name": "Hound",
 			"source": "YAG",
 			"page": 121,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -19284,7 +19329,7 @@
 				"Keen Senses"
 			],
 			"senseTags": [
-				"SD"
+				"D"
 			],
 			"damageTags": [
 				"P"
@@ -19297,7 +19342,9 @@
 			"name": "Hummingbird",
 			"source": "YAG",
 			"page": 121,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -19355,9 +19402,6 @@
 			"traitTags": [
 				"Keen Senses"
 			],
-			"senseTags": [
-				"S"
-			],
 			"damageTags": [
 				"P"
 			],
@@ -19369,7 +19413,9 @@
 			"name": "Koala",
 			"source": "YAG",
 			"page": 121,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -19422,18 +19468,20 @@
 			"damageTags": [
 				"S"
 			],
-			"senseTags": [
-				"S"
-			],
 			"miscTags": [
 				"MW"
+			],
+			"traitTags": [
+				"Keen Senses"
 			]
 		},
 		{
 			"name": "Monkey",
 			"source": "YAG",
 			"page": 121,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -19484,9 +19532,6 @@
 					]
 				}
 			],
-			"senseTags": [
-				"S"
-			],
 			"damageTags": [
 				"B"
 			],
@@ -19498,7 +19543,9 @@
 			"name": "Moth",
 			"source": "YAG",
 			"page": 121,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -19552,7 +19599,7 @@
 				}
 			],
 			"senseTags": [
-				"SD"
+				"D"
 			],
 			"damageTags": [
 				"P"
@@ -19565,7 +19612,9 @@
 			"name": "Rabbit",
 			"source": "YAG",
 			"page": 121,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -19630,7 +19679,9 @@
 			"name": "Teacup Pig",
 			"source": "YAG",
 			"page": 121,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"L",
@@ -19687,7 +19738,9 @@
 			"name": "Turtle",
 			"source": "YAG",
 			"page": 121,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -24061,6 +24114,9 @@
 			"entries": [
 				"Your Intelligence score is 19 while you wear this amulet. It has no effect on you if your Intelligence is already 19 or higher without it.",
 				"Additionally, you gain resistance to necrotic damage."
+			],
+			"resist": [
+				"necrotic"
 			]
 		},
 		{
@@ -24073,6 +24129,12 @@
 			"bonusSpellAttack": "+1",
 			"entries": [
 				"While wearing this bracelet, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your wizard spells that belong to one of the nine schools of magic: abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, quantumurgy, and transmutation."
+			],
+			"bonusSpellSaveDc": "+1",
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				}
 			]
 		},
 		{
@@ -24109,6 +24171,9 @@
 				"This quarter staff is wrapped in a strange, exotic leather that is cool to the touch. The leather straps along the staff are marked with an inscription in Elvish that reads ‘Within the heart lies shadow'.",
 				"When you hit with an attack using this magic quarterstaff, the target takes an extra {@damage 1d6} necrotic damage. In addition, while you hold the staff, you have resistance to necrotic damage and you have advantage on Dexterity ({@skill Stealth}) checks made while in dim light or darkness.",
 				"While attuned to this staff, you gain {@sense darkvision} up to 60 feet, and you can see through both magical and non magical darkness. When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour."
+			],
+			"resist": [
+				"necrotic"
 			]
 		},
 		{
@@ -24204,6 +24269,20 @@
 			"bonusWeapon": "+1",
 			"entries": [
 				"While wearing these handwraps, you gain resistance to lightning damage, and you have a +1 to attack and damage rolls made while wielding a quarterstaff. You also learn the shocking grasp cantrip."
+			],
+			"resist": [
+				"lightning"
+			],
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				},
+				{
+					"class": "warlock"
+				},
+				{
+					"class": "wizard"
+				}
 			]
 		},
 		{
@@ -24215,6 +24294,17 @@
 			"wondrous": true,
 			"entries": [
 				"This hat is an overly large and wide brimmed hat that is a darker color, such as dark green, red, blue, or grey. While wearing this hat, you have advantage on Wisdom ({@skill Perception}) checks. These effects end if the hat is removed. You also can see through fog, mist, smoke, and other similar obscurants without penalty."
+			],
+			"reqAttuneTags": [
+				{
+					"class": "sorcerer"
+				},
+				{
+					"class": "warlock"
+				},
+				{
+					"class": "wizard"
+				}
 			]
 		},
 		{
@@ -24226,6 +24316,12 @@
 			"wondrous": true,
 			"entries": [
 				"This mask has round protective lenses for the eyes, and included a section near the nose in which pleasant smelling herbs and dried plants are placed. While you wear it, you have advantage on Intelligence ({@skill Medicine}) checks, and you are immune to the {@condition poisoned} condition and have immunity to poison damage. Additionally, you can breath smoke and other noxious fumes without penalty."
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
 			]
 		},
 		{
@@ -24252,6 +24348,12 @@
 			"bonusSpellAttack": "+1",
 			"entries": [
 				"This component pouch keeps your material components fresh and in perfect condition. While using this component pouch, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your wizard spells."
+			],
+			"bonusSpellSaveDc": "+1",
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				}
 			]
 		},
 		{
@@ -24270,6 +24372,10 @@
 				"{@spell inflict wounds|phb}",
 				"{@spell false life|phb}",
 				"{@spell ray of sickness|phb}"
+			],
+			"conditionImmune": [
+				"disease",
+				"poisoned"
 			]
 		},
 		{
@@ -24360,6 +24466,17 @@
 				"You can use an action to speak this staff's command word and send three small blasts of dark green energy from the staff towards three points on the ground within 10 feet of you. Each blast then turns into smoke, revealing a giant toad (see the MM for statistics) under your control and each act on its own initiative count. By using a bonus action to speak the command word again, you can dispel a toad, turning it into dark green smoke.",
 				"On your turn, you can mentally command each giant toad if it is within 60 feet of you and you aren't {@condition incapacitated}. You decide what actions the giant toads take and where they move during their next turn, or you can issue each giant toad a general command, such as to attack your enemies or guard a location.",
 				"If a giant toad is reduced to 0 hit points, it dies and vanished in a puff of dark green smoke. If each giant toad is reduced to 0 hit points, the staff then loses its power for {@dice 1d8} days."
+			],
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				},
+				{
+					"class": "warlock"
+				},
+				{
+					"class": "wizard"
+				}
 			]
 		},
 		{
@@ -24386,11 +24503,16 @@
 				"While attuned to the book, you gain the following benefits:",
 				{
 					"type": "list",
-					"entries": [
+					"items": [
 						"You always know which direction is north.",
 						"You know the names of every constellation, star, and other heavenly bodies in the night sky.",
 						"You have advantage on any Intelligence ({@skill History}) or Intelligence ({@skill Nature}) checks made related to astrology, astronomy, and different culture's attitudes and beliefs related to stars and other heavenly bodies."
 					]
+				}
+			],
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
 				}
 			]
 		},
@@ -24415,6 +24537,11 @@
 				"This thick leather-bound volume has a circle composed of arcane runes on the front cover. The pages of the time are blank and pristine.",
 				"If you can attune to this item, you can use it as a spellbook and an arcane focus. In addition, while holding the tome, you can prepare two additional spells per long rest.",
 				"Additionally, the tome can't be damaged by fire or immersion in water, and the spellbook doesn't deteriorate with age."
+			],
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				}
 			]
 		},
 		{
@@ -24567,9 +24694,22 @@
 							"Your movement speed increase by 20 feet. If you have wings, the armor adjust to accommodate your wings."
 						]
 					}
+				],
+				"resist": [
+					"force"
+				],
+				"reqAttuneTags": [
+					{
+						"class": "sorcerer"
+					},
+					{
+						"class": "warlock"
+					},
+					{
+						"class": "wizard"
+					}
 				]
-			},
-			"__prop": "variant"
+			}
 		}
 	],
 	"optionalfeature": [

@@ -9,7 +9,7 @@
 					"/u/NotTheSmooze"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Lxran#2292"
 				],
 				"version": "1.0",
 				"color": "351a11",
@@ -168,7 +168,9 @@
 			"name": "Trained Falcon",
 			"source": "Falconer",
 			"page": 1,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -221,6 +223,9 @@
 			],
 			"miscTags": [
 				"MW"
+			],
+			"damageTags": [
+				"S"
 			]
 		}
 	]

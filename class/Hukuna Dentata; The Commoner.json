@@ -3,16 +3,16 @@
 		"sources": [
 			{
 				"json": "reddit",
-				"abbreviation": "R_UA",
-				"full": "Reddit: UnearthedArcana",
+				"abbreviation": "r/UA",
+				"full": "r/UnearthedArcana - The Commoner class",
 				"authors": [
 					"hakuna_dentata"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Modnar"
 				],
 				"version": "1.0",
-				"url": "https://www.reddit.com/r/UnearthedArcana/comments/9ccl7k/the_commoner_an_eminently_killable_possibly/?st=jo2v56gs&sh=bd3e809b",
+				"url": "https://www.reddit.com/r/UnearthedArcana/comments/9ccl7k/the_commoner_an_eminently_killable_possibly/",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -117,17 +117,17 @@
 			],
 			"startingProficiencies": {
 				"weapons": [
-					"club",
-					"dagger",
-					"handaxe",
-					"light hammer",
-					"quarterstaff",
-					"sickle",
-					"sling",
-					"shortbow",
+					"{@item club|phb|club}",
+					"{@item dagger|phb|dagger}",
+					"{@item handaxe|phb|handaxe}",
+					"{@item light hammer|phb|light hammer}",
+					"{@item quarterstaff|phb|quarterstaff}",
+					"{@item sickle|phb|sickle}",
+					"{@item sling|phb|sling}",
+					"{@item shortbow|phb|shortbow}",
 					"torch",
 					"pitchfork",
-					"hand crossbows"
+					"{@item hand crossbow|phb|hand crossbows}"
 				],
 				"tools": [
 					"any one type of artisan's tool, in which you gain expertise."
@@ -190,12 +190,6 @@
 				"Waste Not, Want Not IV|Commoner|reddit|18",
 				"Whew, Take a Breather Champ|Commoner|reddit|19",
 				"Big Damn Hero, Sir|Commoner|reddit|20"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTag": [
-				"C"
 			]
 		}
 	],

@@ -4,22 +4,22 @@
 			{
 				"json": "GiddySpellCopy",
 				"abbreviation": "Brew",
-				"full": "The Null Network",
+				"full": "TheGiddyLimit",
 				"authors": [
-					"The Null Network"
+					"TheGiddyLimit"
 				],
 				"version": "1.0.0",
-				"url": "https://github.com/thenullnetwork/dnd-homebrew",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"targetSchema": "1.2.3"
 			}
 		],
 		"dateAdded": 0,
+		"dateLastModified": 0,
 		"dependencies": {
 			"spell": [
 				"PHB"
 			]
-		},
-		"dateLastModified": 0
+		}
 	},
 	"spell": [
 		{

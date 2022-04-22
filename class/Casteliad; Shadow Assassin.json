@@ -9,7 +9,7 @@
 					"Casteliad"
 				],
 				"version": "1.0.0",
-				"url": "https://github.com/thenullnetwork/dnd-homebrew",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -404,7 +404,7 @@
 			"startingProficiencies": {
 				"weapons": [
 					"simple",
-					"shortswords"
+					"{@item shortsword|phb|shortswords}"
 				],
 				"tools": [
 					"any one type of artisan's tools or any one musical instrument of your choice"
@@ -471,7 +471,7 @@
 					"armor": [
 						"light",
 						"medium",
-						"shields"
+						"{@item shield|phb|shields}"
 					],
 					"skills": [
 						{
@@ -544,22 +544,6 @@
 				}
 			],
 			"subclassTitle": "Monastic Tradition",
-			"subclasses": [
-				{
-					"name": "Way of the Astral Self (UA)",
-					"subclassFeatures": [
-						"Way of the Astral Self|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|3",
-						"Visage of the Astral Self|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|6",
-						"Gloom Stalker|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|9",
-						"Awakening of the Astral Self|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|14",
-						"Improved Arms of the Astral Self|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|14",
-						"Complete Astral Self|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|20",
-						"Improved Arms of the Astral Self|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|20"
-					],
-					"source": "Casteliad",
-					"shortName": "Astral Self (UA)"
-				}
-			],
 			"fluff": [
 				{
 					"entries": [
@@ -985,7 +969,7 @@
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@dnddnk feat|feats.html}."
+				"If your DM allows the use of feats, you may instead take a {@dndz feat|feats.html}."
 			]
 		},
 		{
@@ -1247,7 +1231,7 @@
 			"level": 11,
 			"entries": [
 				"When you reach 11th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@dnddnk feat|feats.html}."
+				"If your DM allows the use of feats, you may instead take a {@dndz feat|feats.html}."
 			]
 		},
 		{
@@ -1288,7 +1272,7 @@
 			"level": 15,
 			"entries": [
 				"When you reach 15th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@dnddnk feat|feats.html}."
+				"If your DM allows the use of feats, you may instead take a {@dndz feat|feats.html}."
 			]
 		},
 		{
@@ -1330,7 +1314,7 @@
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@dnddnk feat|feats.html}."
+				"If your DM allows the use of feats, you may instead take a {@dndz feat|feats.html}."
 			]
 		},
 		{
@@ -1381,7 +1365,6 @@
 			"header": 1
 		},
 		{
-			"type": "entries",
 			"name": "Arms of the Astral Self",
 			"entries": [
 				"At 3rd level, your mastery of your ki allows you to summon a portion of your astral self. On your turn, you can spend 2 ki points as a bonus action to summon the arms of your astral self for 10 minutes. These spectral arms hover near your shoulders. You determine the arms' appearance based on the qualities of your character.",
@@ -1539,6 +1522,24 @@
 			"entries": [
 				"At 20th level, you make three extra attacks instead of one when you attack with your astral arms as a bonus action."
 			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Way of the Astral Self (UA)",
+			"subclassFeatures": [
+				"Way of the Astral Self|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|3",
+				"Visage of the Astral Self|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|6",
+				"Gloom Stalker|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|9",
+				"Awakening of the Astral Self|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|14",
+				"Improved Arms of the Astral Self|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|14",
+				"Complete Astral Self|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|20",
+				"Improved Arms of the Astral Self|Monk (MultiClass)|Casteliad|Astral Self (UA)|Casteliad|20"
+			],
+			"source": "Casteliad",
+			"shortName": "Astral Self (UA)",
+			"className": "Monk (MultiClass)",
+			"classSource": "Casteliad"
 		}
 	]
 }

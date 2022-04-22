@@ -1,46 +1,61 @@
-// Adapted from dnddnk `clean-jsons.js`
+// Adapted from D&Dz `clean-jsons.js`
 // ===
-"use strict";
 
-const fs = require("fs");
-const uf = require("./util-fs");
-const um = require("./util-misc");
-const ub = require("./util-brew");
+import * as fs from "fs";
+import {Um, Uf} from "dndz-utils";
+import * as Ub from "./util-brew.js";
+import {VANILLA_SOURCES} from "./util-sources.js";
 
 const REPLACEMENTS = {
 	"—": "\\u2014",
 	"–": "\\u2013",
 	"−": "\\u2212",
+	"“": `\\"`,
+	"”": `\\"`,
 	"’": "'",
-	"“": '\\"',
-	"”": '\\"',
-	"…": "..."
+	"…": "...",
+	" ": " ", // non-breaking space
+	"ﬀ": "ff",
+	"ﬃ": "ffi",
+	"ﬄ": "ffl",
+	"ﬁ": "fi",
+	"ﬂ": "fl",
+	"Ĳ": "IJ",
+	"ĳ": "ij",
+	"Ǉ": "LJ",
+	"ǈ": "Lj",
+	"ǉ": "lj",
+	"Ǌ": "NJ",
+	"ǋ": "Nj",
+	"ǌ": "nj",
+	"ﬅ": "ft",
 };
 
-const VANILLA_SOURCES = new Set([
-	"PHB",
-	"XGE",
-	"TCE",
-]);
+const _VANILLA_SOURCES = new Set(VANILLA_SOURCES);
 
 const replacementRegex = new RegExp(Object.keys(REPLACEMENTS).join("|"), 'g');
 
 const RUN_TIMESTAMP = Math.floor(Date.now() / 1000);
 const MAX_TIMESTAMP = 9999999999;
 
-const CONTENT_KEY_BLACKLIST = new Set(["$schema", "_meta"]);
+const CONTENT_KEY_BLACKLIST = new Set(["$schema", "_meta", "siteVersion"]);
+
+const RE_INVALID_WINDOWS_CHARS = /[<>:"/\\|?*]/g;
 
 function cleanFolder (folder) {
 	const ALL_ERRORS = [];
 
-	const files = uf.listFiles(folder);
+	const files = Uf.listJsonFiles(folder);
 	files
 		.map(file => ({
 			name: file,
-			contents: uf.readJSON(file)
+			contents: Uf.readJSON(file)
 		}))
 		.map(file => {
-			if (!ub.FILES_NO_META[file.name]) {
+			if (RE_INVALID_WINDOWS_CHARS.test(file.name.split("/").slice(1).join("/"))) ALL_ERRORS.push(`${file.name} contained invalid characters!`);
+			if (!file.name.endsWith(".json")) ALL_ERRORS.push(`${file.name} had invalid extension! Should be ".json" (case-sensitive).`);
+
+			if (!Ub.FILES_NO_META[file.name]) {
 				// region clean
 				// Ensure _meta is at the top of the file
 				const tmp = {$schema: file.contents.$schema, _meta: file.contents._meta};
@@ -50,24 +65,24 @@ function cleanFolder (folder) {
 				file.contents = tmp;
 
 				if (file.contents._meta.dateAdded == null) {
-					um.warn(`TIMESTAMPS`, `\tFile "${file.name}" did not have "dateAdded"! Adding one...`);
+					Um.warn(`TIMESTAMPS`, `\tFile "${file.name}" did not have "dateAdded"! Adding one...`);
 					file.contents._meta.dateAdded = RUN_TIMESTAMP;
 				} else if (file.contents._meta.dateAdded > MAX_TIMESTAMP) {
-					um.warn(`TIMESTAMPS`, `\tFile "${file.name}" had a "dateAdded" in milliseconds! Converting to seconds...`);
+					Um.warn(`TIMESTAMPS`, `\tFile "${file.name}" had a "dateAdded" in milliseconds! Converting to seconds...`);
 					file.contents._meta.dateAdded = Math.round(file.contents._meta.dateAdded / 1000);
 				}
 
 				if (file.contents._meta.dateLastModified == null) {
-					um.warn(`TIMESTAMPS`, `\tFile "${file.name}" did not have "dateLastModified"! Adding one...`);
+					Um.warn(`TIMESTAMPS`, `\tFile "${file.name}" did not have "dateLastModified"! Adding one...`);
 					file.contents._meta.dateLastModified = RUN_TIMESTAMP;
 				} else if (file.contents._meta.dateLastModified > MAX_TIMESTAMP) {
-					um.warn(`TIMESTAMPS`, `\tFile "${file.name}" had a "dateLastModified" in milliseconds! Converting to seconds...`);
+					Um.warn(`TIMESTAMPS`, `\tFile "${file.name}" had a "dateLastModified" in milliseconds! Converting to seconds...`);
 					file.contents._meta.dateLastModified = Math.round(file.contents._meta.dateLastModified / 1000);
 				}
 
 				(file.contents._meta.sources || []).forEach(source => {
 					if (source.version != null) return;
-					um.warn(`VERSION`, `\tFile "${file.name}" source "${source.json}" did not have "version"! Adding one...`);
+					Um.warn(`VERSION`, `\tFile "${file.name}" source "${source.json}" did not have "version"! Adding one...`);
 					source.version = "unknown";
 				});
 				// endregion
@@ -81,10 +96,12 @@ function cleanFolder (folder) {
 					.forEach(k => {
 						const data = file.contents[k];
 
+						if (!(data instanceof Array) || !data.forEach) throw new Error(`File "${k}" data was not an array!`);
+
 						data.forEach(it => {
 							const source = it.source || (it.inherits ? it.inherits.source : null);
 							if (!source) return ALL_ERRORS.push(`${file.name} :: ${k} :: "${it.name || it.id}" had no source!`);
-							if (!validSources.has(source) && !VANILLA_SOURCES.has(source)) return ALL_ERRORS.push(`${file.name} :: ${k} :: "${it.name || it.id}" source "${source}" was not in _meta`);
+							if (!validSources.has(source) && !_VANILLA_SOURCES.has(source)) return ALL_ERRORS.push(`${file.name} :: ${k} :: "${it.name || it.id}" source "${source}" was not in _meta`);
 						});
 					});
 				// endregion
@@ -94,7 +111,7 @@ function cleanFolder (folder) {
 			return file;
 		})
 		.map(file => {
-			um.info(`CLEANER`, `\t- "${file.name}"...`);
+			Um.info(`CLEANER`, `\t- "${file.name}"...`);
 			file.contents = file.contents.replace(replacementRegex, (match) => REPLACEMENTS[match]);
 			return file;
 		})
@@ -108,9 +125,9 @@ function cleanFolder (folder) {
 	}
 }
 
-uf.runOnDirs((dir) => {
-	um.info(`CLEANER`, `Cleaning dir "${dir}"...`);
+Uf.runOnDirs((dir) => {
+	Um.info(`CLEANER`, `Cleaning dir "${dir}"...`);
 	cleanFolder(dir);
 });
 
-um.info(`CLEANER`, "Cleaning complete.");
+Um.info(`CLEANER`, "Cleaning complete.");

@@ -9,7 +9,7 @@
 					"Unknown"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Modnar"
 				],
 				"version": "1.0",
 				"url": "https://github.com/DMsGuild201/homebrew",
@@ -24,6 +24,8 @@
 			"name": "Shelza Ir (Drow Chess)",
 			"id": "SI",
 			"source": "SI",
+			"published": "2011-10-01",
+			"group": "homebrew",
 			"contents": [
 				{
 					"name": "Festival Activities"

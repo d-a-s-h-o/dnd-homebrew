@@ -9,7 +9,7 @@
 					"Curio Solus"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Modnar"
 				],
 				"version": "1.0",
 				"url": "https://www.gmbinder.com/share/-L5oInnPCz8glRPslEa9",
@@ -24,6 +24,8 @@
 			"name": "Festival Activities",
 			"id": "FESTiV",
 			"source": "festivalAct",
+			"published": "2017-04-27",
+			"group": "homebrew",
 			"contents": [
 				{
 					"name": "Festival Activities",

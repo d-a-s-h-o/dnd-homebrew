@@ -10,21 +10,25 @@
 					"Foxfire94"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Foxfire94"
 				],
 				"version": "unknown"
 			}
 		],
 		"dateAdded": 1593285189,
-		"dateLastModified": 1607915772
+		"dateLastModified": 1644082035
 	},
 	"monster": [
 		{
 			"name": "Warden",
 			"shortName": "Warden",
-			"group": "Knights",
+			"group": [
+				"Knights"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -100,7 +104,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The Warden makes two melee attacks. They may replace one or more of these attacks with a grapple or shove."
+						"The Warden makes three melee attacks. They may replace one or more of these attacks with a grapple or shove."
 					]
 				},
 				{
@@ -126,7 +130,7 @@
 				{
 					"name": "Crushing Counterstrike",
 					"entries": [
-						"As a reaction to a creature attempting to attack the Warden, the Warden may force them to make an opposed Dexterity check. If the Warden succeeds they may make a single melee attack against the creature and the triggering attack is wasted. Otherwise the creature's attack happens normally."
+						"As a reaction to a creature attempting to make a melee attack against the Warden, the Warden may force them to make an opposed Dexterity check. If the Warden succeeds they may make a single melee attack against the creature and the triggering attack is wasted. Otherwise the creature's attack happens normally."
 					]
 				},
 				{
@@ -136,6 +140,25 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/vUtlTqb.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/WCgJus0.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/vUtlTqb.png",
 			"actionTags": [
 				"Multiattack",
 				"Parry"
@@ -147,15 +170,20 @@
 				"F"
 			],
 			"miscTags": [
+				"AOE",
 				"MW"
 			]
 		},
 		{
 			"name": "Centurion",
 			"shortName": "Centurion",
-			"group": "Knights",
+			"group": [
+				"Knights"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -247,6 +275,12 @@
 					"entries": [
 						"The Centurion can use its bonus action to regain 7 ({@dice 1d8 + 3}) hit points. They regain the use of this ability after finishing a short or long rest."
 					]
+				},
+				{
+					"name": "Gladius",
+					"entries": [
+						"When wielding this weapon the Centurion can make one unarmed strike as a bonus action when it takes the attack or multiattack action."
+					]
 				}
 			],
 			"action": [
@@ -283,6 +317,25 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/Rg6G8cE.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/97vPLIn.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/Rg6G8cE.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -306,9 +359,13 @@
 		{
 			"name": "Lawbringer",
 			"shortName": "Lawbringer",
-			"group": "Knights",
+			"group": [
+				"Knights"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -363,7 +420,7 @@
 				{
 					"name": "Impaling Charge",
 					"entries": [
-						"If the Lawbringer moves at least 10 feet straight toward a target and then hits it with a melee weapon attack on the same turn, the target takes the attack damage as normal and is pushed back a number of feet equal to the remainder of the Lawbringer's movement speed, the Lawbringer continuing in a straight line with the target."
+						"If the Lawbringer moves at least 10 feet straight toward a target and then hits it with the next melee weapon attack it makes on the same turn, the target takes the attack damage as normal and is pushed back a number of feet equal to the remainder of the Lawbringer's movement speed, the Lawbringer continuing in a straight line with the target."
 					]
 				},
 				{
@@ -437,6 +494,25 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/XokN39h.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/bEZounF.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/XokN39h.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -449,6 +525,7 @@
 				"P"
 			],
 			"miscTags": [
+				"AOE",
 				"MW",
 				"RCH"
 			],
@@ -460,7 +537,9 @@
 			"name": "Soldier",
 			"shortName": "Soldier",
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -516,6 +595,39 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/Ow7MwSX.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/XBHzMyJ.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/Fsya5c9.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/G4M02qX.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/Ow7MwSX.png",
 			"languageTags": [
 				"C"
 			],
@@ -529,9 +641,13 @@
 		{
 			"name": "Peacekeeper",
 			"shortName": "Peacekeeper",
-			"group": "Knights",
+			"group": [
+				"Knights"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -646,7 +762,7 @@
 				{
 					"name": "Deflect",
 					"entries": [
-						"If an attack misses the Peacekeeper after they take the Dodge action on their turn, the Peacekeeper may make one dagger attack with advantage against the creature that made the attack which missed."
+						"If a melee attack misses the Peacekeeper after they take the Dodge action on their turn, the Peacekeeper may make one dagger attack with advantage against the creature that made the attack which missed."
 					]
 				},
 				{
@@ -656,6 +772,32 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/w9WHNa4.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/YHrBsbQ.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/V5TcI4n.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/w9WHNa4.png",
 			"actionTags": [
 				"Multiattack",
 				"Parry"
@@ -677,9 +819,13 @@
 		{
 			"name": "Conqueror",
 			"shortName": "Conqueror",
-			"group": "Knights",
+			"group": [
+				"Knights"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -754,7 +900,7 @@
 				{
 					"name": "Shield Charge",
 					"entries": [
-						"If the Conqueror moves at least 10 feet straight toward a creature and then hits it with a shield bash on the same turn, the creature must make a {@dc 15} Strength saving throw or be {@condition incapacitated} and knocked {@condition prone}."
+						"If the Conqueror moves at least 10 feet straight toward a creature and then hits it with a shield bash on the same turn, the creature must make a {@dc 15} Strength saving throw or be knocked {@condition prone}."
 					]
 				},
 				{
@@ -780,7 +926,7 @@
 				{
 					"name": "Shield Bash",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage. On a hit, the creature is {@condition incapacitated} until the start of their next turn."
 					]
 				},
 				{
@@ -794,7 +940,7 @@
 				{
 					"name": "Parry",
 					"entries": [
-						"The Conqueror adds 3 to their AC against one melee attack that would hit them as a reaction. To do so, the Conqueror must see the attacker and be wielding a melee weapon or a shield."
+						"If not in Full Guard, the Conqueror adds 3 to their AC against one melee attack that would hit them as a reaction. To do so, the Conqueror must see the attacker and be wielding a melee weapon or a shield."
 					]
 				},
 				{
@@ -804,6 +950,18 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/za0RxBA.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/za0RxBA.png",
 			"traitTags": [
 				"Brute",
 				"Regeneration"
@@ -820,18 +978,24 @@
 				"F"
 			],
 			"miscTags": [
+				"AOE",
 				"MW"
 			],
 			"conditionInflict": [
-				"incapacitated"
+				"incapacitated",
+				"prone"
 			]
 		},
 		{
 			"name": "Gladiator",
 			"shortName": "Gladiator",
-			"group": "Knights",
+			"group": [
+				"Knights"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -910,13 +1074,13 @@
 				{
 					"name": "Fuscina Ictus",
 					"entries": [
-						"Once per turn, when the Gladiator hits a creature with a trident attack they can force the creature to succeed a {@dc 14} Strength saving throw or be knocked {@condition prone} and {@condition incapacitated} until the start of their next turn."
+						"Once per turn, when the Gladiator hits a creature with a trident melee attack they can force the creature to succeed a {@dc 14} Strength saving throw or be knocked {@condition prone} and {@condition incapacitated} until the start of their next turn."
 					]
 				},
 				{
 					"name": "Skewer",
 					"entries": [
-						"Once per turn, when the Gladiator hits a creature with a trident attack they can skewer their opponent. The creature takes the attack's damage as normal and is {@condition incapacitated} until the start of their next turn. The Gladiator makes no more attacks on their turn. The creature takes an additional 11 ({@damage 2d10}) piercing damage at the start of their next turn."
+						"Once per turn, when the Gladiator hits a creature with a trident melee attack they can skewer their opponent. The creature takes the attack's damage as normal and is {@condition incapacitated} until the start of their next turn. The Gladiator makes no more attacks on their turn. The creature takes an additional 11 ({@damage 2d10}) piercing damage at the start of their next turn."
 					]
 				},
 				{
@@ -936,13 +1100,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The Gladiator makes four trident attacks. They may replace one or more of these attacks with a grapple or shove."
+						"The Gladiator makes four trident melee attacks. They may replace one or more of these attacks with a grapple or shove."
 					]
 				},
 				{
 					"name": "Trident",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, or 7 ({@damage 1d8 + 3}) damage if used with both hands in melee."
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, or 7 ({@damage 1d8 + 3}) damage if used with both hands to make a melee attack."
 					]
 				},
 				{
@@ -962,10 +1126,29 @@
 				{
 					"name": "Skewer Deflect",
 					"entries": [
-						"If an attack misses the Gladiator after they take the Dodge action on their turn, the Gladiator may make one trident attack with advantage against the creature that made the attack which missed."
+						"If a melee attack misses the Gladiator after they take the Dodge action on their turn, the Gladiator may make one trident attack with advantage against the creature that made the attack which missed."
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/KZ843J6.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/yI3zNQK.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/KZ843J6.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -989,9 +1172,13 @@
 		{
 			"name": "Black Prior",
 			"shortName": "Black Prior",
-			"group": "Knights",
+			"group": [
+				"Knights"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1051,7 +1238,7 @@
 				{
 					"name": "Bulwark Stance",
 					"entries": [
-						"The Black Prior can use its action to assume a defensive stance. Whilst in this stance the Black Prior's movement is halved, it gains +3 to its AC and may make one melee attack as a bonus action. Additionally the Black Prior regains 7 hit points at the start of their turn. The Black Prior can exit this stance as a bonus action on their turn; they automatically exit this stance after they use the Bulwark Counter reaction or if they are {@condition incapacitated}, {@condition stunned} or knocked {@condition prone}."
+						"The Black Prior can use its action to assume a defensive stance. Whilst in this stance the Black Prior's movement is halved, it gains +3 to its AC and may make one melee attack as a bonus action. Additionally the Black Prior regains 7 hit points at the start of their turn. The Black Prior can exit this stance as a bonus action on their turn; they automatically exit this stance after they take the attack action, multiattack action, use the Bulwark Counter reaction or if they are {@condition incapacitated}, {@condition stunned} or knocked {@condition prone}."
 					]
 				},
 				{
@@ -1069,7 +1256,8 @@
 				{
 					"name": "Tower Shield",
 					"entries": [
-						"Whilst wielding this shield, if the Black Prior is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it can use its reaction to take no damage if it succeeds on the saving throw, interposing the shield between itself and the source of the effect. Additionally it counts as being in half cover against ranged attacks whilst wielding this shield."
+						"Whilst wielding this shield, if the Black Prior is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it can use its reaction to take no damage if it succeeds on the saving throw, interposing the shield between itself and the source of the effect.",
+						"Additionally if the Black Prior moves no more than half its movement speed on its turn, it counts as being in half cover against ranged attacks whilst wielding this shield."
 					]
 				}
 			],
@@ -1103,22 +1291,48 @@
 				{
 					"name": "Bulwark Counter",
 					"entries": [
-						"As a reaction to a creature attempting to attack the Black Prior, the Black Prior may flip a target over them provided the Black Prior is in its Bulwark Stance. If the creature is Large or smaller they must succeed a {@dc 15} Strength saving throw or be moved to within 5ft. of the Black Prior on the opposite side to where they were, be {@condition incapacitated} until the start of their next turn and knocked {@condition prone}; the Black Prior then makes one melee attack against the creature with advantage. Large creatures have advantage on the saving throw; Small or smaller creatures have disadvantage on the saving throw."
+						"While in Bulwark Stance, as a reaction to a creature attempting to make a melee attack against the Black Prior, the Black Prior may flip a target over them. If the creature is Large or smaller they must succeed a {@dc 15} Strength saving throw or be moved to within 5ft. of the Black Prior on the opposite side to where they were, be {@condition incapacitated} until the start of their next turn and knocked {@condition prone}; the Black Prior then makes one melee attack against the creature with advantage. Large creatures have advantage on the saving throw; Small or smaller creatures have disadvantage on the saving throw."
 					]
 				},
 				{
 					"name": "Crushing Counterstrike",
 					"entries": [
-						"If not in Bulwark Stance, as a reaction to a creature attempting to attack the Black Prior, the Black Prior may force them to make an opposed Dexterity check. If the Black Prior succeeds they may make a single longsword attack against the creature and the triggering attack is wasted. Otherwise the creature's attack happens normally."
+						"While not in Bulwark Stance, as a reaction to a creature attempting to make a melee attack against the Black Prior, the Black Prior may force them to make an opposed Dexterity check. If the Black Prior succeeds they may make a single longsword attack against the creature and the triggering attack is wasted. Otherwise the creature's attack happens normally."
 					]
 				},
 				{
 					"name": "Parry",
 					"entries": [
-						"If not in Bulwark Stance, the Black Prior adds 3 to their AC against one melee attack that would hit them as a reaction. To do so, the Black Prior must see the attacker and be wielding a melee weapon."
+						"While not in Bulwark Stance, the Black Prior adds 3 to their AC against one melee attack that would hit them as a reaction. To do so, the Black Prior must see the attacker and be wielding a melee weapon."
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/Y4nXFcW.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/dXYC7vo.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/3Nl4OzD.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/Y4nXFcW.png",
 			"actionTags": [
 				"Multiattack",
 				"Parry"
@@ -1142,7 +1356,9 @@
 			"name": "Officer",
 			"shortName": "Officer",
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1206,6 +1422,32 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/H9fKKvu.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/PlLEfY3.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/WC0miYY.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/H9fKKvu.png",
 			"languageTags": [
 				"C"
 			],
@@ -1220,7 +1462,9 @@
 			"name": "Shield Officer",
 			"shortName": "Officer",
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1285,6 +1529,32 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/EncVwtK.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/HBSr6PK.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/fGYppBj.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/EncVwtK.png",
 			"languageTags": [
 				"C"
 			],
@@ -1298,9 +1568,13 @@
 		{
 			"name": "Raider",
 			"shortName": "Raider",
-			"group": "Vikings",
+			"group": [
+				"Vikings"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1404,7 +1678,7 @@
 				{
 					"name": "Raider's Fury",
 					"entries": [
-						"The Raider makes a long axe attack against each creature in 10 foot cone."
+						"The Raider makes a long axe attack against three creatures within reach that are adjacent to each other."
 					]
 				},
 				{
@@ -1429,6 +1703,18 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/Dtr9BEH.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/Dtr9BEH.png",
 			"actionTags": [
 				"Multiattack",
 				"Parry"
@@ -1443,6 +1729,7 @@
 				"S"
 			],
 			"miscTags": [
+				"AOE",
 				"MW",
 				"RCH"
 			],
@@ -1453,9 +1740,13 @@
 		{
 			"name": "Warlord",
 			"shortName": "Warlord",
-			"group": "Vikings",
+			"group": [
+				"Vikings"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1597,6 +1888,25 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/rN1tWJY.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/SrJNNg9.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/rN1tWJY.png",
 			"traitTags": [
 				"Regeneration"
 			],
@@ -1613,6 +1923,7 @@
 				"P"
 			],
 			"miscTags": [
+				"AOE",
 				"MW"
 			],
 			"conditionInflict": [
@@ -1622,9 +1933,13 @@
 		{
 			"name": "Berserker",
 			"shortName": "Berserker",
-			"group": "Vikings",
+			"group": [
+				"Vikings"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1740,7 +2055,7 @@
 				{
 					"name": "Brute Force",
 					"entries": [
-						"If an attack misses the Berserker after they take the Dodge action on their turn, the Berserker may make one unarmed strike with advantage against the creature that made the attack which missed."
+						"If a melee attack misses the Berserker after they take the Dodge action on their turn, the Berserker may make one unarmed strike with advantage against the creature that made the attack which missed."
 					]
 				},
 				{
@@ -1750,6 +2065,25 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/WrG0bun.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/15YMO7g.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/WrG0bun.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -1763,6 +2097,7 @@
 				"S"
 			],
 			"miscTags": [
+				"AOE",
 				"MW",
 				"RW",
 				"THW"
@@ -1771,9 +2106,13 @@
 		{
 			"name": "Valkyrie",
 			"shortName": "Valkyrie",
-			"group": "Vikings",
+			"group": [
+				"Vikings"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1852,7 +2191,7 @@
 					"name": "Spear Sweep",
 					"entries": [
 						"If the Valkyrie hits with its first two melee attacks on a turn, it may substitute its third attack for a sweep with its spear against a creature within 5 feet. The creature must make a {@dc 14} Strength saving throw at disadvantage. On a failed save the creature is knocked {@condition prone} and {@condition incapacitated} until the start of its next turn.",
-						"If the creature failed the save the Valkyrie can make a spear attack with advantage as a bonus action."
+						"If the creature fails the save the Valkyrie can make a spear attack against it as a bonus action."
 					]
 				},
 				{
@@ -1870,7 +2209,7 @@
 				{
 					"name": "Full Block",
 					"entries": [
-						"The Valkyrie can use its action to assume a defensive stance. The Valkyrie gains +3 to its AC until the start of its next turn or until it takes damage. However, the Valkyrie's movement speed is reduced to 0 feet and it can only take the Shield Tackle reaction."
+						"The Valkyrie can use its action to assume a defensive stance. The Valkyrie gains +3 to its AC until the start of its next turn or until it takes damage. However, the Valkyrie's movement speed is reduced to 0 feet and it can only take the Crushing Counterstrike and Shield Tackle reactions."
 					]
 				}
 			],
@@ -1917,7 +2256,9 @@
 				{
 					"name": "Crushing Counterstrike",
 					"entries": [
-						"As a reaction to a creature attempting to attack the Valkyrie, the Valkyrie may force them to make an opposed Dexterity check. If the Valkyrie succeeds they may make a single spear attack against the creature and the triggering attack is wasted. Otherwise the creature's attack happens normally."
+						"As a reaction to a creature attempting to make a melee attack against the Valkyrie, the Valkyrie may force them to make an opposed Dexterity check.",
+						"If the Valkyrie succeeds they may make a single spear attack against the creature and the triggering attack is wasted. If the Valkyrie had taken the Full Block action on their previous turn they make a shield bash attack instead of a spear attack and the bonus from Full Block ends.",
+						"Otherwise the creature's attack happens normally."
 					]
 				},
 				{
@@ -1935,10 +2276,29 @@
 				{
 					"name": "Shoulder Pin",
 					"entries": [
-						"If an attack misses the Valkyrie after they take the Dodge action on their turn, the Valkyrie may make one spear attack with advantage against the creature that made the attack which missed. If that spear attack hits, the creature takes an additional 9 ({@damage 2d8}) piercing damage at the start of their next turn."
+						"If a melee attack misses the Valkyrie after they take the Dodge action on their turn, the Valkyrie may make one spear attack with advantage against the creature that made the attack which missed. If that spear attack hits, the creature takes an additional 9 ({@damage 2d8}) piercing damage at the start of their next turn."
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/xnLpFGu.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/jSDDEjB.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/xnLpFGu.png",
 			"traitTags": [
 				"Regeneration"
 			],
@@ -1956,6 +2316,7 @@
 				"P"
 			],
 			"miscTags": [
+				"AOE",
 				"MW",
 				"RW",
 				"THW"
@@ -1968,9 +2329,13 @@
 		{
 			"name": "Highlander",
 			"shortName": "Highlander",
-			"group": "Vikings",
+			"group": [
+				"Vikings"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2057,7 +2422,7 @@
 				{
 					"name": "Caber Toss",
 					"entries": [
-						"If the Highlander successfully grapples a creature while in its offensive stance, it may throw the {@condition grappled} creature to either side of itself as part of the grapple, ending the condition, knocking the creature {@condition prone} and making them {@condition incapacitated} until the start of their next turn."
+						"If the Highlander successfully grapples a creature while in its offensive stance, it may move the {@condition grappled} creature 5 feet to either side of itself as part of the grapple, ending the {@condition grappled} condition, knocking the creature {@condition prone} and making them {@condition incapacitated} until the start of their next turn."
 					]
 				},
 				{
@@ -2104,7 +2469,7 @@
 				{
 					"name": "Crushing Counterstrike",
 					"entries": [
-						"As a reaction to a creature attempting to attack the Highlander, the Highlander may force them to make an opposed Dexterity check. If the Highlander succeeds they may make a single claymore attack against the creature and the triggering attack is wasted. Otherwise the creature's attack happens normally."
+						"As a reaction to a creature attempting to make a melee attack against the Highlander, the Highlander may force them to make an opposed Dexterity check. If the Highlander succeeds they may make a single claymore attack against the creature and the triggering attack is wasted. Otherwise the creature's attack happens normally."
 					]
 				},
 				{
@@ -2114,6 +2479,46 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/mGgqYW6.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/80wx46i.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/DPpOHzj.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/KFKm0IG.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/u7NYi7p.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/mGgqYW6.png",
 			"actionTags": [
 				"Multiattack",
 				"Parry"
@@ -2129,6 +2534,7 @@
 				"S"
 			],
 			"miscTags": [
+				"AOE",
 				"MW",
 				"RCH",
 				"RNG",
@@ -2141,9 +2547,13 @@
 		{
 			"name": "Shaman",
 			"shortName": "Shaman",
-			"group": "Vikings",
+			"group": [
+				"Vikings"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2215,7 +2625,7 @@
 					"name": "Raven's Claw",
 					"entries": [
 						"If the Shaman successfully hits a creature with a melee attack from its handaxe it can make an attack with advantage using its kukri knife as a bonus action on the same turn.",
-						"On a hit the target creature must succeed a {@dc 15} Constitution saving throw at the start of its next turn or take 10 ({@damage 4d4}) necrotic damage. The creature repeats this save each turn for 1 minute or until it succeeds. Multiple instances of this effect stack."
+						"On a hit the target creature must succeed a {@dc 15} Constitution saving throw or take 10 ({@damage 4d4}) necrotic damage at the start of its next turn. The creature repeats this save each turn for 1 minute or until it succeeds. Multiple instances of this effect stack."
 					]
 				},
 				{
@@ -2288,10 +2698,22 @@
 				{
 					"name": "Raven's Beak",
 					"entries": [
-						"If an attack misses the Shaman after they take the Dodge action on their turn, the Shaman may make one Kukri Knife attack with advantage against the creature that made the attack which missed. On a hit the target creature must succeed a {@dc 15} Constitution saving throw at the start of its next turn or take 10 ({@damage 4d4}) necrotic damage. The creature repeats this save each turn for 1 minute or until it succeeds. Multiple instances of this effect stack."
+						"If a melee attack misses the Shaman after they take the Dodge action on their turn, the Shaman may make one Kukri Knife attack with advantage against the creature that made the attack which missed. On a hit the target creature must succeed a {@dc 15} Constitution saving throw at the start of its next turn or take 10 ({@damage 4d4}) necrotic damage. The creature repeats this save each turn for 1 minute or until it succeeds. Multiple instances of this effect stack."
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/QvLhzHe.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/QvLhzHe.png",
 			"actionTags": [
 				"Multiattack",
 				"Parry"
@@ -2308,6 +2730,7 @@
 				"S"
 			],
 			"miscTags": [
+				"AOE",
 				"MW",
 				"RW",
 				"THW"
@@ -2316,9 +2739,13 @@
 		{
 			"name": "Jormungandr",
 			"shortName": "Jormungandr",
-			"group": "Vikings",
+			"group": [
+				"Vikings"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2450,6 +2877,18 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/SVMXPc9.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/SVMXPc9.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -2462,6 +2901,7 @@
 				"B"
 			],
 			"miscTags": [
+				"AOE",
 				"MW",
 				"RW",
 				"THW"
@@ -2474,9 +2914,13 @@
 		{
 			"name": "Kensei",
 			"shortName": "Kensei",
-			"group": "Samurai",
+			"group": [
+				"Samurai"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2601,6 +3045,32 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/udHUbub.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/YbIZRWP.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/EJDxCy6.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/udHUbub.png",
 			"actionTags": [
 				"Multiattack",
 				"Parry"
@@ -2626,9 +3096,13 @@
 		{
 			"name": "Shugoki",
 			"shortName": "Shugoki",
-			"group": "Samurai",
+			"group": [
+				"Samurai"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2781,6 +3255,25 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/RRz9uow.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/73iKiqb.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/RRz9uow.png",
 			"traitTags": [
 				"Regeneration"
 			],
@@ -2809,9 +3302,13 @@
 		{
 			"name": "Orochi",
 			"shortName": "Orochi",
-			"group": "Samurai",
+			"group": [
+				"Samurai"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2928,7 +3425,7 @@
 				{
 					"name": "Hurricane Blast",
 					"entries": [
-						"If an attack misses the Orochi after they take the Dodge action on their turn, the Orochi may make one katana attack with advantage against the creature that made the attack which missed. On a hit, the creature is {@condition incapacitated} until the start of their next turn."
+						"If a melee attack misses the Orochi after they take the Dodge action on their turn, the Orochi may make one katana attack with advantage against the creature that made the attack which missed. On a hit, the creature is {@condition incapacitated} until the start of their next turn."
 					]
 				},
 				{
@@ -2938,6 +3435,25 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/P4Ppz9Q.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/lemeUZX.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/P4Ppz9Q.png",
 			"actionTags": [
 				"Multiattack",
 				"Parry"
@@ -2963,9 +3479,13 @@
 		{
 			"name": "Nobushi",
 			"shortName": "Nobushi",
-			"group": "Samurai",
+			"group": [
+				"Samurai"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3098,7 +3618,7 @@
 				{
 					"name": "Hidden Stance",
 					"entries": [
-						"As a reaction to a creature attempting to attack the Nobushi, the Nobushi may force them to make an opposed Dexterity check. If the Nobushi succeeds they dodge back into a deceptive stance and the triggering attack is wasted; the Nobushi gains advantage on their next melee attack. Otherwise the creature's attack happens normally."
+						"As a reaction to a creature attempting to make a melee attack against the Nobushi, the Nobushi may force them to make an opposed Dexterity check. If the Nobushi succeeds they dodge back into a deceptive stance and the triggering attack is wasted; the Nobushi gains advantage on their next melee attack. Otherwise the creature's attack happens normally."
 					]
 				},
 				{
@@ -3108,6 +3628,39 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/3FhxIsS.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/KVsFebf.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/iAgwBIC.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/qn7sjfZ.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/3FhxIsS.png",
 			"actionTags": [
 				"Multiattack",
 				"Parry"
@@ -3135,9 +3688,13 @@
 		{
 			"name": "Shinobi",
 			"shortName": "Shinobi",
-			"group": "Samurai",
+			"group": [
+				"Samurai"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3276,10 +3833,50 @@
 				{
 					"name": "Teleport Deflect",
 					"entries": [
-						"If an attack misses the Shinobi after they take the Dodge action on their turn, the Shinobi may move to within 5ft. of the creature on the opposite side to where they were and make one melee attack with advantage against the creature that made the attack which missed."
+						"If a melee attack misses the Shinobi after they take the Dodge action on their turn, the Shinobi may teleport to within 5ft. of the creature on the opposite side to where they were and make one melee attack with advantage against the creature that made the attack which missed."
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/I9AH7XD.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/EHGjH6g.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/yUm6boz.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/v7wiFBQ.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/732rG6A.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/I9AH7XD.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3306,9 +3903,13 @@
 		{
 			"name": "Aramusha",
 			"shortName": "Aramusha",
-			"group": "Samurai",
+			"group": [
+				"Samurai"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3383,7 +3984,7 @@
 				{
 					"name": "Rushing Wind",
 					"entries": [
-						"If the Aramusha moves at least 10 feet straight toward a creature and then makes a katana attack against it on the same turn, the Aramusha gains advantage on the attack roll."
+						"If the Aramusha moves at least 10 feet straight toward a creature and then makes a melee attack against it on the same turn, the Aramusha gains advantage on the attack roll."
 					]
 				},
 				{
@@ -3435,15 +4036,42 @@
 				{
 					"name": "Blade Blockade",
 					"entries": [
-						"The Aramusha adds 3 to their AC against one melee attack that would hit them as a reaction. To do so, the Aramusha must see the attacker and be wielding a melee weapon. If the attack misses after the parry, the Aramusha may do one of the following against the creature that made the attack:",
-						"- Ring the Bell: the Aramusha makes a katana attack with advantage. On a hit the target is {@condition incapacitated} until the start of their next turn.",
-						"- Twin Vipers: The Aramusha makes a dual katanas attack with advantage.",
-						"- Push Back Kick: The Aramusha makes an unarmed strike. On a hit the target is pushed back 5 feet and knocked {@condition prone}."
+						"As a reaction to a creature attempting to make a melee attack against the Aramusha, the Aramusha may force them to make an opposed Dexterity check. If the Aramusha succeeds they may do one of the following options against the creature and the creature's triggering attack is wasted:",
+						"- {@b {@i Ring the Bell:}} the Aramusha makes a katana attack with advantage. On a hit the target is {@condition incapacitated} until the start of their next turn.",
+						"- {@b {@i Twin Vipers:}} The Aramusha makes a dual katanas attack with advantage.",
+						"- {@b {@i Push Back Kick:}} The Aramusha makes an unarmed strike. On a hit the target is pushed back 5 feet and knocked {@condition prone}.",
+						"Otherwise the creature's attack happens normally."
+					]
+				},
+				{
+					"name": "Parry",
+					"entries": [
+						"The Aramusha adds 3 to their AC against one melee attack that would hit them as a reaction. To do so, the Aramusha must see the attacker and be wielding a melee weapon."
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/rcAwuTV.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/x2HKLC8.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/rcAwuTV.png",
 			"actionTags": [
-				"Multiattack"
+				"Multiattack",
+				"Parry"
 			],
 			"languageTags": [
 				"C"
@@ -3467,9 +4095,13 @@
 		{
 			"name": "Hitokiri",
 			"shortName": "Hitokiri",
-			"group": "Samurai",
+			"group": [
+				"Samurai"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3535,7 +4167,7 @@
 				{
 					"name": "Rei Sweep",
 					"entries": [
-						"Once per turn, the Hitokiri may make an unarmed strike instead an attack with their masakari axe. On a hit, the creature is {@condition incapacitated} until the start of their next turn and is knocked {@condition prone}."
+						"Once per turn, the Hitokiri may make an unarmed strike instead an attack with their masakari axe. On a hit, the creature  must succeed a DC 16 Strength saving throw or be {@condition incapacitated} until the start of their next turn and is knocked {@condition prone}."
 					]
 				},
 				{
@@ -3601,6 +4233,32 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/wVT3TFR.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/NdKW3bR.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/HQBaWW5.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/wVT3TFR.png",
 			"traitTags": [
 				"Regeneration"
 			],
@@ -3625,9 +4283,13 @@
 		{
 			"name": "Tiandi",
 			"shortName": "Tiandi",
-			"group": "Wu-Lin",
+			"group": [
+				"Wu-Lin"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3745,10 +4407,29 @@
 				{
 					"name": "Tiger Dodge",
 					"entries": [
-						"As a reaction to a creature attempting to attack the Tiandi after they have taken the dodge action on their turn, the Tiandi may force them to make an opposed Dexterity check. If the Tiandi succeeds they may make a single dao attack against the creature and the triggering attack is wasted. Otherwise the creature's attack happens normally."
+						"As a reaction to a creature attempting to make a melee attack against the Tiandi after they have taken the dodge action on their turn, the Tiandi may force them to make an opposed Dexterity check. If the Tiandi succeeds they may make a single dao attack against the creature and the triggering attack is wasted. Otherwise the creature's attack happens normally."
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/aQRFfOt.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/AyJQ6rq.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/aQRFfOt.png",
 			"actionTags": [
 				"Multiattack",
 				"Parry"
@@ -3772,9 +4453,13 @@
 		{
 			"name": "Jiang Jun",
 			"shortName": "Jiang Jun",
-			"group": "Wu-Lin",
+			"group": [
+				"Wu-Lin"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3914,10 +4599,29 @@
 				{
 					"name": "Sifu's Dodge",
 					"entries": [
-						"As a reaction to a creature attempting to attack the Jiang Jun, the Jiang Jun may force them to make an opposed Dexterity check. If the Jiang Jun succeeds they dodge back into Sifu's Poise and the triggering attack is wasted. Otherwise the creature's attack happens normally."
+						"As a reaction to a creature attempting to make a melee attack against the Jiang Jun, the Jiang Jun may force them to make an opposed Dexterity check. If the Jiang Jun succeeds they dodge back into Sifu's Poise and the triggering attack is wasted. Otherwise the creature's attack happens normally."
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/Gl7N9Yh.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/V8GOJZO.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/Gl7N9Yh.png",
 			"languageTags": [
 				"C"
 			],
@@ -3927,6 +4631,7 @@
 				"S"
 			],
 			"miscTags": [
+				"AOE",
 				"MW",
 				"RCH"
 			],
@@ -3937,9 +4642,13 @@
 		{
 			"name": "Nuxia",
 			"shortName": "Nuxia",
-			"group": "Wu-Lin",
+			"group": [
+				"Wu-Lin"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4064,7 +4773,7 @@
 				{
 					"name": "Echo Strike",
 					"entries": [
-						"If an attack misses the Nuxia after they take the Dodge action on their turn, the Nuxia may make one hilt spike attack with advantage against the creature that made the attack which missed."
+						"If a melee attack misses the Nuxia after they take the Dodge action on their turn, the Nuxia may make one hilt spike attack with advantage against the creature that made the attack which missed."
 					]
 				},
 				{
@@ -4074,6 +4783,39 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/vnnnE33.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/tluZwF2.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/J5NxAV2.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/41WNL6w.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/vnnnE33.png",
 			"traitTags": [
 				"Regeneration"
 			],
@@ -4095,9 +4837,13 @@
 		{
 			"name": "Shaolin",
 			"shortName": "Shaolin",
-			"group": "Wu-Lin",
+			"group": [
+				"Wu-Lin"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4165,7 +4911,7 @@
 				{
 					"name": "Flying Monkey",
 					"entries": [
-						"If the Shaolin moves at least 10 feet towards a creature and take the multiattack action against it on their turn, the Shaolin may replace the first attack with their steel-capped staff with an unarmed strike. On a hit, the creature must succeed a {@dc 15} Strength saving throw or be {@condition incapacitated} until the start of their next turn and knocked {@condition prone}."
+						"If the Shaolin moves at least 10 feet towards a creature and takes the multiattack action on their turn, the Shaolin may replace the first attack with their steel-capped staff with an unarmed strike. On a hit, the creature must succeed a {@dc 15} Strength saving throw or be {@condition incapacitated} until the start of their next turn and knocked {@condition prone}."
 					]
 				},
 				{
@@ -4177,7 +4923,7 @@
 				{
 					"name": "Lotus Leap",
 					"entries": [
-						"if the Shaolin makes a two handed attack with its steel-capped staff while in Qi Stance, the attack has advantage and deals 9 ({@damage 2d8}) additional damage on a hit."
+						"If the Shaolin makes a two handed attack with its steel-capped staff while in Qi Stance, the attack has advantage and deals 9 ({@damage 2d8}) additional damage on a hit."
 					]
 				},
 				{
@@ -4223,7 +4969,7 @@
 				{
 					"name": "Bounding Blossom",
 					"entries": [
-						"If the Shaolin is in Qi Stance they may, as a reaction to a creature attempting to attack the Shaolin, force them to make an opposed Dexterity check. If the Shaolin succeeds they may make a single steel-capped staff attack against the creature and the triggering attack is wasted. Otherwise the creature's attack happens normally."
+						"If the Shaolin is in Qi Stance they may, as a reaction to a creature attempting to make a melee attack against them, force the creature to make an opposed Dexterity check. If the Shaolin succeeds they may make a single steel-capped staff attack against the creature and the triggering attack is wasted. Otherwise the creature's attack happens normally."
 					]
 				},
 				{
@@ -4235,10 +4981,36 @@
 				{
 					"name": "Shadow Deflect",
 					"entries": [
-						"If an attack misses the Shaolin after they take the Dodge action on their turn, the Shaolin may make one attack using their steel-capped staff with advantage against the creature that made the attack which missed."
+						"If a melee attack misses the Shaolin after they take the Dodge action on their turn, the Shaolin may make one attack using their steel-capped staff with advantage against the creature that made the attack which missed."
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/KBd0EfA.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/iBWjrb7.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/S2tnZ0b.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/KBd0EfA.png",
 			"actionTags": [
 				"Multiattack",
 				"Parry"
@@ -4260,9 +5032,13 @@
 		{
 			"name": "Zhanhu",
 			"shortName": "Zhanhu",
-			"group": "Wu-Lin",
+			"group": [
+				"Wu-Lin"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4352,7 +5128,7 @@
 				{
 					"name": "Absolute Amplitude",
 					"entries": [
-						"Once per turn when the Zhanhu make an attack using their changdao, they may make that attack target all creatures within reach rather than one target."
+						"Once per turn when the Zhanhu makes an attack using their changdao, they may make that attack target all creatures within reach rather than one target."
 					]
 				},
 				{
@@ -4399,10 +5175,43 @@
 				{
 					"name": "Subduing Counterblow",
 					"entries": [
-						"As a reaction to a creature attempting to attack the Zhanhu after they have taken the dodge action on their turn, the Zhanhu may force them to make an opposed Dexterity check. If the Zhanhu succeeds they may make a single unarmed strike against the creature and the triggering attack is wasted; on a hit the creature is {@condition incapacitated} until the start of its next turn. Otherwise the creature's attack happens normally."
+						"As a reaction to a creature attempting to make a melee attack against the Zhanhu after they have taken the dodge action on their turn, the Zhanhu may force them to make an opposed Dexterity check. If the Zhanhu succeeds they may make a single unarmed strike against the creature and the triggering attack is wasted; on a hit the creature is {@condition incapacitated} until the start of its next turn. Otherwise the creature's attack happens normally."
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/eN6es1N.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/UOtwVvJ.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/Il8MKZc.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/Sfiw9Sc.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/eN6es1N.png",
 			"traitTags": [
 				"Regeneration"
 			],
@@ -4425,13 +5234,19 @@
 			],
 			"conditionInflict": [
 				"incapacitated"
+			],
+			"damageTagsSpell": [
+				"F",
+				"R"
 			]
 		},
 		{
 			"name": "Archer",
 			"shortName": "Archer",
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4492,6 +5307,32 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/FO4wvNL.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/M7pmXCS.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/b3U3KyT.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/FO4wvNL.png",
 			"languageTags": [
 				"C"
 			],
@@ -4509,7 +5350,9 @@
 			"name": "Warmonger",
 			"shortName": "Warmonger",
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4571,7 +5414,8 @@
 				{
 					"name": "Corrupted Blade",
 					"entries": [
-						"The Warmonger uses their bonus action to coat their flamberge bastard sword with corrupting energies. The next time the Warmonger hits a creature with a flamberge bastard sword attack that creature must succeed a {@dc 14} Constitution saving throw or be afflicted with corruption. On a failed save the creature, and any other allied creatures within 15 feet of them at the start of each of their turns for 1 minute, take 5 ({@damage 2d4}) necrotic damage."
+						"The Warmonger uses their bonus action to coat their flamberge bastard sword with corrupting energies. The next time the Warmonger hits a creature with a flamberge bastard sword attack that creature must succeed a {@dc 14} Constitution saving throw or be afflicted with corruption.",
+						"On a failed save the creature, and any allies of that creature within 15 feet of them at the start of each of their turns for 1 minute, take 5 ({@damage 2d4}) necrotic damage. The creature can repeat the saving throw at the end of its turn, ending the corruption early on a success."
 					]
 				},
 				{
@@ -4621,7 +5465,7 @@
 				{
 					"name": "Corruption Blast {@recharge}",
 					"entries": [
-						"Each hostile creature within 15 feet of the Warmonger must make a {@dc 14} Constitution saving throw. On a failed save the creature, and any other creatures within 15 feet of them at the start of each of their turns for 1 minute, take 5 ({@damage 2d4}) necrotic damage."
+						"Each hostile creature within 15 feet of the Warmonger must make a {@dc 14} Constitution saving throw. On a failed save the creature, and any allies of that creature within 15 feet of them at the start of each of their turns for 1 minute, take 5 ({@damage 2d4}) necrotic damage. The creature can repeat the saving throw at the end of its turn, ending the corruption early on a success."
 					]
 				}
 			],
@@ -4630,11 +5474,51 @@
 					"name": "Impaling Riposte",
 					"entries": [
 						"The Warmonger adds 3 to their AC against one melee attack that would hit them as a reaction. To do so, the Warmonger must see the attacker and be wielding a melee weapon.",
-						"If the attack misses after the parry, the Warmonger may make one flamberge bastard sword attack with advantage against the creature that made the attack. On a hit the target takes the attack damage as normal and is pushed back 10 feet with the Warmonger following the target.",
+						"If the attack then misses, the Warmonger may make one flamberge bastard sword attack with advantage against the creature that made the attack. On a hit the target takes the attack damage as normal and is pushed back 10 feet with the Warmonger following the target.",
 						"If there isn't space for the target to be pushed back they are instead knocked {@condition prone} and take an additional 6 ({@damage 1d4 + 4}) slashing damage from the Warmonger clawing at them."
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/556j3wy.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/qNrFFQ5.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/Ltug0xd.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/PdbcTfg.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/hORRwFQ.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/556j3wy.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -4656,9 +5540,13 @@
 		{
 			"name": "Pikeman",
 			"shortName": "Pikeman",
-			"group": "Stagsaard",
+			"group": [
+				"Stagsaard"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4720,6 +5608,18 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/qTQits6.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/qTQits6.png",
 			"languageTags": [
 				"C"
 			],
@@ -4733,9 +5633,13 @@
 		{
 			"name": "Gryphon",
 			"shortName": "Gryphon",
-			"group": "Knights",
+			"group": [
+				"Knights"
+			],
 			"source": "FFHonourableHeroes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4800,33 +5704,36 @@
 				{
 					"name": "Gryphon's Shove",
 					"entries": [
-						"The Gryphon may replace their first attack on their turn with an unarmed strike. On a hit, the creature takes 6 ({@damage 1d4 + 4}) bludgeoning damage and must succeed a {@dc 15} Strength saving throw or be {@condition incapacitated} until the start of their next turn and pushed back 5 feet. "
+						"The Gryphon may replace their first attack on their turn with an unarmed strike. On a hit, the creature takes 6 ({@damage 1d4 + 4}) bludgeoning damage and must succeed a {@dc 15} Strength saving throw or be {@condition incapacitated} until the start of their next turn and pushed back 5 feet."
 					]
 				},
 				{
 					"name": "Dauntless Chase",
 					"entries": [
-						"If the Gryphon moves at least 10 feet straight toward a creature and then hits it with a Bardiche attack on the same turn, it can force that creature to succeed a {@dc 15} Strength or Dexterity saving throw (target's choice). On a failed save, the creature is moved to within 5ft. of the Gryphon on the opposite side to where they were, be {@condition incapacitated} until the start of their next turn and knocked {@condition prone}. Large creatures have advantage on the saving throw; Small or smaller creatures have disadvantage on the saving throw.",
-						"If the creature succeeds the Strength saving throw the Gryphon stops adjacent to the creature. If the creature succeeds the Dexterity saving throw the Gryphon continues moving past the creature for 10 feet before stopping."
+						"If the Gryphon moves at least 10 feet straight toward a creature and then hits it with the next Bardiche attack it makes on the same turn, it can force that creature to succeed a {@dc 15} Strength or Dexterity saving throw (target's choice). On a failed save, the creature is moved to within 5ft. of the Gryphon on the opposite side to where they were, be {@condition incapacitated} until the start of their next turn and knocked {@condition prone}. Large creatures have advantage on the saving throw; Small or smaller creatures have disadvantage on the saving throw.",
+						"If the creature succeeds the Strength saving throw the Gryphon stops adjacent to the creature. If the creature succeeds the Dexterity saving throw the Gryphon continues moving past the creature for 10 feet before stopping.",
+						"This cannot be used on the same attack as the Forceful Swirl or Soul Cleaver traits."
 					]
 				},
 				{
 					"name": "Forceful Swirl",
 					"entries": [
-						"The Gryphon may make their first attack on their turn target all creatures within reach rather than one target if they attack with their Bardiche."
+						"The Gryphon may make their first Bardiche attack on their turn target all creatures within reach rather than one target.",
+						"This cannot be used on the same attack as the Dauntless Chase or Soul Cleaver traits."
 					]
 				},
 				{
 					"name": "Veteran's Kick",
 					"entries": [
-						"The Gryphon may replace their third Bardiche attack on their turn for an unarmed strike. On a hit, the creature takes 6 ({@damage 1d4 + 4}) bludgeoning damage and must succeed a {@dc 15} Strength saving throw or be pushed back 5 feet and {@condition incapacitated} until the start of their next turn.",
+						"The Gryphon may replace their third Bardiche attack on their turn for an unarmed strike. On a hit, the creature takes 6 ({@damage 1d4 + 4}) bludgeoning damage and must succeed a {@dc 15} Strength saving throw or be {@condition incapacitated} until the start of their next turn and pushed back 5 feet.",
 						"If the unarmed strike hits, the Gryphon may make one Bardiche attack with advantage as a bonus action."
 					]
 				},
 				{
 					"name": "Soul Cleaver",
 					"entries": [
-						"The Gryphon may make a single melee attack with its Bardiche as part of taking the Dodge action."
+						"The Gryphon may make a single melee attack with its Bardiche as part of taking the Dodge action.",
+						"This cannot be used on the same attack as the Dauntless Chase or Forceful Swirl traits."
 					]
 				},
 				{
@@ -4862,10 +5769,10 @@
 					]
 				},
 				{
-					"name": "Draconite Cleanser",
+					"name": "Draconite Cleanser (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The Gryphon lights and throws a bomb of odd alchemical origin at a point up to 60 feet away (but can't do this again until they finish a short or long rest). Each creature within 10 feet of the chosen point must succeed on a {@dc 13} Dexterity saving throw or take 7 ({@damage 3d4}) fire damage. On a successful save the damage is halved.",
-						"For 1 minute afterwards, each creature friendly to the Gryphon within 10 feet of the chosen point at the start of their turn regains 3 ({@dice 1d6}) hitpoints."
+						"The Gryphon lights and throws a bomb of odd alchemical origin at a point up to 60 feet away. Each creature within 10 feet of the chosen point must succeed on a {@dc 13} Dexterity saving throw or take 7 ({@damage 3d4}) fire damage. On a successful save the damage is halved.",
+						"For the next minute, each creature friendly to the Gryphon within 10 feet of the chosen point at the start of their turn regains 2 ({@dice 1d4}) hitpoints."
 					]
 				}
 			],
@@ -4877,6 +5784,32 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/HlHirG6.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/atHTVDh.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/eD54Owd.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/HlHirG6.png",
 			"actionTags": [
 				"Multiattack",
 				"Parry"
@@ -4886,19 +5819,369 @@
 				"GI"
 			],
 			"damageTags": [
-				"S",
-				"P",
+				"B",
 				"F",
-				"B"
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH",
+				"RW"
 			],
 			"conditionInflict": [
 				"incapacitated"
+			]
+		},
+		{
+			"name": "Kyoshin",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"source": "FFHonourableHeroes",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"unarmored defense",
+						"{@item steel plates|ffhonourableheroes}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 36",
+				"average": 90
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 16,
+			"int": 14,
+			"wis": 16,
+			"cha": 12,
+			"passive": 16,
+			"cr": "8",
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"languages": [
+				"Common",
+				"Primordial"
+			],
+			"languageTags": [
+				"C",
+				"P"
+			],
+			"save": {
+				"str": "+6",
+				"con": "+6",
+				"dex": "+6",
+				"wis": "+6"
+			},
+			"skill": {
+				"acrobatics": "+6",
+				"athletics": "+6",
+				"insight": "+6",
+				"perception": "+6",
+				"religion": "+5",
+				"stealth": "+6"
+			},
+			"trait": [
+				{
+					"name": "Brave Devotion",
+					"entries": [
+						"The Kyoshin has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				},
+				{
+					"name": "Aoarashi",
+					"entries": [
+						"The Kyoshin may replace their second shikomizue blade attack on their turn for a shikomizue scabbard attack. On a hit, in addition to the damage, the creature is {@condition incapacitated} until the start of their next turn.",
+						"If the shikomizue scabbard attack hits, the Kyoshin may make one shikomizue blade attack with advantage as a bonus action."
+					]
+				},
+				{
+					"name": "Sajin-Arashi",
+					"entries": [
+						"The Kyoshin may make a single melee attack with its shikomizue blade as part of taking the Dodge action.",
+						"Additionally the Kyoshin may instead make an unarmed strike as part of taking the Dodge action, kicking the target. On a hit, the creature takes 5 (1d4 + 3) bludgeoning damage and is {@condition incapacitated} until the start of their next turn."
+					]
+				},
+				{
+					"name": "Kaze Stance",
+					"entries": [
+						"The Kyoshin can use its action to assume this defensive stance; if it has taken the attack or multiattack action on its turn, it may do this as a bonus action. Whilst in this stance the Kyoshin's movement is reduced to 5 feet, it gains +3 to its AC and may only take the Fujin Cuts action and the Tengukaze reaction.",
+						"The Kyoshin can exit this stance as a bonus action on their turn; they automatically exit this stance after they take the Fujin Cuts action, use the Tengukaze reaction or if they are {@condition grappled}, {@condition incapacitated}, {@condition stunned} or knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Hikari to Kage",
+					"entries": [
+						"When the Kyoshin hits with an attack using their shikomizue blade while in Kaze Stance or as part of the Crushing Counterstrike reaction, the creature takes an additional 5 ({@damage 2d4}) slashing damage at the start of their next turn and the Kyoshin regains hit points equal to that additional damage.",
+						"Multiple instances of this effect stack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Kyoshin makes two shikomizue blade attacks. They may replace one or more of these attacks with a grapple or shove."
+					]
+				},
+				{
+					"name": "Shikomizue Blade",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Shikomizue Scabbard",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Fujin Cuts (Only in Kaze Stance)",
+					"entries": [
+						"The Kyoshin makes a shikomizue blade attack against a creature within range. If the attack hits, they can make an additional shikomizue blade attack against the same creature as part of this action. The Kyoshin may make up to four attacks this way in one turn."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"damageTags": [
+				"S",
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"reaction": [
+				{
+					"name": "Crushing Counterstrike",
+					"entries": [
+						"While not in Kaze Stance, as a reaction to a creature attempting to make a melee attack against the Kyoshin, the Kyoshin may force them to make an opposed Dexterity check. If the Kyoshin succeeds they may make a single shikomizue blade attack against the creature and the triggering attack is wasted. Otherwise the creature's attack happens normally."
+					]
+				},
+				{
+					"name": "Tengukaze",
+					"entries": [
+						"While in Kaze Stance, as a reaction to a creature missing a melee attack against the Kyoshin, the Kyoshin may take the Fujin Cuts action against the creature as part of this reaction. The first attack of the Fujin Cuts action is made with advantage."
+					]
+				},
+				{
+					"name": "Parry",
+					"entries": [
+						"While not in Kaze Stance, the Kyoshin adds 3 to their AC against one melee attack that would hit them as a reaction. To do so, the Kyoshin must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/J3UkulE.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/RaJG2RJ.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/wSKbkkz.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/J3UkulE.png",
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"group": [
+				"Samurai"
+			]
+		},
+		{
+			"name": "Pirate",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"source": "FFHonourableHeroes",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|phb}",
+						"{@item steel plates|ffhonourableheroes}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 36",
+				"average": 90
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 16,
+			"int": 13,
+			"wis": 14,
+			"cha": 15,
+			"passive": 15,
+			"cr": "5",
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"skill": {
+				"perception": "+5",
+				"sleight of hand": "+6",
+				"acrobatics": "+6",
+				"athletics": "+6",
+				"intimidation": "+5"
+			},
+			"save": {
+				"str": "+6",
+				"dex": "+6",
+				"con": "+6",
+				"wis": "+5"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Pirate makes two cutlass attacks. They may replace one or more of these attacks with a grapple or shove."
+					]
+				},
+				{
+					"name": "Cutlass",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Pistol",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 30/90 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Trick Shot {@recharge}",
+					"entries": [
+						"The Pirate makes a pistol attack. On a hit, the shot ricochets and the Pirate may repeat the attack against another creature within 10 feet of the the previous target; it may repeat this way a number of times up to the pirate's Dexterity modifier."
+					]
+				},
+				{
+					"name": "Pocket Bomb {@recharge 5}",
+					"entries": [
+						"The Pirate can light and throw a black powder bomb at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a {@dc 14} Dexterity saving throw or take 10 ({@damage 3d6}) fire damage. On a successful save the damage is halved."
+					]
+				},
+				{
+					"name": "Gundpowder Surprise {@recharge}",
+					"entries": [
+						"The Pirate fires a hand cannon at a point up to 30 feet away. Each creature within 10 feet of that point must succeed on a {@dc 14} Dexterity saving throw or take 10 ({@damage 3d6}) fire damage, be pushed 10 feet away from the point and knocked {@condition prone}."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"damageTags": [
+				"S",
+				"P",
+				"F"
 			],
 			"miscTags": [
 				"MW",
-				"RCH",
 				"RW",
 				"AOE"
+			],
+			"trait": [
+				{
+					"name": "Close Quarter Fighter",
+					"entries": [
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on ranged attack rolls the Pirate makes with its pistol."
+					]
+				},
+				{
+					"name": "Sea Wolf's Glide",
+					"entries": [
+						"The Pirate may make a single melee attack with its cutlass as part of taking the Dodge action."
+					]
+				},
+				{
+					"name": "Pistol Blast",
+					"entries": [
+						"Once per turn, when the Pirate hits with an attack using their cutlass they may immediately use their bonus action to make an attack with their pistol or trick shot. On a hit, in addition to the damage, the creature is {@condition incapacitated} until the start of their next turn.",
+						"If the pistol or trick shot attack is against the same creature the Pirate hit with their cutlass attack, it has advantage."
+					]
+				},
+				{
+					"name": "Walk the Plank!",
+					"entries": [
+						"Once per turn, the Pirate may make one of their cutlass attacks with a -5 penalty to the attack roll. If the attack hits, they add +10 to the attack's damage and may immediately use their bonus action to push the creature 5 feet away from themselves.",
+						"This cannot be used on the same attack as the Sea Wolf's Glide trait."
+					]
+				},
+				{
+					"name": "Sea Legs",
+					"entries": [
+						"The Pirate has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+					]
+				}
+			],
+			"conditionInflict": [
+				"incapacitated",
+				"prone"
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The Pirate adds 3 to their AC against one melee attack that would hit them as a reaction. To do so, the Pirate must see the attacker and be wielding a melee weapon."
+					]
+				}
 			]
 		}
 	],
@@ -4916,7 +6199,6 @@
 			"property": [
 				"L",
 				"FFHHH",
-				"FFHHMW",
 				"S"
 			],
 			"entries": [
@@ -4924,7 +6206,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"Donning or doffing this glove-like weapon requires an action and you may hold another weapon in the same hand as the cestus. Unarmed strikes deal 1d4 bludgeoning damage whilst the cestus worn."
+						"Donning or doffing this glove-like weapon requires an action and you may hold another object in the same hand as the cestus. Unarmed strikes deal {@damage 1d4} bludgeoning damage whilst the cestus is worn."
 					]
 				}
 			],
@@ -4953,7 +6235,7 @@
 			"weapon": true,
 			"weaponCategory": "martial",
 			"rarity": "none",
-			"value": 2000,
+			"value": 3000,
 			"weight": 3,
 			"dmg1": "1d6",
 			"dmg2": "1d8",
@@ -4971,7 +6253,7 @@
 			"weapon": true,
 			"weaponCategory": "martial",
 			"rarity": "none",
-			"value": 2000,
+			"value": 2500,
 			"weight": 3,
 			"dmg1": "1d6",
 			"dmgType": "S",
@@ -5009,12 +6291,25 @@
 			"source": "FFHonourableHeroes"
 		},
 		{
+			"name": "Cutlass",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"property": [],
+			"source": "FFHonourableHeroes"
+		},
+		{
 			"name": "Gladius",
 			"type": "M",
 			"weapon": true,
 			"weaponCategory": "martial",
 			"rarity": "none",
-			"value": 2000,
+			"value": 3000,
 			"weight": 3,
 			"dmg1": "1d8",
 			"dmgType": "P",
@@ -5149,7 +6444,7 @@
 			"weapon": true,
 			"weaponCategory": "martial",
 			"rarity": "none",
-			"value": 7000,
+			"value": 3500,
 			"weight": 5,
 			"dmg1": "1d10",
 			"dmgType": "S",
@@ -5215,7 +6510,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"When you hit with an attack with this weapon, you can make another attack as a bonus action. However it deals 1d8 damage on a hit instead of 1d12."
+						"When you hit with an attack with this weapon, you can make another attack as a bonus action. However it deals {@damage 1d8} damage on a hit instead of {@damage 1d12}."
 					]
 				}
 			],
@@ -5241,7 +6536,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"Once per turn, you may make one of your attacks with this weapon a trap. If the attack misses you grapple the target and may immediately make a hilt spike attack with advantage against it. This attack deals 1d4 piercing damage on a hit.",
+						"Once per turn, you may make one of your attacks with this weapon a trap. If the attack misses you grapple the target and may immediately make a hilt spike attack with advantage against it. This attack deals {@damage 1d4} piercing damage on a hit.",
 						"However if the trapped attack hits, it deals no damage."
 					]
 				}
@@ -5282,8 +6577,8 @@
 			"weapon": true,
 			"weaponCategory": "martial",
 			"rarity": "none",
-			"value": 2500,
-			"weight": 4,
+			"value": 4500,
+			"weight": 2,
 			"dmg1": "1d10",
 			"dmgType": "S",
 			"property": [
@@ -5299,8 +6594,8 @@
 			"weapon": true,
 			"weaponCategory": "martial",
 			"rarity": "none",
-			"value": 4500,
-			"weight": 7,
+			"value": 5500,
+			"weight": 5,
 			"dmg1": "1d10",
 			"dmgType": "S",
 			"property": [
@@ -5316,7 +6611,7 @@
 			"weapon": true,
 			"weaponCategory": "martial",
 			"rarity": "none",
-			"value": 9000,
+			"value": 10000,
 			"weight": 6,
 			"dmg1": "2d4",
 			"dmg2": "2d6",
@@ -5332,6 +6627,31 @@
 					"name": "Special",
 					"entries": [
 						"Whilst wielding this weapon you can use your reaction to add your proficiency bonus to your AC against one melee attack that would hit you; to do so, you must see the attacker and be wielding the weapon."
+					]
+				}
+			],
+			"source": "FFHonourableHeroes"
+		},
+		{
+			"name": "Shikomizue",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"rarity": "none",
+			"value": 6000,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"property": [
+				"FFHHH",
+				"S"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"The scabbard of this sword may also be used as a weapon; when you are holding the shikomizue and its scabbard in each hand they are treated as light weapons. On a hit the scabbard deals {@damage 1d6} bludgeoning damage."
 					]
 				}
 			],
@@ -5357,7 +6677,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"You can throw up to 2 kunai as part of an attack when you take the attack action; for each thrown above the first you add an additional damage die."
+						"You can draw and throw up to 2 kunai as part of an attack when you take the attack action; for each thrown above the first you add an additional damage die."
 					]
 				}
 			],
@@ -5384,7 +6704,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"You can throw up to 3 shuriken as part of an attack when you take the attack action; for each thrown above the first you add an additional damage die."
+						"You can draw and throw up to 3 shuriken as part of an attack when you take the attack action; for each thrown above the first you add an additional damage die."
 					]
 				}
 			],
@@ -5396,9 +6716,9 @@
 			"type": "HA",
 			"armor": true,
 			"rarity": "none",
-			"value": 30000,
+			"value": 13500,
 			"weight": 60,
-			"ac": "16 + Dex modifier (max 1)",
+			"ac": 16,
 			"strength": "13",
 			"stealth": true,
 			"source": "FFHonourableHeroes",
@@ -5412,7 +6732,7 @@
 			"armor": true,
 			"rarity": "none",
 			"value": 50000,
-			"weight": 20,
+			"weight": 55,
 			"ac": 14,
 			"strength": "13",
 			"stealth": true,
@@ -5452,8 +6772,8 @@
 			"type": "MA",
 			"armor": true,
 			"rarity": "none",
-			"value": 65000,
-			"weight": 40,
+			"value": 55000,
+			"weight": 50,
 			"ac": 15,
 			"stealth": true,
 			"strength": "13",
@@ -5498,7 +6818,7 @@
 			"name": "Tower Shield",
 			"type": "S",
 			"rarity": "none",
-			"value": 3500,
+			"value": 5000,
 			"weight": 12,
 			"ac": 2,
 			"strength": "15",
@@ -5513,7 +6833,7 @@
 					"name": "Special",
 					"entries": [
 						"Whilst wielding this shield, if you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.",
-						"Additionally you count as being in half cover against ranged attacks whilst wielding this shield."
+						"Additionally if you move no more than half your movement speed on your turn, you count as being in half cover against ranged attacks whilst wielding this shield."
 					]
 				},
 				"If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet."
@@ -5538,7 +6858,7 @@
 			"weight": 1,
 			"entries": [
 				"A bomb of odd alchemical origin. As an action, you can light and throw the bomb at a point up to 60 feet away. Each creature within 10 feet of that point must succeed on a Dexterity saving throw (with a DC equal to 8 plus your proficiency plus your Dexterity modifier) or take {@dice 3d4} fire damage. On a successful save the damage is halved.",
-				"For 1 minute afterwards, each creature friendly to you within 10 feet of the chosen point at the start of their turn regains {@dice 1d6} hitpoints."
+				"For 1 minute afterwards, each creature friendly to you within 10 feet of the chosen point at the start of their turn regains {@dice 1d4} hitpoints."
 			]
 		},
 		{
@@ -5605,10 +6925,10 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 3,
-			"value": 22500,
+			"value": 30000,
 			"bonusAc": "+1",
 			"entries": [
-				"A set of metal plates, such as arm and shin guards, designed to bolster the defence of lighter armors. If you wear these steel plates while wearing light armour, your AC increases by 1."
+				"A set of metal plates, such as arm and shin guards, designed to bolster the defence of lighter armors. If you wear these steel plates while wearing light armour or no armour, and using no shield, your AC increases by 1."
 			]
 		}
 	],
@@ -5616,6 +6936,7 @@
 		{
 			"abbreviation": "FFHHH",
 			"source": "FFHonourableHeroes",
+			"page": 0,
 			"entries": [
 				{
 					"type": "entries",
@@ -5629,6 +6950,7 @@
 		{
 			"abbreviation": "FFHHMW",
 			"source": "FFHonourableHeroes",
+			"page": 0,
 			"entries": [
 				{
 					"type": "entries",

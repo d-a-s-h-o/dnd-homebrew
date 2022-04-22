@@ -650,6 +650,7 @@
 				"S"
 			],
 			"miscTags": [
+				"FMV",
 				"SCL",
 				"SGT"
 			]
@@ -1282,6 +1283,7 @@
 				"S"
 			],
 			"miscTags": [
+				"FMV",
 				"SGT"
 			]
 		},
@@ -1949,7 +1951,7 @@
 				"dexterity"
 			],
 			"damageInflict": [
-				"foce"
+				"force"
 			],
 			"areaTags": [
 				"MT"

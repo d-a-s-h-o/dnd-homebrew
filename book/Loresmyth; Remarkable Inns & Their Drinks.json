@@ -12,7 +12,7 @@
 					"Loresmyth"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Modnar"
 				],
 				"version": "0.9.0",
 				"url": "https://www.drivethrurpg.com/product/208011/Remarkable-Inns--Their-Drinks",
@@ -27,6 +27,8 @@
 			"name": "Remarkable Inns & Their Drinks",
 			"id": "RInD",
 			"source": "RInD",
+			"published": "2018-02-24",
+			"group": "homebrew",
 			"contents": [
 				{
 					"name": "Every Story Has a Beginning",

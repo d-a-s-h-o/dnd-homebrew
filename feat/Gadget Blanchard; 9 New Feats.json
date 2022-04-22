@@ -9,7 +9,7 @@
 					"Gadget Blanchard"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Modnar"
 				],
 				"version": "1.0",
 				"url": "https://www.dmsguild.com/product/192605/9-New-Feats",
@@ -433,6 +433,12 @@
 							]
 						}
 					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"sleight of hand": true,
+					"perception": true
 				}
 			]
 		},

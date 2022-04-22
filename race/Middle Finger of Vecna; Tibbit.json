@@ -1,5 +1,4 @@
 {
-	"$schema": "../schema.json",
 	"_meta": {
 		"sources": [
 			{
@@ -29,7 +28,9 @@
 			"speed": {
 				"walk": 25
 			},
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"entries": [
 				"You share the following feline characteristics with other tibbits.",
 				{
@@ -169,14 +170,15 @@
 					"perception": true
 				}
 			],
-			"traitTags": [
-				"Skill Proficiency"
-			],
 			"languageProficiencies": [
 				{
 					"common": true
 				}
-			]
+			],
+			"age": {
+				"mature": 20,
+				"max": 400
+			}
 		}
 	]
 }

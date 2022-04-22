@@ -1,5 +1,4 @@
 {
-	"$schema": "../schema.json",
 	"_meta": {
 		"sources": [
 			{
@@ -27,7 +26,9 @@
 					"cha": 1
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": 30,
 			"darkvision": 120,
 			"entries": [
@@ -141,7 +142,7 @@
 				{
 					"innate": {
 						"1": [
-							"minor illusion"
+							"minor illusion#c"
 						],
 						"3": [
 							"charm person"

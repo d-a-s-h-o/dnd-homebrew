@@ -11,12 +11,12 @@
 					"ASunlessSky"
 				],
 				"convertedBy": [
-					"Dasho"
+					"axelcool1234"
 				]
 			}
 		],
 		"dateAdded": 1586966344,
-		"dateLastModified": 1586966344
+		"dateLastModified": 1638658441
 	},
 	"item": [
 		{
@@ -177,7 +177,7 @@
 			"dmg1": "1d4",
 			"dmgType": "S",
 			"charges": 3,
-			"recharge": "long rest",
+			"recharge": "restLong",
 			"weapon": true,
 			"entries": [
 				"You gain a +2 modifier to attack and damage rolls made with this whip. In addition, when you score a critical hit with this weapon, in addition to the attack's damage, you cast the thunderwave spell at 1st level, centered on the target of your attack. The DC of the spell is 14.",
@@ -538,6 +538,11 @@
 				"This staff can also be used as a quarterstaff. This staff has 6 chares and regains {@dice 1d4 + 1} charges every midnight. When you expend the last charge, roll a {@dice d20}. On the roll of a 1, the staff becomes ghostly and insubstantial and then completely disappears.",
 				"While holding the staff, you can use an action to expend some of its charges to cast one of the following spells, using your spell save DC: silent image (1 charge), disguise self (1 charge), or phantasmal force (2 charges).",
 				"Incorporeal creatures, such as ghosts, spectors, and banshees cannot resist damage from melee attacks made with this staff."
+			],
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
 			]
 		},
 		{
@@ -851,6 +856,11 @@
 				"This cape is always billowing about you when you wear it, as if buffetted by some imperceptible wind.",
 				"While attuned to this cape, you are resistant to cold, lightning, and thunder damage. You also suffer none of the ill effects of extreme cold.",
 				"You also have advantage on saving throws against natural and magical weather effects, such as those caused by gust of wind and sleet storm."
+			],
+			"resist": [
+				"cold",
+				"lightning",
+				"thunder"
 			]
 		},
 		{
@@ -1157,7 +1167,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"charges": 3,
-			"recharge": "end of each night of the New Moon",
+			"recharge": "special",
 			"entries": [
 				"The Discordence Engine has 3 charges, and regains a charge at the end of each night of the New Moon.",
 				"You may activate the Engine as an action, which uses a charge. When you activate the Engine, it generates a field of throbbing waves of chaos. While the engine is active, you may not release it from your grasp, and you may take no actions. All attacks made within 30 feet of the Engine while it is active are made at disadvantage, as are all Wisdom (perception) checks, and all Intelligence (investigation) checks. Furthermore, Blindsight and Tremorsense do not function while within 30 feet of an active Discordence Engine.",
@@ -1209,7 +1219,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"charges": 7,
-			"recharge": "nightfall",
+			"recharge": "dusk",
 			"entries": [
 				"The Inchoate Beast-Heart has 7 charges, and regains {@dice 1d6 + 1} charges daily at nightfall. You may use these charges to cast spells using the Heart. You may spend 2 charges to cast enhance ability, alter self or you may spend 4 charges to cast polymorph. When you finish a rest, you gain temporary hit points equal to twice the number of charges the Heart has.",
 				"Curse: During the New Moon, your form twists and stretches, revealing feotal beast-flesh beneath your skin. Each night of the New Moon at midnight your Constitution score decreases by 1, and your Strength score increases by 1. At the end of the New Moon, your Strength score returns to its normal value, but your Constitution score remains reduced. A creature reduced to 0 Constitution by this effect mutates suddenly and explosively, becoming a terrifying and inhuman beast. The Constitution score reduction can only be reversed by consuming the Beast-Heart, destroying it utterly and ending your attunement to it. Your Consitution score then recovers at a rate on 1 point each time you finish a long rest."
@@ -1258,6 +1268,11 @@
 			"entries": [
 				"While you are attuned to the Myopic Staff, and you roll damage for a spell, or roll die to determine the effectiveness of a spell (such as with a sleep spell), your roll the die twice and choose the result you wish.",
 				"However for every full 10 feet away from you that your target is, you have a penalty of -1 to your spell attack rolls, to a maximum sized penalty equal to your proficiency modifier's size (e.g. if your proficiency modifier is +3, the maximum penalty you can accrue from this feature is -3). Additionally, creatures targetted by your spells have a bonus to their saving throws against your spells of +1 for each full 10 feet your target is away from you, to a maximum of +6."
+			],
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
 			]
 		},
 		{
@@ -1293,6 +1308,14 @@
 			"staff": true,
 			"entries": [
 				"When you cast a spell using a spell slot with this staff as your spell-casting focus, you gain a flying speed equal to your movement speed until the end of your turn."
+			],
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				},
+				{
+					"class": "sorcerer"
+				}
 			]
 		},
 		{
@@ -1339,13 +1362,15 @@
 			"entries": [
 				"While attuned to item, you are resistant to cold damage.",
 				"Also, as an action, you may cause 1 creature you can see to take a constution saving throw, which has a DC equal to 8 + your proficiency modifier. If it fails the saving throw, it takes {@damage 3d6} necrotic damage. If it succeeds, it takes {@damage 2d6} necrotic damage. Your hit point maximum is reduced by the number of dice rolled. Your hit point maximum returns to its normal total at the end of a long rest."
+			],
+			"resist": [
+				"cold"
 			]
 		}
 	],
 	"variant": [
 		{
 			"name": "Talon-Crowned Club",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1359,6 +1384,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"namePrefix": "Talos-Crowned ",
 				"entries": [
 					"You have a +1 modifier to hit and damage rolls made with this weapon. When you hit a creature with this weapon, you can cause the talons to dig into the target, automatically grappling the target as a bonus action.",
@@ -1370,7 +1396,6 @@
 		},
 		{
 			"name": "Cascade Blade",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1380,6 +1405,7 @@
 			"inherits": {
 				"namePrefix": "Cascade ",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "rare",
 				"entries": [
 					"If you attack with advantage using this weapon, you may make another attack as a bonus action. It it hits, you can make a third attack as a reaction. This third attack must be made at disadvantage."
@@ -1388,7 +1414,6 @@
 		},
 		{
 			"name": "Quantum Weapon",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1398,6 +1423,7 @@
 			"inherits": {
 				"namePrefix": "Quantum ",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
@@ -1407,7 +1433,6 @@
 		},
 		{
 			"name": "Weapon of Giving and Taking",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1417,6 +1442,7 @@
 			"inherits": {
 				"nameSuffix": " of Giving and Taking",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "rare",
 				"reqAttune": true,
 				"entries": [
@@ -1428,7 +1454,6 @@
 		},
 		{
 			"name": "Riposting Blade",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1462,6 +1487,7 @@
 			"inherits": {
 				"namePrefix": "Riposting ",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "uncommon",
 				"entries": [
 					"When you take the dodge action on you turn, until the start of your next turn, when a creature attacks you and misses, you may make an attack with the Riposting blade as a reaction."
@@ -1470,7 +1496,6 @@
 		},
 		{
 			"name": "Blood-Strung Crossbow",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1489,6 +1514,7 @@
 			"inherits": {
 				"namePrefix": "Blood-Strung ",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "rare",
 				"reqAttune": true,
 				"entries": [
@@ -1501,7 +1527,6 @@
 		},
 		{
 			"name": "Bow of Heavenly Thunder",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1514,6 +1539,7 @@
 			"inherits": {
 				"nameSuffix": " of Heavenly Thunder",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
@@ -1525,7 +1551,6 @@
 		},
 		{
 			"name": "Needler",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1544,6 +1569,7 @@
 			"inherits": {
 				"namePrefix": "Needler ",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "rare",
 				"entries": [
 					"This weapon ignores the usual loading property for crossbows.",
@@ -1553,7 +1579,6 @@
 		},
 		{
 			"name": "Monsoon Bow",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1566,6 +1591,7 @@
 			"inherits": {
 				"namePrefix": "Monsoon ",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
@@ -1577,7 +1603,6 @@
 		},
 		{
 			"name": "Hammer of the Brittle",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1590,17 +1615,21 @@
 			"inherits": {
 				"nameSuffix": " of the Brittle",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "uncommon",
 				"reqAttune": true,
 				"entries": [
 					"While you are attuned to this hammer, you are vulnerable to bludgeoning damage, and resistant to piercing damage.",
 					"Whenever you take bludgeoning damage, one creature of your choice that is within 5 feet of you takes piercing damage equal to half the damage you took before applying vulnerabilities, rounded down."
+				],
+				"vulnerable": [
+					"bludgeoning",
+					"piercing"
 				]
 			}
 		},
 		{
 			"name": "Hammer of Shattering",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1613,6 +1642,7 @@
 			"inherits": {
 				"nameSuffix": " of Shattering",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "rare",
 				"reqAttune": true,
 				"entries": [
@@ -1623,7 +1653,6 @@
 		},
 		{
 			"name": "Filament Spear",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1636,6 +1665,7 @@
 			"inherits": {
 				"namePrefix": "Filament ",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "uncommon",
 				"entries": [
 					"When you attack a creature, and another hostile creature is directly behind it, you may cause the spear to split and attack both creatures. You use the same attack roll for both creatures, but roll damage seperately for each creature hit."
@@ -1644,7 +1674,6 @@
 		},
 		{
 			"name": "Blade of the Whole",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1657,6 +1686,7 @@
 			"inherits": {
 				"nameSuffix": " of the Whole",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
@@ -1666,7 +1696,6 @@
 		},
 		{
 			"name": "Blade of Power Overwhelming",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1676,6 +1705,7 @@
 			"inherits": {
 				"nameSuffix": " of Power Overwhelming",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
@@ -1689,7 +1719,6 @@
 		},
 		{
 			"name": "Gnoll-Hide Armour",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1702,6 +1731,7 @@
 			"inherits": {
 				"namePrefix": "Gnoll-Hide ",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "rare",
 				"reqAttune": true,
 				"entries": [
@@ -1712,7 +1742,6 @@
 		},
 		{
 			"name": "Armor of Transferral",
-			"source": "ChristmasMagicItems",
 			"type": "GV",
 			"requires": [
 				{
@@ -1722,6 +1751,7 @@
 			"inherits": {
 				"namePrefix": "Armor of Transferral ",
 				"source": "ChristmasMagicItems",
+				"page": 0,
 				"rarity": "rare",
 				"reqAttune": true,
 				"entries": [

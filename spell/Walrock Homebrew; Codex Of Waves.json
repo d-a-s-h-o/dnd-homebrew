@@ -10,7 +10,7 @@
 					"Walrock Homebrew"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Frost2779"
 				],
 				"version": "1.0.0"
 			}
@@ -141,9 +141,10 @@
 			],
 			"page": 5,
 			"damageInflict": [
-				"blugeoning"
+				"bludgeoning"
 			],
 			"miscTags": [
+				"FMV",
 				"SCL"
 			]
 		},
@@ -345,6 +346,7 @@
 				"bludgeoning"
 			],
 			"miscTags": [
+				"FMV",
 				"SMN"
 			]
 		},
@@ -409,6 +411,9 @@
 			],
 			"savingThrow": [
 				"strength"
+			],
+			"miscTags": [
+				"FMV"
 			]
 		},
 		{
@@ -551,7 +556,7 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "Touch"
+					"type": "touch"
 				}
 			},
 			"components": {
@@ -843,7 +848,7 @@
 			],
 			"page": 8,
 			"damageInflict": [
-				"blugeoning"
+				"bludgeoning"
 			],
 			"savingThrow": [
 				"dexterity"
@@ -921,6 +926,9 @@
 			],
 			"savingThrow": [
 				"strength"
+			],
+			"miscTags": [
+				"FMV"
 			]
 		},
 		{
@@ -1129,6 +1137,9 @@
 			],
 			"savingThrow": [
 				"dexterity"
+			],
+			"miscTags": [
+				"FMV"
 			]
 		},
 		{
@@ -1189,7 +1200,7 @@
 			"page": 8,
 			"damageInflict": [
 				"bludgeoning",
-				"posion"
+				"poison"
 			],
 			"savingThrow": [
 				"dexterity"

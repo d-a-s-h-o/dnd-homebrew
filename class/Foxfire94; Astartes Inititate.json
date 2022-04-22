@@ -10,14 +10,14 @@
 				],
 				"version": "0.5",
 				"convertedBy": [
-					"Dasho"
+					"Foxfire94"
 				],
 				"url": "https://homebrewery.naturalcrit.com/share/JO8W-fqk",
 				"targetSchema": "1.0.0"
 			}
 		],
 		"dateAdded": 1585472488,
-		"dateLastModified": 1607942220
+		"dateLastModified": 1641202995
 	},
 	"class": [
 		{
@@ -392,546 +392,11 @@
 				"Apotheosis|Astartes Inititate|FoxfireAstartesInitiate|20"
 			],
 			"subclassTitle": "Genetic Heretiage",
-			"subclasses": [
-				{
-					"name": "Sons of the Lion",
-					"subclassFeatures": [
-						"Sons of the Lion|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|1",
-						"Knightly Hunters|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|1",
-						"Interrogator|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|4",
-						"Watcher in the Dark|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|12",
-						"The Unbroken Sword|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|13",
-						"Knightly Swordsmanship|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|17",
-						"Precision with the Blade|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Lion"
-				},
-				{
-					"name": "Sons of the Phoenician",
-					"subclassFeatures": [
-						"Sons of the Phoenician|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|1",
-						"Artistic Indulgence|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|1",
-						"Fighting Style|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|4",
-						"Martial Pride|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|12",
-						"Additional Fighting Style|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|13",
-						"Optional Feature: Genetic Flaws|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|13",
-						"Fast Reflexes|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|17",
-						"The Maru Skara|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|18",
-						"Additional Fighting Style|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Phoenician"
-				},
-				{
-					"name": "Sons of the Iron",
-					"subclassFeatures": [
-						"Sons of the Iron|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|1",
-						"Siege Expert|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|1",
-						"Vicious Weaponry|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|4",
-						"Hammer of Iron|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|12",
-						"Iron Within, Iron Without|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|13",
-						"Iron Within, Iron Without|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|15",
-						"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|17",
-						"Artillery Volley|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Iron"
-				},
-				{
-					"name": "Sons of the Khan",
-					"subclassFeatures": [
-						"Sons of the Khan|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|1",
-						"Skilled Rider|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|1",
-						"Born to the Saddle|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|4",
-						"Swift Action|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|12",
-						"Mounted Superiority|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|13",
-						"Vigilant Defender|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|17",
-						"Ferocious Charger|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Khan"
-				},
-				{
-					"name": "Sons of the Wolf King",
-					"subclassFeatures": [
-						"Sons of the Wolf King|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|1",
-						"One of the Aett|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|1",
-						"Optional Feature: Rite of Passage|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|1",
-						"Canis Helix|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|4",
-						"Wolf-kin|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|4",
-						"Headstrong|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|12",
-						"Environmental Adaptation|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|13",
-						"Runes of Warding|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|13",
-						"Pack Tactics|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|17",
-						"Howl of Winter|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Wolf King"
-				},
-				{
-					"name": "Sons of the Praetorian",
-					"subclassFeatures": [
-						"Sons of the Praetorian|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|1",
-						"Fortress-Craft|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|1",
-						"Unfaltering Fire|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|4",
-						"Steady Marksman|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|10",
-						"Optional Feature: Genetic Flaws|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|12",
-						"Unfaltering Fire|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|13",
-						"Firing Drill|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|16",
-						"Optional Feature: Genetic Flaws|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|17",
-						"Phalanx|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|18",
-						"Steady Marksman|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Praetorian"
-				},
-				{
-					"name": "Sons of the Night",
-					"subclassFeatures": [
-						"Sons of the Night|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|1",
-						"Selfish Blood|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|1",
-						"Night Terrors|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|4",
-						"Throwing Daggers|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|8",
-						"Silent Movement|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|12",
-						"Eyes of The Night|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|13",
-						"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|13",
-						"Cruel Counter|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|17",
-						"A Talent for Murder|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Night"
-				},
-				{
-					"name": "Sons of the Angel",
-					"subclassFeatures": [
-						"Sons of the Angel|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|1",
-						"Rapid Strikes|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|1",
-						"Fighting Spirit|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|4",
-						"The Red Thirst|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|12",
-						"Without Relent, Without Remorse|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|13",
-						"Martial Prowess|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|17",
-						"Keen Edge|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Angel"
-				},
-				{
-					"name": "Sons of the Gorgon",
-					"subclassFeatures": [
-						"Sons of the Gorgon|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|1",
-						"Metallurgy Master|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|1",
-						"Manus Tenet Ferrum|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|4",
-						"Stand and Fight|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|12",
-						"Vengeful Strike|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|13",
-						"Inviolate Armour|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|17",
-						"Manus Tenet Ferrum|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|18",
-						"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Gorgon"
-				},
-				{
-					"name": "Sons of the Slaughterer",
-					"subclassFeatures": [
-						"Sons of the Slaughterer|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|1",
-						"Gladitorial Lineage|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|1",
-						"Bloodlust|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|4",
-						"Murderous Rage|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|12",
-						"Violence Incarnate|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|13",
-						"Bloodlust|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|13",
-						"Unstoppable Monster|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|17",
-						"The Eightfold Path|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Slaughterer"
-				},
-				{
-					"name": "Sons of the Regent",
-					"subclassFeatures": [
-						"Sons of the Regent|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|1",
-						"Art of War|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|1",
-						"Combat Tactics|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|4",
-						"And They Shall Know No Fear|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|12",
-						"Know Your Enemy|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|13",
-						"And They Shall Know No Fear|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|13",
-						"Diverse Training|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|17",
-						"Coup De Grâce|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Regent"
-				},
-				{
-					"name": "Sons of the Reaper",
-					"subclassFeatures": [
-						"Sons of the Reaper|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|1",
-						"Toxic Obsession|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|1",
-						"Manreaper|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|4",
-						"Implacable Advance|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|12",
-						"Portents of Rot|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|13",
-						"Portents of Rot|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|16",
-						"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|17",
-						"Plaguebringer|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Reaper"
-				},
-				{
-					"name": "Sons of the Crimson King",
-					"spellcastingAbility": "int",
-					"casterProgression": "pact",
-					"subclassSpells": [
-						{
-							"class": "Wizard",
-							"source": "PHB"
-						}
-					],
-					"subclassTableGroups": [
-						{
-							"subclasses": [
-								{
-									"name": "Sons of the Crimson King"
-								}
-							],
-							"colLabels": [
-								"{@filter Cantrips Known|spells|level=0|subclass=Astartes Initiate: Sons of the Crimson King}",
-								"{@filter Spells Known|spells|subclass=Astartes Initiate: Sons of the Crimson King}",
-								"Spell Slots",
-								"Spell Level"
-							],
-							"rows": [
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									1,
-									1,
-									1,
-									"{@filter 1st|spells|level=1|subclass=Astartes Initiate: Sons of the Crimson King}"
-								],
-								[
-									1,
-									2,
-									1,
-									"{@filter 1st|spells|level=1|subclass=Astartes Initiate: Sons of the Crimson King}"
-								],
-								[
-									1,
-									3,
-									1,
-									"{@filter 2nd|spells|level=2|subclass=Astartes Initiate: Sons of the Crimson King}"
-								],
-								[
-									2,
-									4,
-									2,
-									"{@filter 2nd|spells|level=2|subclass=Astartes Initiate: Sons of the Crimson King}"
-								],
-								[
-									2,
-									5,
-									2,
-									"{@filter 3rd|spells|level=3|subclass=Astartes Initiate: Sons of the Crimson King}"
-								],
-								[
-									2,
-									6,
-									2,
-									"{@filter 3rd|spells|level=3|subclass=Astartes Initiate: Sons of the Crimson King}"
-								],
-								[
-									3,
-									7,
-									2,
-									"{@filter 4th|spells|level=4|subclass=Astartes Initiate: Sons of the Crimson King}"
-								],
-								[
-									3,
-									8,
-									3,
-									"{@filter 4th|spells|level=4|subclass=Astartes Initiate: Sons of the Crimson King}"
-								]
-							]
-						}
-					],
-					"subclassFeatures": [
-						"Sons of the Crimson King|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|1",
-						"Arcane Academic|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|1",
-						"Guiding Tutelary|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|4",
-						"Spell Scrolls|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|12",
-						"Arcane Awakening|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|13",
-						"Psychic Weaponry|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|15",
-						"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|17",
-						"Arcane Discipline|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Crimson King",
-					"cantripProgression": [
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						1,
-						1,
-						1,
-						2,
-						2,
-						2,
-						3,
-						3
-					],
-					"spellsKnownProgression": [
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						1,
-						2,
-						3,
-						4,
-						5,
-						6,
-						7,
-						8
-					]
-				},
-				{
-					"name": "Sons of the Lupercal",
-					"subclassFeatures": [
-						"Sons of the Lupercal|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|1",
-						"Adaptable|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|1",
-						"Pile In!|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|4",
-						"Merciless Fighter|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|12",
-						"Close Combat|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|13",
-						"Tip of the Spear|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|17",
-						"Bone Breaker|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Lupercal"
-				},
-				{
-					"name": "Sons of the Word",
-					"subclassFeatures": [
-						"Sons of the Word|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|1",
-						"Divine Devotion|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|1",
-						"Demagogue|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|4",
-						"Banishment|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|8",
-						"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|12",
-						"Zealous Crusader|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|13",
-						"Undaunted|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|17",
-						"The Power of Faith|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Word"
-				},
-				{
-					"name": "Sons of the Drake",
-					"subclassFeatures": [
-						"Sons of the Drake|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|1",
-						"Prodigy of the Forge|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|1",
-						"Draconic Bloodline|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|4",
-						"Hammer and Anvil|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|8",
-						"Optional Feature: Genetic Flaws|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|12",
-						"Helping Hand|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|13",
-						"Forgemaster|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|16",
-						"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|17",
-						"The Unbound Flame|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Drake"
-				},
-				{
-					"name": "Sons of the Raven",
-					"subclassFeatures": [
-						"Sons of the Raven|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|1",
-						"Hit and Run|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|1",
-						"Silence|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|4",
-						"Death By A Thousand Cuts|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|12",
-						"Fast Reflexes|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|13",
-						"Untouchable|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|15",
-						"Optional Feature: Genetic Flaws|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|16",
-						"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|17",
-						"Nevermore|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Raven"
-				},
-				{
-					"name": "Sons of the Hydra",
-					"subclassFeatures": [
-						"Sons of the Hydra|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|1",
-						"The Many Heads of The Hydra|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|1",
-						"Deadly Improvisation|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|4",
-						"Mutable Tactics|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|8",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|10",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|12",
-						"Mutable Tactics|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|13",
-						"Sever One Head...|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|15",
-						"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|15",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|16",
-						"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|17",
-						"Blood of The Primogenitor|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|18",
-						"Mutable Tactics|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|18"
-					],
-					"source": "FoxfireAstartesInitiate",
-					"shortName": "Sons of the Hydra"
-				}
-			],
 			"fluff": [
 				{
+					"source": "FoxfireAstartesInitiate",
 					"entries": [
-						{
-							"type": "quote",
-							"entries": [
-								"\"They shall be my finest warriors, these men who give of themselves to me. Like clay I shall mould them and in the furnace of war I shall forge them. They shall be of iron will and steely sinew. In great armour I shall clad them and with the mightiest weapons shall they be armed. They will be untouched by plague or disease; no sickness shall blight them. They shall have such tactics, strategies and machines that no foe will best them in battle. They are my bulwark against the Terror. They are the Defenders of Humanity. They are my Astartes... And they shall know no fear.\" - The Lightning Lord"
-							]
-						},
+						"{@i \"They shall be my finest warriors, these men who give of themselves to me. Like clay I shall mould them and in the furnace of war I shall forge them. They shall be of iron will and steely sinew. In great armour I shall clad them and with the mightiest weapons shall they be armed. They will be untouched by plague or disease; no sickness shall blight them. They shall have such tactics, strategies and machines that no foe will best them in battle. They are my bulwark against the Terror. They are the Defenders of Humanity. They are my Astartes... And they shall know no fear.\"} - The Lightning Lord",
 						"Often called \"Angels of Death\" due to the tremendous combat prowess of a full fledged Astartes, moulded and forged by the arcane and alchemical, and able to fight like an overwhelming and unstoppable force. To become like this one must journey through the long initiation into their ranks, the path from a mortal creature to an immortal weapon.",
 						"The Astartes Initiate represents this and is unlike most other classes, challenging your character to survive with their wits and might alone, whilst slowly being granted greater boons as you prove yourself in battle and deed.",
 						"Ideally intended for long running campaigns where you will play from 1st to 20th level, however your are fully able to play at any level although obviously you'll only glean a portion of this class' full potential. It is also intended you use point buy or the standard array for generating your starting ability scores rather than rolling, as rolling may create very powerful characters due to the ability score bonuses.",
@@ -957,6 +422,7 @@
 							]
 						},
 						{
+							"type": "entries",
 							"name": "Astartes Inititate Multiclassing",
 							"entries": [
 								"You cannot multiclass into or out of this class."
@@ -988,7 +454,7 @@
 			"level": 1,
 			"type": "inset",
 			"entries": [
-				"Some Genetic Heritages will present optional features such as Genetic Disparity and Genetic Flaws that modify base class features. Although it is intended that you use such features, it is your choice if you want to include these or not."
+				"Some Genetic Heritages will present optional features such as Genetic Disparity and Genetic Flaws that refer to and modify base class features. Although it is intended that you use such features, it is your choice if you want to include these or not."
 			]
 		},
 		{
@@ -999,7 +465,7 @@
 			"level": 1,
 			"entries": [
 				"At 1st level you start your transformation from human to superhuman with the simplest and most self-sufficient of implants; allowing you to survive your other heart being damaged or destroyed as well as surviving in low oxygen environments. Not just a back-up however, this secondary heart boosts the blood flow around your body.",
-				"You gain advantage on Constitution saving throws; it also boosts your movement speed by 5 feet at 1st level, and by an additional 5 feet at 6th, 11th, 16th and 20th levels."
+				"You gain advantage on Constitution saving throws; it also boosts your movement speed by 5 feet at 1st level, and by an additional 5 feet at 6th, 11th, 16th and 20th levels as shown in the Bonus Movement column of the class table."
 			]
 		},
 		{
@@ -1009,7 +475,7 @@
 			"classSource": "FoxfireAstartesInitiate",
 			"level": 2,
 			"entries": [
-				"At 2nd level, due to rigorous conditioning, through chemical treatment, indoctrination, and hypnotherapy alongside your implants, you gain bonuses to your ability scores each level from 2nd shown in the bonus columns of the class table on the previous page. These bonuses can allow your Strength and Constitution ability to scores to go higher than 20, however they cannot go higher than 24, and your other ability scores cannot go higher than 20."
+				"At 2nd level, due to rigorous conditioning, through chemical treatment, indoctrination, and hypnotherapy alongside your implants, you gain bonuses to your ability scores each level from 2nd shown in the Ability Score Bonuses columns of the class table. These bonuses can allow your Strength and Constitution ability scores to go higher than 20, however they cannot go higher than 24, and your other ability scores cannot go higher than 20."
 			]
 		},
 		{
@@ -1052,10 +518,10 @@
 			"classSource": "FoxfireAstartesInitiate",
 			"level": 4,
 			"entries": [
-				"At 4th level your punishing training regimen has honed your combat skills and you gain proficiency in one martial melee weapon and one martial ranged weapon of your choice.",
-				"At 6th level you attack twice with the attack action.",
-				"At 8th level you choose two more martial weapons to become proficient in and you gain proficiency in medium armour.",
-				"At 13th level yours skills broaden and you become proficient in all martial weapons. You also learn how to fight defensively and gain proficiency in shields.",
+				"At 4th level your punishing training regimen has honed your combat skills and you gain proficiency in one {@filter martial melee weapon|items|source=phb|category=basic|type=martial weapon;melee weapon=sand} and one {@filter martial ranged weapon|items|source=phb|category=basic|type=martial weapon;ranged weapon=sand} of your choice.",
+				"At 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
+				"At 8th level you choose two more {@filter martial weapons|items|source=phb|category=basic|type=martial weapon} to become proficient in and you gain proficiency in medium armour.",
+				"At 13th level yours skills broaden and you become proficient in all {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}. You also learn how to fight defensively and gain proficiency in shields.",
 				"At 15th level you gain proficiency in heavy armour."
 			]
 		},
@@ -1088,7 +554,7 @@
 			"level": 6,
 			"entries": [
 				"At 6th level the node is implanted into the back of the brain, this pea-sized organ influences the circadian rhythms of sleep and the body's response to sleep deprivation. If deprived of sleep, the catalepsean node cuts in. The node allows you to sleep and remain awake at the same time by switching off areas of your brain sequentially. This process cannot replace sleep entirely, but increases the your survivability by allowing perception of your environment whilst you rest.",
-				"You need only rest for 4 hours during a long rest to gain the same benefit as if you had rested the full 8 hours and you can go for up to two weeks without sleeping. You may also ignore one level of exhaustion between long rests."
+				"You need only rest for 4 hours during a long rest to gain the same benefit as if you had rested the full 8 hours and you can go for up to two weeks without sleeping. You may also ignore one level of {@condition exhaustion} between long rests."
 			]
 		},
 		{
@@ -1154,7 +620,7 @@
 			"level": 11,
 			"entries": [
 				"At 11th level this implant makes a you immune from dizziness or motion sickness but also allows you to consciously filter out and enhance certain sounds.",
-				"You gain advantage against being stunned or deafened and have advantage against effects, such as spells, that require you to hear them. You also gain advantage on Wisdom (Perception) checks that rely on your hearing."
+				"You gain advantage against being {@condition stunned} or {@condition deafened} and have advantage against effects, such as spells, that require you to hear them. You also gain advantage on Wisdom ({@skill Perception}) checks that rely on your hearing."
 			]
 		},
 		{
@@ -1196,8 +662,9 @@
 			"classSource": "FoxfireAstartesInitiate",
 			"level": 14,
 			"entries": [
-				"At 14th level you receive the Oolitic Kidney. In conjunction with the secondary heart this implant allows you to filter your blood very quickly, rendering you immune to most poisons. This action comes at a price, however, as this emergency detoxification usually renders you incapacitated while your blood is circulated at high speed. The organ's everyday function is to monitor the entire circulatory system and allow other organs to function effectively.",
-				"You gain resistance to Poison damage and advantage against being Poisoned. If poisoned you may use your action to filter your blood removing the Poisoned effect but making you Incapacitated, Prone and unable to move until the end of your next turn. Also as your body is further changed by the gene-seed your height is increased by 11 inches and your weight is increased by 195lbs as your body grows larger and your mass more dense."
+				"At 14th level you receive the Oolitic Kidney. In conjunction with the secondary heart this implant allows you to filter your blood very quickly, rendering you immune to most poisons. This action comes at a price, however, as this emergency detoxification usually renders you {@condition incapacitated} while your blood is circulated at high speed. The organ's everyday function is to monitor the entire circulatory system and allow other organs to function effectively.",
+				"You gain resistance to Poison damage and advantage against being {@condition poisoned}. If {@condition poisoned}, you may use your action to filter your blood removing the {@condition poisoned} effect but making you {@condition incapacitated}, {@condition prone} and unable to move until the end of your next turn.",
+				"Additionally as your body is further changed by the gene-seed your height is increased by 11 inches and your weight is increased by 195lbs as your body grows larger and your mass more dense."
 			]
 		},
 		{
@@ -1208,7 +675,7 @@
 			"level": 15,
 			"entries": [
 				"At 15th level you receive the Neuroglottis. This enhances your sense of taste to such a high degree that you can identify many common chemicals by taste alone.",
-				"You can even track down a creature by taste alone. You gain advantage on Intelligence (Investigation) checks to identify substances by taste and Wisdom (Survival) checks to track creatures by taste."
+				"You can even track down a creature by taste alone. You gain advantage on Intelligence ({@skill Investigation}) checks to identify substances by taste and Wisdom ({@skill Survival}) checks to track creatures by taste."
 			]
 		},
 		{
@@ -1240,7 +707,7 @@
 			"level": 17,
 			"entries": [
 				"At 17th level you receive the Betcher's Gland which consists of two identical glands, implanted either into the lower lip, alongside the salivary glands or into the hard palette. The gland works in a similar way to the poison gland of venomous reptile by synthesizing and storing deadly poison, which you yourself are immune to due to the gland's presence. This allows a you to spit a blinding contact poison. The poison is also corrosive and can even burn away strong metals given sufficient time.",
-				"You may use your bonus action to spit acid at a target, make a ranged attack at a creature within 10 feet using your Constitution modifier. On a hit it deals 2d6 Poison damage and 2d4 Acid damage and the target must make a Constitution save with a DC equal to 8 + your proficiency + your Constitution modifier or be Blinded until the end of their next turn. This feature has a number of uses equal to your Constitution modifier and you regain all expended uses of this feature once you finish a long rest."
+				"You may use your bonus action to spit acid at a target, make a ranged attack at a creature within 10 feet using your Constitution modifier. On a hit it deals {@dice 2d6} Poison damage and {@dice 2d4} Acid damage and the target must make a Constitution save with a DC equal to 8 + your proficiency + your Constitution modifier or be {@condition blinded} until the end of their next turn. This feature has a number of uses equal to your Constitution modifier and you regain all expended uses of this feature once you finish a long rest."
 			]
 		},
 		{
@@ -1251,7 +718,7 @@
 			"level": 18,
 			"entries": [
 				"At 18th level you gain the Progenoids. There are two of these glands, one situated in the neck and the other within the chest cavity. These glands are vitally important and represent the future of the your heritage, as the only way new implants can be produced is by reproducing it within the bodies of the astartes themselves.",
-				"When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you can't use it again until you finish a long rest."
+				"When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
 		{
@@ -1311,7 +778,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"At 1st level you gain hooded robes designed to be worn over your armour in addition to your starting equipment. You also have significant training in tracking, hunting, and slaying a certain type of enemy. Choose a type of enemy: aberrations, beasts or monstrosities. You have advantage on Wisdom (Survival) checks to track your chosen enemies, on Intelligence checks to recall information about them and on attack rolls made against them. You also choose one additional enemy type, at 8th and 15th level."
+				"At 1st level you gain hooded robes designed to be worn over your armour in addition to your starting equipment. You also have significant training in tracking, hunting, and slaying a certain type of enemy. Choose a type of enemy: aberrations, beasts or monstrosities. You have advantage on Wisdom ({@skill Survival}) checks to track your chosen enemies, on Intelligence checks to recall information about them and on attack rolls made against them. You also choose one additional enemy type, at 8th and 15th level."
 			]
 		},
 		{
@@ -1324,7 +791,7 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"At 4th level you gain advantage on Wisdom (Insight) checks and advantage on Intelligence (Investigation) checks."
+				"At 4th level you gain advantage on Wisdom ({@skill Insight}) checks and advantage on Intelligence ({@skill Investigation}) checks."
 			]
 		},
 		{
@@ -1476,24 +943,28 @@
 					"type": "entries",
 					"entries": [
 						{
+							"type": "entries",
 							"name": "Archery",
 							"entries": [
 								"You gain a +2 bonus to attack rolls you make with ranged weapons."
 							]
 						},
 						{
+							"type": "entries",
 							"name": "Duelling",
 							"entries": [
 								"When you are wielding a melee weapon in one hand and no other weapons or a shield, you gain a +2 bonus to damage rolls with that weapon."
 							]
 						},
 						{
+							"type": "entries",
 							"name": "Great Weapon Fighting",
 							"entries": [
 								"When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
 							]
 						},
 						{
+							"type": "entries",
 							"name": "Two-Weapons Fighting",
 							"entries": [
 								"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
@@ -1649,7 +1120,7 @@
 			"subclassSource": "FoxfireAstartesInitiate",
 			"level": 1,
 			"entries": [
-				"The Sons of The Iron are bonded by a mutual brotherhood forged by their own hatred and bitter paranoia. Masters of long range and siege warfare they are as cold and hard as their name implies. Chanting ‘The Unbreakable Litany' as they methodically cut down their foes without remorse."
+				"The Sons of The Iron are bonded by a mutual brotherhood forged by their own hatred and bitter paranoia. Masters of long range and siege warfare they are as cold and hard as their name implies; chanting ‘The Unbreakable Litany' as they methodically cut down their foes without remorse."
 			]
 		},
 		{
@@ -1675,7 +1146,7 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"Starting at 4th level when wielding a flail, a maul or a warhammer, you can prepare yourself to extend your swing to sweep over targets' shields as a bonus action on your turn. Until the end of this turn, your attack rolls with a flail gain a +2 bonus against any target using a shield."
+				"Starting at 4th level when wielding a flail, a maul or a warhammer, you can prepare yourself to extend your swing to sweep over targets' shields as a bonus action on your turn. Until the end of this turn, your attack rolls with a {@item flail|PHB}, a {@item maul|PHB}, or a {@item warhammer|PHB} gain a +2 bonus against any target using a shield."
 			]
 		},
 		{
@@ -1688,7 +1159,7 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"Starting at 8th level whenever you have disadvantage on a melee attack roll you make with a flail, a maul or a warhammer, the target takes bludgeoning damage equal to your Strength modifier (minimum of 0) if the attack misses but if the higher of the two d20 rolls would have hit."
+				"Starting at 8th level whenever you have disadvantage on a melee attack roll you make with a {@item flail|PHB}, a {@item maul|PHB}, or a {@item warhammer|PHB}, the target takes bludgeoning damage equal to your Strength modifier (minimum of 0) if the attack misses but if the higher of the two d20 rolls would have hit."
 			]
 		},
 		{
@@ -1733,22 +1204,25 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"At 13th level you have advantage on saving throws against being charmed and frightened.",
+				"At 13th level you have advantage on saving throws against being {@condition charmed} and {@condition frightened}.",
 				"Additionally at 15th level you gain the following benefits while you are wielding a shield:",
 				{
 					"type": "list",
 					"items": [
 						{
+							"type": "entries",
 							"entries": [
 								"If you take the Attack action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you with your shield."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
-								"If you aren't incapacitated, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you."
+								"If you aren't {@condition incapacitated}, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
 								"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect."
 							]
@@ -1772,16 +1246,19 @@
 					"type": "list",
 					"items": [
 						{
+							"type": "entries",
 							"entries": [
 								"If you take the Attack action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you with your shield."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
-								"If you aren't incapacitated, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you."
+								"If you aren't {@condition incapacitated}, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
 								"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect."
 							]
@@ -1800,7 +1277,7 @@
 			"level": 15,
 			"type": "inset",
 			"entries": [
-				"At 15th level, roll a d20. On a roll higher than 13 you become prone to paranoia and suspicion and your Intelligence score bonus is increased by +2 but your Charisma score bonus does not go higher than +2 and your Charisma score cannot go higher than 18."
+				"At 15th level, roll a d20. On a roll higher than 13 you become prone to paranoia and suspicion and your Intelligence score bonus is increased by +2 but your Charisma score bonus does not go higher than +2."
 			]
 		},
 		{
@@ -1841,7 +1318,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level you do not have disadvantage when attacking a target beyond a weapon's normal range. If you're attacking a target beyond a weapon's normal range you can make a single additional attack against the same target as a bonus action."
+				"At 18th level you do not have disadvantage when attacking a target beyond a ranged weapon's normal range. If you're attacking a target beyond a ranged weapon's normal range you can make a single additional ranged attack against the same target as a bonus action."
 			]
 		},
 		{
@@ -1866,7 +1343,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"At 1st level you gain proficiency with the Animal Handling skill and Vehicles (Land). You are able to move normally both on foot and on a mount through non-magical difficult terrain."
+				"At 1st level you gain proficiency with the {@skill Animal Handling} skill and {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}. You are able to move normally both on foot and on a mount through non-magical difficult terrain."
 			]
 		},
 		{
@@ -1879,7 +1356,7 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"Starting at 4th level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not incapacitated. Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed."
+				"Starting at 4th level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not {@condition incapacitated}. Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed."
 			]
 		},
 		{
@@ -1933,7 +1410,7 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"At 13th level you gain advantage on melee attack rolls with scimitars and glaives against any unmounted creature that is smaller than your mount if you yourself are mounted.",
+				"At 13th level you gain advantage on melee attack rolls with {@item scimitar|PHB|scimitars} and {@item glaive|PHB|glaives} against any unmounted creature that is smaller than your mount if you yourself are mounted.",
 				"Additionally for the purposes of riding mounts you only count as weighing 500 lb. even if your weight exceeds that."
 			]
 		},
@@ -1988,7 +1465,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, you can run down your foes, whether you're mounted or not. If you move at least 10 feet in a straight line towards a creature and hit it with a melee attack on your turn, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. You can use this feature only once on each of your turns."
+				"At 18th level, you can run down your foes, whether you're mounted or not. If you move at least 10 feet in a straight line towards a creature and hit it with a melee attack on your turn, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}. You can use this feature only once on each of your turns."
 			]
 		},
 		{
@@ -2013,7 +1490,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"When you choose this genetic heritage at 1st level you learn how to speak, read and write Giant and Winter Wolf, the latter having no written script."
+				"When you choose this genetic heritage at 1st level you learn how to speak, read and write {@language Giant|PHB} and {@language Winter Wolf|MM}, the latter having no written script."
 			]
 		},
 		{
@@ -2027,10 +1504,10 @@
 			"type": "inset",
 			"entries": [
 				"At 1st level you begin your right of passage, forgoing the Training Regime feature listed previously. You lose your Light Armour proficiency and instead gain proficiency with Heavy Armour.",
-				"You gain an extra attack at 5th level.",
-				"At 8th level your combat skills have grown stronger and you gain proficiency with one martial melee weapon and one martial ranged weapon of your choice.",
-				"At 13th level you gain proficiency in shields and gain a +1 bonus to attacks rolls made with the martial weapons you chose proficiency in.",
-				"At 15th level you gain proficiency with all martial weapons; your +1 bonus to attack rolls only applies to the martial weapons you first chose proficiency in."
+				"At 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
+				"At 8th level your combat skills have grown stronger and you gain proficiency with one {@filter martial melee weapon|items|source=phb|category=basic|type=martial weapon;melee weapon=sand} and one {@filter martial ranged weapon|items|source=phb|category=basic|type=martial weapon;ranged weapon=sand} of your choice.",
+				"At 13th level you gain proficiency with shields and gain a +1 bonus to attack rolls made with the martial weapons you chose proficiency with at 8th level.",
+				"At 15th level you gain proficiency with all martial weapons; your +1 bonus to attack rolls only applies to the martial weapons you first chose proficiency with at 8th level."
 			]
 		},
 		{
@@ -2043,7 +1520,7 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"At 4th level you notice your canines starting to lengthen and your fingernails beginning to harden, becoming keen like knives. Your unarmed strikes now do slashing damage if your hands are not covered by armour or clothing."
+				"At 4th level you notice your canines starting to lengthen and your fingernails beginning to harden, becoming keen like knives. You now do slashing damage with your unarmed strikes if your head or hands are not covered by armour or clothing."
 			]
 		},
 		{
@@ -2056,7 +1533,7 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"At 4th level you gain proficiency in Animal Handling and Perception, gaining expertise in the latter if you were already proficient. You also gain advantage on Charisma (Intimidation) checks against wolves, including dire wolves at 13th level and winter wolves at 18th."
+				"At 4th level you gain proficiency in {@skill Animal Handling} and {@skill Perception}, adding double your proficiency bonus to the latter if you are already proficient. You also gain advantage on Charisma ({@skill Intimidation}) checks against {@creature wolf|MM|wolves}, including {@creature dire wolf|MM|dire wolves} at 13th level and {@creature winter wolf|MM|winter wolves} at 18th."
 			]
 		},
 		{
@@ -2069,7 +1546,7 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"Starting at 8th level when you move at least 10 feet towards a creature and take the attack action against it on your turn, you gain a +2 bonus to melee attack rolls made against that creature until the end of your turn."
+				"Starting at 8th level when you move at least 10 feet towards a creature and take the Attack action on your turn, you gain a +2 bonus to melee attack rolls made against that creature until the end of your turn."
 			]
 		},
 		{
@@ -2110,7 +1587,7 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"At 13th level your enhanced body has adapted to the cold, making you noticeably very hirsute. You gain a resistance to Cold damage."
+				"At 13th level your enhanced body has adapted to the cold, making you noticeably very hirsute. You gain resistance to Cold damage."
 			]
 		},
 		{
@@ -2123,7 +1600,7 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"At 13th level you decorate your armour with runes and totems of warding, a custom from the tribes native to the The Wolf King's homeland. Once a day you can gain advantage on a saving throw against a spell or halve the damage from a spell attack against you."
+				"At 13th level you decorate your armour with runes and totems of warding, a custom from the tribes native to the The Wolf King's homeland. Once a day, you can gain advantage on a saving throw against a spell or halve the damage from a spell attack made against you."
 			]
 		},
 		{
@@ -2136,7 +1613,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level you gain advantage on an attack roll against a creature if at least one of the your allies is within 5 feet of the creature and the ally isn't incapacitated."
+				"Starting at 15th level you gain advantage on an attack roll against a creature if at least one of the your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
 			]
 		},
 		{
@@ -2178,8 +1655,8 @@
 			"header": 2,
 			"entries": [
 				"When you reach 18th level you feel now more than ever the beast lurking inside you. As a bonus action you may emit a blood curdling howl, dropping any weapons or shields you are holding as you unleash the wolf within.",
-				"For the next minute you may only use your unarmed strikes when you take the attack action, but the number of attacks you make is doubled.",
-				"Additionally you gain a bite attack that deals 1d6 + your Strength modifier in piercing damage; you can use this bite attack as a bonus action.",
+				"For 1 minute you may only use your unarmed strikes when you take the attack action, but the number of attacks you make is doubled.",
+				"Additionally for the duration, you gain a bite attack that deals 1d6 + your Strength modifier in piercing damage; you can use this bite attack as a bonus action.",
 				"Once you use this feature, you must finish a long rest before you may use it again."
 			]
 		},
@@ -2218,7 +1695,7 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"At 4th level you gain advantage on saving throws against being frightened. Additionally if you're in three-quarters cover you can use your bonus action to make a single additional ranged attack if you took the attack action on your turn.",
+				"At 4th level you gain advantage on saving throws against being {@condition frightened}. Additionally if you're in three-quarters cover you can use your bonus action to make a single additional ranged attack if you took the attack action on your turn.",
 				"Starting at 13th level this also includes half cover."
 			]
 		},
@@ -2378,7 +1855,7 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"At 4th level you gain proficiency in the Stealth and Intimidation skills. If you are already proficient in one of these skills, your proficiency bonus is doubled for that skill."
+				"At 4th level you gain proficiency in the {@skill Stealth} and {@skill Intimidation} skills. If you are already proficient in one of these skills, your proficiency bonus is doubled for that skill."
 			]
 		},
 		{
@@ -2391,7 +1868,7 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"At 8th level if you have a dagger in your inventory you can use your bonus action to throw the dagger at a creature within 10ft with advantage on the attack roll."
+				"At 8th level if you have a {@item dagger|PHB} in your inventory you can use your bonus action to draw and throw the {@item dagger|PHB} at a creature within 10ft with advantage on the attack roll."
 			]
 		},
 		{
@@ -2404,7 +1881,7 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"At 8th level medium armour that you are proficient with does not impose disadvantage to Dexterity (Stealth) rolls.",
+				"At 8th level medium armour that you are proficient with does not impose disadvantage to Dexterity ({@skill Stealth}) rolls.",
 				"At 15th level this also includes heavy armour that you are proficient with."
 			]
 		},
@@ -2447,7 +1924,7 @@
 			"header": 2,
 			"entries": [
 				"At 13th level the range for your darkvision is increased by 60 feet.",
-				"However you have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.",
+				"However you have disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.",
 				"Additionally roll a d20, on a 13 or higher your eyes become jet black."
 			]
 		},
@@ -2475,7 +1952,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level when you take the Attack action and attack with only a glaive, halberd, or quarterstaff, you can use your bonus action to make a melee attack with the opposite end of the weapon. This attack uses the same ability modifier as the primary weapon. The weapon's damage die for this attack is a d6, and the attack deals bludgeoning damage."
+				"Starting at 15th level when you take the Attack action and attack with only a {@item glaive|PHB}, {@item halberd|PHB}, or {@item quarterstaff|PHB}, you can use your bonus action to make a melee attack with the opposite end of the weapon. This attack uses the same ability modifier as the primary weapon. The weapon's damage die for this attack is a {@dice d6}, and the attack deals bludgeoning damage."
 			]
 		},
 		{
@@ -2516,7 +1993,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level you gain +2 bonus to attack and damage rolls against a creature if the number of your allies who aren't incapacitated within 5 feet of the creature is greater the number of the creature's allies who aren't incapacitated within 5 feet of the creature."
+				"At 18th level you gain +2 bonus to attack and damage rolls against a creature if the number of your allies who aren't {@condition incapacitated} within 5 feet of the creature is greater the number of the creature's allies who aren't {@condition incapacitated} within 5 feet of the creature."
 			]
 		},
 		{
@@ -2568,7 +2045,7 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"At 8th level, after killing an enemy in melee make a Wisdom saving throw with a DC of 5, on a failed save you're filled with blood thirst and you must use your next action to consume the flesh and blood of the slain, gaining 1d6 hit points when doing so. The DC for the throw goes up to DC10 after three days of not consuming blood."
+				"At 8th level, after killing an enemy in melee make a Wisdom saving throw with a DC of 5, on a failed save you're filled with blood thirst and you must use your next action to consume the flesh and blood of the slain, gaining 1d6 hit points when doing so. The DC for the throw goes up to DC 10 after three days of not consuming blood."
 			]
 		},
 		{
@@ -2609,8 +2086,8 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"At 13th level, as a reaction when an enemy creature leaves your area of engagement, you may forgo your attack of opportunity to follow the creature up to half your movement speed and then make your attack if they're still in range to do so.",
-				"However you cannot voluntarily take cover or go prone in combat."
+				"At 13th level, as a reaction when a hostile creature leaves your reach, you may forgo your attack of opportunity to follow the creature for up to half your movement speed and then make your attack if they're still in range to do so.",
+				"However you cannot voluntarily take cover or go {@condition prone} in combat."
 			]
 		},
 		{
@@ -2705,7 +2182,7 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"Starting at 4th level you take part in the Manus Tenet Ferrum, a ritual which coats your hands and forearms in segments of magic-infused mithril. You add your Strength modifier twice to your unarmed attack's damage rolls.",
+				"Starting at 4th level you take part in the Manus Tenet Ferrum, a ritual which coats your hands and forearms in segments of magic-infused mithril. You add your Strength modifier twice to your unarmed strike's damage rolls.",
 				"At 18th level this also applies to any melee weapons you chose proficiency with from your Training Regimen feature at 4th level and 8th level."
 			]
 		},
@@ -2719,8 +2196,8 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"Starting at 8th level you cannot voluntarily take cover or go prone in combat and cannot voluntarily take the disengage action.",
-				"Additionally you have advantage on saving throws against being frightened."
+				"Starting at 8th level you cannot voluntarily take cover or go {@condition prone} in combat and cannot voluntarily take the disengage action.",
+				"Additionally you have advantage on saving throws against being {@condition frightened}."
 			]
 		},
 		{
@@ -2761,7 +2238,7 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"Starting at 13th level when you hit with an opportunity attack using a warhammer, mace or maul the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone."
+				"Starting at 13th level when you hit with an opportunity attack using a {@item warhammer|PHB}, {@item mace|PHB} or {@item maul|PHB} the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}."
 			]
 		},
 		{
@@ -2853,7 +2330,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"At 1st level you gain proficiency in one martial melee weapon of your choice and you may take that weapon in place of the shortsword in your starting equipment."
+				"At 1st level you gain proficiency in one {@filter martial melee weapon|items|source=phb|category=basic|type=martial weapon;melee weapon=sand} of your choice and you may take that weapon in place of the {@item shortsword|PHB} in your starting equipment."
 			]
 		},
 		{
@@ -2881,8 +2358,9 @@
 			"header": 2,
 			"entries": [
 				"At 8th level magic-infused metal rods known as the Butcher's Nails are implanted into your brain. When you kill an enemy you must make a Wisdom saving throw with a DC equal to 5 + the number of creatures you have reduced to 0 hit points since you last finished a long rest.",
-				"On a failed save you enter a Murderous Rage, gaining advantage on Strength checks and Strength saving throws, 1d4 bonus damage to melee attacks which goes up to 2d4 at 15th level. You also gain resistance to non-magical bludgeoning, piercing and slashing damage. On your turn you must move as far as you can towards the nearest enemy creature in range, and use your attack action against it. If there are no hostile creatures within view then any creature (including friendly creatures) within view becomes your target. If you are unable to attack a target after using your full movement you must use your action to dash towards the target; if this enables you to reach your target you can make one melee attack at disadvantage as a bonus action. If you are unable to attack a target on your turn you take 1d8 psychic damage. Attacks against you have advantage.",
-				"Your murderous rage ends if: Your rage has lasted 1 minute and you have not attacked a creature on your previous turn, you are knocked unconscious by any means or if you've not attacked any creatures during your last two turns. If any of these conditions are met at the end of one of your turns, your Murderous Rage ends and you take 2d8 psychic damage. Murderous Rage can only occur once per short rest."
+				"On a failed save you enter a Murderous Rage, gaining advantage on Strength checks and Strength saving throws, 1d4 bonus damage to melee attacks which goes up to 2d4 at 15th level. You also gain resistance to non-magical bludgeoning, piercing and slashing damage. On your turn you must move as far as you can towards the nearest enemy creature in range, and use your attack action against it. If there are no hostile creatures within view then any creature (including friendly creatures) within view becomes your target. If you are unable to attack a target after using your full movement you must use your action to dash towards the target; if this enables you to reach your target you can make one melee attack at disadvantage as a bonus action. If you are unable to attack a target on your turn you take {@dice 1d8} psychic damage. Attacks against you have advantage.",
+				"Your murderous rage ends if: Your rage has lasted 1 minute and you have not attacked a creature on your previous turn, you are knocked {@condition unconscious} by any means or if you've not attacked any creatures during your last two turns. If any of these conditions are met at the end of one of your turns, your Murderous Rage ends and you take {@dice 2d8} psychic damage.",
+				"Once a Murderous Rage occurs you must finish a short or a long rest before it can occur again."
 			]
 		},
 		{
@@ -2995,7 +2473,7 @@
 			"header": 2,
 			"entries": [
 				"At 18th level when you take the attack action and make at least one melee attack, you may make two additional attacks with a bonus action.",
-				"Due to their continued effects on your brain the Butcher's Nails increase your aggression even further, your Murderous Rage is no longer limited to once per short rest and the DC for the wisdom saving throw you take when killing an enemy is now 10 + the number of enemies you've reduced to 0 hit points since you last finished a long rest."
+				"Due to their continued effects on your brain the Butcher's Nails increase your aggression even further, your Murderous Rage is no longer limited to occuring once and the DC for the wisdom saving throw you take when killing an enemy is now 10 + the number of enemies you've reduced to 0 hit points since you last finished a long rest."
 			]
 		},
 		{
@@ -3033,36 +2511,41 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"Starting at 4th level you can on your turn use your bonus action to use one of the Combat Tactics detailed below. You can do this a number of times equal to a quarter of your level (rounded down, to a minimum of 1) and regain expended uses after you finish a short or long rest.",
+				"Starting at 4th level you can use your bonus action to use one of the Combat Tactics detailed below. You can do this twice and regain expended uses after you finish a short or long rest.",
 				{
 					"type": "list",
 					"items": [
 						{
+							"type": "entries",
 							"name": "With me, as one!",
 							"entries": [
-								"You may, after hitting a target with an attack, use your bonus action to choose up to 3 friendly creatures to gain advantage on their attack rolls against the target hit by your attack until the end of their next turn."
+								"You may, after hitting a target with an attack, use your bonus action to choose up to 3 friendly creatures you can see to gain advantage on their attack rolls against the target hit by your attack until the end of their next turn."
 							]
 						},
 						{
+							"type": "entries",
 							"name": "Focus Fire!",
 							"entries": [
 								"You gain advantage on attack rolls against a target that's already been hit by an ally's attack this round."
 							]
 						},
 						{
+							"type": "entries",
 							"name": "Rally to me brothers!",
 							"entries": [
-								"Choose up to 3 friendly creatures, they all gain temporary hit points equal to 1d8 + your Charisma modifier (minimum of 1)."
+								"Choose up to 3 friendly creatures you can see, they all gain temporary hit points equal to 1d8 + your Charisma modifier (minimum of 1)."
 							]
 						},
 						{
+							"type": "entries",
 							"name": "Hold the line!",
 							"entries": [
-								"Choose up to 3 friendly creatures which may include yourself. If a hostile creature comes within 5 feet of one of these creatures, said creature may use their reaction to make a single melee attack against the creature."
+								"Choose up to 3 friendly creatures you can see which may include yourself. If a hostile creature comes within 5 feet of one of these creatures, said creature may use their reaction to make a single melee attack against the creature."
 							]
 						}
 					]
-				}
+				},
+				"You gain two additional uses of this feature at 10th level and another two uses at 18th level."
 			]
 		},
 		{
@@ -3075,7 +2558,7 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"At 8th level you have advantage on Wisdom saving throws that would cause you to become frightened or flee from a hostile creature.",
+				"At 8th level you have advantage on Wisdom saving throws that would cause you to become {@condition frightened} or flee from a hostile creature.",
 				"At 13th level this includes Charisma saving throws."
 			]
 		},
@@ -3091,6 +2574,19 @@
 			"entries": [
 				"\"Leadership is not magnetic personality, that can just as well be a glib tongue. It is not \"making friends and influencing people\", that is flattery. Leadership is lifting a person's vision to higher sights, the raising of person's performance to a higher standard, the building of a personality beyond its normal limitations.\"",
 				"\u2013Peter F. Drucker"
+			]
+		},
+		{
+			"name": "Additional Combat Tactics",
+			"source": "FoxfireAstartesInitiate",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate",
+			"subclassShortName": "Sons of the Regent",
+			"subclassSource": "FoxfireAstartesInitiate",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level you gain two additional uses of your Combat Tactics feature."
 			]
 		},
 		{
@@ -3117,7 +2613,7 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"At 13th level you gain advantage on Knowledge (Arcana) and Knowledge (Nature) checks to identify the weaknesses of an enemy."
+				"At 13th level you gain advantage on Knowledge ({@skill Arcana}) and Knowledge ({@skill Nature}) checks to identify the weaknesses of an enemy."
 			]
 		},
 		{
@@ -3184,7 +2680,20 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level you can make a Coup De Grâce attack. The target of this attack requires a head. Using your action make a single attack roll with a weapon. On a hit, the target makes a Constitution saving throw with a DC equal to 8 + the difference between your attack roll and the target's AC. If they fail the save they are dealt a mortal blow, such as a decaptiation, are reduced to 0 hitpoints and die outright. If they succeed they take five times the damage rolled for the attack you used. You can use this feature once per long rest."
+				"At 18th level you can make a Coup De Grâce attack. The target of this attack requires a head or similar vital organ. Using your action make a single attack roll with a weapon. On a hit, the target makes a Constitution saving throw with a DC equal to 10 + the difference between your attack roll and the target's AC. If they fail the save they are dealt a mortal blow, such as a decaptiation, are reduced to 0 hitpoints and die outright. If they succeed they take five times the damage rolled for the attack you used. You can use this feature once, and regain the use of it when you finish a long rest."
+			]
+		},
+		{
+			"name": "Additional Combat Tactics",
+			"source": "FoxfireAstartesInitiate",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate",
+			"subclassShortName": "Sons of the Regent",
+			"subclassSource": "FoxfireAstartesInitiate",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level you gain two additional uses of your Combat Tactics feature."
 			]
 		},
 		{
@@ -3209,7 +2718,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"At 1st level you gain proficiency with the poisoner's kit and you can apply poison to a weapon or 10 pieces of ammunition as a bonus action on your turn. The poison applied also retains its potency for as long as the item remains in your possession."
+				"At 1st level you gain proficiency with the {@item poisoner's kit|PHB} and you can apply poison to a weapon or 10 pieces of ammunition as a bonus action on your turn. The poison applied also retains its potency for as long as the item remains in your possession."
 			]
 		},
 		{
@@ -3222,7 +2731,7 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"At 4th level you gain proficiency with Manreapers, a large and vicious scythe weapon. You can spend 1 hour and 10gp to craft a warpick into a Manreaper. Resembling a large scythe it now deals slashing damage instead of piercing and it gains the versatile (1d10) property.",
+				"At 4th level you gain proficiency with Manreapers, a large and vicious scythe weapon. You can spend 1 hour and 10gp to craft a {@item war pick|PHB} into a Manreaper. Resembling a large scythe it now deals slashing damage instead of piercing and it gains the versatile (1d10) property.",
 				"If you are wielding a manreaper with two hands you may make your attack at disadvantage to target up to three creatures that are within 5 feet of you and adjacent to each other."
 			]
 		},
@@ -3236,7 +2745,7 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"At 8th level your movement speed can never be decreased below 5 feet. Effects that would cause you to be unable to move, like the Paralyzed condition, will still stop you from moving."
+				"At 8th level your movement speed can never be decreased below 5 feet. Effects that would cause you to be unable to move, like the {@condition paralyzed} condition, will still stop you from moving."
 			]
 		},
 		{
@@ -3277,8 +2786,8 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"At 13th level you gain immunity to Poison damage and you are immune to the Poisoned and Frightened conditions.",
-				"At 15th level you also gain resistance to Necrotic damage."
+				"At 13th level you gain immunity to poison damage and you are immune to the {@condition poisoned} and {@condition frightened} conditions.",
+				"At 15th level you also gain resistance to necrotic damage."
 			]
 		},
 		{
@@ -3291,7 +2800,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level you also gain resistance to Necrotic damage."
+				"At 15th level you also gain resistance to necrotic damage."
 			]
 		},
 		{
@@ -3331,8 +2840,8 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level you can use your bonus action to enchant your weapon. For one minute your attacks deal extra Necrotic damage equal to half the damage rolled (rounded down).",
-				"Additionally a creature hit by your attacks while this feature is active must succeed on a Constitution saving throw at the start its turn or become poisoned and take 2d8 Poison damage; the save has a DC of 8 + your Constitution modifier. On a successful save the creature is not poisoned and takes half of the poison damage.",
+				"At 18th level you can use your bonus action to enchant your weapon. For one minute your attacks deal extra necrotic damage equal to half the damage rolled (rounded down).",
+				"Additionally a creature hit by your attacks while this feature is active must succeed on a Constitution saving throw at the start its turn or become {@condition poisoned} and take {@dice 2d8} poison damage; the save has a DC of 8 + your Constitution modifier. On a successful save the creature is not {@condition poisoned} and takes half of the poison damage.",
 				"You can regain the use of this feature when you finish a long rest."
 			]
 		},
@@ -3358,7 +2867,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"At 1st level you gain proficiency in  the Arcana & History skills. If you are already proficient in one of these skills, your proficiency bonus is doubled for that skill."
+				"At 1st level you gain proficiency in the {@skill Arcana} & {@skill History} skills. If you are already proficient in one of these skills, your proficiency bonus is doubled for that skill."
 			]
 		},
 		{
@@ -3386,7 +2895,7 @@
 			"entries": [
 				"At 8th level you gain the ability to create spell scrolls. You may possess a number of them equal to your Intelligence modifier (minimum of 1); if you create an additional scroll above your limit, you choose which of the pre-existing scrolls is destroyed.",
 				"When you find a wizard spell, you can copy it to a spell scroll if you can spare the time to decipher and copy it. For each level of the spell, the process takes 1 hour and costs 25 gp. The cost represents material components you expend making the scroll and the fine inks you need to record the spell itself.",
-				"When you copy a spell from an existing spell scroll, you must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll being copied from is destroyed."
+				"When you copy a spell from an existing spell scroll, you must succeed on an Intelligence ({@skill Arcana}) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll being copied from is destroyed."
 			]
 		},
 		{
@@ -3429,26 +2938,30 @@
 			"entries": [
 				"At 13th level you begin to unlock your true magical potential, learning to reach into the warp and weave of the unseen world to draw forth power.",
 				{
+					"type": "entries",
 					"name": "Cantrips",
 					"entries": [
 						"You learn one cantrip of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at 16th level and 19th level."
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Spell Slots",
 					"entries": [
 						"The Sons of The Crimson King Spellcasting table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest. For example, when you are 17th level, you have two 3rd-level spell slots. To cast the 1st-level spell thunderwave, you must spend one of those slots, and you cast it as a 3rd-level spell."
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Spells Known of 1st Level and Higher",
 					"entries": [
 						"At 13th level, you know one 1st-level spell of your choice from the wizard spell list. You learn one additional spell from the wizard spell list each time you gain a level.",
-						"A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level and must come from the same school of magic as your other spells of 1st level and higher. When you reach 16th level, for example, you learn a new wizard spell which can be 1st, 2nd, or 3rd level.",
+						"A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level and {@b must} come from the same school of magic as your other spells of 1st level and higher. When you reach 16th level, for example, you learn a new wizard spell which can be 1st, 2nd, or 3rd level.",
 						"Additionally, when you gain a level in this class, you can choose one of the wizard spells you know and replace it with another spell from the wizard spell list, which also must be of a level for which you have spell slots and the same school of magic as your other spells of 1st level and higher."
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Spellcasting Ability",
 					"entries": [
 						"Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
@@ -3469,7 +2982,7 @@
 					]
 				},
 				"Finally when you cast a spell you risk the chance that your magic becomes unstable and uncontrollable, damaging you and others around you. When you cast a spell of 1st level or higher, roll an Intelligence save with a DC equal to 5 + the spell slot level being used.",
-				"On a failed save the spell still takes place but you cause a surge in wild magic, after resolving the spell's effects roll on the Wild Magic Surge table to determine the effects. In addition you take a number of d10 equal to the spell's level in psychic damage."
+				"On a failed save the spell still takes place but you cause a surge in wild magic, after resolving the spell's effects roll on the Wild Magic Surge table to determine the effects. In addition you take a number of {@dice d10} equal to the spell's level in psychic damage."
 			]
 		},
 		{
@@ -3483,7 +2996,7 @@
 			"header": 2,
 			"entries": [
 				"At 15th level you can use a melee weapon you are holding as a spellcasting focus.",
-				"Additionally you can use your bonus action when holding a melee weapon to imbue it with magical power by expending a spell slot. The next hit with that melee weapon deals an additional 1d8 psychic damage per spell slot level used. The magical power in the weapon fades after 1 minute if not used or as soon as you are no longer holding the melee weapon."
+				"Additionally you can use your bonus action when holding a melee weapon to imbue it with magical power by expending a spell slot. The next hit with that melee weapon deals an additional {@dice 1d8} psychic damage per spell slot level used. The magical power in the weapon fades after 1 minute if not used or as soon as you are no longer holding the melee weapon."
 			]
 		},
 		{
@@ -3539,6 +3052,7 @@
 			"entries": [
 				"At 18th level you gain a bonus depending on what school of magic you've chosen for your spells.",
 				{
+					"type": "entries",
 					"name": "Abjuration",
 					"entries": [
 						"You can weave magic around yourself for protection. When you cast an abjuration spell of 1st level or higher, you can simultaneously use a strand of the spell's magic to create a magical ward on yourself that lasts until you finish a long rest. The ward has hit points equal to twice your wizard level + your Intelligence modifier. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 hit points, you take any remaining damage.",
@@ -3547,12 +3061,14 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Conjuration",
 					"entries": [
 						"While you are concentrating on a conjuration spell, your concentration can't be broken as a result of taking damage."
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Divination",
 					"entries": [
 						"Glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.",
@@ -3560,19 +3076,22 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Enchantment",
 					"entries": [
 						"When a creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to divert the attack, provided that another creature is within the attack's range. The attacker must make a Wisdom saving throw against your wizard spell save DC. On a failed save, the attacker must target the creature that is closest to it, not including you or itself. If multiple creatures are closest, the attacker chooses which one to target. On a successful save, you can't use this feature on the attacker again until you finish a long rest.",
-						"You must choose to use this feature before knowing whether the attack hits or misses. Creatures that can't be charmed are immune to this effect."
+						"You must choose to use this feature before knowing whether the attack hits or misses. Creatures that can't be {@condition charmed} are immune to this effect."
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Evocation",
 					"entries": [
 						"You can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Illusion",
 					"entries": [
 						"You can create an illusory duplicate of yourself as an instant, almost instinctual reaction to danger. When a creature makes an attack roll against you, you can use your reaction to interpose the illusory duplicate between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.",
@@ -3580,12 +3099,14 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Necromancy",
 					"entries": [
 						"You gain the ability to reap life energy from creatures you kill with your spells. Once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell's level, or three times its level if the spell belongs to the School of Necromancy. You don't gain this benefit for killing constructs or undead."
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Transmutation",
 					"entries": [
 						"You add the polymorph spell to your spellbook, if it is not there already. You can cast polymorph without expending a spell slot. When you do so, you can target only yourself and transform into a beast whose challenge rating is 1 or lower.",
@@ -3629,7 +3150,7 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"At 4th level you gain a +2 bonus to attack and damage rolls with melee weapons against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated."
+				"At 4th level you gain a +2 bonus to attack and damage rolls with melee weapons against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
 			]
 		},
 		{
@@ -3671,7 +3192,7 @@
 			"header": 2,
 			"entries": [
 				"At 8th level you can use your bonus action to make a single unarmed strike.",
-				"Additionally at the end of a creature within your reach's turn, you can use your reaction to make a single unarmed strike against that creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated."
+				"Additionally at the end of a creature within your reach's turn, you can use your reaction to make a single unarmed strike against that creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
 			]
 		},
 		{
@@ -3740,7 +3261,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level when you score a critical hit with a melee attack you may attempt to cripple your foe. The creature must succeed a Constitution saving throw with a DC of 8 + your proficiency + your Strength modifier or be incapacitated, have their movement reduced to 5 ft. and be knocked prone. This effect remains until they are healed by a spell such as greater restoration."
+				"Starting at 18th level when you score a critical hit with a melee attack you may attempt to cripple your foe. The creature must succeed a Constitution saving throw with a DC of 8 + your proficiency + your Strength modifier or be {@condition incapacitated}, have their movement speed reduced to 5 ft. and be knocked {@condition prone}. This effect remains until they are healed by a spell such as greater restoration."
 			]
 		},
 		{
@@ -3778,7 +3299,7 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"At 4th level you gain proficiency in the Persuasion and Religion skills. If you are already proficient in one of these skills, your proficiency bonus is doubled for that skill.",
+				"At 4th level you gain proficiency in the {@skill Persuasion} and {@skill Religion} skills. If you are already proficient in one of these skills, your proficiency bonus is doubled for that skill.",
 				"Additionally you gain proficiency in Charisma saving throws."
 			]
 		},
@@ -3792,7 +3313,7 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"At 8th level when you successfully hit a creature with a melee attack roll using a simple weapon that deals bludgeoning damage or a morningstar, you can try to push the creature back. The creature makes a Strength saving throw with a DC of 8 + your proficiency + your Strength modifier, on a failed save the creature is pushed 15 feet away from you and knocked prone.",
+				"At 8th level when you successfully hit a creature with a melee attack roll using a {@filter simple melee weapon|items|source=phb|category=basic|type=simple weapon;melee weapon=sand} that deals bludgeoning damage or a {@item morningstar|PHB}, you can try to push the creature back. The creature makes a Strength saving throw with a DC of 8 + your proficiency + your Strength modifier, on a failed save the creature is pushed 15 feet away from you and knocked {@condition prone}.",
 				"You can use this feature a number of times equal to your Strength modifier (minimum of 1). You regain any expended uses of this feature once you finish a short or long rest."
 			]
 		},
@@ -3833,9 +3354,9 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"At 13th level you gain a number of zeal dice equal to your Charisma modifier (minimum of 1), which are d4s. You can roll a die and add the number rolled to one ability check, attack roll, damage roll, or saving throw you make.",
+				"At 13th level you gain a number of zeal dice equal to your Charisma modifier (minimum of 1), which are {@dice d4}s. You can roll a die and add the number rolled to one ability check, attack roll, damage roll, or saving throw you make.",
 				"Alternatively, when an attack roll is made against you, you can use your reaction to roll the Zeal die and add the number rolled to your AC against that attack, after seeing the roll but before knowing whether it hits or misses.",
-				"A zeal die is expended when you use it. You regain all of your expended zeal dice when you finish a long rest. At 18th level your Zeal dice are now d6s."
+				"A zeal die is expended when you use it. You regain all of your expended zeal dice when you finish a long rest. At 18th level your Zeal dice are now {@dice d6}s."
 			]
 		},
 		{
@@ -3848,7 +3369,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level your tenacity and fervent faith spreads to others, you and friendly creatures within 10 feet of you can't be frightened while you are conscious."
+				"At 15th level your tenacity and fervent faith spreads to others, you and friendly creatures within 10 feet of you can't be {@condition frightened} while you are conscious."
 			]
 		},
 		{
@@ -3891,8 +3412,8 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level you can use you action to pray to your deity for help. On your turn roll a d20 and add your Charisma modifier against a DC equal to your Charisma score.",
-				"On a success you add your Charisma modifier (minimum of 1) to either: your AC and saving throws if the deity you chose is lawful good or your attack and damage rolls if the deity you chose is chaotic evil.",
+				"At 18th level you can use your action to pray to your deity for help. On your turn roll a {@dice d20} and add your Charisma modifier against a DC equal to your Charisma score.",
+				"On a success for 1 minute you add your Charisma modifier (minimum of 1) to either: your AC and saving throws if the deity you chose is lawful good or your attack and damage rolls if the deity you chose is chaotic evil.",
 				"You need to finish a long rest before you can use this feature again."
 			]
 		},
@@ -3931,8 +3452,8 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"At 4th level you can speak, read and write Draconic, you gain resistance to Fire damage and weapons that cause Fire damage do twice as much Fire damage when wielded by you.",
-				"Additionally you are immune to the Frightened condition but have a -2 penalty to initiative rolls."
+				"At 4th level you can speak, read and write {@language Draconic|PHB}, you gain resistance to Fire damage and weapons that cause Fire damage do twice as much Fire damage when wielded by you.",
+				"Additionally you are immune to the {@condition frightened} condition but have a -2 penalty to initiative rolls."
 			]
 		},
 		{
@@ -3945,7 +3466,7 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"At 8th level if you are attacking an enemy with a warhammer or maul when they are flanked by a wall or one of your allies with a shield the weapon damage you roll is doubled."
+				"At 8th level if you are attacking an enemy with a {@item warhammer|PHB} or {@item maul|PHB} when they are flanked by a wall or one of your allies with a shield the weapon damage you roll is doubled."
 			]
 		},
 		{
@@ -3985,7 +3506,7 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"At 13th level if you use the Help action to aid an ally's melee attack while you're wielding a warhammer or maul, you knock the target's defence aside momentarily. In addition to the ally gaining advantage on the attack roll, the ally gains a +2 bonus to the roll."
+				"At 13th level if you use the Help action to aid an ally's melee attack while you're wielding a {@item warhammer|PHB} or {@item maul|PHB}, you knock the target's defence aside momentarily. In addition to the ally gaining advantage on the attack roll, the ally gains a +2 bonus to the roll."
 			]
 		},
 		{
@@ -3999,8 +3520,8 @@
 			"header": 2,
 			"entries": [
 				"Starting at 15th level your knowledge with the forge and the arts of smithing allow you to upgrade your weapons and armor to be more effective.",
-				"For each level you want to upgrade the weapon the process takes 3 hours and costs five times the item's value in gold. The cost represents the materials required to improve the weapon; for each level of upgrade a weapon gains a +1 to its attack and damage rolls or a piece of armour gains +1 to its AC.",
-				"The maximum number of levels you can upgrade a weapon is 2; at 18th level the maximum increases to 3."
+				"For each level you want to upgrade the item the process takes 3 hours and costs five times the item's value in gold. The cost represents the materials required to improve the item; for each level of upgrade a weapon gains a +1 to its attack and damage rolls or a piece of armour gains +1 to its AC.",
+				"The maximum number of levels you can upgrade a item is 2; at 18th level the maximum increases to 3."
 			]
 		},
 		{
@@ -4040,8 +3561,8 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level you can use your bonus action to ignite a melee weapon you are holding, once ignited it deals an extra 2d6 fire damage for 1 minute and is considered a magic weapon.",
-				"Creatures hit by your weapon while this feature is active must succeed a Constitution saving throw with a DC of 8 + your proficiency + your Constitution modifier at the start of their next turn or take an additional 2d4 fire damage.",
+				"Starting at 18th level you can use your bonus action to ignite a melee weapon you are holding, once ignited it deals an extra {@dice 2d6} fire damage for 1 minute and is considered a magic weapon.",
+				"Creatures hit by your weapon while this feature is active must succeed a Constitution saving throw with a DC of 8 + your proficiency + your Constitution modifier at the start of their next turn or take an additional {@dice 2d4} fire damage.",
 				"You regain the use of this feature when you finish a long rest."
 			]
 		},
@@ -4080,7 +3601,7 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"At 4th level you gain proficiency in the Stealth skill and armour no longer imposes disadvantage to Stealth checks. If you are already proficient in Stealth, your proficiency bonus is doubled for that skill."
+				"At 4th level you gain proficiency in the {@skill Stealth} skill and armour no longer imposes disadvantage to {@skill Stealth} checks. If you are already proficient in {@skill Stealth}, your proficiency bonus is doubled for that skill."
 			]
 		},
 		{
@@ -4093,7 +3614,7 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"Starting at 8th level while you are wielding a separate melee weapon with the light property in each hand you gain a +2 bonus to attack rolls with those weapons."
+				"Starting at 8th level while you are wielding a melee weapon with the light property in each hand you gain a +2 bonus to attack rolls with those weapons."
 			]
 		},
 		{
@@ -4125,7 +3646,7 @@
 			]
 		},
 		{
-			"name": "Fast Reflexes",
+			"name": "Nimble Reflexes",
 			"source": "FoxfireAstartesInitiate",
 			"className": "Astartes Inititate",
 			"classSource": "FoxfireAstartesInitiate",
@@ -4147,7 +3668,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated and are aware of the attacker."
+				"Starting at 15th level you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't {@condition incapacitated} and are aware of the attacker."
 			]
 		},
 		{
@@ -4200,7 +3721,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"When you reach 18th level you know how to strike subtly and exploit a foe's distraction. Once per turn, if you have advantage on your first attack roll using a weapon with the light property, you can deal three times the damage rolled; this only applies to your first attack and not any subsequent attacks on your turn."
+				"When you reach 18th level you know how to strike subtly and exploit a foe's distraction. Once per turn, if you have advantage on your first attack roll using a weapon with the light property, then on a hit you can deal three times the damage rolled; this only applies to your first attack and not any subsequent attacks on your turn."
 			]
 		},
 		{
@@ -4226,7 +3747,7 @@
 			"header": 2,
 			"entries": [
 				"When you choose this heritage at 1st level you always, whenever you're asked your name by someone whom you do not trust, simply reply: \"I am one of many.\" or some other thematic variation there upon. Your true name is kept secret or is simply forgotten.",
-				"You gain proficiency in the Deception skill, disguise kits, and forgery kits. Additionally you have advantage on rolls to disguise yourself as someone of the same race."
+				"You gain proficiency in the {@skill Deception} skill, {@item disguise kit|PHB|disguise kits}, and {@item forgery kit|PHB|forgery kits}. Additionally you have advantage on rolls made to disguise yourself as someone of the same race as you."
 			]
 		},
 		{
@@ -4239,7 +3760,7 @@
 			"level": 4,
 			"header": 2,
 			"entries": [
-				"At 4th level you become proficient with Improvised Weapons and can use your bonus action to grapple a target hit with an improvised weapon or unarmed attack."
+				"At 4th level you become proficient with Improvised Weapons and can use your bonus action to grapple a target hit with an improvised weapon or unarmed strike."
 			]
 		},
 		{
@@ -4257,71 +3778,85 @@
 					"type": "list",
 					"items": [
 						{
+							"type": "entries",
 							"entries": [
 								"You may dash as a bonus action."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
 								"You may disengage as a bonus action."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
-								"You gain proficiency in the Stealth skill or your proficiency bonus is doubled for any ability check you make if you are already proficient."
+								"You gain proficiency in the {@skill Stealth} skill or your proficiency bonus is doubled for any ability check you make if you are already proficient."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
 								"You may use your reaction to make an attack against a creature that enters your reach."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
 								"You gain a +1 to attack and damage rolls with melee weapons you are proficient with."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
-								"You gain a +1 to attack and damage rolls with range weapons you are proficient with."
+								"You gain a +1 to attack and damage rolls with ranged weapons you are proficient with."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
 								"You gain +2 to Initiative rolls."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
 								"Moving through non-magical difficult terrain does not cost extra feet of movement."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
 								"You gain proficiency in Dexterity saving throws."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
 								"You gain proficiency in Intelligence saving throws."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
 								"You gain proficiency in Wisdom saving throws."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
 								"You gain proficiency in Charisma saving throws."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
 								"Your proficiency bonus is doubled for any ability check you make in one skill you have proficiency in."
 							]
 						},
 						{
+							"type": "entries",
 							"entries": [
 								"You gain a new skill from those listed in the class features."
 							]
@@ -4385,7 +3920,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level when you take damage you can use your reaction to cast mirror image. Whilst the spell is active you gain a +1 bonus to your damage rolls for every duplicate you have remaining.",
+				"Starting at 15th level when you take damage you can use your reaction to cast {@spell mirror image|PHB}. Whilst the spell is active you gain a +1 bonus to your damage rolls for every duplicate you have remaining.",
 				"You regain the use of this feature once you finish a long rest."
 			]
 		},
@@ -4456,6 +3991,576 @@
 			"entries": [
 				"At 18th level you may choose a third bonus from the list under your Mutable Tactics feature. You may not choose the same bonus more than once."
 			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Sons of the Lion",
+			"subclassFeatures": [
+				"Sons of the Lion|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|1",
+				"Knightly Hunters|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|1",
+				"Interrogator|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|4",
+				"Watcher in the Dark|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|12",
+				"The Unbroken Sword|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|13",
+				"Knightly Swordsmanship|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|17",
+				"Precision with the Blade|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lion|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Lion",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Phoenician",
+			"subclassFeatures": [
+				"Sons of the Phoenician|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|1",
+				"Artistic Indulgence|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|1",
+				"Fighting Style|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|4",
+				"Martial Pride|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|12",
+				"Additional Fighting Style|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|13",
+				"Optional Feature: Genetic Flaws|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|13",
+				"Fast Reflexes|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|17",
+				"The Maru Skara|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|18",
+				"Additional Fighting Style|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Phoenician|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Phoenician",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Iron",
+			"subclassFeatures": [
+				"Sons of the Iron|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|1",
+				"Siege Expert|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|1",
+				"Vicious Weaponry|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|4",
+				"Hammer of Iron|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|12",
+				"Iron Within, Iron Without|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|13",
+				"Iron Within, Iron Without|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|15",
+				"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|17",
+				"Artillery Volley|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Iron|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Iron",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Khan",
+			"subclassFeatures": [
+				"Sons of the Khan|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|1",
+				"Skilled Rider|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|1",
+				"Born to the Saddle|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|4",
+				"Swift Action|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|12",
+				"Mounted Superiority|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|13",
+				"Vigilant Defender|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|17",
+				"Ferocious Charger|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Khan|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Khan",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Wolf King",
+			"subclassFeatures": [
+				"Sons of the Wolf King|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|1",
+				"One of the Aett|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|1",
+				"Optional Feature: Rite of Passage|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|1",
+				"Canis Helix|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|4",
+				"Wolf-kin|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|4",
+				"Headstrong|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|12",
+				"Environmental Adaptation|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|13",
+				"Runes of Warding|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|13",
+				"Pack Tactics|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|17",
+				"Howl of Winter|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Wolf King|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Wolf King",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Praetorian",
+			"subclassFeatures": [
+				"Sons of the Praetorian|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|1",
+				"Fortress-Craft|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|1",
+				"Unfaltering Fire|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|4",
+				"Steady Marksman|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|10",
+				"Optional Feature: Genetic Flaws|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|12",
+				"Unfaltering Fire|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|13",
+				"Firing Drill|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|16",
+				"Optional Feature: Genetic Flaws|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|17",
+				"Phalanx|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|18",
+				"Steady Marksman|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Praetorian|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Praetorian",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Night",
+			"subclassFeatures": [
+				"Sons of the Night|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|1",
+				"Selfish Blood|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|1",
+				"Night Terrors|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|4",
+				"Throwing Daggers|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|8",
+				"Silent Movement|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|12",
+				"Eyes of The Night|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|13",
+				"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|13",
+				"Cruel Counter|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|17",
+				"A Talent for Murder|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Night|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Night",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Angel",
+			"subclassFeatures": [
+				"Sons of the Angel|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|1",
+				"Rapid Strikes|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|1",
+				"Fighting Spirit|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|4",
+				"The Red Thirst|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|12",
+				"Without Relent, Without Remorse|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|13",
+				"Martial Prowess|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|17",
+				"Keen Edge|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Angel|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Angel",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Gorgon",
+			"subclassFeatures": [
+				"Sons of the Gorgon|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|1",
+				"Metallurgy Master|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|1",
+				"Manus Tenet Ferrum|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|4",
+				"Stand and Fight|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|12",
+				"Vengeful Strike|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|13",
+				"Inviolate Armour|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|17",
+				"Manus Tenet Ferrum|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|18",
+				"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Gorgon|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Gorgon",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Slaughterer",
+			"subclassFeatures": [
+				"Sons of the Slaughterer|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|1",
+				"Gladitorial Lineage|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|1",
+				"Bloodlust|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|4",
+				"Murderous Rage|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|12",
+				"Violence Incarnate|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|13",
+				"Bloodlust|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|13",
+				"Unstoppable Monster|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|17",
+				"The Eightfold Path|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Slaughterer|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Slaughterer",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Regent",
+			"subclassFeatures": [
+				"Sons of the Regent|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|1",
+				"Art of War|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|1",
+				"Combat Tactics|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|4",
+				"And They Shall Know No Fear|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|10",
+				"Additional Combat Tactics|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|12",
+				"Know Your Enemy|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|13",
+				"And They Shall Know No Fear|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|13",
+				"Diverse Training|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|17",
+				"Coup De Grâce|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|18",
+				"Additional Combat Tactics|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Regent|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Regent",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Reaper",
+			"subclassFeatures": [
+				"Sons of the Reaper|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|1",
+				"Toxic Obsession|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|1",
+				"Manreaper|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|4",
+				"Implacable Advance|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|12",
+				"Portents of Rot|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|13",
+				"Portents of Rot|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|16",
+				"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|17",
+				"Plaguebringer|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Reaper|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Reaper",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Crimson King",
+			"spellcastingAbility": "int",
+			"casterProgression": "pact",
+			"subclassSpells": [
+				{
+					"className": "Wizard",
+					"classSource": "PHB"
+				}
+			],
+			"subclassTableGroups": [
+				{
+					"subclasses": [
+						{
+							"name": "Sons of the Crimson King",
+							"source": "FoxfireAstartesInitiate"
+						}
+					],
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|subclass=Astartes Initiate: Sons of the Crimson King}",
+						"{@filter Spells Known|spells|subclass=Astartes Initiate: Sons of the Crimson King}",
+						"Spell Slots",
+						"Spell Level"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							1,
+							1,
+							1,
+							"{@filter 1st|spells|level=1|subclass=Astartes Initiate: Sons of the Crimson King}"
+						],
+						[
+							1,
+							2,
+							1,
+							"{@filter 1st|spells|level=1|subclass=Astartes Initiate: Sons of the Crimson King}"
+						],
+						[
+							1,
+							3,
+							1,
+							"{@filter 2nd|spells|level=2|subclass=Astartes Initiate: Sons of the Crimson King}"
+						],
+						[
+							2,
+							4,
+							2,
+							"{@filter 2nd|spells|level=2|subclass=Astartes Initiate: Sons of the Crimson King}"
+						],
+						[
+							2,
+							5,
+							2,
+							"{@filter 3rd|spells|level=3|subclass=Astartes Initiate: Sons of the Crimson King}"
+						],
+						[
+							2,
+							6,
+							2,
+							"{@filter 3rd|spells|level=3|subclass=Astartes Initiate: Sons of the Crimson King}"
+						],
+						[
+							3,
+							7,
+							2,
+							"{@filter 4th|spells|level=4|subclass=Astartes Initiate: Sons of the Crimson King}"
+						],
+						[
+							3,
+							8,
+							3,
+							"{@filter 4th|spells|level=4|subclass=Astartes Initiate: Sons of the Crimson King}"
+						]
+					]
+				}
+			],
+			"subclassFeatures": [
+				"Sons of the Crimson King|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|1",
+				"Arcane Academic|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|1",
+				"Guiding Tutelary|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|4",
+				"Spell Scrolls|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|12",
+				"Arcane Awakening|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|13",
+				"Psychic Weaponry|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|15",
+				"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|17",
+				"Arcane Discipline|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Crimson King|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Crimson King",
+			"cantripProgression": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				1,
+				1,
+				1,
+				2,
+				2,
+				2,
+				3,
+				3
+			],
+			"spellsKnownProgression": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			],
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Lupercal",
+			"subclassFeatures": [
+				"Sons of the Lupercal|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|1",
+				"Adaptable|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|1",
+				"Pile In!|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|4",
+				"Merciless Fighter|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|12",
+				"Close Combat|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|13",
+				"Tip of the Spear|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|17",
+				"Bone Breaker|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Lupercal|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Lupercal",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Word",
+			"subclassFeatures": [
+				"Sons of the Word|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|1",
+				"Divine Devotion|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|1",
+				"Demagogue|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|4",
+				"Banishment|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|8",
+				"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|12",
+				"Zealous Crusader|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|13",
+				"Undaunted|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|17",
+				"The Power of Faith|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Word|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Word",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Drake",
+			"subclassFeatures": [
+				"Sons of the Drake|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|1",
+				"Prodigy of the Forge|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|1",
+				"Draconic Bloodline|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|4",
+				"Hammer and Anvil|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|8",
+				"Optional Feature: Genetic Flaws|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|12",
+				"Helping Hand|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|13",
+				"Forgemaster|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|16",
+				"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|17",
+				"The Unbound Flame|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Drake|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Drake",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Raven",
+			"subclassFeatures": [
+				"Sons of the Raven|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|1",
+				"Hit and Run|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|1",
+				"Silence|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|4",
+				"Death By A Thousand Cuts|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|12",
+				"Nimble Reflexes|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|13",
+				"Untouchable|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|15",
+				"Optional Feature: Genetic Flaws|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|16",
+				"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|17",
+				"Nevermore|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Raven|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Raven",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
+		},
+		{
+			"name": "Sons of the Hydra",
+			"subclassFeatures": [
+				"Sons of the Hydra|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|1",
+				"The Many Heads of The Hydra|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|1",
+				"Deadly Improvisation|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|4",
+				"Mutable Tactics|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|8",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|10",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|12",
+				"Mutable Tactics|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|13",
+				"Sever One Head...|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|15",
+				"Optional Feature: Genetic Disparity|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|15",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|16",
+				"Inspiring Quote|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|17",
+				"Blood of The Primogenitor|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|18",
+				"Mutable Tactics|Astartes Inititate|FoxfireAstartesInitiate|Sons of the Hydra|FoxfireAstartesInitiate|18"
+			],
+			"source": "FoxfireAstartesInitiate",
+			"shortName": "Sons of the Hydra",
+			"className": "Astartes Inititate",
+			"classSource": "FoxfireAstartesInitiate"
 		}
 	]
 }

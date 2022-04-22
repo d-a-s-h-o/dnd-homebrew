@@ -15,20 +15,22 @@
 				"version": "1.0",
 				"url": "https://www.dmsguild.com/product/319231/Ezmereldas-Encyclopedia-of-Evil/",
 				"convertedBy": [
-					"Dasho"
+					"mrhorseshoe"
 				],
 				"targetSchema": "1.3.4"
 			}
 		],
 		"dateAdded": 1596009170,
-		"dateLastModified": 1598447823
+		"dateLastModified": 1638803022
 	},
 	"monster": [
 		{
 			"name": "Phaerimm, Juvenile",
 			"source": "EEE",
 			"page": 7,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -178,13 +180,21 @@
 			],
 			"miscTags": [
 				"MW"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"L",
+				"O"
 			]
 		},
 		{
 			"name": "Phaerimm, Adult",
 			"source": "EEE",
 			"page": 7,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -356,9 +366,9 @@
 				"TP"
 			],
 			"damageTags": [
-				"I",
+				"S",
 				"P",
-				"S"
+				"I"
 			],
 			"spellcastingTags": [
 				"CS"
@@ -369,13 +379,22 @@
 			],
 			"conditionInflictSpell": [
 				"charmed"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"L",
+				"O"
 			]
 		},
 		{
 			"name": "Tsochar",
 			"source": "EEE",
 			"page": 8,
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -509,7 +528,9 @@
 			"name": "Cult Adherent",
 			"source": "EEE",
 			"page": 24,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -650,13 +671,19 @@
 				"incapacitated",
 				"paralyzed",
 				"prone"
+			],
+			"damageTagsSpell": [
+				"N",
+				"Y"
 			]
 		},
 		{
 			"name": "Cult Pontiff",
 			"source": "EEE",
 			"page": 24,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -800,8 +827,9 @@
 				"C"
 			],
 			"damageTags": [
+				"P",
 				"I",
-				"P"
+				"Y"
 			],
 			"spellcastingTags": [
 				"CC"
@@ -815,13 +843,19 @@
 				"frightened",
 				"prone",
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"B",
+				"Y"
 			]
 		},
 		{
 			"name": "Cult Zealot",
 			"source": "EEE",
 			"page": 25,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -938,7 +972,9 @@
 			"name": "Aspect of Atropus",
 			"source": "EEE",
 			"page": 33,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -983,7 +1019,7 @@
 					"resist": [
 						"bludgeoning",
 						"piercing",
-						"slashing damage"
+						"slashing"
 					],
 					"note": "from magical weapons.",
 					"cond": true
@@ -996,7 +1032,7 @@
 					"immune": [
 						"bludgeoning",
 						"piercing",
-						"slashing damage"
+						"slashing"
 					],
 					"note": "from nonmagical weapons.",
 					"cond": true
@@ -1147,13 +1183,18 @@
 			"miscTags": [
 				"MW",
 				"RCH"
+			],
+			"damageTagsSpell": [
+				"N"
 			]
 		},
 		{
 			"name": "Father Llymic",
 			"source": "EEE",
 			"page": 35,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -1448,13 +1489,18 @@
 				"deafened",
 				"frightened",
 				"stunned"
+			],
+			"damageTagsSpell": [
+				"Y"
 			]
 		},
 		{
 			"name": "Kyuss",
 			"source": "EEE",
 			"page": 36,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -1514,7 +1560,13 @@
 				"psychic",
 				"bludgeoning",
 				"piercing",
-				"slashing that is nonmagical"
+				{
+					"immune": [
+						"slashing"
+					],
+					"note": "that is nonmagical",
+					"cond": true
+				}
 			],
 			"conditionImmune": [
 				"charmed",
@@ -1645,8 +1697,8 @@
 				"XX"
 			],
 			"damageTags": [
-				"A",
 				"B",
+				"A",
 				"S"
 			],
 			"miscTags": [
@@ -1664,7 +1716,9 @@
 			"name": "Fomorian Cursemonger",
 			"source": "EEE",
 			"page": 40,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -1805,13 +1859,21 @@
 			"miscTags": [
 				"MW",
 				"RCH"
+			],
+			"damageTagsSpell": [
+				"I",
+				"L",
+				"N",
+				"R"
 			]
 		},
 		{
 			"name": "Jackalwere Slaver",
 			"source": "EEE",
 			"page": 45,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1841,7 +1903,7 @@
 			"skill": {
 				"deception": "+4",
 				"perception": "+3",
-				"sealth": "+5"
+				"stealth": "+5"
 			},
 			"senses": [
 				"darkvision 60 ft."
@@ -1852,7 +1914,7 @@
 					"immune": [
 						"bludgeoning",
 						"piercing",
-						"slashing damage"
+						"slashing"
 					],
 					"note": "from nonmagical attacks that aren't silvered",
 					"cond": true
@@ -1969,7 +2031,9 @@
 			"name": "Lamia Tyrant",
 			"source": "EEE",
 			"page": 46,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -2103,13 +2167,18 @@
 			],
 			"conditionInflictSpell": [
 				"charmed"
+			],
+			"damageTagsSpell": [
+				"Y"
 			]
 		},
 		{
 			"name": "Dracodemilich",
 			"source": "EEE",
 			"page": 54,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -2265,9 +2334,9 @@
 				"U"
 			],
 			"damageTags": [
-				"B",
+				"P",
 				"N",
-				"P"
+				"B"
 			],
 			"miscTags": [
 				"AOE",
@@ -2278,13 +2347,18 @@
 				"frightened",
 				"paralyzed",
 				"prone"
+			],
+			"actionTags": [
+				"Breath Weapon"
 			]
 		},
 		{
 			"name": "Grisgol",
 			"source": "EEE",
 			"page": 55,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"N",
@@ -2396,12 +2470,17 @@
 					]
 				},
 				{
-					"type": "list",
-					"items": [
-						"{@b Command (5 Charges)}: The grisgol can expend one charge to {@spell command} one creature within range to flee or grovel.",
-						"{@b Lightning Bolt (2 Charges)}: The grisgol can expend one charge to cast {@spell lightning bolt} as a 3rd-level spell.",
-						"{@b Magic Missile (6 Charges)}: The grisgol can expend one charge to cast {@spell magic missile} as a 1st-level spell",
-						"{@b Polymorph (1 Charge)}: The grisgol can expend 1 charge to cast {@spell polymorph}."
+					"name": "",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@b Command (5 Charges)}: The grisgol can expend one charge to {@spell command} one creature within range to flee or grovel.",
+								"{@b Lightning Bolt (2 Charges)}: The grisgol can expend one charge to cast {@spell lightning bolt} as a 3rd-level spell.",
+								"{@b Magic Missile (6 Charges)}: The grisgol can expend one charge to cast {@spell magic missile} as a 1st-level spell",
+								"{@b Polymorph (1 Charge)}: The grisgol can expend 1 charge to cast {@spell polymorph}."
+							]
+						}
 					]
 				}
 			],
@@ -2440,8 +2519,8 @@
 				"U"
 			],
 			"damageTags": [
-				"F",
-				"S"
+				"S",
+				"F"
 			],
 			"miscTags": [
 				"MW"
@@ -2454,7 +2533,9 @@
 			"name": "Wereboar Berserker",
 			"source": "EEE",
 			"page": 62,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2501,7 +2582,7 @@
 					"immune": [
 						"bludgeoning",
 						"piercing",
-						"slashing damage"
+						"slashing"
 					],
 					"note": "from nonmagical weapons that aren't silvered.",
 					"cond": true
@@ -2595,7 +2676,9 @@
 			"name": "Wererat Slinker",
 			"source": "EEE",
 			"page": 63,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2645,7 +2728,7 @@
 					"immune": [
 						"bludgeoning",
 						"piercing",
-						"slashing damage"
+						"slashing"
 					],
 					"note": "from nonmagical weapons that aren't silvered.",
 					"cond": true
@@ -2741,7 +2824,9 @@
 			"name": "Werewolf Moon Shaman",
 			"source": "EEE",
 			"page": 64,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2789,7 +2874,7 @@
 					"immune": [
 						"bludgeoning",
 						"piercing",
-						"slashing damage"
+						"slashing"
 					],
 					"note": "from nonmagical weapons that aren't silvered.",
 					"cond": true
@@ -2925,13 +3010,22 @@
 			"conditionInflictSpell": [
 				"paralyzed",
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"A",
+				"F",
+				"I",
+				"N",
+				"P"
 			]
 		},
 		{
 			"name": "Werewolf Pack Leader",
 			"source": "EEE",
 			"page": 65,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2982,7 +3076,7 @@
 					"immune": [
 						"bludgeoning",
 						"piercing",
-						"slashing damage"
+						"slashing"
 					],
 					"note": "from nonmagical weapons that aren't silvered.",
 					"cond": true
@@ -3085,7 +3179,9 @@
 			"name": "Haunter",
 			"source": "EEE",
 			"page": 70,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"A"
@@ -3258,7 +3354,9 @@
 			"name": "Keres",
 			"source": "EEE",
 			"page": 71,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -3413,9 +3511,9 @@
 				"CE"
 			],
 			"damageTags": [
-				"O",
 				"P",
-				"S"
+				"S",
+				"O"
 			],
 			"miscTags": [
 				"MW"
@@ -3425,7 +3523,9 @@
 			"name": "Bog Mummy",
 			"source": "EEE",
 			"page": 77,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -3484,7 +3584,7 @@
 			],
 			"conditionImmune": [
 				"charmed",
-				"exhausted",
+				"exhaustion",
 				"frightened",
 				"poisoned"
 			],
@@ -3599,13 +3699,21 @@
 			],
 			"miscTags": [
 				"MW"
+			],
+			"damageTagsSpell": [
+				"L",
+				"P",
+				"R",
+				"Y"
 			]
 		},
 		{
 			"name": "Dagon",
 			"source": "EEE",
 			"page": 84,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -3659,11 +3767,17 @@
 				"poison",
 				"bludgeoning",
 				"piercing",
-				"slashing that is nonmagical"
+				{
+					"immune": [
+						"slashing"
+					],
+					"note": "that is nonmagical",
+					"cond": true
+				}
 			],
 			"conditionImmune": [
 				"charmed",
-				"exhausted",
+				"exhaustion",
 				"frightened",
 				"poisoned"
 			],
@@ -3817,10 +3931,10 @@
 				"XX"
 			],
 			"damageTags": [
-				"A",
-				"B",
 				"P",
-				"S"
+				"S",
+				"B",
+				"A"
 			],
 			"miscTags": [
 				"MW",
@@ -3836,7 +3950,9 @@
 			"name": "Obox-Ob",
 			"source": "EEE",
 			"page": 86,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -3897,11 +4013,17 @@
 				"poison",
 				"bludgeoning",
 				"piercing",
-				"slashing that is nonmagical"
+				{
+					"immune": [
+						"slashing"
+					],
+					"note": "that is nonmagical",
+					"cond": true
+				}
 			],
 			"conditionImmune": [
 				"charmed",
-				"exhausted",
+				"exhaustion",
 				"frightened",
 				"poisoned"
 			],
@@ -4071,8 +4193,8 @@
 				"TP"
 			],
 			"damageTags": [
-				"I",
-				"P"
+				"P",
+				"I"
 			],
 			"spellcastingTags": [
 				"I"
@@ -4080,13 +4202,19 @@
 			"miscTags": [
 				"MW",
 				"RCH"
+			],
+			"damageTagsSpell": [
+				"I",
+				"P"
 			]
 		},
 		{
 			"name": "Pale Night",
 			"source": "EEE",
 			"page": 88,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -4149,7 +4277,7 @@
 						"piercing",
 						"slashing"
 					],
-					"note": "from magical weapons",
+					"note": "that is nonmagical",
 					"cond": true
 				}
 			],
@@ -4157,11 +4285,17 @@
 				"poison",
 				"bludgeoning",
 				"piercing",
-				"slashing that is nonmagical"
+				{
+					"immune": [
+						"slashing"
+					],
+					"note": "that is nonmagical",
+					"cond": true
+				}
 			],
 			"conditionImmune": [
 				"charmed",
-				"exhausted",
+				"exhaustion",
 				"frightened",
 				"poisoned"
 			],
@@ -4331,18 +4465,23 @@
 				"XX"
 			],
 			"damageTags": [
-				"O",
-				"Y"
+				"Y",
+				"O"
 			],
 			"spellcastingTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"Y"
 			]
 		},
 		{
 			"name": "Banelar Naga",
 			"source": "EEE",
 			"page": 93,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"L",
@@ -4516,8 +4655,8 @@
 				"C"
 			],
 			"damageTags": [
-				"I",
-				"P"
+				"P",
+				"I"
 			],
 			"spellcastingTags": [
 				"CC"
@@ -4531,13 +4670,22 @@
 				"deafened",
 				"paralyzed",
 				"prone"
+			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"N",
+				"P",
+				"R"
 			]
 		},
 		{
 			"name": "Nagahydra",
 			"source": "EEE",
 			"page": 94,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -4761,13 +4909,23 @@
 			"miscTags": [
 				"MW",
 				"RCH"
+			],
+			"damageTagsSpell": [
+				"A",
+				"B",
+				"C",
+				"F",
+				"L",
+				"O"
 			]
 		},
 		{
 			"name": "Yuan-ti Holy Guardian",
 			"source": "EEE",
 			"page": 95,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -4942,9 +5100,9 @@
 				"DR"
 			],
 			"damageTags": [
-				"B",
-				"I",
 				"P",
+				"I",
+				"B",
 				"S"
 			],
 			"spellcastingTags": [
@@ -4972,7 +5130,9 @@
 			"name": "White Slaad",
 			"source": "EEE",
 			"page": 101,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -5184,8 +5344,8 @@
 				"TP"
 			],
 			"damageTags": [
-				"O",
 				"P",
+				"O",
 				"S"
 			],
 			"spellcastingTags": [
@@ -5194,13 +5354,25 @@
 			"miscTags": [
 				"MW",
 				"RCH"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"I",
+				"L",
+				"O",
+				"T",
+				"Y"
 			]
 		},
 		{
 			"name": "Black Slaad",
 			"source": "EEE",
 			"page": 102,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -5258,7 +5430,7 @@
 			],
 			"conditionImmune": [
 				"charmed",
-				"exhausted",
+				"exhaustion",
 				"frightened",
 				"paralyzed",
 				"petrified",
@@ -5425,8 +5597,8 @@
 				"TP"
 			],
 			"damageTags": [
-				"O",
 				"P",
+				"O",
 				"S"
 			],
 			"spellcastingTags": [
@@ -5435,13 +5607,25 @@
 			"miscTags": [
 				"MW",
 				"RCH"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"I",
+				"L",
+				"O",
+				"T",
+				"Y"
 			]
 		},
 		{
 			"name": "Baobhan Sith",
 			"source": "EEE",
 			"page": 113,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -5481,7 +5665,7 @@
 					"resist": [
 						"bludgeoning",
 						"piercing",
-						"slashing damage"
+						"slashing"
 					],
 					"note": "from nonmagical weapons",
 					"cond": true
@@ -5579,8 +5763,9 @@
 			],
 			"damageTags": [
 				"B",
+				"P",
 				"N",
-				"P"
+				"R"
 			],
 			"miscTags": [
 				"MW"
@@ -5590,7 +5775,9 @@
 			"name": "Lesser Vampire",
 			"source": "EEE",
 			"page": 114,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -5636,7 +5823,7 @@
 					"resist": [
 						"bludgeoning",
 						"piercing",
-						"slashing damage"
+						"slashing"
 					],
 					"note": "from nonmagical weapons",
 					"cond": true
@@ -5762,9 +5949,11 @@
 				"LF"
 			],
 			"damageTags": [
-				"N",
+				"S",
 				"P",
-				"S"
+				"N",
+				"A",
+				"R"
 			],
 			"miscTags": [
 				"MW"
@@ -5774,7 +5963,9 @@
 			"name": "Manananggal",
 			"source": "EEE",
 			"page": 115,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -5820,7 +6011,7 @@
 					"resist": [
 						"bludgeoning",
 						"piercing",
-						"slashing damage"
+						"slashing"
 					],
 					"note": "from nonmagical weapons",
 					"cond": true
@@ -5920,7 +6111,8 @@
 				]
 			},
 			"traitTags": [
-				"Regeneration"
+				"Regeneration",
+				"Sunlight Sensitivity"
 			],
 			"senseTags": [
 				"SD"
@@ -5932,9 +6124,10 @@
 				"LF"
 			],
 			"damageTags": [
-				"N",
+				"S",
 				"P",
-				"S"
+				"N",
+				"A"
 			],
 			"miscTags": [
 				"MW",
@@ -5945,7 +6138,9 @@
 			"name": "Yara-Ma-Yha-Who",
 			"source": "EEE",
 			"page": 116,
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -5990,7 +6185,7 @@
 					"resist": [
 						"bludgeoning",
 						"piercing",
-						"slashing damage"
+						"slashing"
 					],
 					"note": "from nonmagical weapons",
 					"cond": true
@@ -6089,10 +6284,10 @@
 				"LF"
 			],
 			"damageTags": [
-				"A",
-				"B",
+				"P",
 				"N",
-				"P"
+				"B",
+				"A"
 			],
 			"miscTags": [
 				"MW"

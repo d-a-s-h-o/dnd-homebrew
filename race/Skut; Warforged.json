@@ -9,7 +9,7 @@
 					"Skut"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Jafner"
 				],
 				"version": "1",
 				"url": "https://www.reddit.com/r/UnearthedArcana/comments/8oompe/race_my_take_on_the_warforged_for_my_homebrew/",
@@ -23,7 +23,9 @@
 		{
 			"name": "Warforged",
 			"source": "Skut",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -83,65 +85,6 @@
 					"type": "entries"
 				}
 			],
-			"subraces": [
-				{
-					"name": "Laborer",
-					"ability": [
-						{
-							"str": 1
-						}
-					],
-					"entries": [
-						{
-							"name": "Powerful Build",
-							"entries": [
-								"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
-							],
-							"type": "entries"
-						}
-					],
-					"traitTags": [
-						"Powerful Build"
-					]
-				},
-				{
-					"name": "Sentry",
-					"ability": [
-						{
-							"wis": 1
-						}
-					],
-					"entries": [
-						{
-							"name": "Keen Sensors",
-							"entries": [
-								"You have proficiency in the Perception skill."
-							],
-							"type": "entries"
-						}
-					],
-					"traitTags": [
-						"Skill Proficiency"
-					]
-				},
-				{
-					"name": "Explorer",
-					"ability": [
-						{
-							"dex": 1
-						}
-					],
-					"entries": [
-						{
-							"name": "Adaptive Plating",
-							"entries": [
-								"You are adapted to Extreme Heat, Extreme Cold, and Frigid Water as described in chapter 5 of the Dungeon Master's Guide."
-							],
-							"type": "entries"
-						}
-					]
-				}
-			],
 			"traitTags": [
 				"Improved Resting",
 				"Natural Armor"
@@ -159,6 +102,71 @@
 			"conditionImmune": [
 				"disease"
 			]
+		}
+	],
+	"subrace": [
+		{
+			"name": "Laborer",
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				}
+			],
+			"traitTags": [
+				"Powerful Build"
+			],
+			"source": "Skut",
+			"raceName": "Warforged",
+			"raceSource": "Skut"
+		},
+		{
+			"name": "Sentry",
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Keen Sensors",
+					"entries": [
+						"You have proficiency in the Perception skill."
+					],
+					"type": "entries"
+				}
+			],
+			"source": "Skut",
+			"raceName": "Warforged",
+			"raceSource": "Skut"
+		},
+		{
+			"name": "Explorer",
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Adaptive Plating",
+					"entries": [
+						"You are adapted to Extreme Heat, Extreme Cold, and Frigid Water as described in chapter 5 of the Dungeon Master's Guide."
+					],
+					"type": "entries"
+				}
+			],
+			"source": "Skut",
+			"raceName": "Warforged",
+			"raceSource": "Skut"
 		}
 	]
 }

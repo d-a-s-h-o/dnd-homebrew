@@ -5,12 +5,12 @@
 				"json": "GiddyBackground",
 				"abbreviation": "Brew",
 				"color": "ff00ff",
-				"full": "The Null Network",
+				"full": "TheGiddyLimit",
 				"authors": [
-					"The Null Network"
+					"TheGiddyLimit"
 				],
 				"version": "1.0.0",
-				"url": "https://github.com/thenullnetwork/dnd-homebrew",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"targetSchema": "1.0.0"
 			}
 		],

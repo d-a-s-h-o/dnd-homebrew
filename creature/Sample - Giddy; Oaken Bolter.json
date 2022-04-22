@@ -4,17 +4,17 @@
 			{
 				"json": "GiddyCreature",
 				"abbreviation": "Brew",
-				"full": "The Null Network",
+				"full": "TheGiddyLimit",
 				"authors": [
-					"The Null Network"
+					"TheGiddyLimit"
 				],
 				"version": "1.0",
-				"url": "https://github.com/thenullnetwork/dnd-homebrew",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"targetSchema": "1.2.0"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 0
+		"dateLastModified": 1638814587
 	},
 	"legendaryGroup": [
 		{
@@ -45,7 +45,9 @@
 		{
 			"source": "GiddyCreature",
 			"name": "Oaken Bolter",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -178,9 +180,6 @@
 			],
 			"miscTags": [
 				"RW"
-			],
-			"conditionInflicted": [
-				"grappled"
 			],
 			"conditionInflict": [
 				"grappled"

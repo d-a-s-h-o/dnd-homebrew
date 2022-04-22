@@ -1,23 +1,27 @@
 {
 	"name": "homebrew",
 	"version": "1.0.0",
-	"description": "D&D//DNK homebrew",
+	"description": "dndz homebrew",
+	"type": "module",
 	"scripts": {
 		"build": "npm run build:clean && npm run build:index",
-		"build:index": "node _node/build-index.js",
-		"build:clean": "node _node/clean-jsons.js"
+		"build:index": "node _node/generate-index.js",
+		"build:clean": "node _node/clean-and-test.js",
+		"test:json": "node _test/test-json.js",
+		"test:file-locations": "node _test/test-file-locations.js",
+		"test": "npm run build:clean && npm run build:index && npm run test:json && npm run test:file-locations"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/thenullnetwork/dnd-homebrew.git"
+		"url": "git+https://github.com/TheGiddyLimit/homebrew.git"
 	},
-	"author": "The Null Network",
+	"author": "TheGiddyLimit + Friends",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/thenullnetwork/dnd-homebrew/issues"
+		"url": "https://github.com/TheGiddyLimit/homebrew/issues"
 	},
-	"homepage": "https://github.com/thenullnetwork/dnd-homebrew#readme",
+	"homepage": "https://github.com/TheGiddyLimit/homebrew#readme",
 	"devDependencies": {
-		"ajv": "^6.12.3"
+		"dndz-utils": "^0.1.14"
 	}
 }

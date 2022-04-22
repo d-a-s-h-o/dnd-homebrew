@@ -9,7 +9,7 @@
 					"BoltNineHomebrew - AshenBolt (https://www.reddit.com/r/UnearthedArcana/comments/3yckze/boltnine_homebrew_is_shutting_down_heres_a_mirror/ )"
 				],
 				"convertedBy": [
-					"Dasho"
+					"p4535992"
 				],
 				"version": "2020.12.19",
 				"url": "https://drive.google.com/drive/folders/0B2UyuHLUuCjxeWRULTRHSk9jZEE",
@@ -21,8 +21,10 @@
 	},
 	"monster": [
 		{
-			"name": "KINGARMY - Queen Adria Durron",
-			"size": "M",
+			"name": "Queen Adria Durron",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -94,7 +96,7 @@
 				"E",
 				"O"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"tokenUrl": "https://i.imgur.com/w1Z5SrC.png",
 			"trait": [
 				{
@@ -148,8 +150,10 @@
 			}
 		},
 		{
-			"name": "KINGARMY - King Paul Shapechanger",
-			"size": "M",
+			"name": "King Paul Shapechanger",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -222,7 +226,7 @@
 				"E",
 				"O"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"tokenUrl": "https://i.imgur.com/ZUbTq8S.png",
 			"trait": [
 				{
@@ -276,8 +280,10 @@
 			}
 		},
 		{
-			"name": "KINGARMY - Commander Paige Truestrike",
-			"size": "M",
+			"name": "Commander Paige Truestrike",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -346,7 +352,7 @@
 				"C",
 				"E"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"tokenUrl": "https://i.imgur.com/qaRm5CN.png",
 			"trait": [
 				{
@@ -526,11 +532,24 @@
 						"Paige quickly inspect one creature, gaining advantage on her next attack roll againts the target creature."
 					]
 				}
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"L",
+				"N",
+				"O",
+				"R",
+				"T",
+				"Y"
 			]
 		},
 		{
-			"name": "KINGARMY - Commander Nix Riversong",
-			"size": "M",
+			"name": "Commander Nix Riversong",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -544,7 +563,7 @@
 			"ac": [
 				{
 					"ac": 14,
-					"condition": "(17 with mage armor)"
+					"condition": "(17 with {@spell mage armor})"
 				}
 			],
 			"hp": {
@@ -594,7 +613,7 @@
 				"C",
 				"E"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"tokenUrl": "https://i.imgur.com/exfwNBV.png",
 			"trait": [
 				{
@@ -763,11 +782,20 @@
 			],
 			"traitTags": [
 				"Fey Ancestry"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"I",
+				"N"
 			]
 		},
 		{
-			"name": "KINGARMY - Commander - Tai Feng",
-			"size": "M",
+			"name": "Commander - Tai Feng",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -948,11 +976,13 @@
 					]
 				}
 			],
-			"isNpc": true
+			"isNpc": false
 		},
 		{
-			"name": "KINGARMY - Twin Assassin of eldor Alynn",
-			"size": "M",
+			"name": "Twin Assassin of eldor Alynn",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1085,7 +1115,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"save": {
 				"dex": "+9",
 				"int": "+5"
@@ -1124,8 +1154,10 @@
 			]
 		},
 		{
-			"name": "KINGARMY - Twin Assassin of eldor Sane",
-			"size": "M",
+			"name": "Twin Assassin of eldor Sane",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1139,7 +1171,7 @@
 			"ac": [
 				{
 					"ac": 13,
-					"condition": "(16 with mage armor)"
+					"condition": "(16 with {@spell mage armor})"
 				}
 			],
 			"hp": {
@@ -1245,7 +1277,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"save": {
 				"wis": "+5",
 				"cha": "+9"
@@ -1345,11 +1377,16 @@
 			"conditionInflict": [
 				"exhaustion",
 				"stunned"
+			],
+			"damageTagsSpell": [
+				"O"
 			]
 		},
 		{
-			"name": "KINGARMY - Mithril Guard",
-			"size": "M",
+			"name": "Mithril Guard",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1463,14 +1500,16 @@
 			"miscTags": [
 				"MW"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"conditionInflict": [
 				"prone"
 			]
 		},
 		{
-			"name": "KINGARMY - Blue Elf",
-			"size": "M",
+			"name": "Blue Elf",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1484,7 +1523,7 @@
 			"ac": [
 				{
 					"ac": 13,
-					"condition": "(16 with mage armor)"
+					"condition": "(16 with {@spell mage armor})"
 				}
 			],
 			"hp": {
@@ -1563,7 +1602,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"senses": [
 				"darkvision 60 ft."
 			],
@@ -1647,11 +1686,19 @@
 						"Magic is attracted to the blue elf as If he were a magnet. If a spell is cast targeting the blue elf or another creature within 15 feet, the blue elf can roll a Charisma saving throw against the spellcaster's spell save DC. If the blue elf's roll succeeds, he absorbs the magic, taking no damage, and reflects it back at the caster, including all additional effects and modifiers tied to the spell, using the blue elf's spell save DC and spell attack bonus. This works for spells of all levels and does not consume a spell slot. On a failed save, the spell continues as intended, but deals only half damage."
 					]
 				}
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"O"
 			]
 		},
 		{
-			"name": "KINGARMY - Wyvern Rider",
-			"size": "M",
+			"name": "Wyvern Rider",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1786,11 +1833,13 @@
 				"MW",
 				"RCH"
 			],
-			"isNpc": true
+			"isNpc": false
 		},
 		{
-			"name": "KINGARMY - Sergeant",
-			"size": "M",
+			"name": "Sergeant",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1876,7 +1925,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"environment": [
 				"forest"
 			],
@@ -1909,8 +1958,10 @@
 			]
 		},
 		{
-			"name": "KINGARMY - Archer",
-			"size": "M",
+			"name": "Archer",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1999,7 +2050,7 @@
 				"RW",
 				"RNG"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"environment": [
 				"forest"
 			],
@@ -2031,8 +2082,10 @@
 			]
 		},
 		{
-			"name": "KINGARMY - War Mage",
-			"size": "M",
+			"name": "War Mage",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2046,7 +2099,7 @@
 			"ac": [
 				{
 					"ac": 11,
-					"condition": "(14 with mage armor)"
+					"condition": "(14 with {@spell mage armor})"
 				}
 			],
 			"hp": {
@@ -2120,7 +2173,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"environment": [
 				"forest"
 			],
@@ -2193,11 +2246,18 @@
 			],
 			"spellcastingTags": [
 				"CW"
+			],
+			"damageTagsSpell": [
+				"F",
+				"L",
+				"T"
 			]
 		},
 		{
-			"name": "KINGARMY - Cavalry Scout",
-			"size": "M",
+			"name": "Cavalry Scout",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2290,7 +2350,7 @@
 				"RW",
 				"RNG"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"environment": [
 				"forest"
 			],
@@ -2326,8 +2386,10 @@
 			}
 		},
 		{
-			"name": "KINGARMY - Infantryman",
-			"size": "M",
+			"name": "Infantryman",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2422,7 +2484,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"environment": [
 				"forest"
 			],
@@ -2448,8 +2510,10 @@
 			]
 		},
 		{
-			"name": "KINGARMY - Spearman",
-			"size": "M",
+			"name": "Spearman",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2546,7 +2610,7 @@
 			"damageTags": [
 				"P"
 			],
-			"isNpc": true,
+			"isNpc": false,
 			"environment": [
 				"forest"
 			],

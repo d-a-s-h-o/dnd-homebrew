@@ -25,14 +25,12 @@
 					"cha": 1
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
-			"traitTags": [
-				"Skill Proficiency",
-				"Spellcasting"
-			],
 			"darkvision": 60,
 			"languageProficiencies": [
 				{
@@ -100,8 +98,6 @@
 				}
 			],
 			"fluff": {
-				"name": "Faceless",
-				"source": "Faceless",
 				"entries": [
 					{
 						"type": "quote",
@@ -153,12 +149,16 @@
 				{
 					"innate": {
 						"1": [
-							"message"
+							"message#c"
 						]
 					},
 					"ability": "cha"
 				}
-			]
+			],
+			"age": {
+				"mature": 20,
+				"max": 120
+			}
 		}
 	],
 	"feat": [

@@ -15,15 +15,16 @@
 			}
 		],
 		"dateAdded": 1572301894,
-		"dateLastModified": 1572301894
+		"dateLastModified": 1638623714
 	},
 	"book": [
 		{
 			"name": "All the Lights in the Sky are Stars",
 			"id": "ATLAS",
 			"author": "Haven",
-			"published": "2018/12/01",
+			"published": "2018-12-01",
 			"source": "ATLAS",
+			"group": "homebrew",
 			"coverUrl": "https://i.ibb.co/ZdfRsS1/atlas-cover.png",
 			"contents": [
 				{
@@ -504,7 +505,9 @@
 														"name": "Constellate Archer",
 														"source": "ATLAS",
 														"page": 34,
-														"size": "M",
+														"size": [
+															"M"
+														],
 														"type": "humanoid",
 														"alignment": [
 															"A"
@@ -530,9 +533,14 @@
 														"int": 11,
 														"wis": 13,
 														"cha": 10,
-														"senses": "darkvision 60 ft.",
+														"senses": [
+															"darkvision 60 ft."
+														],
 														"passive": 13,
-														"languages": "Common, Celestial",
+														"languages": [
+															"Common",
+															"Celestial"
+														],
 														"skill": {
 															"acrobatics": "+6",
 															"perception": "+3"
@@ -608,7 +616,9 @@
 														"name": "Constellate Lion",
 														"source": "ATLAS",
 														"page": 35,
-														"size": "L",
+														"size": [
+															"L"
+														],
 														"type": "beast",
 														"alignment": [
 															"U"
@@ -631,7 +641,9 @@
 														"int": 3,
 														"wis": 12,
 														"cha": 8,
-														"senses": "darkvision 60 ft.",
+														"senses": [
+															"darkvision 60 ft."
+														],
 														"passive": 13,
 														"skill": {
 															"perception": "+4",
@@ -774,7 +786,9 @@
 														"name": "Moon-Touched Dire Wolf",
 														"source": "ATLAS",
 														"page": 40,
-														"size": "L",
+														"size": [
+															"L"
+														],
 														"type": "beast",
 														"alignment": [
 															"U"
@@ -852,7 +866,9 @@
 			"name": "Genasi (Star)",
 			"source": "ATLAS",
 			"page": 3,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -868,7 +884,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Star_Genasi.png"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Star_Genasi.png"
 						}
 					}
 				],
@@ -992,13 +1008,19 @@
 			],
 			"resist": [
 				"radiant"
-			]
+			],
+			"age": {
+				"mature": 20,
+				"max": 120
+			}
 		},
 		{
 			"name": "Gnome (Cosmic)",
 			"source": "ATLAS",
 			"page": 4,
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"speed": {
 				"walk": 25
 			},
@@ -1014,7 +1036,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Gnome_Cosmic.png"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Gnome_Cosmic.png"
 						}
 					}
 				],
@@ -1115,7 +1137,7 @@
 				{
 					"innate": {
 						"1": [
-							"guidance"
+							"guidance#c"
 						],
 						"5": [
 							"augury"
@@ -1123,13 +1145,19 @@
 					},
 					"ability": "int"
 				}
-			]
+			],
+			"age": {
+				"mature": 60,
+				"max": 800
+			}
 		},
 		{
 			"name": "Starforged",
 			"source": "ATLAS",
 			"page": 5,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -1155,7 +1183,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Starforged.png"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Starforged.png"
 						}
 					}
 				],
@@ -1278,7 +1306,9 @@
 			"name": "Vandori",
 			"source": "ATLAS",
 			"page": 6,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -1304,7 +1334,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Vandori.png"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Vandori.png"
 						}
 					}
 				],
@@ -1425,9 +1455,6 @@
 					}
 				}
 			],
-			"traitTags": [
-				"Skill Proficiency"
-			],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -1477,18 +1504,9 @@
 				"fly",
 				"wind wall",
 				"freedom of movement",
-				{
-					"name": "storm sphere",
-					"source": "XGE"
-				},
-				{
-					"name": "control winds",
-					"source": "XGE"
-				},
-				{
-					"name": "maelstrom",
-					"source": "XGE"
-				}
+				"storm sphere|xge",
+				"control winds|xge",
+				"maelstrom|xge"
 			],
 			"subclassFeatures": [
 				"Sky Domain|Cleric||Sky (ATLAS)|ATLAS|1",
@@ -1496,32 +1514,6 @@
 				"Channel Divinity: Protection of Wind|Cleric||Sky (ATLAS)|ATLAS|6",
 				"Divine Strike|Cleric||Sky (ATLAS)|ATLAS|8",
 				"Blessed Wings|Cleric||Sky (ATLAS)|ATLAS|17"
-			],
-			"spells": [
-				{
-					"prepared": {
-						"1": [
-							"faerie fire",
-							"feather fall"
-						],
-						"3": [
-							"moonbeam",
-							"skywrite"
-						],
-						"5": [
-							"fly",
-							"wind wall"
-						],
-						"7": [
-							"freedom of movement",
-							"storm sphere|xge"
-						],
-						"9": [
-							"control winds|xge",
-							"maelstrom|xge"
-						]
-					}
-				}
 			],
 			"additionalSpells": [
 				{
@@ -1606,31 +1598,17 @@
 				"Polaris|Paladin||North Star (ATLAS)|ATLAS|15",
 				"Supernova|Paladin||North Star (ATLAS)|ATLAS|20"
 			],
-			"spells": [
-				{
-					"prepared": {
-						"3": [
-							"color spray",
-							"magic missile"
-						],
-						"5": [
-							"calm emotions",
-							"enthrall"
-						],
-						"9": [
-							"blink",
-							"hypnotic pattern"
-						],
-						"13": [
-							"aura of purity",
-							"guradian of faith"
-						],
-						"17": [
-							"circle of power",
-							"flame strike"
-						]
-					}
-				}
+			"subclassSpells": [
+				"color spray",
+				"magic missile",
+				"calm emotions",
+				"enthrall",
+				"blink",
+				"hypnotic pattern",
+				"aura of purity",
+				"guradian of faith",
+				"circle of power",
+				"flame strike"
 			],
 			"additionalSpells": [
 				{
@@ -1730,52 +1708,38 @@
 				"Gaseous Evasion|Warlock||Nebula (ATLAS)|ATLAS|10",
 				"Star Formation|Warlock||Nebula (ATLAS)|ATLAS|14"
 			],
-			"spells": [
-				{
-					"expanded": {
-						"1": [
-							"absorb elements|xge",
-							"chromatic orb"
-						],
-						"2": [
-							"dragon's breath|xge",
-							"dust devil|xge"
-						],
-						"3": [
-							"elemental weapon",
-							"protection from energy"
-						],
-						"4": [
-							"conjure minor elementals",
-							"fabricate"
-						],
-						"5": [
-							"conjure elemental",
-							"creation"
-						]
-					}
-				}
+			"subclassSpells": [
+				"absorb elements|xge",
+				"chromatic orb",
+				"dragon's breath|xge",
+				"dust devil|xge",
+				"elemental weapon",
+				"protection from energy",
+				"conjure minor elementals",
+				"fabricate",
+				"conjure elemental",
+				"creation"
 			],
 			"additionalSpells": [
 				{
 					"expanded": {
-						"1": [
+						"s1": [
 							"absorb elements|xge",
 							"chromatic orb"
 						],
-						"2": [
+						"s2": [
 							"dragon's breath|xge",
 							"dust devil|xge"
 						],
-						"3": [
+						"s3": [
 							"elemental weapon",
 							"protection from energy"
 						],
-						"4": [
+						"s4": [
 							"conjure minor elementals",
 							"fabricate"
 						],
-						"5": [
+						"s5": [
 							"conjure elemental",
 							"creation"
 						]
@@ -1867,6 +1831,7 @@
 				]
 			},
 			"miscTags": [
+				"FMV",
 				"SGT"
 			]
 		},
@@ -2279,7 +2244,10 @@
 						"source": "PHB"
 					}
 				]
-			}
+			},
+			"miscTags": [
+				"FMV"
+			]
 		},
 		{
 			"name": "Guiding Light",
@@ -2743,7 +2711,10 @@
 						"source": "PHB"
 					}
 				]
-			}
+			},
+			"miscTags": [
+				"FMV"
+			]
 		},
 		{
 			"name": "Lucky Stars",
@@ -2876,7 +2847,10 @@
 						"source": "PHB"
 					}
 				]
-			}
+			},
+			"miscTags": [
+				"FMV"
+			]
 		},
 		{
 			"name": "Moonfall",
@@ -2945,6 +2919,7 @@
 				]
 			},
 			"miscTags": [
+				"FMV",
 				"SGT"
 			]
 		},
@@ -3641,9 +3616,9 @@
 					"This weapon has 5 charges, regaining {@dice 1d4+1} charges daily at midnight. When you hit a creature with an attack using this sword, you can spend 1 charge to fill a 15-foot cube with swirling nebula for 1 minute, originating from you and encompassing the creature. When a creature enters the area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a DC 17 Constitution saving throw. It takes {@damage 2d6} radiant damage on a failed save, or half as much damage on a successful one."
 				],
 				"charges": 5,
-				"bonusWeapon": "+2"
-			},
-			"recharge": "midnight"
+				"bonusWeapon": "+2",
+				"recharge": "midnight"
+			}
 		},
 		{
 			"name": "Glimmering Weapon",
@@ -3697,7 +3672,8 @@
 					"As a reaction when you are reduced to 0 hit points or killed, you can choose a creature that can see or hear you within 30 feet of you. If that creature has a free attunement slot, it immediately becomes attuned to this weapon."
 				],
 				"charges": 5,
-				"bonusWeapon": "+3"
+				"bonusWeapon": "+3",
+				"recharge": "dawn"
 			},
 			"fluff": {
 				"images": [
@@ -3705,12 +3681,11 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Giga_Drill.png"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Giga_Drill.png"
 						}
 					}
 				]
-			},
-			"recharge": "dawn"
+			}
 		},
 		{
 			"name": "Quasar Blade",
@@ -3744,9 +3719,9 @@
 					"The weapon gains the following ability if attuned by a paladin: As an action, you can expend a spell slot to release a beam of radiance. Each creature within a 5 ft. wide and 200 ft. long line must make a Constitution saving throw against your paladin spell save DC. On a failed save, a creature takes {@damage 4d8} radiant damage for a 1st-level spell slot, plus {@damage 2d8} for each spell level higher than 1st, and is blinded until the end of its next turn. On a successful save, it takes half as much damage and is not blinded."
 				],
 				"charges": 5,
-				"bonusWeapon": "+2"
-			},
-			"recharge": "dawn"
+				"bonusWeapon": "+2",
+				"recharge": "dawn"
+			}
 		},
 		{
 			"name": "Starfall Hammer",
@@ -3779,9 +3754,9 @@
 					"reverse gravity"
 				],
 				"charges": 5,
-				"bonusWeapon": "+2"
-			},
-			"recharge": "dusk"
+				"bonusWeapon": "+2",
+				"recharge": "dusk"
+			}
 		}
 	],
 	"item": [
@@ -3816,7 +3791,11 @@
 			"attachedSpells": [
 				"misty step"
 			],
-			"recharge": "dusk"
+			"recharge": "dusk",
+			"resist": [
+				"force",
+				"radiant"
+			]
 		},
 		{
 			"name": "Gravity Rod",
@@ -4177,7 +4156,24 @@
 				"crown of stars"
 			],
 			"staff": true,
-			"recharge": "dawn"
+			"recharge": "dawn",
+			"resist": [
+				"radiant"
+			],
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				},
+				{
+					"class": "sorcerer"
+				},
+				{
+					"class": "warlock"
+				},
+				{
+					"class": "wizard"
+				}
+			]
 		},
 		{
 			"name": "Starlight Pendant",
@@ -4344,9 +4340,11 @@
 			"name": "Astral Lynx",
 			"source": "ATLAS",
 			"page": 33,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Astral_Lynx.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Astral_Lynx.png",
 			"alignment": [
 				"C",
 				"N"
@@ -4434,13 +4432,13 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk ms} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage."
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk ms} {@hit 10} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d10 + 6}) piercing damage."
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d10 + 6}) piercing damage."
 					]
 				},
 				{
@@ -4537,9 +4535,11 @@
 			"name": "Constellate Archer",
 			"source": "ATLAS",
 			"page": 34,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Constellate_Archer.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Constellate_Archer.png",
 			"alignment": [
 				"A"
 			],
@@ -4726,9 +4726,11 @@
 			"name": "Constellate Lion",
 			"source": "ATLAS",
 			"page": 35,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Constellate_Lion.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Constellate_Lion.png",
 			"alignment": [
 				"U"
 			],
@@ -4911,9 +4913,6 @@
 				"Keen Senses",
 				"Pounce"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -4922,9 +4921,11 @@
 			"name": "Dancing Star",
 			"source": "ATLAS",
 			"page": 36,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "fey",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Dancing_Star.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Dancing_Star.png",
 			"alignment": [
 				"C",
 				"N"
@@ -4975,7 +4976,7 @@
 				{
 					"name": "Star Mote",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, range 60 ft., one target. {@h}3 ({@damage 1d4 + 1}) force damage."
+						"{@atk rs} {@hit 4} to hit, range 60 ft., one target. {@h}3 ({@damage 1d4 + 1}) force damage."
 					]
 				},
 				{
@@ -5026,9 +5027,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"charmed"
-			],
 			"conditionInflict": [
 				"charmed"
 			]
@@ -5037,8 +5035,10 @@
 			"name": "Swarm of Dancing Stars",
 			"source": "ATLAS",
 			"page": 36,
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Swarm_of_Dancing_Stars.png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Swarm_of_Dancing_Stars.png",
 			"type": {
 				"type": "fey",
 				"swarmSize": "T"
@@ -5108,7 +5108,7 @@
 				{
 					"name": "Star Mote",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, range 60 ft., one target. {@h}3 ({@damage 1d4 + 1}) force damage."
+						"{@atk rs} {@hit 4} to hit, range 60 ft., one target. {@h}3 ({@damage 1d4 + 1}) force damage."
 					]
 				},
 				{
@@ -5162,9 +5162,6 @@
 			"actionTags": [
 				"Multiattack"
 			],
-			"conditionInflicted": [
-				"charmed"
-			],
 			"conditionInflict": [
 				"charmed"
 			]
@@ -5173,9 +5170,11 @@
 			"name": "Krenelisk",
 			"source": "ATLAS",
 			"page": 37,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Krenelisk.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Krenelisk.png",
 			"alignment": [
 				"U"
 			],
@@ -5322,24 +5321,26 @@
 			"spellcastingTags": [
 				"P"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			],
 			"conditionInflictSpell": [
 				"invisible",
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"Y"
 			]
 		},
 		{
 			"name": "Krenelisk Queen",
 			"source": "ATLAS",
 			"page": 38,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Krenelisk_Queen.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Krenelisk_Queen.png",
 			"alignment": [
 				"U"
 			],
@@ -5541,25 +5542,26 @@
 			"spellcastingTags": [
 				"P"
 			],
-			"conditionInflicted": [
-				"blinded",
-				"restrained"
-			],
 			"conditionInflict": [
 				"blinded",
 				"restrained"
 			],
 			"conditionInflictSpell": [
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"Y"
 			]
 		},
 		{
 			"name": "Meteor Golem",
 			"source": "ATLAS",
 			"page": 39,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Meteor_Golem.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Meteor_Golem.png",
 			"alignment": [
 				"U"
 			],
@@ -5722,9 +5724,6 @@
 			"languageTags": [
 				"CS"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -5733,9 +5732,11 @@
 			"name": "Moon-Touched Dire Wolf",
 			"source": "ATLAS",
 			"page": 40,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Moon_Touched_Dire_Wolf.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Moon_Touched_Dire_Wolf.png",
 			"alignment": [
 				"U"
 			],
@@ -5848,17 +5849,16 @@
 			"traitTags": [
 				"Keen Senses"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
 		},
 		{
 			"name": "Ancient Nebula Dragon",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Ancient_Nebula_Dragon.png",
-			"size": "G",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Ancient_Nebula_Dragon.png",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"source": "ATLAS",
 			"page": 42,
@@ -6024,6 +6024,7 @@
 				"Legendary Resistances"
 			],
 			"actionTags": [
+				"Breath Weapon",
 				"Frightful Presence",
 				"Multiattack"
 			],
@@ -6074,19 +6075,18 @@
 				"RCH",
 				"AOE"
 			],
-			"conditionInflicted": [
-				"frightened",
-				"blinded"
-			],
 			"conditionInflict": [
 				"frightened",
 				"blinded"
-			]
+			],
+			"dragonAge": "ancient"
 		},
 		{
 			"name": "Adult Nebula Dragon",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Adult_Nebula_Dragon.png",
-			"size": "H",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Adult_Nebula_Dragon.png",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"source": "ATLAS",
 			"page": 43,
@@ -6252,6 +6252,7 @@
 				"Legendary Resistances"
 			],
 			"actionTags": [
+				"Breath Weapon",
 				"Frightful Presence",
 				"Multiattack"
 			],
@@ -6302,19 +6303,18 @@
 				"RCH",
 				"AOE"
 			],
-			"conditionInflicted": [
-				"frightened",
-				"blinded"
-			],
 			"conditionInflict": [
 				"frightened",
 				"blinded"
-			]
+			],
+			"dragonAge": "adult"
 		},
 		{
 			"name": "Young Nebula Dragon",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Young_Nebula_Dragon.png",
-			"size": "L",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Young_Nebula_Dragon.png",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"source": "ATLAS",
 			"page": 44,
@@ -6435,6 +6435,7 @@
 				}
 			],
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"languageTags": [
@@ -6477,17 +6478,17 @@
 				"RCH",
 				"AOE"
 			],
-			"conditionInflicted": [
-				"blinded"
-			],
 			"conditionInflict": [
 				"blinded"
-			]
+			],
+			"dragonAge": "young"
 		},
 		{
 			"name": "Nebula Dragon Wyrmling",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Nebula_Dragon_Wyrmling.png",
-			"size": "M",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Nebula_Dragon_Wyrmling.png",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"source": "ATLAS",
 			"page": 44,
@@ -6635,19 +6636,22 @@
 				"RCH",
 				"AOE"
 			],
-			"conditionInflicted": [
-				"blinded"
-			],
 			"conditionInflict": [
 				"blinded"
-			]
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"dragonAge": "wyrmling"
 		},
 		{
 			"name": "Space Squid",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "ATLAS",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Space_Squid.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Space_Squid.png",
 			"page": 45,
 			"alignment": [
 				"U"
@@ -6751,10 +6755,6 @@
 				"Multiattack",
 				"Tentacles"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"grappled"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled"
@@ -6764,9 +6764,11 @@
 			"name": "Space Whale",
 			"source": "ATLAS",
 			"page": 46,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "beast",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Space_Whale.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Space_Whale.png",
 			"alignment": [
 				"U"
 			],
@@ -6871,10 +6873,6 @@
 			"actionTags": [
 				"Swallow"
 			],
-			"conditionInflicted": [
-				"blinded",
-				"restrained"
-			],
 			"conditionInflict": [
 				"blinded",
 				"restrained"
@@ -6884,9 +6882,11 @@
 			"name": "Space Polyp",
 			"source": "ATLAS",
 			"page": 47,
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Space_Polyp.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Space_Polyp.png",
 			"alignment": [
 				"U"
 			],
@@ -6983,9 +6983,11 @@
 			"name": "Space Jellyfish",
 			"source": "ATLAS",
 			"page": 47,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Space_Jellyfish.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Space_Jellyfish.png",
 			"alignment": [
 				"U"
 			],
@@ -7056,9 +7058,11 @@
 			"name": "Satellite",
 			"source": "ATLAS",
 			"page": 17,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "elemental",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Satellite.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Satellite.png",
 			"alignment": [
 				"L",
 				"N"
@@ -7186,8 +7190,10 @@
 			"name": "Star Devourer",
 			"source": "ATLAS",
 			"page": 48,
-			"size": "G",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Star_Devourer.png",
+			"size": [
+				"G"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Star_Devourer.png",
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -7380,13 +7386,6 @@
 				"Multiattack",
 				"Swallow"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"grappled",
-				"prone",
-				"frightened",
-				"blinded"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled",
@@ -7399,9 +7398,11 @@
 			"name": "Star Elemental",
 			"source": "ATLAS",
 			"page": 50,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Star_Elemental.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Star_Elemental.png",
 			"alignment": [
 				"N"
 			],
@@ -7533,9 +7534,6 @@
 			"actionTags": [
 				"Multiattack"
 			],
-			"conditionInflicted": [
-				"blinded"
-			],
 			"conditionInflict": [
 				"blinded"
 			]
@@ -7544,9 +7542,11 @@
 			"name": "Star Elemental Myrmidon",
 			"source": "ATLAS",
 			"page": 50,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Star_Elemental_Myrmidon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Star_Elemental_Myrmidon.png",
 			"alignment": [
 				"N"
 			],
@@ -7694,9 +7694,11 @@
 			"name": "Black Hole Elemental",
 			"source": "ATLAS",
 			"page": 51,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Black_Hole_Elemental.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Black_Hole_Elemental.png",
 			"alignment": [
 				"N"
 			],
@@ -7840,9 +7842,11 @@
 			"name": "Hooded Nebula",
 			"source": "ATLAS",
 			"page": 51,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ATLAS/Hooded_Nebula.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ATLAS/Hooded_Nebula.png",
 			"alignment": [
 				"C",
 				"N"
@@ -7987,10 +7991,6 @@
 			"actionTags": [
 				"Multiattack"
 			],
-			"conditionInflicted": [
-				"prone",
-				"blinded"
-			],
 			"conditionInflict": [
 				"prone",
 				"blinded"
@@ -8000,7 +8000,9 @@
 			"name": "Astrid",
 			"source": "ATLAS",
 			"page": 0,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"L",
@@ -8058,7 +8060,7 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell }*",
+							"{@spell conjure elemental} ({@creature star elemental|ATLAS} only)",
 							"{@spell crown of stars|XGE}",
 							"{@spell plane shift}",
 							"{@spell quasar|ATLAS}",
@@ -8184,6 +8186,9 @@
 			],
 			"conditionInflictSpell": [
 				"blinded"
+			],
+			"damageTagsSpell": [
+				"R"
 			]
 		}
 	],

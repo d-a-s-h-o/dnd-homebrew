@@ -10,7 +10,9 @@
 				],
 				"color": "a4811f",
 				"convertedBy": [
-					"Dasho"
+					"Giddy",
+					"Modnar",
+					"Spappz"
 				],
 				"version": "1.12",
 				"url": "https://shop.mcdmproductions.com/products/strongholds-followers-pdf",
@@ -27,7 +29,7 @@
 			"Unit": "Unit"
 		},
 		"dateAdded": 1546266054,
-		"dateLastModified": 1595472095
+		"dateLastModified": 1638732832
 	},
 	"itemType": [
 		{
@@ -93,7 +95,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-armor-confessor.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-armor-confessor.jpg"
 						}
 					}
 				]
@@ -183,7 +185,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/altar-unyielding-faith.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/altar-unyielding-faith.jpg"
 						}
 					}
 				]
@@ -207,7 +209,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/candles-accord.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/candles-accord.jpg"
 						}
 					}
 				]
@@ -259,7 +261,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/codex-terragnosis.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/codex-terragnosis.jpg"
 						}
 					}
 				]
@@ -329,11 +331,21 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/codex-umbra.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/codex-umbra.jpg"
 						}
 					}
 				]
-			}
+			},
+			"resist": [
+				"acid",
+				"bludgeoning",
+				"cold",
+				"fire",
+				"lightning",
+				"piercing",
+				"slashing",
+				"thunder"
+			]
 		},
 		{
 			"name": "Codex Incabulum",
@@ -421,7 +433,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/codex-incabulum.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/codex-incabulum.jpg"
 						}
 					}
 				]
@@ -491,7 +503,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/codex-automata.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/codex-automata.jpg"
 						}
 					}
 				]
@@ -545,7 +557,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/codex-dryadalis.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/codex-dryadalis.jpg"
 						}
 					}
 				]
@@ -649,7 +661,7 @@
 												"type": "image",
 												"href": {
 													"type": "external",
-													"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/rush-tom-sawyer.png"
+													"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/rush-tom-sawyer.png"
 												}
 											}
 										]
@@ -718,7 +730,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/codex-miror.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/codex-miror.jpg"
 						}
 					}
 				]
@@ -791,11 +803,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/codex-ignis.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/codex-ignis.jpg"
 						}
 					}
 				]
-			}
+			},
+			"immune": [
+				"fire"
+			]
 		},
 		{
 			"name": "The Chronos Codex",
@@ -853,7 +868,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/codex-chronos.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/codex-chronos.jpg"
 						}
 					}
 				]
@@ -938,7 +953,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/codex-mortis.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/codex-mortis.jpg"
 						}
 					}
 				]
@@ -989,7 +1004,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/codex-multiversalis.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/codex-multiversalis.jpg"
 						}
 					}
 				]
@@ -1010,7 +1025,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/diplomat-pouch.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/diplomat-pouch.jpg"
 						}
 					}
 				]
@@ -1043,12 +1058,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/disruptor.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/disruptor.jpg"
 						}
 					}
 				]
 			},
-			"bonusWeapon": "+1"
+			"bonusWeapon": "+1",
+			"reqAttuneTags": [
+				{
+					"alignment": [
+						"C"
+					]
+				}
+			]
 		},
 		{
 			"name": "Foxglove Bow",
@@ -1079,12 +1101,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/foxglove-bow.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/foxglove-bow.jpg"
 						}
 					}
 				]
 			},
-			"ammoType": "arrow|phb"
+			"ammoType": "arrow|phb",
+			"reqAttuneTags": [
+				{
+					"alignment": [
+						"C"
+					]
+				}
+			]
 		},
 		{
 			"name": "Glory",
@@ -1109,12 +1138,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/glory.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/glory.jpg"
 						}
 					}
 				]
 			},
-			"bonusWeapon": "+2"
+			"bonusWeapon": "+2",
+			"reqAttuneTags": [
+				{
+					"alignment": [
+						"G"
+					]
+				}
+			]
 		},
 		{
 			"name": "Harvest",
@@ -1142,12 +1178,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/harvest.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/harvest.jpg"
 						}
 					}
 				]
 			},
-			"bonusWeapon": "+1"
+			"bonusWeapon": "+1",
+			"reqAttuneTags": [
+				{
+					"alignment": [
+						"E"
+					]
+				}
+			]
 		},
 		{
 			"name": "High Templar's Glaive",
@@ -1175,7 +1218,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/high-templar-glaive.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/high-templar-glaive.jpg"
 						}
 					}
 				]
@@ -1199,7 +1242,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/mantle-regency.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/mantle-regency.jpg"
 						}
 					}
 				]
@@ -1217,7 +1260,7 @@
 			"property": [
 				"V"
 			],
-			"rarity": "uncommon",
+			"rarity": "very rare",
 			"source": "SaF",
 			"page": 262,
 			"reqAttune": "by a lawful creature",
@@ -1232,12 +1275,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/obey.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/obey.jpg"
 						}
 					}
 				]
 			},
-			"bonusWeapon": "+1"
+			"bonusWeapon": "+1",
+			"reqAttuneTags": [
+				{
+					"alignment": [
+						"L"
+					]
+				}
+			]
 		},
 		{
 			"name": "Psionic Crystal",
@@ -1309,7 +1359,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/psionic-crystal.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/psionic-crystal.jpg"
 						}
 					}
 				]
@@ -1342,12 +1392,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sword-demon-knight.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sword-demon-knight.jpg"
 						}
 					}
 				]
 			},
-			"bonusWeapon": "+1"
+			"bonusWeapon": "+1",
+			"reqAttuneTags": [
+				{
+					"alignment": [
+						"E"
+					]
+				}
+			]
 		},
 		{
 			"name": "Spymaster's Cloak",
@@ -1364,7 +1421,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/spymaster-cloak.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/spymaster-cloak.jpg"
 						}
 					}
 				]
@@ -1376,7 +1433,6 @@
 			"rarity": "rare",
 			"source": "SaF",
 			"page": 263,
-			"reqAttune": true,
 			"entries": [
 				"A compass of dwarven origin. Above the north marking of the compass is a small receptacle. Once per season, placing a piece of ore or precious stone into it causes the needle on the compass to point toward the nearest seam containing that material within 12 miles. This seam holds ore and gems worth {@dice 4d4 × 100} gp, and mining the seam takes three weeks."
 			],
@@ -1386,7 +1442,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/surveyor-compass.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/surveyor-compass.jpg"
 						}
 					}
 				]
@@ -1433,12 +1489,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tyrant-twinblades.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tyrant-twinblades.jpg"
 						}
 					}
 				]
 			},
-			"bonusWeapon": "+1"
+			"bonusWeapon": "+1",
+			"reqAttuneTags": [
+				{
+					"alignment": [
+						"E"
+					]
+				}
+			]
 		},
 		{
 			"name": "Velorin's Laboratory",
@@ -1468,7 +1531,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/whispering-stone-warning.jpg"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/whispering-stone-warning.jpg"
 						}
 					}
 				]
@@ -1480,7 +1543,9 @@
 			"source": "SaF",
 			"page": 248,
 			"name": "The Phoenix",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "celestial",
 			"alignment": [
 				"G"
@@ -1627,9 +1692,6 @@
 				"RCH",
 				"AOE"
 			],
-			"conditionInflicted": [
-				"charmed"
-			],
 			"conditionInflict": [
 				"charmed"
 			]
@@ -1638,7 +1700,9 @@
 			"source": "SaF",
 			"page": 252,
 			"name": "Machine Lieutenant",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"N"
@@ -1753,7 +1817,9 @@
 			"source": "SaF",
 			"page": 258,
 			"name": "Lady Czorgan",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -1902,6 +1968,9 @@
 				"prone",
 				"paralyzed",
 				"incapacitated"
+			],
+			"damageTagsSpell": [
+				"N"
 			]
 		},
 		{
@@ -1978,7 +2047,9 @@
 			"source": "SaF",
 			"page": 137,
 			"name": "White Tusk Orc",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2067,7 +2138,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/White%20Tusk%20Orc.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/White%20Tusk%20Orc.png",
 			"damageTags": [
 				"S",
 				"P"
@@ -2082,7 +2153,9 @@
 			"source": "SaF",
 			"page": 138,
 			"name": "White Tusk Juggernaut",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2191,7 +2264,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/White%20Tusk%20Juggernaut.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/White%20Tusk%20Juggernaut.png",
 			"damageTags": [
 				"P",
 				"S"
@@ -2199,9 +2272,6 @@
 			"miscTags": [
 				"MW",
 				"RCH"
-			],
-			"conditionInflicted": [
-				"prone"
 			],
 			"conditionInflict": [
 				"prone"
@@ -2211,7 +2281,9 @@
 			"source": "SaF",
 			"page": 139,
 			"name": "White Tusk Bloodrager",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2311,7 +2383,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/White%20Tusk%20Bloodrager.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/White%20Tusk%20Bloodrager.png",
 			"damageTags": [
 				"S"
 			],
@@ -2323,7 +2395,9 @@
 			"source": "SaF",
 			"page": 140,
 			"name": "White Tusk Warspeaker",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2462,7 +2536,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/White%20Tusk%20Warspeaker.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/White%20Tusk%20Warspeaker.png",
 			"damageTags": [
 				"S",
 				"P"
@@ -2472,13 +2546,20 @@
 			],
 			"spellcastingTags": [
 				"CC"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
 			]
 		},
 		{
 			"source": "SaF",
 			"page": 141,
 			"name": "White Tusk Shaman",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2588,7 +2669,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/White%20Tusk%20Shaman.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/White%20Tusk%20Shaman.png",
 			"damageTags": [
 				"P",
 				"I"
@@ -2603,7 +2684,9 @@
 			"source": "SaF",
 			"page": 142,
 			"name": "Oregg Steeltwister",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2755,7 +2838,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Oregg%20Steeltwister.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Oregg%20Steeltwister.png",
 			"damageTags": [
 				"S",
 				"F",
@@ -2766,13 +2849,20 @@
 			],
 			"spellcastingTags": [
 				"CS"
+			],
+			"damageTagsSpell": [
+				"F",
+				"I",
+				"O"
 			]
 		},
 		{
 			"source": "SaF",
 			"page": 143,
 			"name": "Bonebreaker Dorokor",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2851,7 +2941,7 @@
 				{
 					"name": "Wound",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@dice 1d12 + 5}) slashing damage plus 7 ({@damage 2d6}) necrotic damage. The target's maximum hit points are decreased in equal amount to the necrotic damage dealt. The target's hit point maximum does not return to normal until it finishes a long rest or its grievous wounds are soothed by a greater restoration spell."
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@dice 1d12 + 5}) slashing damage plus 7 ({@damage 2d6}) necrotic damage. The target's maximum hit points are decreased in equal amount to the necrotic damage dealt. The target's hit point maximum does not return to normal until it finishes a long rest or its grievous wounds are soothed by a {@spell greater restoration} spell."
 					]
 				},
 				{
@@ -2917,8 +3007,9 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Bonebreaker%20Dorokor.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Bonebreaker%20Dorokor.png",
 			"damageTags": [
+				"S",
 				"N",
 				"P"
 			],
@@ -2932,7 +3023,9 @@
 			"source": "SaF",
 			"page": 144,
 			"name": "Sir Pelliton",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3074,7 +3167,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Sir%20Pelliton.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Sir%20Pelliton.png",
 			"damageTags": [
 				"S",
 				"C",
@@ -3094,13 +3187,23 @@
 				"frightened",
 				"unconscious",
 				"charmed"
+			],
+			"damageTagsSpell": [
+				"A",
+				"B",
+				"C",
+				"F",
+				"O",
+				"R"
 			]
 		},
 		{
 			"source": "SaF",
 			"page": 145,
 			"name": "Faldric the Archer",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3194,7 +3297,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Faldric%20the%20Archer.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Faldric%20the%20Archer.png",
 			"damageTags": [
 				"P"
 			],
@@ -3202,9 +3305,6 @@
 				"RW",
 				"RNG",
 				"MW"
-			],
-			"conditionInflicted": [
-				"prone"
 			],
 			"conditionInflict": [
 				"prone"
@@ -3214,7 +3314,9 @@
 			"source": "SaF",
 			"page": 145,
 			"name": "Pinna",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3307,7 +3409,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Pinna.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Pinna.png",
 			"damageTags": [
 				"P"
 			],
@@ -3318,13 +3420,19 @@
 			],
 			"spellcastingTags": [
 				"CW"
+			],
+			"damageTagsSpell": [
+				"F",
+				"O"
 			]
 		},
 		{
 			"source": "SaF",
 			"page": 151,
 			"name": "Lesser Marilith",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -3454,10 +3562,6 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"grappled"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled"
@@ -3467,7 +3571,9 @@
 			"source": "SaF",
 			"page": 153,
 			"name": "Lesser Balor",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -3609,7 +3715,9 @@
 			"source": "SaF",
 			"page": 153,
 			"name": "Lesser Erinyes",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -3706,7 +3814,7 @@
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage plus 4 ({@damage 1d8}) poison damage, and the target must succeed on a {@dc 11} Constitution saving throw or be {@condition poisoned}. The poison lasts until it is removed by the lesser restoration spell or similar magic."
+						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage plus 4 ({@damage 1d8}) poison damage, and the target must succeed on a {@dc 11} Constitution saving throw or be {@condition poisoned}. The poison lasts until it is removed by the {@spell lesser restoration} spell or similar magic."
 					]
 				}
 			],
@@ -3742,9 +3850,6 @@
 				"RW",
 				"RNG"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -3753,8 +3858,12 @@
 			"source": "SaF",
 			"page": 155,
 			"name": "Princip",
-			"group": "Celestial Court",
-			"size": "M",
+			"group": [
+				"Celestial Court"
+			],
+			"size": [
+				"M"
+			],
 			"type": "celestial",
 			"alignment": [
 				"G"
@@ -3896,7 +4005,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Princip.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Princip.png",
 			"damageTags": [
 				"B",
 				"R"
@@ -3912,8 +4021,12 @@
 			"source": "SaF",
 			"page": 157,
 			"name": "Authority",
-			"group": "Celestial Court",
-			"size": "M",
+			"group": [
+				"Celestial Court"
+			],
+			"size": [
+				"M"
+			],
 			"type": "celestial",
 			"alignment": [
 				"G"
@@ -4028,7 +4141,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Authority.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Authority.png",
 			"damageTags": [
 				"S",
 				"R"
@@ -4042,8 +4155,12 @@
 			"source": "SaF",
 			"page": 161,
 			"name": "Dominion",
-			"group": "Celestial Court",
-			"size": "L",
+			"group": [
+				"Celestial Court"
+			],
+			"size": [
+				"L"
+			],
 			"type": "celestial",
 			"alignment": [
 				"G"
@@ -4158,7 +4275,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Dominion.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Dominion.png",
 			"damageTags": [
 				"F",
 				"R"
@@ -4168,8 +4285,12 @@
 			"source": "SaF",
 			"page": 163,
 			"name": "Throne",
-			"group": "Celestial Court",
-			"size": "L",
+			"group": [
+				"Celestial Court"
+			],
+			"size": [
+				"L"
+			],
 			"type": "celestial",
 			"alignment": [
 				"G"
@@ -4280,14 +4401,10 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Throne.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Throne.png",
 			"damageTags": [
 				"F",
 				"R"
-			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
 			],
 			"conditionInflict": [
 				"grappled",
@@ -4298,8 +4415,12 @@
 			"source": "SaF",
 			"page": 165,
 			"name": "Seraph",
-			"size": "L",
-			"group": "Celestial Court",
+			"size": [
+				"L"
+			],
+			"group": [
+				"Celestial Court"
+			],
 			"type": "celestial",
 			"alignment": [
 				"G"
@@ -4416,7 +4537,7 @@
 				{
 					"name": "Omega",
 					"entries": [
-						"{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage plus 9 ({@damage 2d8}) radiant damage. If the target is chaotic or evil, it suffers the effects of a bane spell until the end of its next turn."
+						"{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage plus 9 ({@damage 2d8}) radiant damage. If the target is chaotic or evil, it suffers the effects of a {@spell bane} spell until the end of its next turn."
 					]
 				}
 			],
@@ -4439,7 +4560,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Seraph.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Seraph.png",
 			"damageTags": [
 				"B",
 				"R",
@@ -4449,9 +4570,6 @@
 				"MW",
 				"RW"
 			],
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
 			]
@@ -4460,8 +4578,12 @@
 			"source": "SaF",
 			"page": 167,
 			"name": "Baron Malgas",
-			"group": "Court of All Flesh",
-			"size": "M",
+			"group": [
+				"Court of All Flesh"
+			],
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C"
@@ -4571,7 +4693,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Baron%20Malgas.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Baron%20Malgas.png",
 			"damageTags": [
 				"B",
 				"P"
@@ -4585,9 +4707,13 @@
 		{
 			"source": "SaF",
 			"page": 168,
-			"group": "Court of All Flesh",
+			"group": [
+				"Court of All Flesh"
+			],
 			"name": "Korsoth Vastikan",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C"
@@ -4699,7 +4825,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Korsoth%20Vastikan.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Korsoth%20Vastikan.png",
 			"damageTags": [
 				"P"
 			],
@@ -4713,8 +4839,12 @@
 			"source": "SaF",
 			"page": 169,
 			"name": "The Queen of Bones",
-			"group": "Court of All Flesh",
-			"size": "M",
+			"group": [
+				"Court of All Flesh"
+			],
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C"
@@ -4887,7 +5017,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/The%20Queen%20of%20Bones.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/The%20Queen%20of%20Bones.png",
 			"damageTags": [
 				"N"
 			],
@@ -4904,14 +5034,25 @@
 				"blinded",
 				"stunned",
 				"poisoned"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"O",
+				"P",
+				"R"
 			]
 		},
 		{
 			"source": "SaF",
 			"page": 171,
 			"name": "Lord Rall",
-			"group": "Court of All Flesh",
-			"size": "M",
+			"group": [
+				"Court of All Flesh"
+			],
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C"
@@ -5091,7 +5232,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Lord%20Rall.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Lord%20Rall.png",
 			"damageTags": [
 				"B"
 			],
@@ -5104,14 +5245,26 @@
 			"conditionInflictSpell": [
 				"unconscious",
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"I",
+				"L",
+				"N",
+				"O"
 			]
 		},
 		{
 			"source": "SaF",
 			"page": 172,
 			"name": "Uursovk",
-			"group": "Court of All Flesh",
-			"size": "L",
+			"group": [
+				"Court of All Flesh"
+			],
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C"
@@ -5232,16 +5385,13 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Uursovk.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Uursovk.png",
 			"damageTags": [
 				"P"
 			],
 			"miscTags": [
 				"MW",
 				"RW"
-			],
-			"conditionInflicted": [
-				"poisoned"
 			],
 			"conditionInflict": [
 				"poisoned"
@@ -5251,8 +5401,12 @@
 			"source": "SaF",
 			"page": 175,
 			"name": "Maladar Dictum",
-			"group": "Court of All Flesh",
-			"size": "H",
+			"group": [
+				"Court of All Flesh"
+			],
+			"size": [
+				"H"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C"
@@ -5430,7 +5584,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Maladar%20Dictum.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Maladar%20Dictum.png",
 			"damageTags": [
 				"S",
 				"N",
@@ -5445,8 +5599,12 @@
 			"source": "SaF",
 			"page": 176,
 			"name": "Mantis Knight",
-			"group": "Court of Arcadia",
-			"size": "M",
+			"group": [
+				"Court of Arcadia"
+			],
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"C"
@@ -5563,7 +5721,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Mantis%20Knight.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Mantis%20Knight.png",
 			"damageTags": [
 				"P"
 			],
@@ -5578,8 +5736,12 @@
 			"source": "SaF",
 			"page": 179,
 			"name": "Monarchon",
-			"group": "Court of Arcadia",
-			"size": "M",
+			"group": [
+				"Court of Arcadia"
+			],
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"C"
@@ -5619,7 +5781,7 @@
 				"insight": "+7",
 				"medicine": "+7",
 				"nature": "+4",
-				"perception+": "6",
+				"perception": "6",
 				"religion": "+4"
 			},
 			"passive": 20,
@@ -5734,17 +5896,13 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Monarchon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Monarchon.png",
 			"damageTags": [
 				"N"
 			],
 			"spellcastingTags": [
 				"I",
 				"CC"
-			],
-			"conditionInflicted": [
-				"stunned",
-				"charmed"
 			],
 			"conditionInflict": [
 				"stunned",
@@ -5755,14 +5913,21 @@
 				"prone",
 				"paralyzed",
 				"incapacitated"
+			],
+			"damageTagsSpell": [
+				"R"
 			]
 		},
 		{
 			"source": "SaF",
 			"page": 180,
 			"name": "Orchid Count",
-			"group": "Court of Arcadia",
-			"size": "M",
+			"group": [
+				"Court of Arcadia"
+			],
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"C"
@@ -5906,7 +6071,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Orchid%20Count.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Orchid%20Count.png",
 			"damageTags": [
 				"P"
 			],
@@ -5922,9 +6087,13 @@
 		{
 			"source": "SaF",
 			"page": 182,
-			"group": "Court of Arcadia",
+			"group": [
+				"Court of Arcadia"
+			],
 			"name": "Oleander Dragon",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C"
@@ -6038,30 +6207,32 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Oleander%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Oleander%20Dragon.png",
 			"damageTags": [
 				"Y"
 			],
 			"miscTags": [
 				"AOE"
 			],
-			"conditionInflicted": [
-				"frightened",
-				"charmed",
-				"stunned"
-			],
 			"conditionInflict": [
 				"frightened",
 				"charmed",
 				"stunned"
+			],
+			"actionTags": [
+				"Breath Weapon"
 			]
 		},
 		{
 			"source": "SaF",
 			"page": 183,
 			"name": "Ash Marshal",
-			"size": "M",
-			"group": "Court of Arcadia",
+			"size": [
+				"M"
+			],
+			"group": [
+				"Court of Arcadia"
+			],
 			"type": "fey",
 			"alignment": [
 				"C"
@@ -6238,7 +6409,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Ash%20Marshal.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Ash%20Marshal.png",
 			"damageTags": [
 				"P"
 			],
@@ -6247,14 +6418,24 @@
 			],
 			"spellcastingTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"O",
+				"R"
 			]
 		},
 		{
 			"source": "SaF",
 			"page": 184,
-			"group": "Court of Arcadia",
+			"group": [
+				"Court of Arcadia"
+			],
 			"name": "Sidereal Vizier",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"C"
@@ -6443,7 +6624,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Sidereal%20Vizier.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Sidereal%20Vizier.png",
 			"damageTags": [
 				"P"
 			],
@@ -6453,14 +6634,25 @@
 			"spellcastingTags": [
 				"I",
 				"CW"
+			],
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"L",
+				"N",
+				"O"
 			]
 		},
 		{
 			"source": "SaF",
 			"page": 186,
 			"name": "Fire Mote",
-			"group": "Court of Elements",
-			"size": "S",
+			"group": [
+				"Court of Elements"
+			],
+			"size": [
+				"S"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -6562,7 +6754,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Fire%20Mote.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Fire%20Mote.png",
 			"damageTags": [
 				"F"
 			],
@@ -6573,9 +6765,13 @@
 		{
 			"source": "SaF",
 			"page": 187,
-			"group": "Court of Elements",
+			"group": [
+				"Court of Elements"
+			],
 			"name": "Source of Earth",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -6657,7 +6853,7 @@
 				{
 					"name": "Back to Earth",
 					"entries": [
-						"The Source focuses its gaze on an enemy within 30 feet. If the target's body is made of flesh, the target must make a {@dc 15} Constitution saving throw. On a failed save, the creature magically begins to turn to stone and is {@condition restrained}. At the end of its next turn, it must repeat the saving throw. On a success, the effect ends. On a failure, the creature is {@condition petrified} until freed by the greater restoration spell or other magic."
+						"The Source focuses its gaze on an enemy within 30 feet. If the target's body is made of flesh, the target must make a {@dc 15} Constitution saving throw. On a failed save, the creature magically begins to turn to stone and is {@condition restrained}. At the end of its next turn, it must repeat the saving throw. On a success, the effect ends. On a failure, the creature is {@condition petrified} until freed by the {@spell greater restoration} spell or other magic."
 					]
 				},
 				{
@@ -6684,11 +6880,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Source%20of%20Earth.png",
-			"conditionInflicted": [
-				"petrified",
-				"restrained"
-			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Source%20of%20Earth.png",
 			"conditionInflict": [
 				"petrified",
 				"restrained"
@@ -6698,8 +6890,12 @@
 			"source": "SaF",
 			"page": 189,
 			"name": "Pillar of Water",
-			"group": "Court of Elements",
-			"size": "L",
+			"group": [
+				"Court of Elements"
+			],
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -6793,7 +6989,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Pillar%20of%20Water.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Pillar%20of%20Water.png",
 			"damageTags": [
 				"B"
 			]
@@ -6802,8 +6998,12 @@
 			"source": "SaF",
 			"page": 190,
 			"name": "Knight of Air",
-			"group": "Court of Elements",
-			"size": "M",
+			"group": [
+				"Court of Elements"
+			],
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -6931,14 +7131,21 @@
 			],
 			"spellcastingTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"B"
 			]
 		},
 		{
 			"source": "SaF",
 			"page": 191,
 			"name": "Storm Magistrate",
-			"group": "Court of Elements",
-			"size": "L",
+			"group": [
+				"Court of Elements"
+			],
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -7113,7 +7320,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Storm%20Magistrate.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Storm%20Magistrate.png",
 			"damageTags": [
 				"P",
 				"L",
@@ -7126,14 +7333,23 @@
 			"spellcastingTags": [
 				"I",
 				"CC"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"R"
 			]
 		},
 		{
 			"source": "SaF",
 			"page": 192,
 			"name": "High Templar of Dust",
-			"group": "Court of Elements",
-			"size": "L",
+			"group": [
+				"Court of Elements"
+			],
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -7264,7 +7480,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/High%20Templar%20of%20Dust.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/High%20Templar%20of%20Dust.png",
 			"damageTags": [
 				"S",
 				"L",
@@ -7281,13 +7497,17 @@
 		{
 			"source": "SaF",
 			"name": "Ancient Emerald Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 199,
 			"legendaryGroup": {
 				"name": "Ancient Emerald Dragon",
 				"source": "SaF"
 			},
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -7448,7 +7668,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Large%20Emerald%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Large%20Emerald%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S",
@@ -7459,19 +7679,21 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"dragonAge": "ancient"
 		},
 		{
 			"source": "SaF",
 			"name": "Adult Emerald Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 200,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -7632,7 +7854,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Large%20Emerald%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Large%20Emerald%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S",
@@ -7643,19 +7865,21 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"dragonAge": "adult"
 		},
 		{
 			"source": "SaF",
 			"name": "Young Emerald Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 201,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -7764,7 +7988,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Medium%20Emerald%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Medium%20Emerald%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S"
@@ -7772,14 +7996,19 @@
 			"miscTags": [
 				"MW",
 				"RCH"
-			]
+			],
+			"dragonAge": "young"
 		},
 		{
 			"source": "SaF",
 			"name": "Emerald Wyrmling",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 201,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -7871,7 +8100,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Medium%20Emerald%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Medium%20Emerald%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S"
@@ -7879,18 +8108,23 @@
 			"miscTags": [
 				"MW",
 				"RCH"
-			]
+			],
+			"dragonAge": "wyrmling"
 		},
 		{
 			"source": "SaF",
 			"name": "Ancient Ruby Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 203,
 			"legendaryGroup": {
 				"name": "Ancient Ruby Dragon",
 				"source": "SaF"
 			},
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -8050,7 +8284,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Large%20Ruby%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Large%20Ruby%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S",
@@ -8061,19 +8295,21 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"dragonAge": "ancient"
 		},
 		{
 			"source": "SaF",
 			"name": "Adult Ruby Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 204,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -8233,7 +8469,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Large%20Ruby%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Large%20Ruby%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S",
@@ -8244,19 +8480,21 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"dragonAge": "adult"
 		},
 		{
 			"source": "SaF",
 			"name": "Young Ruby Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 205,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -8364,7 +8602,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Medium%20Ruby%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Medium%20Ruby%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S"
@@ -8372,14 +8610,19 @@
 			"miscTags": [
 				"MW",
 				"RCH"
-			]
+			],
+			"dragonAge": "young"
 		},
 		{
 			"source": "SaF",
 			"name": "Ruby Wyrmling",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 205,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -8470,24 +8713,29 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Medium%20Ruby%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Medium%20Ruby%20Dragon.png",
 			"damageTags": [
 				"P"
 			],
 			"miscTags": [
 				"MW"
-			]
+			],
+			"dragonAge": "wyrmling"
 		},
 		{
 			"source": "SaF",
 			"name": "Ancient Sapphire Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 213,
 			"legendaryGroup": {
 				"name": "Ancient Sapphire Dragon",
 				"source": "SaF"
 			},
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -8649,7 +8897,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Large%20Sapphire%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Large%20Sapphire%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S",
@@ -8660,19 +8908,21 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"dragonAge": "ancient"
 		},
 		{
 			"source": "SaF",
 			"name": "Adult Sapphire Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 214,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -8834,7 +9084,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Large%20Sapphire%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Large%20Sapphire%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S",
@@ -8845,19 +9095,21 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"dragonAge": "adult"
 		},
 		{
 			"source": "SaF",
 			"name": "Young Sapphire Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 215,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -8966,7 +9218,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Medium%20Sapphire%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Medium%20Sapphire%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S"
@@ -8974,14 +9226,19 @@
 			"miscTags": [
 				"MW",
 				"RCH"
-			]
+			],
+			"dragonAge": "young"
 		},
 		{
 			"source": "SaF",
 			"name": "Sapphire Wyrmling",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 215,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -9071,24 +9328,29 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Medium%20Sapphire%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Medium%20Sapphire%20Dragon.png",
 			"damageTags": [
 				"P"
 			],
 			"miscTags": [
 				"MW"
-			]
+			],
+			"dragonAge": "wyrmling"
 		},
 		{
 			"source": "SaF",
 			"name": "Ancient Topaz Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 217,
 			"legendaryGroup": {
 				"name": "Ancient Topaz Dragon",
 				"source": "SaF"
 			},
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N",
@@ -9248,7 +9510,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Large%20Topaz%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Large%20Topaz%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S",
@@ -9259,19 +9521,21 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"dragonAge": "ancient"
 		},
 		{
 			"source": "SaF",
 			"name": "Adult Topaz Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 218,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N",
@@ -9431,7 +9695,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Large%20Topaz%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Large%20Topaz%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S",
@@ -9442,19 +9706,21 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"dragonAge": "adult"
 		},
 		{
 			"source": "SaF",
 			"name": "Young Topaz Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 219,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N",
@@ -9564,7 +9830,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Medium%20Topaz%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Medium%20Topaz%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S"
@@ -9572,14 +9838,19 @@
 			"miscTags": [
 				"MW",
 				"RCH"
-			]
+			],
+			"dragonAge": "young"
 		},
 		{
 			"source": "SaF",
 			"name": "Topaz Wyrmling",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 219,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N",
@@ -9674,24 +9945,29 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Medium%20Topaz%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Medium%20Topaz%20Dragon.png",
 			"damageTags": [
 				"P"
 			],
 			"miscTags": [
 				"MW"
-			]
+			],
+			"dragonAge": "wyrmling"
 		},
 		{
 			"source": "SaF",
 			"name": "Ancient Amethyst Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 221,
 			"legendaryGroup": {
 				"name": "Ancient Amethyst Dragon",
 				"source": "SaF"
 			},
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -9851,7 +10127,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Large%20Amethyst%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Large%20Amethyst%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S",
@@ -9863,19 +10139,21 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"dragonAge": "ancient"
 		},
 		{
 			"source": "SaF",
 			"name": "Adult Amethyst Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 220,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -10035,7 +10313,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Large%20Amethyst%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Large%20Amethyst%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S",
@@ -10047,19 +10325,21 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"dragonAge": "adult"
 		},
 		{
 			"source": "SaF",
 			"name": "Young Amethyst Dragon",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 223,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -10167,7 +10447,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Medium%20Amethyst%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Medium%20Amethyst%20Dragon.png",
 			"damageTags": [
 				"P",
 				"S",
@@ -10176,14 +10456,19 @@
 			"miscTags": [
 				"MW",
 				"RCH"
-			]
+			],
+			"dragonAge": "young"
 		},
 		{
 			"source": "SaF",
 			"name": "Amethyst Wyrmling",
-			"group": "Gemstone dragons",
+			"group": [
+				"Gemstone dragons"
+			],
 			"page": 223,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -10274,21 +10559,26 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Medium%20Amethyst%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Medium%20Amethyst%20Dragon.png",
 			"damageTags": [
 				"P",
 				"Y"
 			],
 			"miscTags": [
 				"MW"
-			]
+			],
+			"dragonAge": "wyrmling"
 		},
 		{
 			"source": "SaF",
 			"name": "Space",
-			"group": "Inexorables",
+			"group": [
+				"Inexorables"
+			],
 			"page": 227,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"L"
@@ -10376,7 +10666,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Space.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Space.png",
 			"damageTags": [
 				"B"
 			],
@@ -10390,9 +10680,13 @@
 		{
 			"source": "SaF",
 			"name": "Death",
-			"group": "Inexorables",
+			"group": [
+				"Inexorables"
+			],
 			"page": 228,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"L"
@@ -10500,7 +10794,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Death.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Death.png",
 			"damageTags": [
 				"B",
 				"O"
@@ -10518,9 +10812,13 @@
 		{
 			"source": "SaF",
 			"name": "Change",
-			"group": "Inexorables",
+			"group": [
+				"Inexorables"
+			],
 			"page": 229,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"L"
@@ -10608,7 +10906,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Change.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Change.png",
 			"damageTags": [
 				"P"
 			],
@@ -10624,9 +10922,13 @@
 		{
 			"source": "SaF",
 			"name": "Fate",
-			"group": "Inexorables",
+			"group": [
+				"Inexorables"
+			],
 			"page": 230,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"L"
@@ -10725,7 +11027,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Fate.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Fate.png",
 			"damageTags": [
 				"B",
 				"N"
@@ -10740,9 +11042,13 @@
 		{
 			"source": "SaF",
 			"name": "Time",
-			"group": "Inexorables",
+			"group": [
+				"Inexorables"
+			],
 			"page": 231,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"L"
@@ -10842,7 +11148,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Time.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Time.png",
 			"damageTags": [
 				"B"
 			],
@@ -10857,9 +11163,13 @@
 		{
 			"source": "SaF",
 			"name": "Nature",
-			"group": "Inexorables",
+			"group": [
+				"Inexorables"
+			],
 			"page": 232,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"L"
@@ -10969,7 +11279,7 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Nature.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Nature.png",
 			"damageTags": [
 				"B",
 				"O"
@@ -10989,8 +11299,12 @@
 			"source": "SaF",
 			"page": 159,
 			"name": "Virtue",
-			"group": "Celestial Court",
-			"size": "M",
+			"group": [
+				"Celestial Court"
+			],
+			"size": [
+				"M"
+			],
 			"type": "celestial",
 			"alignment": [
 				"G"
@@ -11119,11 +11433,16 @@
 					"source": "SaF"
 				}
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tokens/Virtue.png"
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tokens/Virtue.png",
+			"damageTags": [
+				"T"
+			]
 		},
 		{
 			"name": "Reaver",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11230,7 +11549,9 @@
 		},
 		{
 			"name": "Spirit Warden",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11336,7 +11657,9 @@
 		},
 		{
 			"name": "Loremaster",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11445,7 +11768,9 @@
 		},
 		{
 			"name": "Troubadour-warrior",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11553,7 +11878,9 @@
 		},
 		{
 			"name": "Curate",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11652,7 +11979,9 @@
 		},
 		{
 			"name": "Exorcist",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11751,7 +12080,9 @@
 		},
 		{
 			"name": "Healer",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11850,7 +12181,9 @@
 		},
 		{
 			"name": "Shadow Priest",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11949,7 +12282,9 @@
 		},
 		{
 			"name": "Stormspeaker",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -12054,7 +12389,9 @@
 		},
 		{
 			"name": "Warden",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -12153,7 +12490,9 @@
 		},
 		{
 			"name": "Battle Priest",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -12258,7 +12597,9 @@
 		},
 		{
 			"name": "Mystic",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -12357,7 +12698,9 @@
 		},
 		{
 			"name": "Skinwalker",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -12460,16 +12803,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
 		},
 		{
 			"name": "Knight-Sorcerer",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -12575,7 +12917,9 @@
 		},
 		{
 			"name": "Swordmaster",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -12682,7 +13026,9 @@
 		},
 		{
 			"name": "Warlord",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -12788,7 +13134,9 @@
 		},
 		{
 			"name": "Acolyte of the Way",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -12895,7 +13243,9 @@
 		},
 		{
 			"name": "Acolyte of Darkness",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13000,7 +13350,9 @@
 		},
 		{
 			"name": "Elemental Acolyte",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13105,7 +13457,9 @@
 		},
 		{
 			"name": "Cavalier",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13213,7 +13567,9 @@
 		},
 		{
 			"name": "Justicar",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13318,7 +13674,9 @@
 		},
 		{
 			"name": "Knight of the Green Order",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13420,16 +13778,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"restrained"
-			],
 			"conditionInflict": [
 				"restrained"
 			]
 		},
 		{
 			"name": "Beast Lord",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13532,11 +13889,6 @@
 			"miscTags": [
 				"RW"
 			],
-			"conditionInflicted": [
-				"blinded",
-				"prone",
-				"restrained"
-			],
 			"conditionInflict": [
 				"blinded",
 				"prone",
@@ -13545,7 +13897,9 @@
 		},
 		{
 			"name": "Tracker",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13652,7 +14006,9 @@
 		},
 		{
 			"name": "Executioner",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13758,16 +14114,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"restrained"
-			],
 			"conditionInflict": [
 				"restrained"
 			]
 		},
 		{
 			"name": "Guild Adept",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13874,7 +14229,9 @@
 		},
 		{
 			"name": "Cutpurse",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13980,16 +14337,15 @@
 				"MW",
 				"AOE"
 			],
-			"conditionInflicted": [
-				"blinded"
-			],
 			"conditionInflict": [
 				"blinded"
 			]
 		},
 		{
 			"name": "Thaumaturgist",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -14091,16 +14447,18 @@
 			"miscTags": [
 				"AOE"
 			],
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
+			],
+			"actionTags": [
+				"Breath Weapon"
 			]
 		},
 		{
 			"name": "Chaos Mage",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -14199,7 +14557,9 @@
 		},
 		{
 			"name": "Alienist",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -14298,7 +14658,9 @@
 		},
 		{
 			"name": "Diabolist",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -14397,7 +14759,9 @@
 		},
 		{
 			"name": "Exarch",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -14496,7 +14860,9 @@
 		},
 		{
 			"name": "Conjurer",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -14595,7 +14961,9 @@
 		},
 		{
 			"name": "Enchanter",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -14694,7 +15062,9 @@
 		},
 		{
 			"name": "Evoker",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -14793,7 +15163,9 @@
 		},
 		{
 			"name": "Illusionist",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -14892,7 +15264,9 @@
 		},
 		{
 			"name": "Necromancer",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -14991,7 +15365,9 @@
 		},
 		{
 			"name": "Seer",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -15090,7 +15466,9 @@
 		},
 		{
 			"name": "Shaper",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -15189,7 +15567,9 @@
 		},
 		{
 			"name": "Theurgist",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -15327,7 +15707,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/white-tusk-juggernaut.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/white-tusk-juggernaut.jpg"
 					}
 				}
 			],
@@ -15354,7 +15734,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/white-tusk-bloodrager.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/white-tusk-bloodrager.jpg"
 					}
 				}
 			],
@@ -15381,7 +15761,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/white-tusk-warspeaker.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/white-tusk-warspeaker.jpg"
 					}
 				}
 			],
@@ -15408,7 +15788,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/white-tusk-shaman.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/white-tusk-shaman.jpg"
 					}
 				}
 			],
@@ -15436,7 +15816,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/oregg-steeltwister.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/oregg-steeltwister.jpg"
 					}
 				}
 			],
@@ -15462,7 +15842,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/bonebreaker-dorokor.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/bonebreaker-dorokor.jpg"
 					}
 				}
 			],
@@ -15489,7 +15869,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sir-pelliton.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sir-pelliton.jpg"
 					}
 				}
 			],
@@ -15533,7 +15913,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-pinna.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-pinna.jpg"
 					}
 				}
 			],
@@ -15579,7 +15959,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/princip.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/princip.jpg"
 					}
 				}
 			],
@@ -15615,7 +15995,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/authority.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/authority.jpg"
 					}
 				}
 			],
@@ -15670,7 +16050,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/virtue.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/virtue.jpg"
 					}
 				}
 			],
@@ -15708,7 +16088,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/dominion.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/dominion.jpg"
 					}
 				}
 			],
@@ -15746,7 +16126,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/throne.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/throne.jpg"
 					}
 				}
 			],
@@ -15781,7 +16161,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/seraph.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/seraph.jpg"
 					}
 				}
 			],
@@ -15821,7 +16201,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/baron-malgas.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/baron-malgas.jpg"
 					}
 				}
 			],
@@ -15857,7 +16237,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/korsoth-vastikan.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/korsoth-vastikan.jpg"
 					}
 				}
 			],
@@ -15895,7 +16275,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/queen-of-bones.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/queen-of-bones.jpg"
 					}
 				}
 			],
@@ -15931,7 +16311,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/lord-rall.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/lord-rall.jpg"
 					}
 				}
 			],
@@ -15970,7 +16350,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/uursovk.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/uursovk.jpg"
 					}
 				}
 			],
@@ -16007,7 +16387,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/maladar-dictum.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/maladar-dictum.jpg"
 					}
 				}
 			],
@@ -16041,7 +16421,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/mantis-knight.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/mantis-knight.jpg"
 					}
 				}
 			],
@@ -16088,7 +16468,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/monarchon.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/monarchon.jpg"
 					}
 				}
 			],
@@ -16128,7 +16508,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/orchid-count.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/orchid-count.jpg"
 					}
 				}
 			],
@@ -16164,7 +16544,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/oleander-dragon.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/oleander-dragon.jpg"
 					}
 				}
 			],
@@ -16199,7 +16579,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/ash-marshal.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/ash-marshal.jpg"
 					}
 				}
 			],
@@ -16240,7 +16620,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sidereal-vizier.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sidereal-vizier.jpg"
 					}
 				}
 			],
@@ -16274,7 +16654,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/fire-mote.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/fire-mote.jpg"
 					}
 				}
 			],
@@ -16314,7 +16694,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/source-of-earth.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/source-of-earth.jpg"
 					}
 				}
 			],
@@ -16351,7 +16731,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/pillar-of-water.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/pillar-of-water.jpg"
 					}
 				}
 			],
@@ -16419,7 +16799,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/storm-magistrate.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/storm-magistrate.jpg"
 					}
 				}
 			],
@@ -16462,7 +16842,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/high-templar-of-dust.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/high-templar-of-dust.jpg"
 					}
 				}
 			],
@@ -16491,7 +16871,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/emerald-dragon.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/emerald-dragon.jpg"
 					}
 				}
 			],
@@ -16519,7 +16899,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/ruby-dragon.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/ruby-dragon.jpg"
 					}
 				}
 			],
@@ -16547,7 +16927,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sapphire-dragon.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sapphire-dragon.jpg"
 					}
 				}
 			],
@@ -16576,7 +16956,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/topaz-dragon.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/topaz-dragon.jpg"
 					}
 				}
 			],
@@ -16605,7 +16985,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/amethyst-dragon.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/amethyst-dragon.jpg"
 					}
 				}
 			],
@@ -16621,7 +17001,7 @@
 							"type": "entries",
 							"entries": [
 								"The Inexorable limitations of Space forbid anyone from moving from point A to point Z without passing through the rest of the alphabet. Certainly nothing as vulgar as teleportation is allowed on Axiom.",
-								"\"The fundamental theorem forbids,\" is a common refrain whenever Space prevents someone from moving in a manner contrary to the strict laws of motion. A creature under the effect of a haste spell, for instance, gains all the benefits of haste except for the extra movement. They may attack, hide, or use an object, but cannot take a second movement action and dash or disengage.",
+								"\"The fundamental theorem forbids,\" is a common refrain whenever Space prevents someone from moving in a manner contrary to the strict laws of motion. A creature under the effect of a {@spell haste} spell, for instance, gains all the benefits of haste except for the extra movement. They may attack, hide, or use an object, but cannot take a second movement action and dash or disengage.",
 								"Space allows a second attack, or a second use of an item, because those are in the purview of Time. And Time may do what is necessary to enforce its Law.",
 								{
 									"type": "entries",
@@ -16640,7 +17020,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/space.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/space.jpg"
 					}
 				}
 			],
@@ -16681,7 +17061,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/death.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/death.jpg"
 					}
 				}
 			],
@@ -16721,7 +17101,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/change.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/change.jpg"
 					}
 				}
 			],
@@ -16758,7 +17138,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/fate.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/fate.jpg"
 					}
 				}
 			],
@@ -16792,7 +17172,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/time.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/time.jpg"
 					}
 				}
 			],
@@ -16826,7 +17206,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/nature.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/nature.jpg"
 					}
 				}
 			],
@@ -16935,7 +17315,9 @@
 					"wis": 1
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": 30,
 			"entries": [
 				{
@@ -17005,7 +17387,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/topaz-dragonborn-wizard.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/topaz-dragonborn-wizard.webp"
 						}
 					}
 				]
@@ -18625,7 +19007,7 @@
 					"type": "entries",
 					"name": "Weapons:",
 					"entries": [
-						"Pick a target and choose a weapon. Spend 3 extra charges. The target must make a Wisdom saving throw. On a failed save, the target does not gain the benefit of their proficiency bonus with the chosen kind of weapon while the effect lasts. (For example, they might forget how to use a {@weapon longsword|phb}, but still gain their proficiency benefit with {@weapon shortsword|phb|shortswords}.)"
+						"Pick a target and choose a weapon. Spend 3 extra charges. The target must make a Wisdom saving throw. On a failed save, the target does not gain the benefit of their proficiency bonus with the chosen kind of weapon while the effect lasts. (For example, they might forget how to use a {@item longsword|phb}, but still gain their proficiency benefit with {@item shortsword|phb|shortswords}.)"
 					]
 				}
 			]
@@ -18758,9 +19140,10 @@
 			"name": "Strongholds and Followers",
 			"id": "SaF",
 			"source": "SaF",
-			"published": "2018/12/13",
+			"published": "2018-12-13",
 			"author": "Matt Colville",
-			"coverUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/saf-cover.png",
+			"group": "homebrew",
+			"coverUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/saf-cover.png",
 			"contents": [
 				{
 					"name": "Foreward"
@@ -19397,7 +19780,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/construction.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/construction.webp"
 							}
 						},
 						{
@@ -19680,14 +20063,14 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/keep-small.jpg"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/keep-small.jpg"
 											}
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/keep-large.jpg"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/keep-large.jpg"
 											}
 										}
 									]
@@ -19702,7 +20085,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/pirate-ship.webp"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/pirate-ship.webp"
 									}
 								},
 								"Another variation of the Keep is the dreaded Pirate Ship. The Pirate Ship (a galleon, but one dedicated to piracy) is a mobile stronghold like the Barbarian camp. But while the Barbarian camp gets slower the larger it is, a Pirate Ship gets faster! {@footnote Its larger sails resist the wind much more efficiently than the larger hull drags through the water.|This is actually true. The development of larger sails and the ability to tack into the wind led to the development of the galleon, which was faster than its smaller cousins. Galleons became so big, and could carry so much gold and spice, they became easy pickings for enemy privateers, and thus was the age of piracy born.}",
@@ -20093,21 +20476,21 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tower-exterior.jpg"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tower-exterior.jpg"
 									}
 								},
 								{
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tower-interior.jpg"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tower-interior.jpg"
 									}
 								},
 								{
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/tower-cellar.jpg"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/tower-cellar.jpg"
 									}
 								}
 							]
@@ -20449,21 +20832,21 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/temple-small.jpg"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/temple-small.jpg"
 									}
 								},
 								{
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/temple-medium.jpg"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/temple-medium.jpg"
 									}
 								},
 								{
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/temple-large.jpg"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/temple-large.jpg"
 									}
 								}
 							]
@@ -20553,7 +20936,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/establishment-small.jpg"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/establishment-small.jpg"
 									}
 								},
 								{
@@ -20626,7 +21009,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/establishment-large.jpg"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/establishment-large.jpg"
 							}
 						}
 					]
@@ -20732,7 +21115,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/barbarian-camp.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/barbarian-camp.webp"
 							}
 						},
 						{
@@ -20874,7 +21257,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/bard-theatre.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/bard-theatre.webp"
 							}
 						},
 						{
@@ -21066,7 +21449,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/cleric-church.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/cleric-church.webp"
 							}
 						},
 						{
@@ -21258,7 +21641,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/druid-grove.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/druid-grove.webp"
 							}
 						},
 						{
@@ -21408,7 +21791,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/fighter-fortress.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/fighter-fortress.webp"
 							}
 						},
 						{
@@ -21617,7 +22000,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/monk-monastery.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/monk-monastery.webp"
 							}
 						},
 						{
@@ -22085,7 +22468,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/ranger-lodge.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/ranger-lodge.webp"
 							}
 						},
 						{
@@ -22249,7 +22632,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/rogue-tavern.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/rogue-tavern.webp"
 							}
 						},
 						{
@@ -22421,7 +22804,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sorcerer-sanctum.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sorcerer-sanctum.webp"
 							}
 						},
 						{
@@ -22565,7 +22948,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/warlock-fane.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/warlock-fane.webp"
 							}
 						},
 						{
@@ -22730,7 +23113,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/wizard-library.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/wizard-library.webp"
 							}
 						},
 						{
@@ -23742,7 +24125,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sample-witch.webp"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sample-witch.webp"
 													}
 												}
 											]
@@ -23871,7 +24254,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sample-blacksmith.webp"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sample-blacksmith.webp"
 													}
 												}
 											]
@@ -23908,7 +24291,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sample-captain.webp"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sample-captain.webp"
 													}
 												}
 											]
@@ -23933,7 +24316,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sample-carpenter.webp"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sample-carpenter.webp"
 													}
 												}
 											]
@@ -23962,7 +24345,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/farmer.webp"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/farmer.webp"
 											}
 										}
 									]
@@ -23993,7 +24376,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/mason.webp"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/mason.webp"
 											}
 										}
 									]
@@ -24017,7 +24400,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sample-miner.webp"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sample-miner.webp"
 													}
 												}
 											]
@@ -24054,7 +24437,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sample-sage.webp"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sample-sage.webp"
 													}
 												}
 											]
@@ -24091,7 +24474,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sample-scribe.webp"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sample-scribe.webp"
 													}
 												}
 											]
@@ -24118,7 +24501,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/follower-intro.webp"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/follower-intro.webp"
 													}
 												}
 											]
@@ -24143,7 +24526,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sample-tailor.webp"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sample-tailor.webp"
 													}
 												}
 											]
@@ -24671,7 +25054,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/sapphire-dragon-spread.webp"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/sapphire-dragon-spread.webp"
 									}
 								}
 							]
@@ -24767,7 +25150,7 @@
 					"entries": [
 						"Large-scale battles have been part of the fantasy genre since Tolkien invented it in 1937 with The Hobbit and the Battle of Five Armies but, tellingly, that entire battle happens offscreen while Bilbo is knocked out.",
 						"Like that battle, warfare in the game has always been something the GM was expected to handwave away. And that's fine for the core game\u2014it has enough to cover just managing skirmishes and everything else that can happen in an RPG. It's up to supplements like this to cover that material.",
-						"Raising an army is a meaningful part of this book, and it plays heavily into the next book, {@footnote {@i Kingdoms & Warfare}|{@i Kingdoms & Warfare} by Matt Colville is currently unconverted for dnddnk.}. Building a stronghold is only the beginning. The region around the stronghold becomes your demesne, and you might want to grow it beyond a single province and gain more power and influence. And in any event, as a GM I've always assumed the last step in acquiring a stronghold is {@i defending it in battle against those who would take it from you}.",
+						"Raising an army is a meaningful part of this book, and it plays heavily into the next book, {@footnote {@i Kingdoms & Warfare}|{@i Kingdoms & Warfare} by Matt Colville is currently unconverted for D&Dz.}. Building a stronghold is only the beginning. The region around the stronghold becomes your demesne, and you might want to grow it beyond a single province and gain more power and influence. And in any event, as a GM I've always assumed the last step in acquiring a stronghold is {@i defending it in battle against those who would take it from you}.",
 						"To this end, we present a system for resolving epic battles featuring hundreds or thousands of combatants on a side. Since that system gets an entire book after this one, we present only those bits you'll need to get the job done.",
 						{
 							"type": "entries",
@@ -26167,7 +26550,7 @@
 									"entries": [
 										"Either side might decide the battle is not going their way and wish to preserve as much of their army as possible. You may want to use your army in another battle, or hope that reinforcements are coming, but also even in defeat, having a working (though diminished) army under your command improves your position in negotiations drastically more than not having an army  anymore.",
 										"Therefore you can, on your turn, order your entire army to retreat. You can only give this order when all of your side's units are frwesh. All of your units immediately make a Morale check and are removed from the battle, ending the battle. The retreating army suffers any consequences of defeat and the normal penalties for failing the Morale check made to retreat.",
-										"However, you army may be unable to retreat because of their position and circumstance. They might be on a hill surrounded by an enemy, for instance, or backed against a sheer cliff, or boxed into a canyon. This is mostly at the GM's discretion and is detailed further in {@footnote {@i Kingdoms & Warfare}|{@i Kingdoms & Warfare} by Matt Colville is currently unconverted for dnddnk.}."
+										"However, you army may be unable to retreat because of their position and circumstance. They might be on a hill surrounded by an enemy, for instance, or backed against a sheer cliff, or boxed into a canyon. This is mostly at the GM's discretion and is detailed further in {@footnote {@i Kingdoms & Warfare}|{@i Kingdoms & Warfare} by Matt Colville is currently unconverted for D&Dz.}."
 									]
 								}
 							]
@@ -26328,7 +26711,7 @@
 							"name": "Quick Definitions and Advantages",
 							"entries": [
 								"What counts as a hereditary enemy? What determines how well supplied an army is? These factors are generally left to the GM. But once you have armies moving around in your campaign, especially armies controlled by players, it starts to become clearer whether, for instance, an army is poorly supplied or not. \"You're marching through the hills, there are no farms and little game, how are you going to feed your army?\" is a perfectly reasonable question for the GM to ask, and the answer determines whether the army is poorly supplied. Elves and dwarves aren't automatically hereditary enemies, but these elves who live next to those dwarves in your campaign very well could be!",
-								"{@footnote {@i Kingdoms & Warfare}|{@i Kingdoms & Warfare} by Matt Colville is currently unconverted for dnddnk.} will go into detail into these subjects, but just knowing it's possible for an army to be ambushed or defending their homeland can help grease the wheels of imagination."
+								"{@footnote {@i Kingdoms & Warfare}|{@i Kingdoms & Warfare} by Matt Colville is currently unconverted for D&Dz.} will go into detail into these subjects, but just knowing it's possible for an army to be ambushed or defending their homeland can help grease the wheels of imagination."
 							]
 						},
 						{
@@ -26556,7 +26939,9 @@
 			"name": "The Siege of Castle Rend",
 			"id": "SaF",
 			"source": "SaF",
-			"coverUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-cover.webp",
+			"storyline": "Castle Rend",
+			"group": "homebrew",
+			"coverUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-cover.webp",
 			"contents": [
 				{
 					"name": "Preface",
@@ -26904,7 +27289,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-potion-shop.webp"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-potion-shop.webp"
 									}
 								},
 								{
@@ -27081,7 +27466,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-pinna.jpg"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-pinna.jpg"
 											}
 										},
 										"Pinna is a young woman of seventeen who lives in the village of Gravesford, at the edge of the Forest Rend. She is easily recognizable by her tall, pointed straw hat, curly red hair, and crystal necklace\u2014her arcane focus. Pinna is a country hedge mage, well respected by the people of Gravesford. She often entertains children at festivals and market days by conjuring motes of flame or bouquets of flowers, and she helps the adults in town by supplying them with sleeping tonics and preventatives.",
@@ -27215,7 +27600,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-gravesford.jpg"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-gravesford.jpg"
 									}
 								},
 								"The small town of Gravesford is filled with common people and their homes. Some of these homes and shops may be of interest to the players and are detailed here. To not overwhelm you with the minutiae of the homesteads of two hundred people, other locations are left blank for you to fill in as needed. These locations are keyed to the map of Gravesford found on the next page.",
@@ -27300,7 +27685,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-reluctant-pig.webp"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-reluctant-pig.webp"
 											}
 										},
 										"The oldest building in Gravesford is the Reluctant Pig, a two-story inn with a moss-covered roof constructed from the same stone as the Gravesford Bridge. The sign outside depicts a young pig straining against a leash held by someone we cannot see. The sign has no text, as most people in town and most carters and journeymen cannot read.",
@@ -27373,7 +27758,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-bounty-post.webp"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-bounty-post.webp"
 									}
 								},
 								{
@@ -27429,7 +27814,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-abduction.webp"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-abduction.webp"
 											}
 										},
 										"A scream and a chorus of bestial roars shatter the stillness of the night. The sounds came from the edge of town\u2014from the edge closest to the forest. As the screams fade into silence, an explosion jolts the entire town into wakefulness, and a towering flame erupts at the southernmost tip of the village.",
@@ -27705,7 +28090,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-part-3.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-part-3.webp"
 							}
 						},
 						{
@@ -27805,25 +28190,28 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-rend-night.jpg"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-rend-night.jpg"
 											},
-											"title": "DM map"
+											"title": "DM map",
+											"imageType": "map"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-rend-night-pc.jpg"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-rend-night-pc.jpg"
 											},
-											"title": "Player map (night)"
+											"title": "Player map (night)",
+											"imageType": "mapPlayer"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-rend-day-pc.jpg"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-rend-day-pc.jpg"
 											},
-											"title": "Player map (day)"
+											"title": "Player map (day)",
+											"imageType": "mapPlayer"
 										}
 									]
 								},
@@ -28060,7 +28448,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-collapsed-tower.webp"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-collapsed-tower.webp"
 											}
 										}
 									]
@@ -28092,17 +28480,19 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-rend-dungeon.jpg"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-rend-dungeon.jpg"
 											},
-											"title": "DM map"
+											"title": "DM map",
+											"imageType": "map"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-rend-dungeon.jpg"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-rend-dungeon-pc.jpg"
 											},
-											"title": "PC map"
+											"title": "PC map",
+											"imageType": "map"
 										}
 									]
 								},
@@ -28232,7 +28622,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-crypt-blue-dragonflight.webp"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-crypt-blue-dragonflight.webp"
 									}
 								},
 								{
@@ -28263,7 +28653,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-grole-shrine.webp"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-grole-shrine.webp"
 											}
 										}
 									]
@@ -28326,7 +28716,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-siege.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-siege.webp"
 							}
 						},
 						{
@@ -28733,7 +29123,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SaF/socr-magic-items.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SaF/socr-magic-items.webp"
 							}
 						}
 					]

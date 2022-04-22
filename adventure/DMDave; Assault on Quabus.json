@@ -9,7 +9,7 @@
 					"DMDave"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Surge"
 				],
 				"version": "1.0.0",
 				"url": "https://www.patreon.com/posts/assault-on-new-38342001",
@@ -24,6 +24,7 @@
 			"name": "Assault on Quabus",
 			"id": "AoQ",
 			"source": "AoQ",
+			"group": "homebrew",
 			"contents": [
 				{
 					"name": "Assault on Quabus",
@@ -56,7 +57,7 @@
 				"end": 7
 			},
 			"published": "2020-06-17",
-			"coverUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AOQ/AOQ-cover.webp",
+			"coverUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AOQ/AOQ-cover.webp",
 			"storyline": "Into Quabus"
 		}
 	],
@@ -207,7 +208,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AOQ/AOQ-intro.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AOQ/AOQ-intro.webp"
 							},
 							"title": ""
 						},
@@ -270,7 +271,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AOQ/AOQ-research.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AOQ/AOQ-research.webp"
 							},
 							"title": ""
 						},
@@ -398,9 +399,10 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AOQ/AOQ-map.webp"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AOQ/AOQ-map.webp"
 									},
-									"title": "Map of the Research Level of Quabus"
+									"title": "Map of the Research Level of Quabus",
+									"imageType": "map"
 								},
 								"The following locations are keyed to the map of the Research Level of Quabus{@homebrew |as shown on page [x]}.",
 								{
@@ -1317,16 +1319,18 @@
 															"title": "Research Level DM Map",
 															"href": {
 																"type": "external",
-																"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AOQ/AOQ-dm-map.webp"
-															}
+																"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AOQ/AOQ-dm-map.webp"
+															},
+															"imageType": "map"
 														},
 														{
 															"type": "image",
 															"title": "Research Level Player Map",
 															"href": {
 																"type": "external",
-																"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/AOQ/AOQ-players-map.webp"
-															}
+																"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/AOQ/AOQ-players-map.webp"
+															},
+															"imageType": "mapPlayer"
 														}
 													]
 												}

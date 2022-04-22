@@ -11,7 +11,7 @@
 					"Goblin Punch"
 				],
 				"convertedBy": [
-					"Dasho"
+					"SaliVader"
 				],
 				"version": "unknown"
 			}
@@ -23,7 +23,9 @@
 		{
 			"name": "False Hydra Larva",
 			"source": "TheFalseHydra",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -213,7 +215,9 @@
 		{
 			"name": "False Hydra Pupa",
 			"source": "TheFalseHydra",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -427,7 +431,9 @@
 		{
 			"name": "Young False Hydra",
 			"source": "TheFalseHydra",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -664,7 +670,9 @@
 		{
 			"name": "False Hydra",
 			"source": "TheFalseHydra",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -933,8 +941,8 @@
 				"TP"
 			],
 			"damageTags": [
-				"A",
-				"P"
+				"P",
+				"A"
 			],
 			"miscTags": [
 				"MW",
@@ -949,7 +957,9 @@
 		{
 			"name": "Elder False Hydra",
 			"source": "TheFalseHydra",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -1218,8 +1228,8 @@
 				"TP"
 			],
 			"damageTags": [
-				"A",
-				"P"
+				"P",
+				"A"
 			],
 			"miscTags": [
 				"MW",

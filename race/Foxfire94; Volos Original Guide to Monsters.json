@@ -1,5 +1,4 @@
 {
-	"$schema": "../schema.json",
 	"_meta": {
 		"sources": [
 			{
@@ -11,7 +10,7 @@
 				],
 				"version": "1.0",
 				"convertedBy": [
-					"Dasho"
+					"Foxfire94"
 				],
 				"url": ""
 			}
@@ -24,7 +23,9 @@
 			"name": "Goliath",
 			"source": "VOGM",
 			"page": 108,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": 30,
 			"ability": [
 				{
@@ -39,7 +40,6 @@
 				"weightMod": "2d6"
 			},
 			"traitTags": [
-				"Skill Proficiency",
 				"Powerful Build"
 			],
 			"languageProficiencies": [
@@ -117,13 +117,19 @@
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			}
 		},
 		{
 			"name": "Triton",
 			"source": "VOGM",
 			"page": 115,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30,
 				"swim": 30
@@ -143,8 +149,7 @@
 			},
 			"darkvision": 60,
 			"traitTags": [
-				"Amphibious",
-				"Spellcasting"
+				"Amphibious"
 			],
 			"languageProficiencies": [
 				{
@@ -239,13 +244,19 @@
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"age": {
+				"mature": 15,
+				"max": 200
+			}
 		},
 		{
 			"name": "Kobold",
 			"source": "VOGM",
 			"page": 119,
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"speed": 30,
 			"ability": [
 				{
@@ -260,7 +271,8 @@
 			},
 			"darkvision": 60,
 			"traitTags": [
-				"Monstrous Race"
+				"Monstrous Race",
+				"Sunlight Sensitivity"
 			],
 			"languageProficiencies": [
 				{
@@ -325,13 +337,19 @@
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"age": {
+				"mature": 6,
+				"max": 120
+			}
 		},
 		{
 			"name": "Orc",
 			"source": "VOGM",
 			"page": 120,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": 30,
 			"ability": [
 				{
@@ -348,9 +366,8 @@
 			},
 			"darkvision": 60,
 			"traitTags": [
-				"Powerful Build",
 				"Monstrous Race",
-				"Skill Proficiency"
+				"Powerful Build"
 			],
 			"languageProficiencies": [
 				{
@@ -420,7 +437,11 @@
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"age": {
+				"mature": 12,
+				"max": 50
+			}
 		}
 	]
 }

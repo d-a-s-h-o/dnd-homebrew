@@ -4,12 +4,12 @@
 			{
 				"json": "GiddyRace",
 				"abbreviation": "Brew",
-				"full": "The Null Network",
+				"full": "TheGiddyLimit",
 				"authors": [
-					"The Null Network"
+					"TheGiddyLimit"
 				],
 				"version": "1.0.0",
-				"url": "https://github.com/thenullnetwork/dnd-homebrew",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -51,7 +51,9 @@
 					}
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": 30,
 			"darkvision": 60,
 			"entries": [
@@ -79,7 +81,7 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"Gifted with the ability to talk shit even after death, you can speak, read, and write Common."
+						"Gifted with the ability to talk shit even beyond death, you can speak, read, and write Common."
 					],
 					"type": "entries"
 				}

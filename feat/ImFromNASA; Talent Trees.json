@@ -1,5 +1,4 @@
 {
-	"$schema": "../schema.json",
 	"_meta": {
 		"sources": [
 			{
@@ -11,7 +10,7 @@
 					"/u/ImFromNASA"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Ikaguia"
 				],
 				"url": "https://drive.google.com/file/d/1VvHtaIhUOam4VkNB_lSmn-olS_oQmIYU/view",
 				"version": "v1"
@@ -25,7 +24,7 @@
 			"name": "Talent Trees",
 			"source": "TalentTrees",
 			"entries": [
-				"Talent trees replace the standalone {@dnddnk feats|feats.html} of the Player's Handbook. They build upon a character's skills, martial training, innate abilities, and areas of knowledge. They are designed to provide an organic progression of abilities and a wider range of opportunities than feats do, allowing characters to gradually build their skills and specialties in a way that feels natural.",
+				"Talent trees replace the standalone {@dndz feats|feats.html} of the Player's Handbook. They build upon a character's skills, martial training, innate abilities, and areas of knowledge. They are designed to provide an organic progression of abilities and a wider range of opportunities than feats do, allowing characters to gradually build their skills and specialties in a way that feels natural.",
 				{
 					"name": "Using Talent Trees",
 					"type": "entries",
@@ -2244,6 +2243,11 @@
 					]
 				},
 				"{@note This feat is meant to be used with the variant rule {@variantrule Talent Trees|TalentTrees}.}"
+			],
+			"skillProficiencies": [
+				{
+					"investigation": true
+				}
 			]
 		},
 		{
@@ -2614,6 +2618,11 @@
 			"entries": [
 				"Dim light doesnt impose disadvantage on your Wisdom ({@skill Perception}) checks relying on sight and you gain {@sense blindsight} out to a range of 5 feet.",
 				"{@note This feat is meant to be used with the variant rule {@variantrule Talent Trees|TalentTrees}.}"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
 			]
 		},
 		{
@@ -3322,8 +3331,21 @@
 				}
 			],
 			"entries": [
-				"Your retainer gains proficiency in three skills and three tools of your choice. While you are away adventuring, they put these proficiencies to use, earning up to twice your level in gp per work-week, all of which they will share with you upon your safe return (as well as the local news and gossip). The DM may decide to vary the size and makeup of these earnings, often including common nonmagical items such as weapons, armor, tools, or household goods such as traveler's clothes, soap, oil, ink pens, stationary, pitchers of homemade iced tea, and fishing tackle. The DM may also decide to include unidentified items of potentially greater value by rolling on the {@dnddnk random tables of items|lootgen.html} provided in the Dungeon Master's Guide, the Xanathar's Guide to Everything, or other sources.",
+				"Your retainer gains proficiency in three skills and three tools of your choice. While you are away adventuring, they put these proficiencies to use, earning up to twice your level in gp per work-week, all of which they will share with you upon your safe return (as well as the local news and gossip). The DM may decide to vary the size and makeup of these earnings, often including common nonmagical items such as weapons, armor, tools, or household goods such as traveler's clothes, soap, oil, ink pens, stationary, pitchers of homemade iced tea, and fishing tackle. The DM may also decide to include unidentified items of potentially greater value by rolling on the {@dndz random tables of items|lootgen.html} provided in the Dungeon Master's Guide, the Xanathar's Guide to Everything, or other sources.",
 				"{@note This feat is meant to be used with the variant rule {@variantrule Talent Trees|TalentTrees}.}"
+			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anySkill",
+								"anyTool"
+							],
+							"count": 3
+						}
+					]
+				}
 			]
 		},
 		{

@@ -9,10 +9,10 @@
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
-					"Dasho"
+					"JuntaK"
 				],
 				"version": "1.0.0",
-				"url": "https://github.com/thenullnetwork/dnd-homebrew",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -24,6 +24,7 @@
 			"name": "Shadows Over the Moonsea",
 			"id": "DDEX1-03",
 			"source": "DDEX1-03",
+			"group": "other",
 			"contents": [
 				{
 					"name": "Foreword",
@@ -91,7 +92,7 @@
 				}
 			],
 			"published": "2014-09-01",
-			"coverUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Adventurers%20League/DDEX1-03/DDEX1-03-cover.webp",
+			"coverUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Adventurers%20League/DDEX1-03/DDEX1-03-cover.webp",
 			"level": {
 				"start": 1,
 				"end": 4
@@ -1219,7 +1220,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Adventurers%20League/DDEX1-03/DDEX1-03-01.jpg"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Adventurers%20League/DDEX1-03/DDEX1-03-01.jpg"
 									},
 									"title": "Ships on Fire"
 								},
@@ -1504,7 +1505,9 @@
 			"isNpc": false,
 			"isNamedCreature": false,
 			"source": "DDEX1-03",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1597,12 +1600,18 @@
 			],
 			"miscTags": [
 				"MW"
+			],
+			"damageTagsSpell": [
+				"N",
+				"R"
 			]
 		},
 		{
 			"name": "Infernal Pirate",
 			"source": "DDEX1-03",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1658,7 +1667,7 @@
 			],
 			"soundClip": {
 				"type": "external",
-				"url": "https://dnd.d-n-k.tk/audio/bestiary/bandit.mp3?v=1.112.2"
+				"url": "https://dndz.dev/audio/bestiary/bandit.mp3?v=1.112.2"
 			},
 			"altArt": [
 				{
@@ -1688,7 +1697,7 @@
 				"RW",
 				"RNG"
 			],
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Bandit.png?v=1.112.2",
+			"tokenUrl": "https://dndz.dev/img/MM/Bandit.png?v=1.112.2",
 			"fluff": {
 				"entries": [
 					"Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.",
@@ -1727,7 +1736,9 @@
 		{
 			"name": "Infernal Veteran",
 			"source": "DDEX1-03",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1795,7 +1806,7 @@
 			],
 			"soundClip": {
 				"type": "external",
-				"url": "https://dnd.d-n-k.tk/audio/bestiary/veteran.mp3?v=1.112.2"
+				"url": "https://dndz.dev/audio/bestiary/veteran.mp3?v=1.112.2"
 			},
 			"actionTags": [
 				"Multiattack"
@@ -1813,7 +1824,7 @@
 				"RW",
 				"RNG"
 			],
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Veteran.png?v=1.112.2",
+			"tokenUrl": "https://dndz.dev/img/MM/Veteran.png?v=1.112.2",
 			"fluff": {
 				"entries": [
 					"Veterans are professional fighters that take up arms for pay or to protect something they believe in or value. Their ranks include soldiers retired from long service and warriors who never served anyone but themselves.",
@@ -1853,7 +1864,9 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "DDEX1-03",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1958,6 +1971,10 @@
 			],
 			"miscTags": [
 				"MW"
+			],
+			"damageTagsSpell": [
+				"L",
+				"O"
 			]
 		}
 	]

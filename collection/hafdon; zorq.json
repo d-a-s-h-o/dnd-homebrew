@@ -9,12 +9,12 @@
 					"hafdon"
 				],
 				"version": "2.1.0",
-				"url": "https://github.com/hafdon/dnddnk-homebrew-home/",
+				"url": "https://github.com/hafdon/5etools-homebrew-home/",
 				"targetSchema": "1.0.0"
 			}
 		],
 		"dateAdded": 1578263517,
-		"dateLastModified": 1578263517
+		"dateLastModified": 1638621115
 	},
 	"action": [
 		{
@@ -25,6 +25,7 @@
 				"Once a creature has been {@condition hugged|zorq}, that creature cannot benefit again from the effect of a Hug while the cause of their {@condition frightened} condition remains the same."
 			],
 			"source": "zorq",
+			"page": 0,
 			"time": [
 				{
 					"number": 1,
@@ -46,7 +47,8 @@
 					]
 				}
 			],
-			"source": "zorq"
+			"source": "zorq",
+			"page": 0
 		}
 	],
 	"cult": [
@@ -94,7 +96,7 @@
 			"category": "The Mordinsamman",
 			"symbol": "Hammer",
 			"source": "zorq",
-			"page": null,
+			"page": 0,
 			"entries": [
 				"A Vala and one of the Aratar, also known as the the Smith and Smith of the Valar, concerned with rock, metal, nature of substances and works of craft."
 			]
@@ -114,7 +116,7 @@
 			"province": "Goddess of the Tranquil Sea",
 			"symbol": "",
 			"source": "zorq",
-			"page": null,
+			"page": 0,
 			"entries": [
 				"One of her messengers is {@creature Dalariel|zorq}."
 			]
@@ -303,6 +305,7 @@
 		{
 			"name": "Knold Dtuber",
 			"wondrous": true,
+			"rarity": "unknown (magic)",
 			"source": "zorq",
 			"tier": "minor",
 			"type": "TG",
@@ -351,9 +354,10 @@
 		{
 			"name": "Potion of Pr'lll",
 			"resist": [
-				"poison",
-				"necrotic"
+				"necrotic",
+				"poison"
 			],
+			"resist2": "necrotic",
 			"type": "P",
 			"weight": 0.25,
 			"tier": "minor",
@@ -482,6 +486,7 @@
 			"source": "zorq",
 			"tier": "minor",
 			"poison": true,
+			"rarity": "unknown (magic)",
 			"type": "TG",
 			"entries": [
 				"This potent, syrupy liquid smells like earth and {@item black wood resin|zorq}. Many taverns carry proprietary blends.",
@@ -546,7 +551,9 @@
 	"monster": [
 		{
 			"name": "Angel of Lole'iel",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "celestial",
 				"tags": [
@@ -697,15 +704,19 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/GGR/Battleforce Angel.png?v=1.94.8"
+			"tokenUrl": "https://dndz.dev/img/GGR/Battleforce Angel.png?v=1.94.8"
 		},
 		{
 			"name": "Baron von Veen (Uugeet form)",
-			"size": "L",
-			"type": "monstrosity",
-			"tags": [
-				"fish"
+			"size": [
+				"L"
 			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"fish"
+				]
+			},
 			"source": "zorq",
 			"alignment": [
 				"L",
@@ -822,20 +833,23 @@
 				"T"
 			],
 			"isNpc": true,
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
 			],
 			"conditionInflictSpell": [
 				"prone",
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"B",
+				"L"
 			]
 		},
 		{
 			"name": "Blue face hag tall",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"source": "zorq",
 			"alignment": [
@@ -1153,17 +1167,25 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Green Hag.png?v=1.94.4",
+			"tokenUrl": "https://dndz.dev/img/MM/Green Hag.png?v=1.94.4",
 			"conditionInflictSpell": [
 				"poisoned",
 				"paralyzed",
 				"frightened",
 				"unconscious"
+			],
+			"damageTagsSpell": [
+				"I",
+				"L",
+				"N",
+				"Y"
 			]
 		},
 		{
 			"name": "Bonfire",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -1239,7 +1261,6 @@
 			"action": [
 				{
 					"name": "Tail",
-					"type": "entries",
 					"entries": [
 						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage plus 2 ({@damage 1d4}) fire damage, and the target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the target is {@condition restrained}, Bonfire can automatically hit the target with its tail, and Bonfire can't make tail attacks against other targets."
 					]
@@ -1287,9 +1308,12 @@
 					"type": "spellcasting"
 				}
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"grappled",
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"F"
 			]
 		},
 		{
@@ -1321,7 +1345,9 @@
 				"D"
 			],
 			"page": 78,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1363,47 +1389,35 @@
 			],
 			"trait": [
 				{
-					"type": "section",
-					"name": "",
+					"type": "entries",
+					"name": "Dwarven Resilience",
 					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								{
-									"type": "entries",
-									"name": "Dwarven Resilience",
-									"entries": [
-										"Carlos has advantage on saving throws against poison, and has resistance against poison damage."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Speed",
-									"entries": [
-										"Carlos's speed is not reduced by wearing heavy armor."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Stonecunning",
-									"entries": [
-										"Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Disciple of Life",
-									"entries": [
-										"Starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
-									]
-								}
-							]
-						}
+						"Carlos has advantage on saving throws against poison, and has resistance against poison damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Carlos's speed is not reduced by wearing heavy armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stonecunning",
+					"entries": [
+						"Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Disciple of Life",
+					"entries": [
+						"Starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
 					]
 				},
 				{
 					"name": "Channel Divinity (1/rest)",
-					"type": "section",
 					"entries": [
 						{
 							"type": "entries",
@@ -1493,11 +1507,17 @@
 					"Carlos's deity is {@deity Aule|zorq}. One of his rituals involves spinning in a circle with his warhammer held outstretched."
 				]
 			},
-			"shortName": "Carlos"
+			"shortName": "Carlos",
+			"damageTagsSpell": [
+				"O",
+				"R"
+			]
 		},
 		{
 			"name": "Cave Fisher (zorq)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"source": "zorq",
 			"alignment": [
@@ -1592,16 +1612,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
 		},
 		{
 			"name": "Chad the Griffon",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "zorq",
 			"alignment": [
@@ -1738,7 +1757,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Griffon.png?v=1.94.4",
+			"tokenUrl": "https://dndz.dev/img/MM/Griffon.png?v=1.94.4",
 			"save": {
 				"int": "+5"
 			},
@@ -1754,7 +1773,9 @@
 		},
 		{
 			"name": "Cora Gn'Tash",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1842,7 +1863,7 @@
 				}
 			],
 			"page": 230,
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ToB%20(3pp)/Gnoll%20Havoc%20Runner.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Gnoll%20Havoc%20Runner.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -1893,7 +1914,9 @@
 		},
 		{
 			"name": "Cpt. Bill Perry",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2026,12 +2049,13 @@
 			],
 			"damageTags": [
 				"P",
-				"S"
+				"S",
+				"Y"
 			],
 			"miscTags": [
 				"MW"
 			],
-			"tokenUrl": "https://dnd.d-n-k.tk/img/VGM/Deep Scion.png?v=1.94.2",
+			"tokenUrl": "https://dndz.dev/img/VGM/Deep Scion.png?v=1.94.2",
 			"traitTags": [
 				"Amphibious"
 			],
@@ -2040,7 +2064,9 @@
 		},
 		{
 			"name": "Cpt. Juna Merrigold",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2169,12 +2195,13 @@
 			],
 			"damageTags": [
 				"P",
-				"S"
+				"S",
+				"Y"
 			],
 			"miscTags": [
 				"MW"
 			],
-			"tokenUrl": "https://dnd.d-n-k.tk/img/VGM/Deep Scion.png?v=1.94.2",
+			"tokenUrl": "https://dndz.dev/img/VGM/Deep Scion.png?v=1.94.2",
 			"traitTags": [
 				"Amphibious"
 			],
@@ -2183,7 +2210,9 @@
 		},
 		{
 			"name": "Dalariel",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "celestial",
 				"tags": [
@@ -2334,11 +2363,13 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/GGR/Battleforce Angel.png?v=1.94.8"
+			"tokenUrl": "https://dndz.dev/img/GGR/Battleforce Angel.png?v=1.94.8"
 		},
 		{
 			"name": "Domonkos",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -2489,7 +2520,8 @@
 			"traitTags": [
 				"Regeneration",
 				"Shapechanger",
-				"Spider Climb"
+				"Spider Climb",
+				"Sunlight Sensitivity"
 			],
 			"senseTags": [
 				"SD"
@@ -2509,9 +2541,6 @@
 				"C",
 				"U"
 			],
-			"conditionInflicted": [
-				"charmed"
-			],
 			"conditionInflict": [
 				"charmed"
 			],
@@ -2521,7 +2550,9 @@
 		},
 		{
 			"name": "Ecks",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "construct",
 			"source": "zorq",
 			"alignment": [
@@ -2619,7 +2650,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Homunculus.png?v=1.94.4",
+			"tokenUrl": "https://dndz.dev/img/MM/Homunculus.png?v=1.94.4",
 			"skill": {
 				"acrobatics": "+4",
 				"athletics": "+0",
@@ -2628,10 +2659,6 @@
 			"isNpc": true,
 			"familiar": true,
 			"isNamedCreature": true,
-			"conditionInflicted": [
-				"poisoned",
-				"unconscious"
-			],
 			"conditionInflict": [
 				"poisoned",
 				"unconscious"
@@ -2639,7 +2666,9 @@
 		},
 		{
 			"name": "Ethel Three School",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "zorq",
 			"alignment": [
@@ -2838,17 +2867,16 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MTF/Gray Render.png?v=1.94.2",
-			"conditionInflicted": [
-				"prone"
-			],
+			"tokenUrl": "https://dndz.dev/img/MTF/Gray Render.png?v=1.94.2",
 			"conditionInflict": [
 				"prone"
 			]
 		},
 		{
 			"name": "Fezziwig Hornswoggle",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2925,12 +2953,14 @@
 			"actionTags": [
 				"Multiattack"
 			],
-			"tokenUrl": "https://dnd.d-n-k.tk/img/GoS/Pirate First Mate.png?v=1.94.8"
+			"tokenUrl": "https://dndz.dev/img/GoS/Pirate First Mate.png?v=1.94.8"
 		},
 		{
 			"source": "zorq",
 			"name": "Forl",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -3020,7 +3050,9 @@
 		},
 		{
 			"name": "Foldorf",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3181,10 +3213,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.4",
-			"conditionInflicted": [
-				"poisoned"
-			],
+			"tokenUrl": "https://dndz.dev/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.4",
 			"conditionInflict": [
 				"poisoned"
 			],
@@ -3195,7 +3224,9 @@
 		},
 		{
 			"name": "Galax Belle-mere",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3261,8 +3292,6 @@
 				},
 				{
 					"name": "Mounted Combatant",
-					"source": "PHB",
-					"page": 168,
 					"entries": [
 						"Galax is a dangerous foe to face while mounted. While she is mounted and isn't {@condition incapacitated}, she gains the following benefits:",
 						{
@@ -3330,7 +3359,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/GoS/Lizardfolk Scaleshield.png?v=1.94.4",
+			"tokenUrl": "https://dndz.dev/img/GoS/Lizardfolk Scaleshield.png?v=1.94.4",
 			"shortName": "Galax",
 			"isNamedCreature": true,
 			"isNpc": true,
@@ -3357,7 +3386,9 @@
 		},
 		{
 			"name": "Goglocks",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fey",
 				"tags": [
@@ -3493,7 +3524,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"tokenUrl": "https://dnd.d-n-k.tk/img/VGM/Yeth Hound.png?v=1.94.8",
+			"tokenUrl": "https://dndz.dev/img/VGM/Yeth Hound.png?v=1.94.8",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"spellcasting": [
@@ -3511,13 +3542,15 @@
 					"ability": "wis"
 				}
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"frightened"
 			]
 		},
 		{
 			"name": "Graal",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -3659,14 +3692,16 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/VGM/Girallon.png?v=1.94.4"
+			"tokenUrl": "https://dndz.dev/img/VGM/Girallon.png?v=1.94.4"
 		},
 		{
 			"name": "Hagnar Rezfort (spirit form)",
 			"shortName": "Hagnar",
 			"isNamedCreature": true,
 			"isNpc": true,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fiend",
 			"source": "zorq",
 			"alignment": [
@@ -3759,11 +3794,18 @@
 					},
 					"ability": "int"
 				}
+			],
+			"damageTagsSpell": [
+				"I",
+				"P",
+				"Y"
 			]
 		},
 		{
 			"name": "Juniper Three School",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3930,17 +3972,23 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/VGM/Warlock of the Archfey.png?v=1.94.2",
+			"tokenUrl": "https://dndz.dev/img/VGM/Warlock of the Archfey.png?v=1.94.2",
 			"conditionInflictSpell": [
 				"charmed",
 				"frightened",
 				"paralyzed",
 				"unconscious"
+			],
+			"damageTagsSpell": [
+				"O",
+				"Y"
 			]
 		},
 		{
 			"name": "Limalay",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "celestial",
 				"tags": [
@@ -4096,11 +4144,19 @@
 			],
 			"actionTags": [
 				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"B"
 			]
 		},
 		{
 			"name": "Lole of the Moonlit Sun",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "celestial",
 				"tags": [
@@ -4252,11 +4308,13 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/GGR/Battleforce Angel.png?v=1.94.4"
+			"tokenUrl": "https://dndz.dev/img/GGR/Battleforce Angel.png?v=1.94.4"
 		},
 		{
 			"name": "Munta",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"source": "zorq",
 			"alignment": [
@@ -4390,11 +4448,13 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Minotaur.png?v=1.94.4"
+			"tokenUrl": "https://dndz.dev/img/MM/Minotaur.png?v=1.94.4"
 		},
 		{
 			"name": "Naiphaelead (nay-phal-ee-ad)",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -4579,11 +4639,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Salamander.png?v=1.94.4",
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
+			"tokenUrl": "https://dndz.dev/img/MM/Salamander.png?v=1.94.4",
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -4591,7 +4647,9 @@
 		},
 		{
 			"name": "Nexnag",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"source": "zorq",
 			"alignment": [
@@ -4826,12 +4884,17 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Blue Dragon Wyrmling.png?v=1.94.2",
-			"isNamedCreature": true
+			"tokenUrl": "https://dndz.dev/img/MM/Blue Dragon Wyrmling.png?v=1.94.2",
+			"isNamedCreature": true,
+			"actionTags": [
+				"Breath Weapon"
+			]
 		},
 		{
 			"name": "Oklmuk",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -4974,7 +5037,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ToB%20(3pp)/Ink%20Devil.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Ink%20Devil.png",
 			"traitTags": [
 				"Devil's Sight",
 				"Magic Resistance"
@@ -5000,11 +5063,20 @@
 				"I"
 			],
 			"isNamedCreature": true,
-			"isNpc": true
+			"isNpc": true,
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"L",
+				"T"
+			]
 		},
 		{
 			"name": "Oriax",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -5169,17 +5241,12 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/VGM/Banderhobb.png?v=1.94.5",
+			"tokenUrl": "https://dndz.dev/img/VGM/Banderhobb.png?v=1.94.5",
 			"traitTags": [
 				"Amphibious"
 			],
 			"isNamedCreature": true,
 			"isNpc": true,
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"blinded"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -5188,7 +5255,9 @@
 		},
 		{
 			"name": "Oubriidthe",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -5277,10 +5346,6 @@
 			],
 			"isNpc": true,
 			"srd": true,
-			"conditionInflicted": [
-				"prone",
-				"blinded"
-			],
 			"conditionInflict": [
 				"prone",
 				"blinded"
@@ -5288,7 +5353,9 @@
 		},
 		{
 			"name": "Pennington Applepie",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5389,7 +5456,7 @@
 				}
 			],
 			"page": 320,
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ToB%20(3pp)/Ratfolk%20Rogue.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Ratfolk%20Rogue.png",
 			"traitTags": [
 				"Pack Tactics",
 				"Sneak Attack"
@@ -5420,9 +5487,6 @@
 				]
 			},
 			"isNpc": true,
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			]
@@ -5430,8 +5494,10 @@
 		{
 			"name": "Phoenix Molvraki",
 			"source": "zorq",
-			"short": "Phoenix M.",
-			"size": "M",
+			"shortName": "Phoenix M.",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5581,7 +5647,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/ERLW/Kalashtar.png?v=1.94.8",
+			"tokenUrl": "https://dndz.dev/img/ERLW/Kalashtar.png?v=1.94.8",
 			"save": {
 				"int": "+4",
 				"wis": "+7"
@@ -5589,7 +5655,9 @@
 		},
 		{
 			"name": "Polive Pittlans",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5749,10 +5817,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.2",
-			"conditionInflicted": [
-				"poisoned"
-			],
+			"tokenUrl": "https://dndz.dev/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.2",
 			"conditionInflict": [
 				"poisoned"
 			],
@@ -5763,7 +5828,9 @@
 		},
 		{
 			"name": "Riult",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5923,10 +5990,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.4",
-			"conditionInflicted": [
-				"poisoned"
-			],
+			"tokenUrl": "https://dndz.dev/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.4",
 			"conditionInflict": [
 				"poisoned"
 			],
@@ -5961,7 +6025,9 @@
 				"D"
 			],
 			"page": 78,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6007,7 +6073,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://dnd.d-n-k.tk/img/SKT/Shield Dwarf Guard.png?v=1.94.4",
+			"tokenUrl": "https://dndz.dev/img/SKT/Shield Dwarf Guard.png?v=1.94.4",
 			"fluff": {
 				"entries": [
 					"dwarf of the Bloodforge clan",
@@ -6033,7 +6099,9 @@
 		},
 		{
 			"name": "Shoemaker Byte",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fey",
 				"tags": [
@@ -6163,7 +6231,7 @@
 				"MW"
 			],
 			"srd": true,
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Werebear.png?v=1.94.8",
+			"tokenUrl": "https://dndz.dev/img/MM/Werebear.png?v=1.94.8",
 			"isNamedCreature": true,
 			"isNpc": true,
 			"legendaryActions": 1,
@@ -6195,16 +6263,15 @@
 					"Shoemaker Byte is a legit bear. She has paws capable of dextrous object manipulation as well as claw-type enmurderment. She stands 11 ft. tall at the shoulder and weighs half a ton. She {@bold hates} forest fires."
 				]
 			},
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
 		},
 		{
 			"name": "Sigmurch",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6401,15 +6468,22 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/VGM/Xvart Warlock of Raxivort.png?v=1.94.8",
+			"tokenUrl": "https://dndz.dev/img/VGM/Xvart Warlock of Raxivort.png?v=1.94.8",
 			"conditionInflictSpell": [
 				"invisible"
+			],
+			"damageTagsSpell": [
+				"F",
+				"I",
+				"O"
 			]
 		},
 		{
 			"source": "zorq",
 			"name": "Soul Rock",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6538,7 +6612,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/ToA/Albino Dwarf Spirit Warrior.png?v=1.94.4",
+			"tokenUrl": "https://dndz.dev/img/ToA/Albino Dwarf Spirit Warrior.png?v=1.94.4",
 			"save": {
 				"str": "+6",
 				"con": "+5"
@@ -6547,7 +6621,9 @@
 		},
 		{
 			"name": "Spirit of the Twisted Maze",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fiend",
 			"source": "zorq",
 			"alignment": [
@@ -6663,7 +6739,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MTF/Skulk.png?v=1.94.4",
+			"tokenUrl": "https://dndz.dev/img/MTF/Skulk.png?v=1.94.4",
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
@@ -6679,11 +6755,18 @@
 					},
 					"ability": "int"
 				}
+			],
+			"damageTagsSpell": [
+				"I",
+				"P",
+				"Y"
 			]
 		},
 		{
 			"name": "Stump Three School",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "ooze",
 			"source": "zorq",
 			"alignment": [
@@ -6748,7 +6831,7 @@
 				}
 			],
 			"page": 387,
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ToB%20(3pp)/Treacle.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Treacle.png",
 			"traitTags": [
 				"Amorphous"
 			],
@@ -6763,7 +6846,9 @@
 		},
 		{
 			"name": "Suille",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -6937,11 +7022,13 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/GoS/Monstrous Peryton.png?v=1.94.4"
+			"tokenUrl": "https://dndz.dev/img/GoS/Monstrous Peryton.png?v=1.94.4"
 		},
 		{
 			"name": "Swarm of Herg Worms",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"swarmSize": "T"
@@ -7018,7 +7105,8 @@
 				"MW"
 			],
 			"damageTags": [
-				"F"
+				"F",
+				"P"
 			],
 			"fluff": {
 				"name": "Swarm of Herg Worms",
@@ -7036,7 +7124,9 @@
 		},
 		{
 			"name": "Tobolux",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": {
 				"type": "elemental",
 				"tags": [
@@ -7126,7 +7216,6 @@
 				"Incorporeal Movement"
 			],
 			"damageTags": [
-				"N",
 				"O"
 			],
 			"miscTags": [
@@ -7138,7 +7227,9 @@
 		},
 		{
 			"name": "Toestealer",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "fey",
 			"source": "zorq",
 			"alignment": [
@@ -7211,7 +7302,7 @@
 					]
 				}
 			],
-			"page": "",
+			"page": 0,
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
@@ -7229,7 +7320,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ToB%20(3pp)/Rum%20Gremlin.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Rum%20Gremlin.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -7252,13 +7343,18 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"poisoned"
+			],
+			"damageTagsSpell": [
+				"N"
 			]
 		},
 		{
 			"name": "Tusternoof, or The Twisted One",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fiend",
 			"source": "zorq",
 			"alignment": [
@@ -7440,12 +7536,21 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MTF/Deathlock.png?v=1.94.5",
-			"shortName": "Tusternoof"
+			"tokenUrl": "https://dndz.dev/img/MTF/Deathlock.png?v=1.94.5",
+			"shortName": "Tusternoof",
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"N",
+				"O",
+				"Y"
+			]
 		},
 		{
 			"name": "Vee'gn'och",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "zorq",
 			"alignment": [
@@ -7577,7 +7682,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ToB%20(3pp)/Bone%20Collective.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Bone%20Collective.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -7604,11 +7709,16 @@
 			"isNpc": true,
 			"traitTags": [
 				"Rampage"
+			],
+			"damageTagsSpell": [
+				"N"
 			]
 		},
 		{
 			"name": "White Boar face hag, 4'6\"",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"source": "zorq",
 			"alignment": [
@@ -7926,17 +8036,25 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Green Hag.png?v=1.94.4",
+			"tokenUrl": "https://dndz.dev/img/MM/Green Hag.png?v=1.94.4",
 			"conditionInflictSpell": [
 				"poisoned",
 				"paralyzed",
 				"frightened",
 				"unconscious"
+			],
+			"damageTagsSpell": [
+				"I",
+				"L",
+				"N",
+				"Y"
 			]
 		},
 		{
 			"name": "Wigglewut",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "zorq",
 			"alignment": [
@@ -8017,7 +8135,7 @@
 				"MW"
 			],
 			"srd": true,
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Giant Bat.png?v=1.94.8",
+			"tokenUrl": "https://dndz.dev/img/MM/Giant Bat.png?v=1.94.8",
 			"isNpc": true,
 			"familiar": true,
 			"isNamedCreature": true,
@@ -8034,7 +8152,9 @@
 		},
 		{
 			"name": "Woon",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -8195,10 +8315,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.4",
-			"conditionInflicted": [
-				"poisoned"
-			],
+			"tokenUrl": "https://dndz.dev/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.4",
 			"conditionInflict": [
 				"poisoned"
 			],
@@ -8209,7 +8326,9 @@
 		},
 		{
 			"name": "Ygatin",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"source": "zorq",
 			"alignment": [
@@ -8330,7 +8449,8 @@
 			"damageTags": [
 				"B",
 				"N",
-				"Y"
+				"Y",
+				"R"
 			],
 			"miscTags": [
 				"MW"
@@ -8387,17 +8507,16 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/VGM/Bodak.png?v=1.94.4",
-			"conditionInflicted": [
-				"frightened"
-			],
+			"tokenUrl": "https://dndz.dev/img/VGM/Bodak.png?v=1.94.4",
 			"conditionInflict": [
 				"frightened"
 			]
 		},
 		{
 			"name": "Yuruk the Contumax",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -8563,12 +8682,14 @@
 					}
 				]
 			},
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Lizardfolk.png?v=1.94.4",
+			"tokenUrl": "https://dndz.dev/img/MM/Lizardfolk.png?v=1.94.4",
 			"shortName": "Yuruk the page"
 		},
 		{
 			"name": "Zarachiel",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "celestial",
 				"tags": [
@@ -8665,7 +8786,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ToB%20(3pp)/Sap%20Demon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Sap%20Demon.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -8676,13 +8797,12 @@
 				"B"
 			],
 			"damageTags": [
-				"B"
+				"B",
+				"F",
+				"C"
 			],
 			"miscTags": [
 				"MW"
-			],
-			"conditionInflicted": [
-				"grappled"
 			],
 			"conditionInflict": [
 				"grappled"
@@ -8690,7 +8810,9 @@
 		},
 		{
 			"name": "Zarachiel (Gloucous form)",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "ooze",
 				"tags": [
@@ -8802,7 +8924,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/ToB%20(3pp)/Sap%20Demon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Sap%20Demon.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -8813,13 +8935,12 @@
 				"B"
 			],
 			"damageTags": [
-				"B"
+				"B",
+				"F",
+				"C"
 			],
 			"miscTags": [
 				"MW"
-			],
-			"conditionInflicted": [
-				"grappled"
 			],
 			"conditionInflict": [
 				"grappled"
@@ -8846,7 +8967,9 @@
 				"CC",
 				"I"
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -8993,11 +9116,18 @@
 			"senses": [
 				"darkvision 120 ft."
 			],
-			"shortName": "Zilla"
+			"shortName": "Zilla",
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
+			]
 		},
 		{
 			"name": "Zod",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -9103,7 +9233,7 @@
 				"RW",
 				"RNG"
 			],
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Kobold.png?v=1.94.4"
+			"tokenUrl": "https://dndz.dev/img/MM/Kobold.png?v=1.94.4"
 		}
 	],
 	"spell": [

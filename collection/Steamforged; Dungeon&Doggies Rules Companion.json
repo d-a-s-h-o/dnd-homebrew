@@ -17,7 +17,7 @@
 					"Sam Santala"
 				],
 				"convertedBy": [
-					"Dasho"
+					"GoR"
 				],
 				"version": "1.0",
 				"url": "https://steamforged.com/animal-adventures",
@@ -25,14 +25,16 @@
 			}
 		],
 		"dateAdded": 1581972143,
-		"dateLastModified": 1586264231
+		"dateLastModified": 1638798528
 	},
 	"book": [
 		{
 			"name": "Dungeons & Doggies - Rules Companion",
 			"id": "Dogs",
 			"source": "Dungeons&Doggies",
-			"coverUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons%26Doggies/D&Doggies_Rules_Cover.png",
+			"group": "homebrew",
+			"published": "2019-06-10",
+			"coverUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons%26Doggies/D&Doggies_Rules_Cover.png",
 			"contents": [
 				{
 					"name": "The Inn was quiet at this time of day,"
@@ -143,7 +145,6 @@
 		{
 			"id": "Dogs",
 			"source": "Dungeons&Doggies",
-			"name": "Dungeons & Doggies - Rules Companion",
 			"data": [
 				{
 					"type": "section",
@@ -166,7 +167,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Ranger.png"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Ranger.png"
 							}
 						}
 					]
@@ -203,7 +204,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Monk.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Monk.png"
 									}
 								}
 							]
@@ -231,7 +232,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Rogue.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Rogue.png"
 									}
 								}
 							]
@@ -259,7 +260,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Bard.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Bard.png"
 									}
 								}
 							]
@@ -567,7 +568,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Paladin.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Paladin.png"
 													}
 												}
 											]
@@ -742,7 +743,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Cleric.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Cleric.png"
 											}
 										},
 										"{@deity The Good Mother|Canine|Dungeons&Doggies} canine deity presents a new Domain for canine clerics: the Companion Domain, presented below. Canine Clerics who choose to follow a different deity should use the existing available rules for cleric characters."
@@ -840,7 +841,6 @@
 								},
 								{
 									"type": "entries",
-									"names": "Paladin",
 									"entries": [
 										{
 											"type": "entries",
@@ -863,7 +863,8 @@
 												"If a friendly creature within 15 feet of you is reduced to 0 hit points, you may use your reaction to use your Lay on Hands ability. You must then take a long rest to regain this ability."
 											]
 										}
-									]
+									],
+									"name": "Paladin"
 								},
 								{
 									"type": "entries",
@@ -1000,7 +1001,7 @@
 													"type": "image",
 													"href": {
 														"type": "external",
-														"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Sorcerer.png"
+														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Sorcerer.png"
 													}
 												}
 											]
@@ -1047,7 +1048,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Fighter.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Fighter.png"
 									}
 								}
 							]
@@ -1342,7 +1343,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Doll.png"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Doll.png"
 							}
 						}
 					]
@@ -1464,7 +1465,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Bun-Bun_of_Soothing.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Bun-Bun_of_Soothing.png"
 											}
 										}
 									]
@@ -1519,7 +1520,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Festooned_Flea_Collar.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Festooned_Flea_Collar.png"
 											}
 										}
 									]
@@ -1609,7 +1610,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Everwater_Drinking_Bowl.png"
+												"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Everwater_Drinking_Bowl.png"
 											}
 										}
 									]
@@ -1626,7 +1627,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Deity_Symbol.png"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Deity_Symbol.png"
 							}
 						},
 						"The Good Mother may be worshipped by Divine canine adventurers instead of an existing deity. Her symbol is that of a mother encircling a sleeping pup and she is the embodiment of protection, nurturing and companionship.",
@@ -1688,7 +1689,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Paladin_Token.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Paladin_Token.png"
 									}
 								},
 								"Wails of grief emanated from the humble cottage as Cassandra made her approach. She had followed the trail of evil influence from the edge of the forest to this small village, using her keen senses, enhanced by the Paladin's skill.",
@@ -1712,7 +1713,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Cleric_Token.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Cleric_Token.png"
 									}
 								},
 								"\"Cerysse!\"",
@@ -1731,7 +1732,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Wizard.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Wizard.png"
 									}
 								},
 								"Sir Cornelius whirled around and looked behind him. This time he could have sworn that another dog was sniffing his... his... behind. But there was no dog there, just the empty road, and fields either side. Cornelius was mortified\u2013true, ordinary dogs did occasionally mistake him for one of them and introduce themselves in the only way their unenlightened minds knew how. But usually a quiet word from him in the human tongue confused them enough to forestall the indignity and send them on their way. But this seemed different somehow, and not just because of the absence of an actual animal. Cornelius shook himself, settling his various bags and pouches, and the precious books of magic, and continued on, checking occasionally behind him, just in case.",
@@ -1753,7 +1754,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Ranger_Token.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Ranger_Token.png"
 									}
 								},
 								"The skinny blonde child looked up at her mentor.",
@@ -1785,7 +1786,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Druid_Token.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Druid_Token.png"
 									}
 								},
 								"A gibbous moon hung in the sky, glimpsed occasionally through the thick canopy. The sounds of the day had been replaced by the noises of the night. Snufflings, grunts and the snapping of twigs spoke of a family of boars on one side whilst on the other side the near-silent sweep of wings through the air and the tiny squeaks of unfortunate rodents betrayed the presence of hunting owls.",
@@ -1802,7 +1803,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Fighter_Token.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Fighter_Token.png"
 									}
 								},
 								"Hartley shook himself awake from his dream, and eyed the predawn light suspiciously. After a minute he'd satisfied himself that, no, the camp wasn't under attack, it was the dream that had awoken him. It was the same every night - he dreamed of his raven haired mistress, his goddess, the one who both protected him and corrected his mistakes. It was the thought of her that pushed him onwards, protecting the party with his life every day, his dark fur hiding charges from the shadows, his ferocity terrifying even the most hardened of human warriors, the relentlessness of his attacks often turning the tide of battle in favour of his comrades.",
@@ -1818,7 +1819,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Bard_Token.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Bard_Token.png"
 									}
 								},
 								"A black and white spaniel came into view, humming a jaunty tune, tapping the drum attached to his side with his tail, providing a steady counterpoint as he sauntered along.",
@@ -1836,7 +1837,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Sorcerer_Token.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Sorcerer_Token.png"
 									}
 								},
 								"Morgaine walked out of the changing room in her new robes and looked up at her Master. Altaar smiled with pride back at his apprentice. The tailors had been reluctant, resistant even, but had quickly changed their minds when an enormous amount of gold had been placed on the counter. Altaar was used to getting what he wanted, and this day was no exception.",
@@ -1859,7 +1860,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Monk_Token.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Monk_Token.png"
 									}
 								},
 								"The sun was bright outside, Nightingale could tell. Golden rays filtered through the fretwork of the window coverings, tiny dust motes dancing in the light illuminating the soft, embroidered pillows and artfully draped silk hangings. Nightingale reclined against her little sofa watching her mistress and master as they laughed and conversed and sipped iced sherbet, or played with the tiny birds with their bright plumage as they sang in their piping voices in their silver cages. Servants slipped in and out, tending to the needs of Nightingale's master and mistress, and her too, as the treasured pet of these two beautiful humans, the young and happy couple. They brought her titbits of lightly roasted meats and delicately peeled fruits, and sometimes her mistress even fed her with her own hands, if Nightingale's tricks - standing on her hind legs and yapping in time to the hidden musicians' tunes - pleased her. At these times, Nightingale was so happy to please her kind mistress, to be so loved, so cared for.",
@@ -1877,7 +1878,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Barbarian_Token.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Barbarian_Token.png"
 									}
 								},
 								"They used to laugh at Svetlana",
@@ -1901,7 +1902,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Rogue_Token.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Rogue_Token.png"
 									}
 								},
 								"The steep, cobbled street was dark, except for the light from a guttering lamp, nearly out of oil. A murky dawn smudged the horizon, but it would be dark for a while yet - long enough for Tedric to complete his work. His target lurched out of the shadows, right hand clutched to his stomach round the circular handle of the knife embedded in his guts, blood and other fluids leaking through his shaking fingers.",
@@ -1918,7 +1919,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Warlock_Token.png"
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Warlock_Token.png"
 									}
 								},
 								"Despite the upturned chair and displaced pile of books scattered over the floor, Tobias surveyed the scene with satisfaction. Gaining entry to the Wizard's abode had gone exactly according to plan. Tobias had presented himself at the door of the elegant pavilion, having carefully stashed his more obviously warlock garb in a nearby coppice, with one of his spectral companions, a rangy wolf, to guard it. The wizard, an elderly Halfling with white moustaches, had happily let him in, offering him water, and calling him a ‘good boy'. Tobias chuckled at the thought\u2013no-one had called him a good boy in a very long time, and certainly not since his Pact with the Hunter, the unseen claw, the howl in the night.",
@@ -1949,12 +1950,14 @@
 					"cha": 1
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
 			"traitTags": [
-				"Unarmed Strike"
+				"Natural Weapon"
 			],
 			"entries": [
 				"The diversity of dogs is hard to generalise but dogs begin with the following traits",
@@ -2010,157 +2013,6 @@
 					"name": "Many Breeds, Many Forms",
 					"entries": [
 						"Dogs have such variety of shapes and breeds that they are highly diverse. Choose one of the following subraces to reflect your chosen breeding and select one Breed Ability from the list on the right."
-					]
-				}
-			],
-			"subraces": [
-				{
-					"name": "Big Dog",
-					"ability": [
-						{
-							"con": 1
-						}
-					],
-					"size": "M",
-					"entries": [
-						{
-							"type": "section",
-							"entries": [
-								{
-									"name": "Big Dog",
-									"entries": [
-										"Big dogs are the strongest, and most physically imposing animals in the canine family. Mastiffs, St Bernards, and Alsatians all fall into this size of breed."
-									]
-								}
-							]
-						},
-						{
-							"name": "Size",
-							"entries": [
-								"Your size is Medium."
-							]
-						},
-						{
-							"name": "Ability score increase",
-							"entries": [
-								"Your Constitution score increases by 1."
-							]
-						},
-						{
-							"name": "Powerful Bite",
-							"entries": [
-								"When you use your bite attack, you roll two dice for damage and choose the higher result. For a critical hit, roll three dice and choose the best two results."
-							]
-						}
-					],
-					"images": [
-						{
-							"type": "image",
-							"href": {
-								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Cleric.png"
-							}
-						}
-					]
-				},
-				{
-					"name": "Regular Dog",
-					"source": "Dungeons&Doggies",
-					"ability": [
-						{
-							"str": 1
-						}
-					],
-					"size": "M",
-					"entries": [
-						{
-							"type": "section",
-							"entries": [
-								{
-									"name": "Regular Dog",
-									"entries": [
-										"Regular dogs may be the most common sized dogs and tend to be known for energy and hale sturdiness. This includes spaniels, bulldogs, and many crossbreeds."
-									]
-								}
-							]
-						},
-						{
-							"name": "Size",
-							"entries": [
-								"Your size is Medium."
-							]
-						},
-						{
-							"name": "Ability score increase",
-							"entries": [
-								"Your Strenght score increases by 1."
-							]
-						},
-						{
-							"name": "Boundless Persistence",
-							"entries": [
-								"Once per long rest, when you are reduced to 0 hit points, you may immediately roll a hit dice to heal that many hit points."
-							]
-						}
-					],
-					"images": [
-						{
-							"type": "image",
-							"href": {
-								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Paladin.png"
-							}
-						}
-					]
-				},
-				{
-					"name": "Lap Dog",
-					"source": "Dungeons&Doggies",
-					"ability": [
-						{
-							"dex": 1
-						}
-					],
-					"size": "S",
-					"entries": [
-						{
-							"type": "section",
-							"entries": [
-								{
-									"name": "Lap Dog",
-									"entries": [
-										"Tiny of body but giant of heart, lap dogs are known for nimble movement and fearless attitude. This category includes Chihuahuas, Terriers and Maltese."
-									]
-								}
-							]
-						},
-						{
-							"name": "Size",
-							"entries": [
-								"Your size is Small."
-							]
-						},
-						{
-							"name": "Ability score increase",
-							"entries": [
-								"Your Dexterity score increases by 1."
-							]
-						},
-						{
-							"name": "Slippery",
-							"entries": [
-								"If your attack is a critical hit, you may dodge as a free action after resolving the attack."
-							]
-						}
-					],
-					"images": [
-						{
-							"type": "image",
-							"href": {
-								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Dog_Rogue.png"
-							}
-						}
 					]
 				}
 			],
@@ -2471,6 +2323,11 @@
 			],
 			"entries": [
 				"You are a natural at seeking and returning desired items. You gain advantage on Intelligence ({@skill Investigation}) checks "
+			],
+			"skillProficiencies": [
+				{
+					"investigation": true
+				}
 			]
 		},
 		{
@@ -3753,6 +3610,7 @@
 	"subclass": [
 		{
 			"name": "Companion",
+			"shortName": "Companion",
 			"source": "Dungeons&Doggies",
 			"subclassFeatures": [
 				"Companion Domain|Cleric||Companion|Dungeons&Doggies|1",
@@ -3761,31 +3619,17 @@
 				"Divine Bite|Cleric||Companion|Dungeons&Doggies|8",
 				"Leader of the Pack|Cleric||Companion|Dungeons&Doggies|17"
 			],
-			"spells": [
-				{
-					"prepared": {
-						"1": [
-							"guiding bolt",
-							"healing word"
-						],
-						"3": [
-							"aid",
-							"calm emotions"
-						],
-						"5": [
-							"beacon of hope",
-							"mass healing word"
-						],
-						"7": [
-							"death ward",
-							"locate creature"
-						],
-						"9": [
-							"geas",
-							"greater restoration"
-						]
-					}
-				}
+			"subclassSpells": [
+				"guiding bolt",
+				"healing word",
+				"aid",
+				"calm emotions",
+				"beacon of hope",
+				"mass healing word",
+				"death ward",
+				"locate creature",
+				"geas",
+				"greater restoration"
 			],
 			"additionalSpells": [
 				{
@@ -3821,7 +3665,7 @@
 		{
 			"name": "Barley's Ball of Fetching",
 			"source": "Dungeons&Doggies",
-			"page": "19",
+			"page": 19,
 			"wondrous": true,
 			"rarity": "uncommon",
 			"dmg1": "1d4",
@@ -3833,11 +3677,11 @@
 		{
 			"name": "Bun-Bun of Soothing",
 			"source": "Dungeons&Doggies",
-			"page": "19",
+			"page": 19,
 			"wondrous": true,
 			"rarity": "uncommon",
 			"charges": "2",
-			"recharge": "long rest",
+			"recharge": "restLong",
 			"attachedSpells": [
 				"Calm Emotions"
 			],
@@ -3850,7 +3694,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Bun-Bun_of_Soothing.png"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Bun-Bun_of_Soothing.png"
 						}
 					}
 				]
@@ -3859,11 +3703,11 @@
 		{
 			"name": "Collar of Command",
 			"source": "Dungeons&Doggies",
-			"page": "19",
+			"page": 19,
 			"wondrous": true,
 			"rarity": "rare",
 			"charges": "1",
-			"recharge": "long rest",
+			"recharge": "restLong",
 			"attachedSpells": [
 				"Command"
 			],
@@ -3874,11 +3718,11 @@
 		{
 			"name": "Pavol's Bell of Conditioning",
 			"source": "Dungeons&Doggies",
-			"page": "19",
+			"page": 19,
 			"wondrous": true,
 			"rarity": "very rare",
 			"charges": "3",
-			"recharge": "long rest",
+			"recharge": "restLong",
 			"attachedSpells": [
 				"Suggestion"
 			],
@@ -3889,7 +3733,7 @@
 		{
 			"name": "Tymon's Tugrope of Tenacity",
 			"source": "Dungeons&Doggies",
-			"page": "19",
+			"page": 19,
 			"wondrous": true,
 			"rarity": "uncommon",
 			"entries": [
@@ -3899,7 +3743,7 @@
 		{
 			"name": "Snack Sack of Scoobus",
 			"source": "Dungeons&Doggies",
-			"page": "20",
+			"page": 20,
 			"wondrous": true,
 			"rarity": "rare",
 			"entries": [
@@ -3918,7 +3762,7 @@
 		{
 			"name": "The Eye of Wagamoto",
 			"source": "Dungeons&Doggies",
-			"page": "20",
+			"page": 20,
 			"wondrous": true,
 			"rarity": "very rare",
 			"reqAttune": true,
@@ -3930,11 +3774,11 @@
 		{
 			"name": "Festooned Flea Collar",
 			"source": "Dungeons&Doggies",
-			"page": "20",
+			"page": 20,
 			"wondrous": true,
 			"rarity": "rare",
 			"charges": "5",
-			"recharge": "weekly",
+			"recharge": "special",
 			"entries": [
 				"This tatty collar has five charges, which replenish weekly. Each charge allows the wearer to summon a {@creature Swarm of Insects} under their direct bidding."
 			],
@@ -3944,7 +3788,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Festooned_Flea_Collar.png"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Festooned_Flea_Collar.png"
 						}
 					}
 				]
@@ -3953,7 +3797,7 @@
 		{
 			"name": "Hegglewyddle's Handy Helper",
 			"source": "Dungeons&Doggies",
-			"page": "20",
+			"page": 20,
 			"wondrous": true,
 			"rarity": "uncommon",
 			"attachedSpells": [
@@ -3967,7 +3811,7 @@
 		{
 			"name": "Silken Mantle of Lustrous Pelt Cloak",
 			"source": "Dungeons&Doggies",
-			"page": "20",
+			"page": 20,
 			"wondrous": true,
 			"rarity": "uncommon",
 			"entries": [
@@ -3977,7 +3821,7 @@
 		{
 			"name": "Franzible's Favourite Bone ",
 			"source": "Dungeons&Doggies",
-			"page": "20",
+			"page": 20,
 			"wondrous": true,
 			"rarity": "rare",
 			"reqAttune": true,
@@ -3988,7 +3832,7 @@
 		{
 			"name": "Groof's Gobblecharm Necklace",
 			"source": "Dungeons&Doggies",
-			"page": "20",
+			"page": 20,
 			"wondrous": true,
 			"rarity": "very rare",
 			"reqAttune": true,
@@ -4000,7 +3844,7 @@
 		{
 			"name": "Earthtouch Harness",
 			"source": "Dungeons&Doggies",
-			"page": "21",
+			"page": 21,
 			"wondrous": true,
 			"rarity": "rare",
 			"entries": [
@@ -4010,7 +3854,7 @@
 		{
 			"name": "The Cone of Shame Cursed Item",
 			"source": "Dungeons&Doggies",
-			"page": "21",
+			"page": 21,
 			"wondrous": true,
 			"cursed": true,
 			"reqAttune": true,
@@ -4033,10 +3877,11 @@
 		{
 			"name": "Hermal's Halitoid Hoop",
 			"source": "Dungeons&Doggies",
-			"page": "21",
+			"page": 21,
 			"wondrous": true,
 			"rarity": "uncommon",
 			"charges": "5",
+			"rehange": "special",
 			"entries": [
 				"A braided woven leather throwing hoop that seems covered in semi dried slobber, the hoop can be thrown up to 30 feet as an Action. Once it lands, all creatures in a 15 foot square centered on the hoop are assailed by the odours of wet dog, poor dental care and bad digestive processes. Affected creatures must make a DC 12 Con saving throw or suffer the {@condition Poisoned} condition. The Hoop has 5 charges and can be recharged by being \"played with\" by a dog at a rate of one charge per day."
 			]
@@ -4044,7 +3889,7 @@
 		{
 			"name": "Silgoon's Sleepytime Blanket",
 			"source": "Dungeons&Doggies",
-			"page": "21",
+			"page": 21,
 			"wondrous": true,
 			"rarity": "rare",
 			"entries": [
@@ -4054,7 +3899,7 @@
 		{
 			"name": "Everwater Drinking Bowl ",
 			"source": "Dungeons&Doggies",
-			"page": "21",
+			"page": 21,
 			"wondrous": true,
 			"rarity": "rare",
 			"entries": [
@@ -4066,7 +3911,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Everwater_Drinking_Bowl.png"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Everwater_Drinking_Bowl.png"
 						}
 					}
 				]
@@ -4081,14 +3926,14 @@
 			],
 			"title": "She who Nurtures",
 			"source": "Dungeons&Doggies",
-			"page": "22",
+			"page": 22,
 			"category": "None",
 			"symbol": "A mother encircling a sleeping pup",
 			"symbolImg": {
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/Dungeons&Doggies/Deity_Symbol.png"
+					"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Deity_Symbol.png"
 				}
 			},
 			"pantheon": "Canine",
@@ -4168,7 +4013,6 @@
 			]
 		},
 		{
-			"type": "entries",
 			"name": "Aspect of the Amicable",
 			"entries": [
 				"When you choose this Domain at level one, you can use the Best Friends ability once per short rest."
@@ -4239,6 +4083,176 @@
 			"entries": [
 				"At 17th level you gain the ability to command other animals. While creatures are charmed by your Best Friends ability, you can take a bonus action on your turn to command what each of those creatures will do on their next turn."
 			]
+		}
+	],
+	"subrace": [
+		{
+			"name": "Big Dog",
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						{
+							"name": "Big Dog",
+							"entries": [
+								"Big dogs are the strongest, and most physically imposing animals in the canine family. Mastiffs, St Bernards, and Alsatians all fall into this size of breed."
+							]
+						}
+					]
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"Your size is Medium."
+					]
+				},
+				{
+					"name": "Ability score increase",
+					"entries": [
+						"Your Constitution score increases by 1."
+					]
+				},
+				{
+					"name": "Powerful Bite",
+					"entries": [
+						"When you use your bite attack, you roll two dice for damage and choose the higher result. For a critical hit, roll three dice and choose the best two results."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Cleric.png"
+						}
+					}
+				]
+			},
+			"source": "Dungeons&Doggies",
+			"raceName": "Canine",
+			"raceSource": "Dungeons&Doggies"
+		},
+		{
+			"name": "Regular Dog",
+			"source": "Dungeons&Doggies",
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						{
+							"name": "Regular Dog",
+							"entries": [
+								"Regular dogs may be the most common sized dogs and tend to be known for energy and hale sturdiness. This includes spaniels, bulldogs, and many crossbreeds."
+							]
+						}
+					]
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"Your size is Medium."
+					]
+				},
+				{
+					"name": "Ability score increase",
+					"entries": [
+						"Your Strenght score increases by 1."
+					]
+				},
+				{
+					"name": "Boundless Persistence",
+					"entries": [
+						"Once per long rest, when you are reduced to 0 hit points, you may immediately roll a hit dice to heal that many hit points."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Paladin.png"
+						}
+					}
+				]
+			},
+			"raceName": "Canine",
+			"raceSource": "Dungeons&Doggies"
+		},
+		{
+			"name": "Lap Dog",
+			"source": "Dungeons&Doggies",
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"size": [
+				"S"
+			],
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						{
+							"name": "Lap Dog",
+							"entries": [
+								"Tiny of body but giant of heart, lap dogs are known for nimble movement and fearless attitude. This category includes Chihuahuas, Terriers and Maltese."
+							]
+						}
+					]
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"Your size is Small."
+					]
+				},
+				{
+					"name": "Ability score increase",
+					"entries": [
+						"Your Dexterity score increases by 1."
+					]
+				},
+				{
+					"name": "Slippery",
+					"entries": [
+						"If your attack is a critical hit, you may dodge as a free action after resolving the attack."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/Dungeons&Doggies/Dog_Rogue.png"
+						}
+					}
+				]
+			},
+			"raceName": "Canine",
+			"raceSource": "Dungeons&Doggies"
 		}
 	]
 }

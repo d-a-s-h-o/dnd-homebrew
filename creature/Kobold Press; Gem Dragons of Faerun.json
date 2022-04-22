@@ -14,7 +14,7 @@
 			}
 		],
 		"dateAdded": 1537874753,
-		"dateLastModified": 1598490244
+		"dateLastModified": 1638810838
 	},
 	"legendaryGroup": [
 		{
@@ -177,7 +177,9 @@
 		{
 			"source": "GDoF",
 			"name": "Adult Amethyst Dragon",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -345,8 +347,9 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Adult%20Amethyst%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Adult%20Amethyst%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -375,22 +378,21 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"prone"
-			],
 			"conditionInflict": [
 				"restrained",
 				"prone"
 			],
 			"conditionInflictSpell": [
 				"restrained"
-			]
+			],
+			"dragonAge": "adult"
 		},
 		{
 			"source": "GDoF",
 			"name": "Adult Crystal Dragon",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -558,8 +560,9 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Adult%20Crystal%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Adult%20Crystal%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -589,10 +592,6 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
-				"blinded",
-				"prone"
-			],
 			"conditionInflict": [
 				"blinded",
 				"prone"
@@ -600,12 +599,15 @@
 			"conditionInflictSpell": [
 				"charmed",
 				"blinded"
-			]
+			],
+			"dragonAge": "adult"
 		},
 		{
 			"source": "GDoF",
 			"name": "Adult Emerald Dragon",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -771,8 +773,9 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Adult%20Emerald%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Adult%20Emerald%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -802,11 +805,6 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
-				"charmed",
-				"deafened",
-				"prone"
-			],
 			"conditionInflict": [
 				"charmed",
 				"deafened",
@@ -815,12 +813,15 @@
 			"conditionInflictSpell": [
 				"charmed",
 				"invisible"
-			]
+			],
+			"dragonAge": "adult"
 		},
 		{
 			"source": "GDoF",
 			"name": "Adult Sapphire Dragon",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -987,8 +988,9 @@
 					"ability": "int"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Adult%20Sapphire%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Adult%20Sapphire%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -1018,15 +1020,18 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"prone",
 				"frightened"
-			]
+			],
+			"dragonAge": "adult"
 		},
 		{
 			"source": "GDoF",
 			"name": "Adult Topaz Dragon",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -1198,8 +1203,9 @@
 					"ability": "wis"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Adult%20Topaz%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Adult%20Topaz%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Frightful Presence",
 				"Multiattack"
 			],
@@ -1230,16 +1236,22 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"frightened",
 				"exhaustion",
 				"prone"
+			],
+			"dragonAge": "adult",
+			"damageTagsSpell": [
+				"B"
 			]
 		},
 		{
 			"source": "GDoF",
 			"name": "Amethyst Dragon Wyrmling",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -1317,7 +1329,7 @@
 					"ability": "wis"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Amethyst%20Dragon%20Wyrmling.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Amethyst%20Dragon%20Wyrmling.png",
 			"senseTags": [
 				"B",
 				"D"
@@ -1337,12 +1349,15 @@
 			"spellcastingTags": [
 				"P",
 				"I"
-			]
+			],
+			"dragonAge": "wyrmling"
 		},
 		{
 			"source": "GDoF",
 			"name": "Ancient Amethyst Dragon",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -1513,8 +1528,9 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Ancient%20Amethyst%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Ancient%20Amethyst%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -1543,22 +1559,21 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"prone"
-			],
 			"conditionInflict": [
 				"restrained",
 				"prone"
 			],
 			"conditionInflictSpell": [
 				"restrained"
-			]
+			],
+			"dragonAge": "ancient"
 		},
 		{
 			"source": "GDoF",
 			"name": "Ancient Crystal Dragon",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -1730,8 +1745,9 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Ancient%20Crystal%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Ancient%20Crystal%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -1761,10 +1777,6 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
-				"blinded",
-				"prone"
-			],
 			"conditionInflict": [
 				"blinded",
 				"prone"
@@ -1772,12 +1784,15 @@
 			"conditionInflictSpell": [
 				"charmed",
 				"blinded"
-			]
+			],
+			"dragonAge": "ancient"
 		},
 		{
 			"source": "GDoF",
 			"name": "Ancient Emerald Dragon",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -1946,8 +1961,9 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Ancient%20Emerald%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Ancient%20Emerald%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -1977,11 +1993,6 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
-				"charmed",
-				"deafened",
-				"prone"
-			],
 			"conditionInflict": [
 				"charmed",
 				"deafened",
@@ -1990,12 +2001,15 @@
 			"conditionInflictSpell": [
 				"charmed",
 				"invisible"
-			]
+			],
+			"dragonAge": "ancient"
 		},
 		{
 			"source": "GDoF",
 			"name": "Ancient Sapphire Dragon",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -2165,8 +2179,9 @@
 					"ability": "int"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Ancient%20Sapphire%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Ancient%20Sapphire%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -2196,15 +2211,18 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"prone",
 				"frightened"
-			]
+			],
+			"dragonAge": "ancient"
 		},
 		{
 			"source": "GDoF",
 			"name": "Ancient Topaz Dragon",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -2379,8 +2397,9 @@
 					"ability": "wis"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Ancient%20Topaz%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Ancient%20Topaz%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Frightful Presence",
 				"Multiattack"
 			],
@@ -2411,16 +2430,22 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"frightened",
 				"exhaustion",
 				"prone"
+			],
+			"dragonAge": "ancient",
+			"damageTagsSpell": [
+				"B"
 			]
 		},
 		{
 			"source": "GDoF",
 			"name": "Crystal Dragon Wyrmling",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -2503,7 +2528,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Crystal%20Dragon%20Wyrmling.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Crystal%20Dragon%20Wyrmling.png",
 			"senseTags": [
 				"B",
 				"D"
@@ -2524,12 +2549,18 @@
 			"spellcastingTags": [
 				"P",
 				"I"
-			]
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"dragonAge": "wyrmling"
 		},
 		{
 			"source": "GDoF",
 			"name": "Emerald Dragon Wyrmling",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -2610,7 +2641,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Emerald%20Dragon%20Wyrmling.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Emerald%20Dragon%20Wyrmling.png",
 			"senseTags": [
 				"B",
 				"D"
@@ -2630,12 +2661,18 @@
 			"spellcastingTags": [
 				"P",
 				"I"
-			]
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"dragonAge": "wyrmling"
 		},
 		{
 			"source": "GDoF",
 			"name": "Sapphire Dragon Wyrmling",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -2720,7 +2757,7 @@
 					"ability": "int"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Sapphire%20Dragon%20Wyrmling.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Sapphire%20Dragon%20Wyrmling.png",
 			"senseTags": [
 				"B",
 				"D"
@@ -2741,12 +2778,18 @@
 			"spellcastingTags": [
 				"P",
 				"I"
-			]
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"dragonAge": "wyrmling"
 		},
 		{
 			"source": "GDoF",
 			"name": "Sardior",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -2966,8 +3009,9 @@
 				}
 			],
 			"isNamedCreature": true,
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Sardior.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Sardior.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -3001,10 +3045,6 @@
 				"CB",
 				"CC"
 			],
-			"conditionInflicted": [
-				"incapacitated",
-				"prone"
-			],
 			"conditionInflict": [
 				"incapacitated",
 				"prone"
@@ -3024,7 +3064,9 @@
 		{
 			"source": "GDoF",
 			"name": "Sardorian Golem",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -3129,8 +3171,9 @@
 				}
 			],
 			"page": 22,
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Sardorian%20Golem.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Sardorian%20Golem.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -3155,7 +3198,9 @@
 		{
 			"source": "GDoF",
 			"name": "Topaz Dragon Wyrmling",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -3247,7 +3292,7 @@
 					"ability": "wis"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Topaz%20Dragon%20Wyrmling.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Topaz%20Dragon%20Wyrmling.png",
 			"traitTags": [
 				"Amphibious"
 			],
@@ -3270,12 +3315,18 @@
 			"spellcastingTags": [
 				"P",
 				"I"
-			]
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"dragonAge": "wyrmling"
 		},
 		{
 			"source": "GDoF",
 			"name": "Young Amethyst Dragon",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -3383,7 +3434,7 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Young%20Amethyst%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Young%20Amethyst%20Dragon.png",
 			"actionTags": [
 				"Multiattack"
 			],
@@ -3408,12 +3459,15 @@
 			"spellcastingTags": [
 				"P",
 				"I"
-			]
+			],
+			"dragonAge": "young"
 		},
 		{
 			"source": "GDoF",
 			"name": "Young Crystal Dragon",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -3522,8 +3576,9 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Young%20Crystal%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Young%20Crystal%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -3551,12 +3606,15 @@
 			"conditionInflictSpell": [
 				"blinded",
 				"charmed"
-			]
+			],
+			"dragonAge": "young"
 		},
 		{
 			"source": "GDoF",
 			"name": "Young Emerald Dragon",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -3663,8 +3721,9 @@
 					"ability": "cha"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Young%20Emerald%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Young%20Emerald%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -3692,12 +3751,15 @@
 			"conditionInflictSpell": [
 				"invisible",
 				"charmed"
-			]
+			],
+			"dragonAge": "young"
 		},
 		{
 			"source": "GDoF",
 			"name": "Young Sapphire Dragon",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -3806,8 +3868,9 @@
 					"ability": "int"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Young%20Sapphire%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Young%20Sapphire%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -3831,12 +3894,15 @@
 			"spellcastingTags": [
 				"P",
 				"I"
-			]
+			],
+			"dragonAge": "young"
 		},
 		{
 			"source": "GDoF",
 			"name": "Young Topaz Dragon",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -3949,8 +4015,9 @@
 					"ability": "wis"
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/GDoF/Young%20Topaz%20Dragon.png",
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GDoF/Young%20Topaz%20Dragon.png",
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"traitTags": [
@@ -3977,6 +4044,10 @@
 			"spellcastingTags": [
 				"P",
 				"I"
+			],
+			"dragonAge": "young",
+			"damageTagsSpell": [
+				"B"
 			]
 		}
 	]

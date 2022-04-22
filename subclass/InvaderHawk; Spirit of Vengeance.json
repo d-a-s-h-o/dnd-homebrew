@@ -9,7 +9,7 @@
 					"/r/InvaderHawk"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Lxran#2292"
 				],
 				"version": "1",
 				"url": "https://www.gmbinder.com/share/-MEppRa26NCdtPBpIcmb"
@@ -35,10 +35,7 @@
 				"find greater steed",
 				"wall of fire",
 				"dispel evil and good",
-				{
-					"name": "Immolation",
-					"source": "XGE"
-				}
+				"immolation|xge"
 			],
 			"subclassFeatures": [
 				"Spirit of Vengeance|Warlock||Vengeance|SoV|1",

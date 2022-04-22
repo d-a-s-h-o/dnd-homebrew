@@ -11,7 +11,7 @@
 					"Walrock Homebrew"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Frost2779"
 				]
 			}
 		],
@@ -24,7 +24,9 @@
 			"source": "WalrockHomebrewCodexofTechnomancy",
 			"page": 6,
 			"level": 0,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -108,8 +110,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "6560c591e4f71916f8a17494ee382ab8"
+			]
 		}
 	],
 	"spell": [
@@ -172,8 +173,7 @@
 						"source": "TCE"
 					}
 				]
-			},
-			"uniqueId": "768254b1d6e43829ba9dab058658b656"
+			}
 		},
 		{
 			"name": "Animate Construct",
@@ -244,8 +244,7 @@
 						"source": "TCE"
 					}
 				]
-			},
-			"uniqueId": "16fbd654f0c081355acc13ae1f8608ec"
+			}
 		},
 		{
 			"name": "Awaken Machine Spirit",
@@ -313,8 +312,7 @@
 						"source": "TCE"
 					}
 				]
-			},
-			"uniqueId": "1f66ad7ba864db7764d5d7bbf3d29dec"
+			}
 		},
 		{
 			"name": "Capture Image",
@@ -367,8 +365,7 @@
 						"source": "TCE"
 					}
 				]
-			},
-			"uniqueId": "3b7f6f7ec2f95a6078dd6e6b18e5af60"
+			}
 		},
 		{
 			"name": "Conjure Chains",
@@ -451,8 +448,7 @@
 						"source": "TCE"
 					}
 				]
-			},
-			"uniqueId": "458ed157454bac6a25e042838eb45691"
+			}
 		},
 		{
 			"name": "Conjure Trap",
@@ -521,8 +517,7 @@
 						"source": "TCE"
 					}
 				]
-			},
-			"uniqueId": "91ff984946a52f105fae9fc15eb11ac0"
+			}
 		},
 		{
 			"name": "Conjure Workshop",
@@ -581,7 +576,6 @@
 					}
 				]
 			},
-			"uniqueId": "ca31f0fdccd1168ae81eb123b5894e03",
 			"miscTags": [
 				"PRM"
 			]
@@ -661,8 +655,7 @@
 						"source": "PHB"
 					}
 				]
-			},
-			"uniqueId": "608baacbff9696b79cc4c2b1f27393df"
+			}
 		},
 		{
 			"name": "Fantastic Machine",
@@ -686,7 +679,7 @@
 				"s": true,
 				"m": {
 					"text": "a blueprint of the machine created, 50 gp worth of cogs and machine parts which the spell consumes",
-					"consumed": true,
+					"consume": true,
 					"cost": 5000
 				}
 			},
@@ -720,8 +713,7 @@
 						"source": "TCE"
 					}
 				]
-			},
-			"uniqueId": "b6871eaa7b4b125fd2cc24edaf8c9643"
+			}
 		},
 		{
 			"name": "Iron Body",
@@ -783,7 +775,6 @@
 					}
 				]
 			},
-			"uniqueId": "c8e0882e21602bd311b40106cbbaf0da",
 			"miscTags": [
 				"THP"
 			]
@@ -855,8 +846,7 @@
 						"source": "TCE"
 					}
 				]
-			},
-			"uniqueId": "568c2c9c477fdf8852f7f286a402457c"
+			}
 		},
 		{
 			"name": "Modron March",
@@ -931,8 +921,8 @@
 					}
 				]
 			},
-			"uniqueId": "fce297f0c9a134fa38c4318277d1a8ec",
 			"miscTags": [
+				"FMV",
 				"SGT"
 			]
 		},
@@ -987,8 +977,7 @@
 						"source": "PHB"
 					}
 				]
-			},
-			"uniqueId": "63ec3193f7368c1cfd3071263baad14b"
+			}
 		},
 		{
 			"name": "Steam Vent",
@@ -1059,7 +1048,9 @@
 					}
 				]
 			},
-			"uniqueId": "41390f62b98b13e73047d328e98726dc"
+			"miscTags": [
+				"FMV"
+			]
 		},
 		{
 			"name": "Voltwire",
@@ -1124,7 +1115,6 @@
 					}
 				]
 			},
-			"uniqueId": "5cd9fca7267472475011587a014c86c6",
 			"miscTags": [
 				"SCL"
 			]
@@ -1197,8 +1187,7 @@
 						"source": "TCE"
 					}
 				]
-			},
-			"uniqueId": "3b5c8f83039464ca44d091ba54aaae08"
+			}
 		}
 	]
 }

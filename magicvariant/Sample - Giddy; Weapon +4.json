@@ -4,12 +4,12 @@
 			{
 				"json": "GiddyVariant",
 				"abbreviation": "Brew",
-				"full": "The Null Network",
+				"full": "TheGiddyLimit",
 				"authors": [
-					"The Null Network"
+					"TheGiddyLimit"
 				],
 				"version": "1.0.0",
-				"url": "https://github.com/thenullnetwork/dnd-homebrew",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -29,12 +29,13 @@
 				"name": "Net"
 			},
 			"inherits": {
-				"genericBonus": "+4",
+				"bonusWeapon": "+4",
 				"rarity": "legendary",
 				"source": "GiddyVariant",
+				"page": 4,
 				"nameSuffix": " +4",
 				"entries": [
-					"You have a {=genericBonus} bonus to attack and damage rolls made with this weapon."
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this weapon."
 				]
 			}
 		}

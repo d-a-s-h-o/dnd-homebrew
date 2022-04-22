@@ -9,7 +9,9 @@
 					"Jonoman3000"
 				],
 				"convertedBy": [
-					"Dasho"
+					"zombiekiller 101",
+					"Spappz",
+					"(tokens by Infamous)"
 				],
 				"version": "1.0.1",
 				"url": "https://drive.google.com/file/d/0B-g9vLTX0eHKWDZHZ05QWkVNZVU/view",
@@ -18,7 +20,7 @@
 			}
 		],
 		"dateAdded": 1555319662,
-		"dateLastModified": 1606362890
+		"dateLastModified": 1638810015
 	},
 	"legendaryGroup": [
 		{
@@ -63,10 +65,14 @@
 	"monster": [
 		{
 			"name": "Movanic Deva",
-			"group": "Angels",
+			"group": [
+				"Angels"
+			],
 			"source": "MModule",
 			"page": 10,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -199,7 +205,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Deva.png",
+			"tokenUrl": "https://dndz.dev/img/MM/Deva.png",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/deva.mp3"
@@ -225,7 +231,8 @@
 				"SD"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Multiattack",
+				"Shapechanger"
 			],
 			"languageTags": [
 				"TP",
@@ -247,10 +254,14 @@
 		},
 		{
 			"name": "Monadic Deva",
-			"group": "Angels",
+			"group": [
+				"Angels"
+			],
 			"source": "MModule",
 			"page": 10,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -384,7 +395,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Deva.png",
+			"tokenUrl": "https://dndz.dev/img/MM/Deva.png",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/deva.mp3"
@@ -410,7 +421,8 @@
 				"SD"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Multiattack",
+				"Shapechanger"
 			],
 			"languageTags": [
 				"TP",
@@ -429,10 +441,14 @@
 		},
 		{
 			"name": "Astral Deva",
-			"group": "Angels",
+			"group": [
+				"Angels"
+			],
 			"source": "MModule",
 			"page": 10,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -559,7 +575,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Deva.png",
+			"tokenUrl": "https://dndz.dev/img/MM/Deva.png",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/deva.mp3"
@@ -585,7 +601,8 @@
 				"SD"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Multiattack",
+				"Shapechanger"
 			],
 			"languageTags": [
 				"TP",
@@ -606,8 +623,10 @@
 			"source": "MModule",
 			"name": "Aarakocra Captain",
 			"page": 3,
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Aarakocra Captain (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Aarakocra Captain (token).png",
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -688,7 +707,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Aarakocra Captain.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Aarakocra Captain.webp"
 						}
 					}
 				],
@@ -712,8 +731,10 @@
 			"source": "MModule",
 			"name": "Aarakocra Sharpshooter",
 			"page": 3,
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Aarakocra Captain (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Aarakocra Captain (token).png",
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -782,7 +803,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Aarakocra Captain.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Aarakocra Captain.webp"
 						}
 					}
 				],
@@ -805,8 +826,10 @@
 			"source": "MModule",
 			"name": "Aarakocra Priest of Aerdrie",
 			"page": 4,
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Aarakocra Priest of Aerdrie (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Aarakocra Priest of Aerdrie (token).png",
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -847,7 +870,7 @@
 				"perception": "+11",
 				"insight": "+8",
 				"history": "+4",
-				"religon": "+4"
+				"religion": "+4"
 			},
 			"passive": 16,
 			"languages": [
@@ -970,7 +993,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Aarakocra Priest of Aerdrie.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Aarakocra Priest of Aerdrie.webp"
 						}
 					}
 				],
@@ -990,14 +1013,26 @@
 			"spellcastingTags": [
 				"I",
 				"CC"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"L",
+				"N",
+				"O",
+				"P",
+				"R",
+				"T"
 			]
 		},
 		{
 			"source": "MModule",
 			"name": "Aboleth Sovereign",
 			"page": 5,
-			"size": "H",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Aboleth (token).png",
+			"size": [
+				"H"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Aboleth (token).png",
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -1141,7 +1176,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Aboleth Sovereign.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Aboleth Sovereign.webp"
 						}
 					}
 				],
@@ -1159,9 +1194,6 @@
 				"A",
 				"Y"
 			],
-			"conditionInflicted": [
-				"charmed"
-			],
 			"conditionInflict": [
 				"charmed"
 			]
@@ -1169,8 +1201,10 @@
 		{
 			"source": "MModule",
 			"name": "Aboleth Spellcaster",
-			"size": "L",
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Aboleth.png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://dndz.dev/img/MM/Aboleth.png",
 			"page": 6,
 			"type": "aberration",
 			"alignment": [
@@ -1329,10 +1363,6 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
-				"charmed",
-				"prone"
-			],
 			"conditionInflict": [
 				"charmed",
 				"prone"
@@ -1355,13 +1385,18 @@
 					"name": "Aboleth",
 					"source": "MM"
 				}
-			}
+			},
+			"damageTagsSpell": [
+				"Y"
+			]
 		},
 		{
 			"source": "MModule",
 			"name": "Aboleth Sovereign Spellcaster",
-			"size": "H",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Aboleth (token).png",
+			"size": [
+				"H"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Aboleth (token).png",
 			"page": 6,
 			"type": "aberration",
 			"alignment": [
@@ -1528,7 +1563,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Aboleth Sovereign.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Aboleth Sovereign.webp"
 						}
 					}
 				],
@@ -1549,9 +1584,6 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
-				"charmed"
-			],
 			"conditionInflict": [
 				"charmed"
 			],
@@ -1559,13 +1591,18 @@
 				"charmed",
 				"incapacitated",
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"Y"
 			]
 		},
 		{
 			"source": "MModule",
 			"name": "Young Aboleth",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Aboleth (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Aboleth (token).png",
 			"page": 6,
 			"type": "aberration",
 			"alignment": [
@@ -1686,8 +1723,10 @@
 		{
 			"source": "MModule",
 			"name": "Adlet",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Adlet (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Adlet (token).png",
 			"page": 7,
 			"type": {
 				"type": "humanoid",
@@ -1785,7 +1824,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Adlet.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Adlet.webp"
 						}
 					}
 				],
@@ -1801,10 +1840,6 @@
 				"S",
 				"P"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"exhaustion"
-			],
 			"conditionInflict": [
 				"grappled",
 				"exhaustion"
@@ -1813,8 +1848,10 @@
 		{
 			"source": "MModule",
 			"name": "Ahklut",
-			"size": "H",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Ahklut (token).png",
+			"size": [
+				"H"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Ahklut (token).png",
 			"page": 8,
 			"type": "monstrosity",
 			"alignment": [
@@ -1927,7 +1964,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Ahklut.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Ahklut.webp"
 						}
 					}
 				],
@@ -1943,9 +1980,6 @@
 				"P",
 				"B"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -1953,10 +1987,14 @@
 		{
 			"source": "MModule",
 			"name": "Agathion",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Agathion (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Agathion (token).png",
 			"page": 9,
-			"group": "Angels",
+			"group": [
+				"Angels"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -2096,7 +2134,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Agathion.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Agathion.webp"
 						}
 					}
 				],
@@ -2120,9 +2158,13 @@
 			"source": "MModule",
 			"name": "Valkyrie",
 			"page": 10,
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Valkyrie (token).png",
-			"group": "Angels",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Valkyrie (token).png",
+			"group": [
+				"Angels"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -2269,7 +2311,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Valkyrie.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Valkyrie.webp"
 						}
 					}
 				],
@@ -2292,8 +2334,10 @@
 		{
 			"source": "MModule",
 			"name": "Animator's Staff",
-			"size": "S",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Animator's Staff (token).png",
+			"size": [
+				"S"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Animator's Staff (token).png",
 			"page": 11,
 			"type": "construct",
 			"alignment": [
@@ -2424,7 +2468,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Animator's Staff.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Animator's Staff.webp"
 						}
 					}
 				],
@@ -2441,13 +2485,20 @@
 			],
 			"spellcastingTags": [
 				"CW"
+			],
+			"damageTagsSpell": [
+				"F",
+				"O",
+				"T"
 			]
 		},
 		{
 			"source": "MModule",
 			"name": "Animator's Wand",
-			"size": "T",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Animator's Wand (token).png",
+			"size": [
+				"T"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Animator's Wand (token).png",
 			"type": "construct",
 			"page": 11,
 			"alignment": [
@@ -2562,13 +2613,19 @@
 			],
 			"damageTags": [
 				"P"
+			],
+			"damageTagsSpell": [
+				"F",
+				"O"
 			]
 		},
 		{
 			"source": "MModule",
 			"name": "Flying Caltrop",
-			"size": "T",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Flying Caltrop (token).png",
+			"size": [
+				"T"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Flying Caltrop (token).png",
 			"page": 12,
 			"type": "construct",
 			"alignment": [
@@ -2667,8 +2724,10 @@
 			"source": "MModule",
 			"name": "Flying Shield",
 			"page": 12,
-			"size": "S",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Flying Shield (token).png",
+			"size": [
+				"S"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Flying Shield (token).png",
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -2763,7 +2822,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Flying Shield.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Flying Shield.webp"
 						}
 					}
 				],
@@ -2782,8 +2841,10 @@
 		{
 			"source": "MModule",
 			"name": "Sack of Smothering",
-			"size": "S",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Sack of Smothering (token).png",
+			"size": [
+				"S"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Sack of Smothering (token).png",
 			"page": 13,
 			"type": "construct",
 			"alignment": [
@@ -2878,9 +2939,6 @@
 			"damageTags": [
 				"B"
 			],
-			"conditionInflicted": [
-				"blinded"
-			],
 			"conditionInflict": [
 				"blinded"
 			]
@@ -2888,8 +2946,10 @@
 		{
 			"source": "MModule",
 			"name": "Swarm of Flying Caltrops",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Swarm of Flying Caltrops (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Swarm of Flying Caltrops (token).png",
 			"page": 13,
 			"type": {
 				"type": "construct",
@@ -3006,8 +3066,10 @@
 			"source": "MModule",
 			"name": "Swarm of Ball Bearings",
 			"page": 13,
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Swarm of Ball Bearings (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Swarm of Ball Bearings (token).png",
 			"type": {
 				"type": "construct",
 				"swarmSize": "T"
@@ -3113,9 +3175,6 @@
 			"damageTags": [
 				"B"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -3124,8 +3183,10 @@
 			"source": "MModule",
 			"name": "Jungle Ankheg",
 			"page": 14,
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Jungle Ankheg (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Jungle Ankheg (token).png",
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -3212,7 +3273,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Jungle Ankheg.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Jungle Ankheg.webp"
 						}
 					}
 				],
@@ -3228,9 +3289,6 @@
 				"P",
 				"A"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
@@ -3238,8 +3296,10 @@
 		{
 			"source": "MModule",
 			"name": "Azer Artisan",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Azer Lord (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Azer Lord (token).png",
 			"type": "elemental",
 			"page": 15,
 			"alignment": [
@@ -3328,7 +3388,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Azer Lord.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Azer Lord.webp"
 						}
 					}
 				],
@@ -3349,8 +3409,10 @@
 		{
 			"source": "MModule",
 			"name": "Azer Lord",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Azer Lord (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Azer Lord (token).png",
 			"page": 15,
 			"type": "elemental",
 			"alignment": [
@@ -3457,7 +3519,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Azer Lord.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Azer Lord.webp"
 						}
 					}
 				],
@@ -3478,8 +3540,10 @@
 		{
 			"source": "MModule",
 			"name": "Baku",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Baku (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Baku (token).png",
 			"type": "fey",
 			"page": 16,
 			"alignment": [
@@ -3640,7 +3704,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Baku.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Baku.webp"
 						}
 					}
 				],
@@ -3659,9 +3723,6 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
-				"unconscious"
-			],
 			"conditionInflict": [
 				"unconscious"
 			],
@@ -3669,14 +3730,21 @@
 				"frightened",
 				"charmed",
 				"incapacitated"
+			],
+			"damageTagsSpell": [
+				"Y"
 			]
 		},
 		{
 			"source": "MModule",
-			"group": "Banshees",
+			"group": [
+				"Banshees"
+			],
 			"name": "Bewailer",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Bewailer (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Bewailer (token).png",
 			"type": "undead",
 			"page": 17,
 			"alignment": [
@@ -3817,7 +3885,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Bewailer.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Bewailer.webp"
 						}
 					}
 				],
@@ -3831,9 +3899,6 @@
 				"Y",
 				"O"
 			],
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
 			]
@@ -3841,8 +3906,10 @@
 		{
 			"source": "MModule",
 			"name": "Greater Basilisk",
-			"size": "H",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Greater Basilisk (token).png",
+			"size": [
+				"H"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Greater Basilisk (token).png",
 			"page": 18,
 			"type": "monstrosity",
 			"alignment": [
@@ -3933,7 +4000,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Greater Basilisk.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Greater Basilisk.webp"
 						}
 					}
 				],
@@ -3952,10 +4019,6 @@
 				"I",
 				"S"
 			],
-			"conditionInflicted": [
-				"petrified",
-				"restrained"
-			],
 			"conditionInflict": [
 				"petrified",
 				"restrained"
@@ -3964,8 +4027,10 @@
 		{
 			"source": "MModule",
 			"name": "Marine Basilisk",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Marine Basilisk (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Marine Basilisk (token).png",
 			"page": 19,
 			"type": "monstrosity",
 			"alignment": [
@@ -4043,7 +4108,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Marine Basilisk.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Marine Basilisk.webp"
 						}
 					}
 				],
@@ -4060,10 +4125,6 @@
 				"I",
 				"B"
 			],
-			"conditionInflicted": [
-				"petrified",
-				"restrained"
-			],
 			"conditionInflict": [
 				"petrified",
 				"restrained"
@@ -4072,8 +4133,10 @@
 		{
 			"source": "MModule",
 			"name": "Plated Behir",
-			"size": "H",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Plated Behir (token).png",
+			"size": [
+				"H"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Plated Behir (token).png",
 			"page": 20,
 			"type": "monstrosity",
 			"alignment": [
@@ -4175,6 +4238,7 @@
 				}
 			],
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"languageTags": [
@@ -4190,7 +4254,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Plated Behir.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Plated Behir.webp"
 						}
 					}
 				],
@@ -4210,11 +4274,6 @@
 				"S",
 				"L"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"stunned"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -4223,11 +4282,15 @@
 		},
 		{
 			"source": "MModule",
-			"group": "Beholders",
+			"group": [
+				"Beholders"
+			],
 			"name": "Eye of the Deep",
 			"page": 21,
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Eye of the Deep (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Eye of the Deep (token).png",
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -4346,7 +4409,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Eye of the Deep.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Eye of the Deep.webp"
 						}
 					}
 				],
@@ -4363,11 +4426,6 @@
 				"P",
 				"N"
 			],
-			"conditionInflicted": [
-				"paralyzed",
-				"unconscious",
-				"blinded"
-			],
 			"conditionInflict": [
 				"paralyzed",
 				"unconscious",
@@ -4377,8 +4435,10 @@
 		{
 			"source": "MModule",
 			"name": "Bramble Blight",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Bramble Blight (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Bramble Blight (token).png",
 			"page": 22,
 			"type": "plant",
 			"alignment": [
@@ -4469,7 +4529,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Bramble Blight.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Bramble Blight.webp"
 						}
 					}
 				],
@@ -4487,9 +4547,6 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -4497,8 +4554,10 @@
 		{
 			"source": "MModule",
 			"name": "Branch Blight",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Branch Blight (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Branch Blight (token).png",
 			"page": 23,
 			"type": "plant",
 			"alignment": [
@@ -4585,7 +4644,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Branch Blight.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Branch Blight.webp"
 						}
 					}
 				],
@@ -4600,11 +4659,6 @@
 			"damageTags": [
 				"B"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"prone"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -4614,8 +4668,10 @@
 		{
 			"source": "MModule",
 			"name": "Wood Blight",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Wood Blight (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Wood Blight (token).png",
 			"page": 23,
 			"type": "plant",
 			"alignment": [
@@ -4686,7 +4742,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Wood Blight.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Wood Blight.webp"
 						}
 					}
 				],
@@ -4706,8 +4762,10 @@
 			"source": "MModule",
 			"name": "Bugbear Assassin",
 			"page": 25,
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Bugbear Champion of Hruggek (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Bugbear Champion of Hruggek (token).png",
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4827,8 +4885,10 @@
 			"source": "MModule",
 			"name": "Bugbear Champion of Hruggek",
 			"page": 24,
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Bugbear Champion of Hruggek (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Bugbear Champion of Hruggek (token).png",
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4962,7 +5022,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Bugbear Champion of Hruggek.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Bugbear Champion of Hruggek.webp"
 						}
 					}
 				],
@@ -4979,13 +5039,20 @@
 			],
 			"spellcastingTags": [
 				"CC"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
 			]
 		},
 		{
 			"source": "MModule",
 			"name": "Bullywug Chief",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Bullywug Chief (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Bullywug Chief (token).png",
 			"page": 26,
 			"type": {
 				"type": "humanoid",
@@ -5088,7 +5155,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Bullywug Chief.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Bullywug Chief.webp"
 						}
 					}
 				],
@@ -5107,8 +5174,10 @@
 		{
 			"source": "MModule",
 			"name": "Bullywug Hunter",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Bullywug Hunter (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Bullywug Hunter (token).png",
 			"page": 26,
 			"type": {
 				"type": "humanoid",
@@ -5217,7 +5286,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Bullywug Hunter.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Bullywug Hunter.webp"
 						}
 					}
 				],
@@ -5237,9 +5306,6 @@
 				"P",
 				"I"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -5247,8 +5313,10 @@
 		{
 			"source": "MModule",
 			"name": "Bullywug Shaman",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Bullywug Shaman (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Bullywug Shaman (token).png",
 			"page": 25,
 			"type": {
 				"type": "humanoid",
@@ -5385,7 +5453,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Bullywug Shaman.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Bullywug Shaman.webp"
 						}
 					}
 				],
@@ -5403,14 +5471,22 @@
 			],
 			"spellcastingTags": [
 				"CD"
+			],
+			"damageTagsSpell": [
+				"F",
+				"T"
 			]
 		},
 		{
 			"source": "MModule",
 			"name": "Alu-fiend",
-			"group": "Cambions",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Alu-fiend (token).png",
+			"group": [
+				"Cambions"
+			],
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Alu-fiend (token).png",
 			"page": 27,
 			"type": "fiend",
 			"alignment": [
@@ -5563,7 +5639,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Alu-fiend.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Alu-fiend.webp"
 						}
 					}
 				],
@@ -5582,16 +5658,23 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"charmed"
+			],
+			"damageTagsSpell": [
+				"O"
 			]
 		},
 		{
 			"source": "MModule",
 			"name": "Spawn of Graz'zt",
-			"group": "Cambions",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Spawn of Graz'zt (token).png",
+			"group": [
+				"Cambions"
+			],
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Spawn of Graz'zt (token).png",
 			"page": 28,
 			"type": {
 				"type": "fiend",
@@ -5776,7 +5859,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Spawn of Graz'zt.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Spawn of Graz'zt.webp"
 						}
 					}
 				],
@@ -5794,9 +5877,6 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
-				"charmed"
-			],
 			"conditionInflict": [
 				"charmed"
 			],
@@ -5807,10 +5887,14 @@
 		{
 			"source": "MModule",
 			"name": "Spawn of Orcus",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Spawn of Orcus (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Spawn of Orcus (token).png",
 			"page": 29,
-			"group": "Cambions",
+			"group": [
+				"Cambions"
+			],
 			"type": "fiend",
 			"alignment": [
 				"C",
@@ -5981,7 +6065,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Spawn of Orcus.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Spawn of Orcus.webp"
 						}
 					}
 				],
@@ -6001,13 +6085,18 @@
 			],
 			"spellcastingTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"N"
 			]
 		},
 		{
 			"source": "MModule",
 			"name": "Tangle Crawler",
-			"size": "H",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Tangle Crawler (token).png",
+			"size": [
+				"H"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Tangle Crawler (token).png",
 			"page": 30,
 			"type": "monstrosity",
 			"alignment": [
@@ -6110,7 +6199,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Tangle Crawler.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Tangle Crawler.webp"
 						}
 					}
 				],
@@ -6128,10 +6217,6 @@
 				"I",
 				"P"
 			],
-			"conditionInflicted": [
-				"paralyzed",
-				"poisoned"
-			],
 			"conditionInflict": [
 				"paralyzed",
 				"poisoned"
@@ -6140,8 +6225,10 @@
 		{
 			"source": "MModule",
 			"name": "Centaur Knight",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Centaur Knight (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Centaur Knight (token).png",
 			"page": 31,
 			"type": "monstrosity",
 			"alignment": [
@@ -6284,7 +6371,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Centaur Knight.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Centaur Knight.webp"
 						}
 					}
 				],
@@ -6303,9 +6390,6 @@
 				"B",
 				"P"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -6313,8 +6397,10 @@
 		{
 			"source": "MModule",
 			"name": "Centaur Marksman",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Centaur Marksman (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Centaur Marksman (token).png",
 			"page": 32,
 			"type": "monstrosity",
 			"alignment": [
@@ -6420,7 +6506,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Centaur Marksman.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Centaur Marksman.webp"
 						}
 					}
 				],
@@ -6429,9 +6515,6 @@
 					"source": "MModule"
 				}
 			},
-			"traitTags": [
-				"Magic Weapons"
-			],
 			"miscTags": [
 				"MW",
 				"RW",
@@ -6443,13 +6526,18 @@
 			],
 			"spellcastingTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"P"
 			]
 		},
 		{
 			"source": "MModule",
 			"name": "Centaur Spiritcaller",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Centaur Spiritcaller (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Centaur Spiritcaller (token).png",
 			"page": 33,
 			"type": "monstrosity",
 			"alignment": [
@@ -6570,7 +6658,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Centaur Spiritcaller.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Centaur Spiritcaller.webp"
 						}
 					}
 				],
@@ -6595,8 +6683,10 @@
 		{
 			"source": "MModule",
 			"name": "Centaur Wildling",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Centaur Wildling (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Centaur Wildling (token).png",
 			"type": "monstrosity",
 			"page": 33,
 			"alignment": [
@@ -6684,7 +6774,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Centaur Wildling.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Centaur Wildling.webp"
 						}
 					}
 				],
@@ -6704,8 +6794,10 @@
 		{
 			"source": "MModule",
 			"name": "Cerynitis",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Cerynitis (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Cerynitis (token).png",
 			"page": 34,
 			"type": "celestial",
 			"alignment": [
@@ -6845,7 +6937,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Cerynitis.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Cerynitis.webp"
 						}
 					}
 				],
@@ -6863,10 +6955,6 @@
 				"R",
 				"O"
 			],
-			"conditionInflicted": [
-				"blinded",
-				"prone"
-			],
 			"conditionInflict": [
 				"blinded",
 				"prone"
@@ -6875,8 +6963,10 @@
 		{
 			"source": "MModule",
 			"name": "Astral Chimera",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Astral Chimera (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Astral Chimera (token).png",
 			"page": 35,
 			"type": "monstrosity",
 			"alignment": [
@@ -7011,7 +7101,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Astral Chimera.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Astral Chimera.webp"
 						}
 					}
 				],
@@ -7031,16 +7121,20 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"frightened"
 			]
 		},
 		{
 			"source": "MModule",
-			"group": "Chimeras",
+			"group": [
+				"Chimeras"
+			],
 			"name": "Demimaera",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Demimaera (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Demimaera (token).png",
 			"page": 36,
 			"type": "monstrosity",
 			"alignment": [
@@ -7120,6 +7214,7 @@
 				"Charge"
 			],
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -7131,7 +7226,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Demimaera.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Demimaera.webp"
 						}
 					}
 				],
@@ -7150,9 +7245,6 @@
 				"I",
 				"F"
 			],
-			"conditionInflicted": [
-				"prone"
-			],
 			"conditionInflict": [
 				"prone"
 			]
@@ -7160,9 +7252,13 @@
 		{
 			"source": "MModule",
 			"name": "Maeragorgon",
-			"group": "Chimeras",
-			"size": "H",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Maeragorgon (token).png",
+			"group": [
+				"Chimeras"
+			],
+			"size": [
+				"H"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Maeragorgon (token).png",
 			"page": 37,
 			"type": "fiend",
 			"alignment": [
@@ -7305,6 +7401,7 @@
 				"Legendary Resistances"
 			],
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"languageTags": [
@@ -7320,7 +7417,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Maeragorgon.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Maeragorgon.webp"
 						}
 					}
 				],
@@ -7345,8 +7442,10 @@
 		{
 			"source": "MModule",
 			"name": "Chupacabra",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Chupacabra (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Chupacabra (token).png",
 			"page": 38,
 			"type": "monstrosity",
 			"alignment": [
@@ -7442,7 +7541,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Chupacabra.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Chupacabra.webp"
 						}
 					}
 				],
@@ -7461,11 +7560,15 @@
 		},
 		{
 			"source": "MModule",
-			"group": "Clockworks",
+			"group": [
+				"Clockworks"
+			],
 			"page": 39,
 			"name": "Brass Spider",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Brass Spider (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Brass Spider (token).png",
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -7579,7 +7682,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Brass Spider.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Brass Spider.webp"
 						}
 					}
 				],
@@ -7598,11 +7701,6 @@
 			"languageTags": [
 				"CS"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained",
-				"prone"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained",
@@ -7612,9 +7710,13 @@
 		{
 			"source": "MModule",
 			"name": "Electrum Drake",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Electrum Drake (token).png",
-			"group": "Clockworks",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Electrum Drake (token).png",
+			"group": [
+				"Clockworks"
+			],
 			"page": 40,
 			"type": "construct",
 			"alignment": [
@@ -7723,6 +7825,7 @@
 				"Magic Resistance"
 			],
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"senseTags": [
@@ -7734,7 +7837,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Electrum Drake.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Electrum Drake.webp"
 						}
 					}
 				],
@@ -7755,9 +7858,6 @@
 			"languageTags": [
 				"CS"
 			],
-			"conditionInflicted": [
-				"paralyzed"
-			],
 			"conditionInflict": [
 				"paralyzed"
 			]
@@ -7765,8 +7865,10 @@
 		{
 			"source": "MModule",
 			"name": "Greater Cockatrice",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Greater Cockatrice (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Greater Cockatrice (token).png",
 			"page": 41,
 			"type": "monstrosity",
 			"alignment": [
@@ -7847,7 +7949,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Greater Cockatrice.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Greater Cockatrice.webp"
 						}
 					}
 				],
@@ -7866,10 +7968,6 @@
 				"S",
 				"N"
 			],
-			"conditionInflicted": [
-				"petrified",
-				"restrained"
-			],
 			"conditionInflict": [
 				"petrified",
 				"restrained"
@@ -7878,8 +7976,10 @@
 		{
 			"source": "MModule",
 			"name": "Fallen Couatl",
-			"size": "M",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Fallen Couatl (token).png",
+			"size": [
+				"M"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Fallen Couatl (token).png",
 			"page": 42,
 			"type": "celestial",
 			"alignment": [
@@ -8000,7 +8100,8 @@
 				"Magic Weapons"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Multiattack",
+				"Shapechanger"
 			],
 			"languageTags": [
 				"XX",
@@ -8015,7 +8116,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Fallen Couatl.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Fallen Couatl.webp"
 						}
 					}
 				],
@@ -8036,10 +8137,6 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -8048,13 +8145,19 @@
 				"poisoned",
 				"blinded",
 				"deafened"
+			],
+			"damageTagsSpell": [
+				"I",
+				"N"
 			]
 		},
 		{
 			"source": "MModule",
 			"name": "Quetzalcouatl",
-			"size": "H",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Quetzalcouatl (token).png",
+			"size": [
+				"H"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Quetzalcouatl (token).png",
 			"page": 43,
 			"type": "celestial",
 			"alignment": [
@@ -8218,7 +8321,8 @@
 				"Magic Weapons"
 			],
 			"actionTags": [
-				"Multiattack"
+				"Multiattack",
+				"Shapechanger"
 			],
 			"languageTags": [
 				"XX",
@@ -8233,7 +8337,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Quetzalcouatl.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Quetzalcouatl.webp"
 						}
 					}
 				],
@@ -8255,18 +8359,24 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"unconscious",
 				"poisoned",
 				"grappled",
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"B",
+				"Y"
 			]
 		},
 		{
 			"source": "MModule",
 			"name": "Crysmal",
-			"size": "S",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Crysmal (token).png",
+			"size": [
+				"S"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Crysmal (token).png",
 			"type": "elemental",
 			"page": 44,
 			"alignment": [
@@ -8403,7 +8513,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Crysmal.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Crysmal.webp"
 						}
 					}
 				],
@@ -8428,8 +8538,10 @@
 		{
 			"source": "MModule",
 			"name": "Half-Cyclops",
-			"size": "L",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Half-Cyclops (token).png",
+			"size": [
+				"L"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Half-Cyclops (token).png",
 			"page": 45,
 			"type": "giant",
 			"alignment": [
@@ -8500,7 +8612,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Half-Cyclops.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Half-Cyclops.webp"
 						}
 					}
 				],
@@ -8518,9 +8630,6 @@
 				"B",
 				"P"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
@@ -8528,8 +8637,10 @@
 		{
 			"source": "MModule",
 			"name": "Infernal Cyclops",
-			"size": "H",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Infernal Cyclops (token).png",
+			"size": [
+				"H"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Infernal Cyclops (token).png",
 			"page": 46,
 			"type": "giant",
 			"alignment": [
@@ -8563,7 +8674,7 @@
 				"con": "+9"
 			},
 			"skill": {
-				"intimiidation": "+6"
+				"intimidation": "+6"
 			},
 			"resist": [
 				"poison"
@@ -8646,7 +8757,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Infernal Cyclops.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Infernal Cyclops.webp"
 						}
 					}
 				],
@@ -8666,10 +8777,6 @@
 				"S",
 				"F"
 			],
-			"conditionInflicted": [
-				"poisoned",
-				"stunned"
-			],
 			"conditionInflict": [
 				"poisoned",
 				"stunned"
@@ -8678,8 +8785,10 @@
 		{
 			"source": "MModule",
 			"name": "Primal Cyclops",
-			"size": "H",
-			"tokenUrl": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/token/Primal Cyclops (token).png",
+			"size": [
+				"H"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/token/Primal Cyclops (token).png",
 			"page": 47,
 			"type": "giant",
 			"alignment": [
@@ -8772,7 +8881,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/MModule/Primal Cyclops.webp"
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/MModule/Primal Cyclops.webp"
 						}
 					}
 				],

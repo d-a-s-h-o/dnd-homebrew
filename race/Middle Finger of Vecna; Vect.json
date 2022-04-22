@@ -1,5 +1,4 @@
 {
-	"$schema": "../schema.json",
 	"_meta": {
 		"sources": [
 			{
@@ -25,7 +24,9 @@
 					"con": 2
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -122,8 +123,6 @@
 				}
 			],
 			"fluff": {
-				"name": "Vect",
-				"source": "MFOV:Vect",
 				"entries": [
 					{
 						"type": "quote",

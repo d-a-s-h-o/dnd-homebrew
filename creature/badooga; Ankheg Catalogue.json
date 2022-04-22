@@ -11,7 +11,7 @@
 					"badooga"
 				],
 				"convertedBy": [
-					"Dasho"
+					"badooga"
 				]
 			}
 		],
@@ -22,7 +22,9 @@
 		{
 			"name": "Hellcrusher Ankheg",
 			"source": "AnC",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -144,10 +146,6 @@
 				"RCH",
 				"AOE"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"grappled"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled"
@@ -156,7 +154,9 @@
 		{
 			"name": "Ankheg Hive Queen",
 			"source": "AnC",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"L",
@@ -314,12 +314,6 @@
 				"RCH",
 				"AOE"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"grappled",
-				"prone",
-				"frightened"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled",
@@ -330,7 +324,9 @@
 		{
 			"name": "Ankheg Worker",
 			"source": "AnC",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -401,7 +397,9 @@
 		{
 			"name": "Ankheg Drone",
 			"source": "AnC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -463,9 +461,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"grappled"
-			],
 			"conditionInflict": [
 				"grappled"
 			]
@@ -473,7 +468,9 @@
 		{
 			"name": "Crusher Ankheg",
 			"source": "AnC",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -543,10 +540,6 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"restrained",
-				"grappled"
-			],
 			"conditionInflict": [
 				"restrained",
 				"grappled"
@@ -555,7 +548,9 @@
 		{
 			"name": "Runic Ankheg",
 			"source": "AnC",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -684,8 +679,11 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"grappled"
+			],
+			"damageTagsSpell": [
+				"N"
 			]
 		}
 	]

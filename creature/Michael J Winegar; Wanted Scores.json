@@ -9,7 +9,7 @@
 					"Michael J Winegar"
 				],
 				"convertedBy": [
-					"Dasho"
+					"p4535992"
 				],
 				"version": "2020.04.12",
 				"url": "https://www.dmsguild.com/product/266052/Wanted-Scores",
@@ -21,9 +21,11 @@
 	},
 	"monster": [
 		{
-			"name": "WANTEDSCORES - Town Watch/Guard/Soldier",
+			"name": "Town Watch/Guard/Soldier",
 			"shortName": "Town Watch/Guard/Soldier",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -73,7 +75,7 @@
 				]
 			},
 			"tokenUrl": "https://i.imgur.com/WacDXEX.png",
-			"isNpc": true,
+			"isNpc": false,
 			"languages": [
 				"any one language (usually Common)"
 			],
@@ -114,8 +116,10 @@
 			]
 		},
 		{
-			"name": "WANTEDSCORES - Watch Detective",
-			"size": "M",
+			"name": "Watch Detective",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -159,7 +163,7 @@
 				]
 			},
 			"tokenUrl": "https://i.imgur.com/ojYkDkv.png",
-			"isNpc": true,
+			"isNpc": false,
 			"languages": [
 				"any two language"
 			],
@@ -218,8 +222,10 @@
 			]
 		},
 		{
-			"name": "WANTEDSCORES - Tracker",
-			"size": "M",
+			"name": "Tracker",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -268,7 +274,7 @@
 				]
 			},
 			"tokenUrl": "https://i.imgur.com/I6tndeX.png",
-			"isNpc": true,
+			"isNpc": false,
 			"languages": [
 				"any one language (usually Common)"
 			],
@@ -327,8 +333,10 @@
 			]
 		},
 		{
-			"name": "WANTEDSCORES - Professional Bounty Hunter",
-			"size": "M",
+			"name": "Professional Bounty Hunter",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -377,7 +385,7 @@
 				]
 			},
 			"tokenUrl": "https://i.imgur.com/pvOI85B.png",
-			"isNpc": true,
+			"isNpc": false,
 			"languages": [
 				"any one language (usually Common)"
 			],
@@ -451,8 +459,10 @@
 			]
 		},
 		{
-			"name": "WANTEDSCORES - Captain of the Watch",
-			"size": "M",
+			"name": "Captain of the Watch",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -501,7 +511,7 @@
 				]
 			},
 			"tokenUrl": "https://i.imgur.com/1JU5dZu.png",
-			"isNpc": true,
+			"isNpc": false,
 			"languages": [
 				"any one language (usually Common)"
 			],
@@ -569,8 +579,10 @@
 			]
 		},
 		{
-			"name": "WANTEDSCORES - Amateur Bounty Hunter",
-			"size": "M",
+			"name": "Amateur Bounty Hunter",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -623,7 +635,7 @@
 				]
 			},
 			"tokenUrl": "https://i.imgur.com/EQTRhfz.png",
-			"isNpc": true,
+			"isNpc": false,
 			"languages": [
 				"any one language (usually Common)"
 			],
@@ -682,8 +694,10 @@
 			]
 		},
 		{
-			"name": "WANTEDSCORES - Bounty Hunter Mage",
-			"size": "M",
+			"name": "Bounty Hunter Mage",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -697,7 +711,7 @@
 			"ac": [
 				{
 					"ac": 12,
-					"condition": "(15 with mage armor)"
+					"condition": "(15 with {@spell mage armor})"
 				}
 			],
 			"hp": {
@@ -730,7 +744,7 @@
 				]
 			},
 			"tokenUrl": "https://i.imgur.com/3JEBOCk.png",
-			"isNpc": true,
+			"isNpc": false,
 			"languages": [
 				"any four languages"
 			],
@@ -828,6 +842,11 @@
 			],
 			"spellcastingTags": [
 				"CW"
+			],
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"O"
 			]
 		}
 	]

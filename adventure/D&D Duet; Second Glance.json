@@ -11,7 +11,7 @@
 					"Thom Rosario"
 				],
 				"convertedBy": [
-					"Dasho"
+					"SeuRonao"
 				],
 				"version": "Final",
 				"url": "https://www.dmsguild.com/product/287367/Second-Glance-on-Fantasy-Grounds",
@@ -26,6 +26,7 @@
 			"name": "Second Glance",
 			"id": "SecondGlance",
 			"source": "SecondGlance",
+			"group": "homebrew",
 			"coverUrl": "",
 			"contents": [
 				{
@@ -557,7 +558,7 @@
 								},
 								"This second door remains locked at all times, requiring a {@dc 15} check with {@item Thieves' Tools|PHB} to open. The lock seems unusually sophisticated for a small town temple.",
 								"{@b Temple break-in note}: If convenient, Deni can arrive to help the PC at the perfect moment for breaking into the temple if they don't arrange it with her ahead of time. Otherwise, Garren can break down the door. A successful {@dc 12} Dexterity ({@skill Acrobatics}) or Strength ({@skill Athletics}) check on behalf of the PC will prevent the door from crashing loudly.",
-								"If the PC and Garren encounter Deni, she tells them that she saw the poachers exiting the temple construction site five or six nights ago. If they need her help, she has a few tools she brought from home. ({@ Deni Tumble (Rogue)|SecondGlance|Deni} has proficiency with Thieves' Tools. Her stat block can be found in {@adventure Appendix B|SecondGlance|9|Appendix B - Stats}.)",
+								"If the PC and Garren encounter Deni, she tells them that she saw the poachers exiting the temple construction site five or six nights ago. If they need her help, she has a few tools she brought from home. (Deni} has proficiency with Thieves' Tools. Her stat block can be found in {@adventure Appendix B|SecondGlance|9|Appendix B - Stats}.)",
 								"The cleric's study contains a large, frayed tapestry. It's disheveled and poorly hung and doesn't seem to aesthetically fit the rest of the temple. Behind it, there is a hidden door that leads into the false room. It is wedged shut. A {@dc 15} Strength check can force this door open. The cleric's study also has a partially destroyed note on the desk. It reads, in a jagged script: \"The blood yields no answers thus far. Perhaps more...\".",
 								"The rear section of the temple is under construction. The walls and roof are up, but the windows are boarded and the back door locked. The door requires a {@dc 15} check with {@item Thieves' Tools|PHB} to open. It also seems a bit much for keeping curious townspeople and their children away from the dangerous worksite.",
 								"Inside the construction area, amid the expected dust and debris of new work, the PC finds vials of blood, remnants of potions, and spilled and half-full bottles of mysterious liquids. As they look around, a successful {@dc 13} Wisdom ({@skill Perception}) check reveals that the space of the new sanctuary doesn't make sense, almost like there should be more room here based on the appearance of its size from the outside. A successful {@dc 12} Intelligence ({@skill Investigation}) check will reveal the wall butting against the old temple has a room-sized space that shouldn't be there, with brand new, but poorly or hastily made walls and no discernible door. A {@dc 12} Wisdom ({@skill Perception}) check will allow the PC to hear movement and a quiet lowing.",
@@ -815,7 +816,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SecondGlance/the-sacred-wood.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SecondGlance/the-sacred-wood.webp"
 							},
 							"title": "The Sacred Wood"
 						},
@@ -823,7 +824,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SecondGlance/duskhollow.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SecondGlance/duskhollow.webp"
 							},
 							"title": "The Region of Duskhollow"
 						},
@@ -831,7 +832,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SecondGlance/duskhollow2.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SecondGlance/duskhollow2.webp"
 							},
 							"title": "The Town of Duskhollow"
 						},
@@ -839,7 +840,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SecondGlance/house-map.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SecondGlance/house-map.webp"
 							},
 							"title": "Louissa's House"
 						},
@@ -847,7 +848,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/The Null Network/homebrew/master/_img/SecondGlance/temple-map.webp"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/SecondGlance/temple-map.webp"
 							},
 							"title": "The Temple of Waukeen"
 						}
@@ -890,7 +891,9 @@
 			"name": "Cervidae",
 			"source": "SecondGlance",
 			"page": 21,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -1074,7 +1077,9 @@
 			"name": "Garren Bronson (Paladin)",
 			"source": "SecondGlance",
 			"page": 22,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1197,8 +1202,6 @@
 			],
 			"isNpc": true,
 			"fluff": {
-				"name": "Garren",
-				"source": "SecondGlance",
 				"entries": [
 					{
 						"type": "entries",
@@ -1252,7 +1255,9 @@
 		},
 		{
 			"name": "Deni Tumble (Rogue)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1348,7 +1353,9 @@
 		},
 		{
 			"name": "Remmy Sullivan (Rogue)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1445,10 +1452,14 @@
 		},
 		{
 			"name": "Werebear Archdruid",
-			"group": "Lycanthropes",
+			"group": [
+				"Lycanthropes"
+			],
 			"source": "SecondGlance",
 			"page": 24,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1539,7 +1550,7 @@
 			],
 			"soundClip": {
 				"type": "external",
-				"url": "https://dnd.d-n-k.tk/audio/bestiary/werebear.mp3?v=1.116.6"
+				"url": "https://dndz.dev/audio/bestiary/werebear.mp3?v=1.116.6"
 			},
 			"traitTags": [
 				"Keen Senses",
@@ -1559,14 +1570,14 @@
 			"miscTags": [
 				"MW"
 			],
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Werebear.png?v=1.116.6",
+			"tokenUrl": "https://dndz.dev/img/MM/Werebear.png?v=1.116.6",
 			"fluff": {
 				"images": [
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://dnd.d-n-k.tk/img/bestiary/MM/Werebear.jpg"
+							"url": "https://dndz.dev/img/bestiary/MM/Werebear.jpg"
 						}
 					}
 				]
@@ -1618,14 +1629,23 @@
 			],
 			"spellcastingTags": [
 				"CD"
+			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"I"
 			]
 		},
 		{
 			"name": "Werebear Druid",
-			"group": "Lycanthropes",
+			"group": [
+				"Lycanthropes"
+			],
 			"source": "SecondGlance",
 			"page": 24,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1714,7 +1734,7 @@
 			],
 			"soundClip": {
 				"type": "external",
-				"url": "https://dnd.d-n-k.tk/audio/bestiary/werebear.mp3?v=1.116.6"
+				"url": "https://dndz.dev/audio/bestiary/werebear.mp3?v=1.116.6"
 			},
 			"traitTags": [
 				"Keen Senses",
@@ -1733,14 +1753,14 @@
 			"miscTags": [
 				"MW"
 			],
-			"tokenUrl": "https://dnd.d-n-k.tk/img/MM/Werebear.png?v=1.116.6",
+			"tokenUrl": "https://dndz.dev/img/MM/Werebear.png?v=1.116.6",
 			"fluff": {
 				"images": [
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://dnd.d-n-k.tk/img/bestiary/MM/Werebear.jpg"
+							"url": "https://dndz.dev/img/bestiary/MM/Werebear.jpg"
 						}
 					}
 				]
@@ -1782,11 +1802,17 @@
 			],
 			"spellcastingTags": [
 				"CD"
+			],
+			"damageTagsSpell": [
+				"F",
+				"T"
 			]
 		},
 		{
 			"name": "Neophyte Werewolf",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1886,7 +1912,7 @@
 		{
 			"name": "Amulet of Binding",
 			"source": "SecondGlance",
-			"page": "25",
+			"page": 25,
 			"type": "OTH",
 			"rarity": "legendary",
 			"wondrous": true,
@@ -1898,11 +1924,11 @@
 		{
 			"name": "Talisman Map",
 			"source": "SecondGlance",
-			"page": "7",
+			"page": 7,
 			"type": "OTH",
 			"rarity": "uncommon",
 			"entries": [
-				"Made of oak and dried herbs. It serves as a map back to The Sacred Groove."
+				"Made of oak and dried herbs. It serves as a map back to The Sacred Grove."
 			]
 		}
 	]

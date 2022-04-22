@@ -9,7 +9,7 @@
 					"Ashley May"
 				],
 				"convertedBy": [
-					"Dasho"
+					"MrTavish"
 				],
 				"version": "1.0",
 				"url": "https://www.dmsguild.com/product/253757/Festivals-Feasts--Fairs",
@@ -24,6 +24,8 @@
 			"name": "Festival, Feats, and Fairs",
 			"id": "FFnF",
 			"source": "FFnF",
+			"group": "homebrew",
+			"published": "2018-10-01",
 			"contents": [
 				{
 					"name": "Festival, Feats, and Fairs",
@@ -49,7 +51,6 @@
 		{
 			"id": "FFnF",
 			"source": "FFnF",
-			"name": "Festival, Feats, and Fairs",
 			"data": [
 				{
 					"type": "section",
@@ -271,7 +272,7 @@
 								"Among the many structures set up at a carnival, the funhouse is perhaps the most eclectic of all. The entire premise of a funhouse is that it's fully enclosed, and people on the outside will pay to sate their curiosity of whatever lays within. The interior of a funhouse can take on many themes or present many experiences.",
 								{
 									"type": "list",
-									"entries": [
+									"items": [
 										"{@b Hall Of Mirrors} - A simple \"maze\" of mirrored walls, presenting a challenge of traversal simply by the fact there are so many optical illusions. Many of the mirrors are warped, and will present the illusion that people are taller, shorter, thinner, or broader in their reflection. More wealthy carnivals may be able to afford magic mirrors that present more elaborate reflections, such as showing the viewer what they looked like in their youth, or what they might look like as a warrior, a royal, etc.",
 										"{@b Haunted House} - A themed funhouse that is presented as being \"haunted\", in which various contraptions or costumed actors attempt to scare or startle those passing through. Though still fully enclosed, a \"haunted\" funhouse will have many darkened windows or thinner walls, to allow the screams of the horrified audience to echo outward, drawing more curious viewers to purchase a ticket. Sometimes, carnies will disguise themselves as ordinary attendees in order to be abducted by a \"ghost\" or \"monster\" in front of others, presenting the illusion of danger.",
 										"{@b Barrel Roll} - A tunnel section of the funhouse is in fact a large barrel on its side, which is spun by workers on the outside. Guests attempting to traverse the hall must try to walk at an angle in order to not be sent tumbling."
@@ -383,7 +384,6 @@
 								"Before a drinking contest takes place, you'll need to calculate each entrant's drinking tolerance. A simple way to do this is to take their Constitution score (not bonus), and multiply it based on their size.",
 								{
 									"type": "table",
-									"name": "Alcohol Tolerance Size Modifier ",
 									"caption": "Alcohol Tolerance Size Modifier",
 									"colLabels": [
 										"Size",
@@ -1858,9 +1858,8 @@
 			"name": "Caramel Apples",
 			"type": "TG",
 			"value": 5,
-			"reqspace": "Kitchen",
-			"subtype": "Consumable (Food)",
 			"source": "FFnF",
+			"rarity": "none",
 			"entries": [
 				"{@bold Subtype}: Consumable (Food)",
 				"{@bold Kit}: {@item Cook's Utensils}",
@@ -1872,9 +1871,8 @@
 			"name": "Cotton Candy",
 			"type": "TG",
 			"value": 5,
-			"reqspace": "Kitchen",
-			"subtype": "Consumable (Food)",
 			"source": "FFnF",
+			"rarity": "none",
 			"entries": [
 				"{@bold Subtype}: Consumable (Food)",
 				"{@bold Kit}: {@item Cook's Utensils}",
@@ -1886,9 +1884,8 @@
 			"name": "Funnel Cake",
 			"type": "TG",
 			"value": 2,
-			"reqspace": "Kitchen",
-			"subtype": "Consumable (Food)",
 			"source": "FFnF",
+			"rarity": "none",
 			"entries": [
 				"{@bold Subtype}: Consumable (Food)",
 				"{@bold Kit}: {@item Cook's Utensils}",
@@ -1900,9 +1897,8 @@
 			"name": "Grilled Corn ",
 			"type": "TG",
 			"value": 1,
-			"reqspace": "Kitchen",
-			"subtype": "Consumable (Food)",
 			"source": "FFnF",
+			"rarity": "none",
 			"entries": [
 				"{@bold Subtype}: Consumable (Food)",
 				"{@bold Kit}: {@item Cook's Utensils}",
@@ -1914,9 +1910,8 @@
 			"name": "Mini Pies",
 			"type": "TG",
 			"value": 2,
-			"reqspace": "Kitchen",
-			"subtype": "Consumable (Food)",
 			"source": "FFnF",
+			"rarity": "none",
 			"entries": [
 				"{@bold Subtype}: Consumable (Food)",
 				"{@bold Kit}: {@item Cook's Utensils}",
@@ -1928,9 +1923,8 @@
 			"name": "Nuts (1/2 lb)",
 			"type": "TG",
 			"value": 1,
-			"reqspace": "Kitchen",
-			"subtype": "Consumable (Food)",
 			"source": "FFnF",
+			"rarity": "none",
 			"entries": [
 				"{@bold Subtype}: Consumable (Food)",
 				"{@bold Kit}: {@item Cook's Utensils}",
@@ -1942,9 +1936,8 @@
 			"name": "Pretzels",
 			"type": "TG",
 			"value": 1,
-			"reqspace": "Kitchen",
-			"subtype": "Consumable (Food)",
 			"source": "FFnF",
+			"rarity": "none",
 			"entries": [
 				"{@bold Subtype}: Consumable (Food)",
 				"{@bold Kit}: {@item Cook's Utensils}",
@@ -1956,9 +1949,8 @@
 			"name": "Sausage On A Stick ",
 			"type": "TG",
 			"value": 1,
-			"reqspace": "Kitchen",
-			"subtype": "Consumable (Food)",
 			"source": "FFnF",
+			"rarity": "none",
 			"entries": [
 				"{@bold Subtype}: Consumable (Food)",
 				"{@bold Kit}: {@item Cook's Utensils}",
@@ -1970,9 +1962,8 @@
 			"name": "Turkey Legs ",
 			"type": "TG",
 			"value": 2,
-			"reqspace": "Kitchen",
-			"subtype": "Consumable (Food)",
 			"source": "FFnF",
+			"rarity": "none",
 			"entries": [
 				"{@bold Subtype}: Consumable (Food)",
 				"{@bold Kit}: {@item Cook's Utensils}",
@@ -1984,9 +1975,8 @@
 			"name": "Beer",
 			"type": "TG",
 			"value": 10,
-			"reqspace": "Kitchen",
-			"subtype": "Consumable (Beverage)",
 			"source": "FFnF",
+			"rarity": "none",
 			"entries": [
 				"{@bold Subtype}: Consumable (Beverage)",
 				"{@bold Kit}: {@item Brewer's Supplies}",
@@ -1998,9 +1988,8 @@
 			"name": "Cider",
 			"type": "TG",
 			"value": 10,
-			"reqspace": "Kitchen",
-			"subtype": "Consumable (Beverage)",
 			"source": "FFnF",
+			"rarity": "none",
 			"entries": [
 				"{@bold Subtype}: Consumable (Beverage)",
 				"{@bold Kit}: {@item Brewer's Supplies}",
@@ -2012,9 +2001,8 @@
 			"name": "Lemonade",
 			"type": "TG",
 			"value": 1,
-			"reqspace": "Kitchen",
-			"subtype": "Consumable (Beverage)",
 			"source": "FFnF",
+			"rarity": "none",
 			"entries": [
 				"{@bold Subtype}: Consumable (Beverage)",
 				"{@bold Kit}: {@item Cook's Utensils}",
@@ -2028,6 +2016,7 @@
 			"value": 8,
 			"source": "FFnF",
 			"page": 21,
+			"rarity": "none",
 			"entries": [
 				"A helmet with two tankards bolted to the sides, and a pair of flexible tubes that run from the bottoms of the tankards to a T-joint in front of the wearer's mouth, with a basic valve to allow sipping. Both tankards can be filled with beer so that the wearer can drink while keeping both hands free for playing games, brawling, or dual-wielding turkey legs."
 			]
@@ -2039,8 +2028,9 @@
 			"weight": 2,
 			"source": "FFnF",
 			"page": 21,
+			"rarity": "unknown (magic)",
 			"entries": [
-				" A hollow cone roughly 1.5 ft. in length, with a handle affixed to one side. When one speaks or shouts into the narrow end of the cone, their voice is noticeably amplified out the other end, if not mildly distorted. Used frequently by carnies to hawk games and merchandise, it may also be used to show support for competitors in tournaments and games."
+				"A hollow cone roughly 1.5 ft. in length, with a handle affixed to one side. When one speaks or shouts into the narrow end of the cone, their voice is noticeably amplified out the other end, if not mildly distorted. Used frequently by carnies to hawk games and merchandise, it may also be used to show support for competitors in tournaments and games."
 			]
 		},
 		{

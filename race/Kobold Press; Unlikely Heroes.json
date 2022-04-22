@@ -9,7 +9,7 @@
 					"Kobold Press"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Nerd Herd"
 				],
 				"version": "1",
 				"url": "https://rpg.rem.uz/Dungeons%20%26%20Dragons/3rd%20Party/5th%20Edition/Kobold%20Press/Unlikely%20Heroes.pdf",
@@ -23,7 +23,9 @@
 		{
 			"name": "Derro",
 			"source": "Kobold Press",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -709,7 +711,7 @@
 				]
 			},
 			"traitTags": [
-				"Superior Darkvision"
+				"Sunlight Sensitivity"
 			],
 			"languageProficiencies": [
 				{
@@ -727,7 +729,9 @@
 		{
 			"name": "Dhampir",
 			"source": "Kobold Press",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -825,9 +829,7 @@
 				]
 			},
 			"traitTags": [
-				"Darkvision",
-				"Unarmed Strike",
-				"Spellcasting"
+				"Natural Weapon"
 			],
 			"languageProficiencies": [
 				{
@@ -841,7 +843,9 @@
 		{
 			"name": "Dust Goblin",
 			"source": "Kobold Press",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -948,10 +952,6 @@
 					"In the {@i Midgard Campaign Setting}, the dust goblins reside in the Western Wastes. Many dust goblin tribes there worship the immense forms of the Great Old Ones that shamble across the devastated countryside. Some tribes even reside on mobile villages tethered to the massive creatures. These settlements are slowly dragged in the wake of the dust goblins' dead gods."
 				]
 			},
-			"traitTags": [
-				"Darkvision",
-				"Skill Proficiency"
-			],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -962,7 +962,9 @@
 		{
 			"name": "Jinnborn (Speaker)",
 			"source": "Kobold Press",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -1037,72 +1039,6 @@
 					"type": "entries"
 				}
 			],
-			"subraces": [
-				{
-					"name": "Speaker",
-					"ability": [
-						{
-							"wis": 1
-						}
-					],
-					"entries": [
-						{
-							"name": "Favor of the Jinn",
-							"entries": [
-								"You can call upon your jinn patron to gain advantage on a saving throw or ability check, or to impose disadvantage on an attack roll against you. You must decide to use this ability before the relevant d20 roll.",
-								"You can use this ability a number of times equal to your Wisdom modifier (minimum of 1). You regain all expended uses when you finish a long rest."
-							]
-						},
-						{
-							"name": "Walker",
-							"entries": [
-								"You have advantage on saving throws against being stunned and extreme environments, and on ability checks made to navigate the wilderness and avoid losing your way."
-							]
-						},
-						{
-							"name": "{@b Speaker Jinnborn}",
-							"entries": [
-								"Speaker jinnborn bear the mark of their jinni patron, and the world must stand up and take notice. They are the guides, elders, and leaders of their tribes, as well as scouts and seekers of paths."
-							]
-						}
-					]
-				},
-				{
-					"name": "Shaper",
-					"ability": [
-						{
-							"str": 1
-						}
-					],
-					"entries": [
-						{
-							"name": "Elemental Strike",
-							"entries": [
-								"Once on your turn when you hit with a melee attack, you can deal an additional 1d6 damage. The damage type corresponds to your siraati (lightning for air, acid for earth, fire for fire, cold for water).",
-								"You can use this ability a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses after finishing a long rest."
-							]
-						},
-						{
-							"name": "Protection of the Jinn",
-							"entries": [
-								"You have resistance against a type of damage that corresponds to your siraati (lightning for air, acid for earth, fire for fire, cold for water)."
-							]
-						},
-						{
-							"name": "{@b Shaper Jinnborn}",
-							"entries": [
-								"The shaper jinnborn channel the elemental power of their tribe's siraati. Shapers form the majority of a tribe's warriors and protectors, and they ensure the safety of their charges with deadly dedication."
-							]
-						}
-					],
-					"resist": [
-						"lightning",
-						"acid",
-						"fire",
-						"cold"
-					]
-				}
-			],
 			"fluff": {
 				"entries": [
 					"{@b Jinnborn}",
@@ -1131,11 +1067,6 @@
 					"Jinnborn in the {@i Midgard Campaign Setting} wander the fringes of the Southlands, primarily in the Crescent Desert and the Dominion of the Wind Lords. A few of the sab siraat make their way to permanent cities, but the vast majority make frequent pilgrimages into the desert to avoid the madness that comes upon them away from the open sands."
 				]
 			},
-			"traitTags": [
-				"Darkvision",
-				"Skill Proficiency",
-				"Spellcasting"
-			],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -1146,7 +1077,9 @@
 		{
 			"name": "Kijani",
 			"source": "Kobold Press",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -1274,10 +1207,7 @@
 				]
 			},
 			"traitTags": [
-				"Darkvision",
-				"Spellcasting",
-				"Improved Resting",
-				"Skill Proficiency"
+				"Improved Resting"
 			],
 			"skillProficiencies": [
 				{
@@ -1296,7 +1226,9 @@
 		{
 			"name": "Lamia",
 			"source": "Kobold Press",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -1401,10 +1333,6 @@
 					"Ashaa'siir, Ces'ka, Haashlas, Ka'reesh, Losh'vesh, N'vek, Shalesh, Ssthal, Val'vek, Vesha"
 				]
 			},
-			"traitTags": [
-				"Darkvision",
-				"Skill Proficiency"
-			],
 			"languageProficiencies": [
 				{
 					"abyssal": true,
@@ -1415,7 +1343,9 @@
 		{
 			"name": "Ramag",
 			"source": "Kobold Press",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -1488,7 +1418,7 @@
 					"{@b Ramag}",
 					"The enigmatic ramag thrive in the heart of a land once ruled by an empire of titans. In that bygone age, the ramag served the titans. The race's natural affinity for manipulating magic made the ramag essential to tending a vast web of magical energy. This web channeled power to the farthest corners of the empire and powered the titans' wonders. When the titans fell to madness, everything fell apart. As these powerful creatures turned on one another and tore their empire down stone by stone, the web fractured. Wonders failed or went haywire. Magical gates once used to link far-flung outposts went dark or conjured horrors. Uncontrolled magical energy spilled across the land, wreaking unpredictable havoc.",
 					"Now, the ramag live in the ruins of that glory. Changed by the energies of the shattered web, they devote themselves to policing the remaining titan wonders and keeping the rampant energies in check.",
-					"{@ Warped by Magic}",
+					"{@b Warped by Magic}",
 					"Ramag superficially resemble humans, but long exposure to unpredictable magical currents has warped their physical forms. Males stand close to 6 feet tall with females only slightly shorter, but their body proportions are unique. Ramag limbs are very long and lanky, while their torsos are smaller and more compact. As a result they seem strangely angular and spindly, as if both stretched and compressed at the same time.",
 					"Their hair is another oddity\u2014every strand of hair is unusually thick, each about the width of a finger. Ramag tie their hair back with distinctive clasps, the decorations indicating where a given ramag comes from. Facial features are somewhat pinched and angular. Ramag eyes and skin tone tend toward darker shades, as does their hair color, but large variation exists. A stoic people, ramag dress in muted colors in public and save flamboyant or daring outfits for family, friends, or private gatherings.",
 					"{@b Scattered Remnants}",
@@ -1511,9 +1441,6 @@
 					"In Midgard, the magical web in which the ramag race's history is ensnared is a great, crisscrossing net of ley lines. The ramag monoliths stabilize the ley lines and keep them from drifting and twisting, but many remain uncontrolled. The ley lines effects are unpredictable, and even skilled ley spellcasters tread carefully near the remnants of the web."
 				]
 			},
-			"traitTags": [
-				"Skill Proficiency"
-			],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -1524,7 +1451,9 @@
 		{
 			"name": "Sahuagin",
 			"source": "Kobold Press",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30
 			},
@@ -1637,11 +1566,9 @@
 				]
 			},
 			"traitTags": [
-				"Superior Darkvision",
-				"Spellcasting",
+				"Amphibious",
 				"Natural Armor",
-				"Unarmed Strike",
-				"Amphibious"
+				"Natural Weapon"
 			],
 			"languageProficiencies": [
 				{
@@ -1649,6 +1576,78 @@
 					"common": true
 				}
 			]
+		}
+	],
+	"subrace": [
+		{
+			"name": "Speaker",
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Favor of the Jinn",
+					"entries": [
+						"You can call upon your jinn patron to gain advantage on a saving throw or ability check, or to impose disadvantage on an attack roll against you. You must decide to use this ability before the relevant d20 roll.",
+						"You can use this ability a number of times equal to your Wisdom modifier (minimum of 1). You regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"name": "Walker",
+					"entries": [
+						"You have advantage on saving throws against being stunned and extreme environments, and on ability checks made to navigate the wilderness and avoid losing your way."
+					]
+				},
+				{
+					"name": "{@b Speaker Jinnborn}",
+					"entries": [
+						"Speaker jinnborn bear the mark of their jinni patron, and the world must stand up and take notice. They are the guides, elders, and leaders of their tribes, as well as scouts and seekers of paths."
+					]
+				}
+			],
+			"source": "Kobold Press",
+			"raceName": "Jinnborn (Speaker)",
+			"raceSource": "Kobold Press"
+		},
+		{
+			"name": "Shaper",
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Elemental Strike",
+					"entries": [
+						"Once on your turn when you hit with a melee attack, you can deal an additional 1d6 damage. The damage type corresponds to your siraati (lightning for air, acid for earth, fire for fire, cold for water).",
+						"You can use this ability a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses after finishing a long rest."
+					]
+				},
+				{
+					"name": "Protection of the Jinn",
+					"entries": [
+						"You have resistance against a type of damage that corresponds to your siraati (lightning for air, acid for earth, fire for fire, cold for water)."
+					]
+				},
+				{
+					"name": "{@b Shaper Jinnborn}",
+					"entries": [
+						"The shaper jinnborn channel the elemental power of their tribe's siraati. Shapers form the majority of a tribe's warriors and protectors, and they ensure the safety of their charges with deadly dedication."
+					]
+				}
+			],
+			"resist": [
+				"lightning",
+				"acid",
+				"fire",
+				"cold"
+			],
+			"source": "Kobold Press",
+			"raceName": "Jinnborn (Speaker)",
+			"raceSource": "Kobold Press"
 		}
 	]
 }

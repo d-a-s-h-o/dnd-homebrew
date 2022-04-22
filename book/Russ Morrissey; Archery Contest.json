@@ -9,7 +9,7 @@
 					"Russ Morrissey"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Modnar"
 				],
 				"version": "1.0",
 				"url": "https://github.com/DMsGuild201/homebrew",
@@ -24,6 +24,8 @@
 			"name": "Archery Contest",
 			"id": "Arch",
 			"source": "ArchFest",
+			"published": "2016-01-01",
+			"group": "homebrew",
 			"contents": [
 				{
 					"name": "Archery Contests"

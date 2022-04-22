@@ -1,5 +1,4 @@
 {
-	"$schema": "../schema.json",
 	"_meta": {
 		"sources": [
 			{
@@ -14,13 +13,15 @@
 			}
 		],
 		"dateAdded": 1545342498,
-		"dateLastModified": 1545342498
+		"dateLastModified": 1638735738
 	},
 	"monster": [
 		{
 			"name": "Arcane Ooze",
 			"source": "MFOV:TOA",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -154,10 +155,6 @@
 				"MW",
 				"RCH"
 			],
-			"conditionInflicted": [
-				"grappled",
-				"restrained"
-			],
 			"conditionInflict": [
 				"grappled",
 				"restrained"
@@ -167,7 +164,9 @@
 			"name": "Chilling Fog",
 			"source": "MFOV:TOA",
 			"type": "ooze",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"alignment": [
 				"U"
 			],
@@ -311,14 +310,19 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"paralyzed"
+			],
+			"damageTagsSpell": [
+				"C"
 			]
 		},
 		{
 			"name": "Fire Flan",
 			"source": "MFOV:TOA",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -442,7 +446,9 @@
 			"name": "Glitterfire",
 			"source": "MFOV:TOA",
 			"type": "ooze",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"alignment": [
 				"U"
 			],
@@ -587,8 +593,11 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"conditionInflicted": [
+			"conditionInflict": [
 				"blinded"
+			],
+			"damageTagsSpell": [
+				"F"
 			]
 		},
 		{
@@ -597,7 +606,9 @@
 				"Burnt Slime"
 			],
 			"source": "MFOV:TOA",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -702,7 +713,9 @@
 		{
 			"name": "Mustard Jelly",
 			"source": "MFOV:TOA",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -816,7 +829,9 @@
 		{
 			"name": "Thunder Flan",
 			"source": "MFOV:TOA",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -932,7 +947,9 @@
 		{
 			"name": "Void Ooze",
 			"source": "MFOV:TOA",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -1062,7 +1079,9 @@
 			"environment": [
 				"arctic"
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -1210,7 +1229,9 @@
 		{
 			"name": "Nanite Swarm",
 			"source": "MFOV:TOA",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"alignment": [
 				"L",
@@ -1352,7 +1373,9 @@
 		{
 			"name": "Radioactive Goo",
 			"source": "MFOV:TOA",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -1491,9 +1514,6 @@
 				"RCH",
 				"RW"
 			],
-			"conditionInflicted": [
-				"poisoned"
-			],
 			"conditionInflict": [
 				"poisoned"
 			]
@@ -1501,7 +1521,9 @@
 		{
 			"name": "Slime Person",
 			"source": "MFOV:TOA",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "ooze",
 			"alignment": [
 				"A"
@@ -1625,32 +1647,6 @@
 				"Secrete Slime|Cleric||Slime|MFOV:TOA|6",
 				"Divine Strike|Cleric||Slime|MFOV:TOA|8",
 				"Summon Cube|Cleric||Slime|MFOV:TOA|17"
-			],
-			"spells": [
-				{
-					"prepared": {
-						"1": [
-							"grease",
-							"ray of sickness"
-						],
-						"3": [
-							"Melf's acid arrow",
-							"enlarge/reduce"
-						],
-						"5": [
-							"meld into stone",
-							"stinking cloud"
-						],
-						"7": [
-							"blight",
-							"freedom of movement"
-						],
-						"9": [
-							"cloudkill",
-							"contagion"
-						]
-					}
-				}
 			],
 			"additionalSpells": [
 				{

@@ -12,7 +12,7 @@
 					"Nord Games"
 				],
 				"convertedBy": [
-					"Dasho"
+					"DMsGuild2017"
 				],
 				"version": "1.0",
 				"url": "https://nordgamesllc.com/product/ultimate-npcs-skulduggery/",
@@ -20,14 +20,15 @@
 			}
 		],
 		"dateAdded": 1555492476,
-		"dateLastModified": 1555492476
+		"dateLastModified": 1638787998
 	},
 	"book": [
 		{
 			"name": "Ultimate NPCs: Skulduggery",
 			"id": "GMT:Skul",
 			"source": "Skul",
-			"published": "2019/07/19",
+			"published": "2019-07-19",
+			"group": "homebrew",
 			"author": "Lou Fryer, Chris Haskins, Ralph Stickley",
 			"contents": [
 				{
@@ -921,7 +922,7 @@
 				}
 			],
 			"range": {
-				"type": "square",
+				"type": "cube",
 				"distance": {
 					"type": "feet",
 					"amount": 50
@@ -1612,7 +1613,9 @@
 	"monster": [
 		{
 			"name": "Aelar Oakenheel (lvl 1)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1672,7 +1675,7 @@
 				"stealth": "+5",
 				"athletics": "+3",
 				"survival": "+4",
-				"flute": "+0"
+				"special": "flute +0"
 			},
 			"trait": [
 				{
@@ -1791,7 +1794,9 @@
 		},
 		{
 			"name": "Aelar Oakenheel (lvl 4)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1972,11 +1977,16 @@
 				"MW",
 				"RW",
 				"RNG"
+			],
+			"damageTagsSpell": [
+				"P"
 			]
 		},
 		{
 			"name": "Aelar Oakenheel (lvl 8)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2178,11 +2188,16 @@
 				"MW",
 				"RW",
 				"RNG"
+			],
+			"damageTagsSpell": [
+				"P"
 			]
 		},
 		{
 			"name": "Aelar Oakenheel (lvl 12)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2404,11 +2419,16 @@
 				"MW",
 				"RW",
 				"RNG"
+			],
+			"damageTagsSpell": [
+				"P"
 			]
 		},
 		{
 			"name": "Aelar Oakenheel (lvl 16)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2636,11 +2656,16 @@
 			],
 			"conditionInflictSpell": [
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"P"
 			]
 		},
 		{
 			"name": "Aelar Oakenheel (lvl 20)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2884,11 +2909,16 @@
 			],
 			"conditionInflictSpell": [
 				"restrained"
+			],
+			"damageTagsSpell": [
+				"P"
 			]
 		},
 		{
 			"name": "Aticus Greenmoss (lvl 1)",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3044,7 +3074,7 @@
 							"slots": 0
 						}
 					},
-					"ability": "ch"
+					"ability": "cha"
 				}
 			],
 			"isNpc": true,
@@ -3062,7 +3092,9 @@
 		},
 		{
 			"name": "Aticus Greenmoss (lvl 20)",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3375,11 +3407,26 @@
 				"frightened",
 				"stunned",
 				"unconscious"
+			],
+			"damageTagsSpell": [
+				"A",
+				"B",
+				"C",
+				"F",
+				"I",
+				"L",
+				"N",
+				"O",
+				"P",
+				"S",
+				"Y"
 			]
 		},
 		{
 			"name": "Cogrin Heavyfist (lvl 1)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"source": "Skul",
 			"alignment": [
@@ -3481,7 +3528,9 @@
 		},
 		{
 			"name": "Cogrin Heavyfist (lvl 20)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"source": "Skul",
 			"alignment": [
@@ -3655,16 +3704,15 @@
 					]
 				}
 			],
-			"conditionInflicted": [
-				"frightened"
-			],
 			"conditionInflict": [
 				"frightened"
 			]
 		},
 		{
 			"name": "Utan Brabus (lvl 20)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3912,10 +3960,6 @@
 				"MW",
 				"RW"
 			],
-			"conditionInflicted": [
-				"frightened",
-				"prone"
-			],
 			"conditionInflict": [
 				"frightened",
 				"prone"
@@ -3923,7 +3967,9 @@
 		},
 		{
 			"name": "Ka'laera of Many Faces (lvl 1)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -4087,16 +4133,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			]
 		},
 		{
 			"name": "Ka'laera of Many Faces (lvl 20)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -4317,16 +4362,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			]
 		},
 		{
 			"name": "Mal Addik (lvl 1)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4469,7 +4513,9 @@
 		},
 		{
 			"name": "Mal Addik (lvl 20)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4686,11 +4732,16 @@
 				"MW",
 				"RW",
 				"RNG"
+			],
+			"damageTagsSpell": [
+				"P"
 			]
 		},
 		{
 			"name": "Nimh the Surgeon (lvl 1)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4840,16 +4891,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			]
 		},
 		{
 			"name": "Nimh the Surgeon (lvl 20)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5050,16 +5100,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			]
 		},
 		{
 			"name": "Stanus Millrun (lvl 1)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5213,11 +5262,16 @@
 			],
 			"miscTags": [
 				"MW"
+			],
+			"damageTagsSpell": [
+				"Y"
 			]
 		},
 		{
 			"name": "Stanus Millrun (lvl 20)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5460,9 +5514,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			],
@@ -5472,11 +5523,19 @@
 				"charmed",
 				"paralyzed",
 				"frightened"
+			],
+			"damageTagsSpell": [
+				"F",
+				"L",
+				"S",
+				"Y"
 			]
 		},
 		{
 			"name": "Talim Nezara (lvl 20)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5649,16 +5708,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			]
 		},
 		{
 			"name": "Yrla Silverhand (lvl 1)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5796,9 +5854,6 @@
 			"miscTags": [
 				"RNG"
 			],
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			],
@@ -5808,7 +5863,9 @@
 		},
 		{
 			"name": "Yrla Silverhand (lvl 04)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -5952,9 +6009,6 @@
 			"miscTags": [
 				"RNG"
 			],
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			],
@@ -5964,7 +6018,9 @@
 		},
 		{
 			"name": "Yrla Silverhand (lvl 8)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6125,9 +6181,6 @@
 			"miscTags": [
 				"RNG"
 			],
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			],
@@ -6137,7 +6190,9 @@
 		},
 		{
 			"name": "Yrla Silverhand (lvl 12)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6195,8 +6250,7 @@
 				"stealth": "+10",
 				"sleight of hand": "+10",
 				"perception": "+13",
-				"playing cards": "+0",
-				"Thieves' Tools": "+0"
+				"special": "playing cards +0, Thieves' Tools +0"
 			},
 			"fluff": {
 				"entries": [
@@ -6312,9 +6366,6 @@
 			"miscTags": [
 				"RNG"
 			],
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			],
@@ -6324,7 +6375,9 @@
 		},
 		{
 			"name": "Yrla Silverhand (lvl 16)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6509,9 +6562,6 @@
 			"miscTags": [
 				"RNG"
 			],
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			],
@@ -6521,7 +6571,9 @@
 		},
 		{
 			"name": "Yrla Silverhand (lvl 20)",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6706,9 +6758,6 @@
 			"miscTags": [
 				"RNG"
 			],
-			"conditionInflicted": [
-				"incapacitated"
-			],
 			"conditionInflict": [
 				"incapacitated"
 			],
@@ -6718,7 +6767,9 @@
 		},
 		{
 			"name": "Advanced Assassin Boss",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -6844,10 +6895,6 @@
 				"MW",
 				"RW",
 				"RNG"
-			],
-			"conditionInflicted": [
-				"unconscious",
-				"incapacitated"
 			],
 			"conditionInflict": [
 				"unconscious",

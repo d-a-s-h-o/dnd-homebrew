@@ -11,7 +11,7 @@
 					"Middle Finger of Vecna"
 				],
 				"convertedBy": [
-					"Dasho"
+					"ldsmadman"
 				]
 			}
 		],
@@ -22,9 +22,13 @@
 		{
 			"name": "Neogi Spawn",
 			"shortName": "neogi",
-			"group": "Neogi",
+			"group": [
+				"Neogi"
+			],
 			"source": "MFoVLovecraftianMonsters",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -144,20 +148,23 @@
 				"U"
 			],
 			"damageTags": [
-				"I",
-				"P"
+				"P",
+				"I"
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "de04b1cd63063d032e9387f787a86b56"
+			]
 		},
 		{
 			"name": "Neogi Adult",
 			"shortName": "neogi",
-			"group": "Neogi",
+			"group": [
+				"Neogi"
+			],
 			"source": "MFoVLovecraftianMonsters",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -300,23 +307,26 @@
 				"U"
 			],
 			"damageTags": [
-				"I",
-				"P"
+				"P",
+				"I"
 			],
 			"miscTags": [
 				"MW"
 			],
 			"conditionInflict": [
 				"charmed"
-			],
-			"uniqueId": "5c215383f100c54e4086ddcadb7c9c6f"
+			]
 		},
 		{
 			"name": "Neogi Great Old Master",
 			"shortName": "neogi",
-			"group": "Neogi",
+			"group": [
+				"Neogi"
+			],
 			"source": "MFoVLovecraftianMonsters",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -463,23 +473,26 @@
 				"U"
 			],
 			"damageTags": [
-				"I",
-				"P"
+				"P",
+				"I"
 			],
 			"miscTags": [
 				"MW"
 			],
 			"conditionInflict": [
 				"charmed"
-			],
-			"uniqueId": "02e276d8d3852c3638d51059dc5feb42"
+			]
 		},
 		{
 			"name": "Unspeakable Brute",
 			"shortName": "brute",
-			"group": "Unspeakables",
+			"group": [
+				"Unspeakables"
+			],
 			"source": "MFoVLovecraftianMonsters",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -588,15 +601,18 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "7450ef84cfd008a18f8c2f36382c8115"
+			]
 		},
 		{
 			"name": "Unspeakable Stalker",
 			"shortName": "stalker",
-			"group": "Unspeakables",
+			"group": [
+				"Unspeakables"
+			],
 			"source": "MFoVLovecraftianMonsters",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -720,15 +736,18 @@
 			"miscTags": [
 				"MW",
 				"RCH"
-			],
-			"uniqueId": "30d05a86981674ed0c88acd05d0cdbf6"
+			]
 		},
 		{
 			"name": "Unspeakable Wretch",
 			"shortName": "wretch",
-			"group": "Unspeakables",
+			"group": [
+				"Unspeakables"
+			],
 			"source": "MFoVLovecraftianMonsters",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -846,6 +865,7 @@
 				"B"
 			],
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"languageTags": [
@@ -853,22 +873,25 @@
 				"CS"
 			],
 			"damageTags": [
-				"I",
-				"S"
+				"S",
+				"I"
 			],
 			"miscTags": [
 				"AOE",
 				"MW",
 				"RCH"
-			],
-			"uniqueId": "628c7dc649329263ac3c5bd91d577a8a"
+			]
 		},
 		{
 			"name": "Unspeakable Ravager",
 			"shortName": "ravager",
-			"group": "Unspeakables",
+			"group": [
+				"Unspeakables"
+			],
 			"source": "MFoVLovecraftianMonsters",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -993,21 +1016,24 @@
 				"CS"
 			],
 			"damageTags": [
-				"B",
-				"S"
+				"S",
+				"B"
 			],
 			"miscTags": [
 				"MW",
 				"RCH"
-			],
-			"uniqueId": "c7dedae151b27e15985f9cdcd8815fd3"
+			]
 		},
 		{
 			"name": "Tsochar",
 			"shortName": "tsochar",
-			"group": "Tsochari",
+			"group": [
+				"Tsochari"
+			],
 			"source": "MFoVLovecraftianMonsters",
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -1166,8 +1192,7 @@
 			"conditionInflict": [
 				"grappled",
 				"incapacitated"
-			],
-			"uniqueId": "cf846353649fad64062014d88879f4b4"
+			]
 		}
 	]
 }

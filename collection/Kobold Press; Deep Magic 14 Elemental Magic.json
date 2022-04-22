@@ -10,7 +10,7 @@
 					"Kobold Press"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Eberron94"
 				],
 				"version": "1.0",
 				"url": "https://www.dmsguild.com/product/226988/Deep-Magic-Elemental-Magic-for-5th-Edition",
@@ -702,6 +702,9 @@
 			],
 			"savingThrow": [
 				"dexterity"
+			],
+			"miscTags": [
+				"FMV"
 			]
 		},
 		{
@@ -1082,6 +1085,7 @@
 				"bludgeoning"
 			],
 			"miscTags": [
+				"FMV",
 				"SGT"
 			]
 		},
@@ -1230,6 +1234,9 @@
 			],
 			"savingThrow": [
 				"strength"
+			],
+			"miscTags": [
+				"FMV"
 			]
 		},
 		{
@@ -1274,6 +1281,7 @@
 				"slashing"
 			],
 			"miscTags": [
+				"FMV",
 				"SCL"
 			],
 			"scalingLevelDice": {

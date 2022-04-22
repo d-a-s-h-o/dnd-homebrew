@@ -10,7 +10,7 @@
 					"Middle Finger of Vecna"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Modnar"
 				],
 				"version": "1.0",
 				"url": "http://mfov.magehandpress.com/2017/09/tourney-rules.html",
@@ -25,6 +25,8 @@
 			"name": "Tourney Rules",
 			"id": "Tourney",
 			"source": "Tourney",
+			"published": "2017-09-06",
+			"group": "homebrew",
 			"contents": [
 				{
 					"name": "Tourney Rules",

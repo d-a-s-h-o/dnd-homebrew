@@ -9,7 +9,7 @@
 					"/u/WhiteShadowTaiChi"
 				],
 				"convertedBy": [
-					"Dasho"
+					"Lxran#2292"
 				],
 				"version": "1.0",
 				"color": "ba681c",
@@ -26,20 +26,14 @@
 			"source": "RoyalSorcerer",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"shortname": "Royal",
+			"shortName": "Royal",
 			"subclassSpells": [
 				"Command",
 				"Heroism",
 				"Zone of Truth",
 				"Calm Emotions",
-				{
-					"name": "Motivational Speech",
-					"source": "AI"
-				},
-				{
-					"name": "Galder's Tower",
-					"source": "LLK"
-				},
+				"motivational speech|ai",
+				"galder's tower|llk",
 				"Aura of Purity",
 				"Freedom of Movement",
 				"Circle of Power",
