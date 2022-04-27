@@ -1,0 +1,169 @@
+{
+	"name": "Christopher King",
+	"size": [
+		"S"
+	],
+	"type": "humanoid",
+	"source": "",
+	"alignment": [
+		"C",
+		"G"
+	],
+	"ac": [
+		{
+			"ac": 16,
+			"from": [
+				"{@item leather armor|phb}"
+			]
+		}
+	],
+	"hp": {
+		"special": "91"
+	},
+	"speed": {
+		"walk": 35
+	},
+	"str": 17,
+	"dex": 20,
+	"con": 16,
+	"int": 20,
+	"wis": 17,
+	"cha": 14,
+	"passive": 17,
+	"shortName": "Chris",
+	"level": 11,
+	"languages": [
+		"Common,",
+		"Draconic",
+		"Dwarvish",
+		"Elvish",
+		"Thieves' cant"
+	],
+	"languageTags": [
+		"C",
+		"DR",
+		"D",
+		"E",
+		"TC"
+	],
+	"senses": [
+		"Darkvision 60 ft.",
+		"Blindsight 60 ft.",
+		"Truesight 60 ft."
+	],
+	"senseTags": [
+		"D",
+		"B",
+		"U"
+	],
+	"save": {
+		"str": "+3",
+		"dex": "+9",
+		"con": "+3",
+		"int": "+9",
+		"wis": "+3",
+		"cha": "+2"
+	},
+	"skill": {
+		"acrobatics": "+9",
+		"animal handling": "+3",
+		"arcana": "+5",
+		"athletics": "+3",
+		"deception": "+6",
+		"history": "+5",
+		"insight": "+7",
+		"intimidation": "+2",
+		"investigation": "+13",
+		"medicine": "+3",
+		"nature": "+5",
+		"perception": "+7",
+		"performance": "+2",
+		"persuasion": "+2",
+		"religion": "+5",
+		"sleight of hand": "+13",
+		"stealth": "+13",
+		"survival": "+3"
+	},
+	"conditionImmune": [
+		"charmed",
+		"exhaustion",
+		"frightened"
+	],
+	"trait": [
+		{
+			"name": "Sneak Attack",
+			"entries": [
+				"Once per turn, Chris deals an extra ({@dice 6d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Chris that isn't {@condition incapacitated} and Chris doesn't have disadvantage on the attack roll."
+			]
+		},
+		{
+			"name": "Evasion",
+			"entries": [
+				"If Chris is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, Chris instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+			]
+		},
+		{
+			"name": "Keen Senses",
+			"entries": [
+				"Chris has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing or smell."
+			]
+		},
+		{
+			"name": "Fey Ancestry",
+			"entries": [
+				"Chris has advantage on saving throws against being {@condition charmed}, and magic can't put Chris to sleep."
+			]
+		},
+		{
+			"name": "Uncanny Dodge",
+			"entries": [
+				"When an attacker that Chris can see hits him with an attack, Chris can use his reaction to halve the attack's damage against him."
+			]
+		},
+		{
+			"name": "Second-Story Work",
+			"entries": [
+				"Climbing no longer costs Chris extra movement, and when he makes a running jump, the distance he covers increases by {@b +5} feet."
+			]
+		}
+	],
+	"conditionInflict": [
+		"incapacitated"
+	],
+	"traitTags": [
+		"Fey Ancestry",
+		"Keen Senses",
+		"Sneak Attack"
+	],
+	"isNamedCreature": true,
+	"bonus": [
+		{
+			"name": "Cunning Action",
+			"entries": [
+				"Chris can take a bonus action on each of his turns to take a {@action Dash}, {@action Disengage}, or {@action Hide} action."
+			]
+		},
+		{
+			"name": "Fast Hands",
+			"entries": [
+				"Chris can use the bonus action granted by his {@classFeature Cunning Action|Rogue||2} to make a {@skill Sleight of Hand} check, use his {@item thieves' tools|phb} to disarm a trap or open a lock, or take the {@action Use an Object} action."
+			]
+		}
+	],
+	"isNpc": true,
+	"tokenUrl": "https://www.dndbeyond.com/avatars/19498/530/1581111423-10504989.jpeg?width=60&height=60&fit=bounds&quality=95&auto=webp",
+	"fluff": {
+		"entries": [
+			"Orphaned after his father bailed after his birth, and his mother died in her line of duty, he has spent his years mastering the art of thievery and fending for himself. Although he appears independent - he longs for the parents he never had."
+		],
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://www.dndbeyond.com/avatars/19498/530/1581111423-10504989.jpeg?width=60&height=60&fit=bounds&quality=95&auto=webp"
+				}
+			}
+		]
+	}
+}
