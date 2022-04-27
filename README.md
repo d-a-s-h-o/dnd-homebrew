@@ -22,8 +22,8 @@ Join the [D&Dz Discord Server](https://discord.gg/nGvRCDs), and see the pinned m
 
 _**Note:** one large advantage of contributing to this repo, is that your files will be kept up-to-date as changes are made to the main site._
 
-- The easiest way to make your own is to copy one of the existing 'brews as a template and use the main [D&Dz data](https://github.com/D&Dz-mirror-1/D&Dz-mirror-1.github.io/tree/master/data) as a reference.
-    - The schemas for homebrew data can be found [here](https://github.com/TheGiddyLimit/homebrew/tree/master/_schema)
+- The easiest way to make your own is to copy one of the existing 'brews as a template and use the main [D&Dz data](https://github.com/d-a-s-h-o/dnd/tree/master/data) as a reference.
+    - The schemas for homebrew data can be found [here](https://github.com/d-a-s-h-o/dnd-homebrew/tree/master/_schema)
 - Contributions are welcome. For the GitHub-literate, make a pull request.* For everyone else, create an Issue and post a link to your file (PasteBin is fine), and I (or other maintainers, in future) can add it for you.
 
 \* _See the article [here](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) for a how-to._
